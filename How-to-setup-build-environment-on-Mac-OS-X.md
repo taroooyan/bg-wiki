@@ -39,7 +39,7 @@ From a terminal type the following commands,
 
 1. to download the lastest firmware for Arduino Fio
 
-         wget https://raw.github.com/bidouilles/bGeigieNano/master/bGeigieNano.hex
+         wget https://github.com/Safecast/bGeigieNanoKit/raw/master/bGeigieNano.hex
 
 1. to upload the firmware to the Arduino Fio
 
