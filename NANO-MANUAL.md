@@ -4,16 +4,19 @@
 
 ## Assembly ideas and guide 
 #### bGeigie Nano assembly instructions, v5a 
-Congratulations on obtaining a SAFECAST bGeigie Nano kit. This high-performance geiger counter with GPS logging and memory has been developed by SAFECAST volunteers and thoroughly tested in the ﬁeld. We're happy to be able to make it available in kit form for radiation enthusiasts everywhere to build on their own. 
-Depending in your skill and experience level, assembly should take about 3-4 hours. We've tried to anticipate possible bumps and snags along the way, and have tempted to make these instructions as helpful as possible for novices. So if it seems like we're explaining the obvious from time to time, that's why. If you're very experienced at assembling electronic devices, feel free to modify the order of the steps.Docs, including the schematic, parts list, and a copy of these instructions as well as the user's manual will be downloadable soon from: www.safecast.org 
+To the new users of the bGeigie Nano, congratulations and welcome to the Safecast community. We're happy to be able to deliver this high-performance geiger counter with GPS logging and memory, which has been developed and field-tested by Safecast volunteers. 
+
+The kit format allows for cost savings and for DIY learning. The assembly can take as little as 3-4 hours depending on electronics skill and experience level. This assembly manual is for all users including novices. So we are trying to make these instructions clear, graphic and explicit. For some we're explaining the obvious, for others this still may not be helpful enough. If you're very experienced at assembling electronic devices, feel free to modify the order of the steps. Docs, including the schematic (circuit  diagram), parts list, and a copy of these assembly instructions as well as the user's manual will be available soon, to download from the website  http://blog.safecast.org/ . 
+For support see the site and the links on the home page (including:  https://groups.google.com/forum/#!forum/safecast-devices "a group for the community to use for questions and protips and hacking ideas for Safecast".)
 
 ![](https://raw.github.com/safecast/bGeigieNanoKit/0fe74739db57eaff2645784c28dcb78e88a4b2f0/nano%20manual%20named%20pics/Pieter_frustrated.jpg)
 
 #### BEFORE YOU START: 
-The LND7317 pancake sensor looks robust but is very delicate! Please handle it carefully! It has a thin mylar covering on one face, and inside is a partial vacuum. The mylar is easily punctured, rendering the tube useless. Since it's the single most expensive component, it would be a shame to trash it. May we recommend that you leave it in the box until you're ready to attach it? (That would be step D...) 
+The LND7317 pancake sensor is very delicate, although it looks robust. It has a thin mylar covering on one face, and inside there is a partial vacuum. The mylar is easily punctured, rendering the tube useless. Since it's the single most expensive component, it would be a shame to trash it. Please handle it carefully! May we recommend that you leave it in the box until you're ready to attach it? (That would be step 04.)   And as with any work, before you start take time to gather tools, clear space, read the manual and turn off distractions. The assembly is not difficult but there are little details to pay attention to. Take a breath and enjoy the build.
 
 #### WARNINGS: 
-Solder iron should be 200-350 degrees Celsius 400-650 degrees Fahrenheit?]We hate to be a nanny, but smoke from solder is dangerous for your health, so work in a well-ventilated area please.Wear safety glasses when cutting off leads. They become needle-like projectiles that could blind you or your cat.Many of the small components are not very robust, and it's possible to yank the wire leads out accidentally. 
+Solder iron should be 200-350 degrees Celsius (400-650 degrees Fahrenheit?] We hate to be a nanny, but smoke from solder is dangerous for your health, so work in a well-ventilated area please. Wear safety glasses when cutting off leads. They become needle-like projectiles that could blind you or your cat. Do not puncture the Li-Po battery. And be gentle with the kit. Some of the components are fragile, e.g. it's possible to break the wire leads from the battery accidentally. 
+ 
 ### Essential Tools: 
 * soldering iron or gun
 * solder 60/40
@@ -26,11 +29,11 @@ ___
 
 ![]
 (https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/assembly.jpg)
+
 ##STEP 00: SORT AND CHECK PARTS 
-It's a good idea to check the parts against the parts list to make sure you know what everything is and that it's all there. 
+It's a good idea to check the parts against the parts list (the three Placement Diagrams and the relevant photos in this manual). This is for you to identify the parts, and also to count and check that all contents arrived undamaged in the well packed parcel (e.g. battery wires, component connectors and pins did not break or get folded.)
 
 ####POLARITY NOTE: 
-
 What is polarity and why should you care? Basically, several types of electronic components are designed to work with the current ﬂowing in one set direction only, while others can work either way. Putting a component that has polarity in the wrong way will usually only prevent the device from working properly, but in some circumstances it could fry a few things as well. So make sure! 
 
 ---
@@ -39,16 +42,19 @@ What is polarity and why should you care? Basically, several types of electronic
 (https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/overviewpics/bGeigie Nano manual v5.3big_Page_03_Image_0002.jpg)
 
 ##STEP 01: MAIN BOARD 
-Almost all the components get attached to the main board, so itʼs a good place to start. Weʼve broken it down for you logically based on our experience, but you might have areas on to change the order of some steps. Most questions can be resolved by referring to the component placement diagrams on pp. 4, 9, and 11.While we suggest working from components that lie close to the board to the higher ones,we understand that this is a matter of preference. The same goes for whether you place all the components and then solder them, or place one or two at a time and solder them as you go.It's a good idea to attach 4 black plastic standoffs through the holes in the corners of the main board ﬁrst, to make handling easier. At each corner, insert a 10mm standoff from the upper face of the board, then screw an 8mm one to it from the bottom. 
+Almost all the components get attached to the main board, so itʼs a good place to start. Weʼve arranged the assembly steps in a logical order as based on our experience. Of course you can change the order of some steps. Most questions can be resolved by referring to the three large diagrams, the Large Parts, Small Parts and Back Parts placement diagrams on pp. 4, 9, and 11. (A paper printout of these diagrams can be handy.) While we suggest starting from components that lie close to the board before the higher ones, the order of assembly is partly a matter of preference. Similarly some builders place all the components and then solder them, others place and solder each in turn as they go.
+
+To begin and to make handling easier, attach 4 black plastic standoffs through the holes in the corners of the main board ﬁrst. At each corner, insert a 10mm standoff from the upper face of the board, then screw corresponding 8mm one to it from the bottom. (Relevant photos: see the standoffs in the 4 corners of the panels in the finished product.)
+
 ***
 ***
 ![]
 (https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/v1.0r2_page1.jpg)
 
 ##STEP 01-1: SMALL COMPONENTS: 
-All of these will go on the main board. Place and solder them, nipping off the leads. Refer to the placement guide! 
+All of these will go on the main board. Place and solder them, nipping off the leads. Refer to the Small Parts Placement Guide! 
 
-**Resistors** (R1 through R12-- but no R11): There are 6 types, 11 in all. It can get confusing! They have no polarity so they can go in either way (Be especially careful not to confuse the 4.7k resistor, which has a red stripe, with the 47k one, which has an orange stripe). Pay close attention to the color ID stripes as listed on the placement guide. 
+**Resistors** (R1-R10, R12): The kit contains  6 types, 11 resistors in all as listed on the Small Parts Placement Guide. (There is no R11.)  Resistors have no polarity so either side can go in either hole. (Be especially careful not to confuse the 4.7k resistor, which has a red stripe, with the 47k one, which has an orange stripe). Pay close attention to the color ID stripes as listed on the placement guide. (Doublecheck correct placement against the diagram before you solder. Soldered components are much easier to install than to remove.) If in doubt, measure them with a ohm meter. (A working multimeter is an inexpensive tool for electronics. One can master a voltmeter's basic functions with a little wiki, youtube or coaching.)  If still in doubt, ask for help. 
 
 
 ![]
@@ -56,9 +62,10 @@ All of these will go on the main board. Place and solder them, nipping off the l
 
 [needs a callout: Black stripe]
 * Diode (D1): Take care with the polarity (see polarity note). The little black stripe on one end of the small orangish glass part should align with the small white stripe on the component outline on the board. 
-* Capacitors (C1- C3):They're blue with two leads. These have no polarity, and can go in either way. Take care not to split them in two by bending the leads outward too much. Itʼs ok for them to ride a little high off the board. 
-* LEDs: One each, red (the case is clear, though),and blue. These have polarity and must go in the proper orientation. One lead is longer than the other; this is the positive (+) lead. It goes in the hole marked "+" on the board. Also, if you look carefully, one side of the plastic case is ﬂattened; that's the negative (-) side. Take care not to overheat the LEDs when soldering! Wrong polarity is the most common mistake. 
 
+* Capacitors (C1- C3):They're blue with two leads. These have no polarity, and can go in either way. Take care not to split them in two by bending the leads outward too much. Itʼs ok for them to ride a little high off the board. 
+
+* LEDs: One each, red (the case is clear, though),and blue. These have polarity and must go in the proper orientation. One lead is longer than the other; this is the positive (+) lead. It goes in the hole marked "+" on the board. Also, if you look carefully, one side of the plastic case is ﬂattened; that's the negative (-) side. Take care not to overheat the LEDs when soldering! Wrong polarity is the most common mistake. 
     *     Red (clear): goes in the "LOG/ALARM" spot 
     *     Blue: goes in the "COUNT" spot 
 
@@ -67,13 +74,17 @@ All of these will go on the main board. Place and solder them, nipping off the l
 ![]
 (https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/wiki_small_components_2.jpg)
 **Switches:** there are four of them: 
-* Dual DIP switch (SW1) goes in the "SW1" spot. It has 4 pins. It should be positioned so that the side with the"ON" label points towards the top of the board, i.e. the "ON" label aligns with the "SW1" label on the board(This is not because of polarity, but it needs to go in this way to work. 
+* Dual DIP switch (SW1) goes in the "SW1" spot. It has 4 pins. It should be positioned so that the side with the "ON" label points towards the top of the board, i.e. the "ON" label aligns with the "SW1" label on the board. The correct orientation is necessary for the switch to work. (Once you put the switch on the board, neither label is visible. Read this and look first before soldering.)
+ 
 * Toggle switch: No label on the case. It ﬁts above the rectangular outline between transistor "T1" and the blue"COUNT" LED. It has three leads, and a mounting clip with 2 pins. Solder them all in place. 
-* Shift switch (S1): goes in spot "S1." It has 3 leads which need to be soldered in place, plus 2 pins on the aluminum case which need to be nipped off. The 3 leads go in the 3 center holes in the board; the two outer holes are unused (Ok, you could try ﬁling the aluminum case pins down enough to ﬁt in these holes, but it's plenty secure enough attached by just the 3 leads. 
+
+* Shift switch (S1): goes in spot "S1." It has 3 leads which need to be soldered in place, plus 2 pins on the aluminum case which need to be nipped off. The 3 leads go in the 3 center holes in the board; the two outer holes are unused (Ok, you could try ﬁling the aluminum case pins down enough to ﬁt in these holes, but it's secure enough attached by just the 3 leads. 
+
 * Black or yellow push switch: goes in the "Fn" spot. The black ones have 2 leads which need to be mounted in the holes that are setback from the edge of the board. The leads can be bent so the switch lays ﬂat if desired. Yellow ones have 4 leads, and fit the holes precisely.
 
 **Audio:** there are two items, but only one goes in now: 
-* NOW: Piezo buzzer: Goes in the large circular spot in the upper left quadrant of the main board, and has 
+* NOW: Piezo buzzer: Goes in the large circular spot in the upper left quadrant of the main board, and has {MISSING SOME TEXT HERE?}
+
 * LATER: Audio jack: This is actually for sending click data to an external device, such as an iPhone. Itʼs best to wait until the next step, *“Headers and Breakouts”* for this. 
 
 ***
