@@ -117,9 +117,9 @@ Be careful when cutting the long headers to length. Refer to  Fig.# Large Parts 
 
 * One 6-pin length, female header: Cut one 3-pin length to use for connecting the iRover cable to the triple connector (see Step 02)
 
-The short pins of the headers usually go in the holes in the board and the long ones project above and are soldered to the breakouts.  A placement aid may be helpful. For some users it's possible to use the breakout board itself. We advise soldering the pins at each end ﬁrst, and then checking to make sure the header is perpendicular and properly aligned before soldering the rest.
+The short pins of the headers usually go in the holes in the board and the long ones project above and are soldered to the breakouts. To visualize the fit of the parts, study the relevant photos and diagrams and the parts.  The breakout board as its own placement aid. Also we advise soldering the pins at each end ﬁrst, and then checking to make sure the header is perpendicular and properly aligned before soldering the rest.
 
-**NOTE:** It's possible to either solder the headers to the main board ﬁrst, and then to each of the breakouts, or attach them to the breakouts ﬁrst and then to the main board.We've found it easier to attach them to the main board ﬁrst, and these instructions describe that method. Installation order is not critical, but because of the heights and placement of the breakouts, we recommend following the sequence weʼve laid out. 
+**NOTE:** It's possible to either solder the headers to the main board ﬁrst, and then to each of the breakouts, or attach them to the breakouts ﬁrst and then to the main board. We've found it easier to attach them to the main board ﬁrst, and these instructions describe that method. Installation order is not critical, but because of the heights and placement of the breakouts, we recommend following the sequence weʼve laid out. 
 
 
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/v1.0r2_page12.jpg) 
@@ -271,7 +271,7 @@ Both the battery and the iRover get attached to the middle acrylic plate (the on
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/iRover_positioning.jpg)
 caption: Standoffs for iRover attached to middle plate 
 
-* Remove the paper backing from the middle plate and orient it as shown in the photo. Attach two 5mm stainless standoffs to the two small holes near the bottom of the plate(not the corner holes!). Attach them with stainless screws inserted from the back of the plate. 
+* Remove the paper backing from the middle plate and orient it as shown in the photo. Attach two 5mm stainless steel standoffs to the two small holes near the bottom of the plate (not the corner holes!). Attach them with stainless steel screws inserted from the back of the plate. 
 
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/iRover_attachment.jpg)
 caption: iRover installed in proper orientation. 
