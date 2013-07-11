@@ -12,10 +12,10 @@ For support see the site and the links on the home page (including:  https://gro
 ![](https://raw.github.com/safecast/bGeigieNanoKit/0fe74739db57eaff2645784c28dcb78e88a4b2f0/nano%20manual%20named%20pics/Pieter_frustrated.jpg)
 
 #### BEFORE YOU START: 
-The LND7317 pancake sensor is very delicate, although it looks robust. It has a thin mylar covering on one face, and inside there is a partial vacuum. The mylar is easily punctured, rendering the tube useless. Since it's the single most expensive component, it would be a shame to trash it. Please handle it carefully! May we recommend that you leave it in the box until you're ready to attach it? (That would be step 04.)   And as with any work, before you start take time to gather tools, clear space, read the manual and turn off distractions. The assembly is not difficult but there are little details to pay attention to. Take a breath and enjoy the build.
+The LND7317 pancake sensor is very delicate, although it looks robust. It has a thin mylar covering on one face, and inside there is a partial vacuum. The mylar is easily punctured, rendering the tube useless. Since it's the single most expensive component, it would be a shame to trash it. Please handle it carefully! May we recommend that you leave it in the box until you're ready to attach it? (That would be step 04.) And as with any work, before you start take time to gather tools, clear space, read the manual and turn off distractions. The assembly is not difficult but there are little details to pay attention to. Take a breath and enjoy the build.
 
 #### WARNINGS: 
-Solder iron should be 200-350 degrees Celsius (400-650 degrees Fahrenheit?] We hate to be a nanny, but smoke from solder is dangerous for your health, so work in a well-ventilated area please. Wear safety glasses when cutting off leads. They become needle-like projectiles that could blind you or your cat. Do not puncture the Li-Po battery. And be gentle with the kit. Some of the components are fragile, e.g. it's possible to break the wire leads from the battery accidentally. 
+Solder iron should be 200-350 degrees Celsius (400-650 degrees Fahrenheit?] We hate to be a nanny, but smoke from solder is dangerous for your health, so work in a well-ventilated area please. Wear safety glasses when cutting off leads. They become needle-like projectiles that could blind you or your cat. Do not puncture the Li-Po battery. Be gentle with the kit. Some of the components are fragile, e.g. it's possible to break the wire leads from the battery accidentally. 
  
 ### Essential Tools: 
 * soldering iron or gun
@@ -103,22 +103,23 @@ This is how the main board should look with all the small components installed:
 ![]
 (https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/wiki_small_components_4.jpg)
 
-The "headers" are long black components with many pins, or legs. They are used for attaching the
-breakouts (also sometimes called “daughter boards” or “shields”) for the OLED display, the Arduino FIO, 
-the GPS module, and the OpenLog memory unit, as well as for the audio connector. Most of them go on the
-front face of the main board,but two go on the backside. Refer to the placement guides. 
-They are provided in several types and lengths: 
+The "headers" are long black components with pins or legs. They are provided in several types and lengths of rows, several which you cut to size with a pair of wire-cutters. They are used for attaching the breakouts to the board. (The breakouts in the kit include the OLED display, the Arduino FIO, the GPS module, the OpenLog memory unit and the audio connector. Their installation is detailed below, further along in this manual. Breakouts sometimes are called “daughter boards” or “shields”.) Most of the headers go on the front face of the main board, but two go on the backside as discussed below. Refer to the placement guides. 
 
-* One 40-pin (or “leg”) length, straight, male. It will be cut into three pieces used for mounting the Arduino FIO (14-pin and 8-pin), the GPS (9-pin), and the OpenLog memory unit (6-pin). 
-* One 19-pin length, male. A 4-pin length will be cut and used for mounting the audio out jack, which will be attached on the back side of the main board. Four 2-pin lengths will also be cut from this. 
-* One 10-pin length, angled, male. It will be cut, making a 6-pin length which will be attached to the Arduino FIO for connecting to an external cable for loading ﬁrmware,etc., and a 3-pin length which will be attached to the backside of the board as part of the “triple connector.” 
-* One 8-pin length, female, which will be used for mounting the OLED display. 
-* One 6-pin length, female. A 3-pin length will be cut and used to connect the iRover cable to the triple connector (see step 2) 
+Be careful when cutting the long headers to length. Refer to  Fig.# Large Parts Placement Guide guide and to their relevant photos in this Manual. Cutting is done easily with fingernail clippers, but is also possible by scoring with a knife and snapping them off. Some people prefer to cut all of them to length ﬁrst, some like to cut them as needed. These are the header rows which are to be cut, as follows:
 
-Be careful cutting the long headers to length. Refer frequently to the placement guide and photos. Cutting is done easily with nippers, but is also possible by scoring with a knife and snapping them off. Some people prefer to cut them all to length ﬁrst, some like to cut them as needed. The short pins usually go in the holes in the board and the long ones project above and are soldered to the breakouts. It helps to have a placement aid of some sort, and usually it's possible to use the breakout board itself for this. Also, we advise soldering the pins at each end ﬁrst, and then checking to make sure the header is perpendicular and properly aligned before soldering the rest. 
+* One 40-pin (or “leg”) length, straight, male header. Cut this row into four pieces to mount the Arduino FIO (14-pin and 8-pin), the GPS (9-pin) and the OpenLog memory unit (6-pin).
 
-**NOTE:** It's possible to either solder the headers to the main board ﬁrst, and then to each of the breakouts, or attach them to the breakouts ﬁrst and then to the main board.We've found it easier to attach them to the main board ﬁrst, and these instructions describe that method. 
-Installation order is not critical, but because of the heights and placement of the breakouts, we recommend following the sequence weʼve laid out. 
+* One 19-pin length, male header. Cut one (1x) 4-pin length for mounting the audio out jack which will be attached on the back side of the main board. Also cut four (x4) 2-pin lengths from this row.
+
+* One 10-pin length, angled, male header: Cut this row into a 6-pin length which will be attached to the Arduino FIO for connecting to an external cable for loading ﬁrmware, etc. From the remainder of the row cut a 3-pin length which will be attached to the backside of the board as part of the “triple connector.”
+
+* One 8-pin length, female header: to be used for mounting the OLED display.
+
+* One 6-pin length, female header: Cut one 3-pin length to use for connecting the iRover cable to the triple connector (see Step 02)
+
+The short pins of the headers usually go in the holes in the board and the long ones project above and are soldered to the breakouts.  A placement aid may be helpful. For some users it's possible to use the breakout board itself. We advise soldering the pins at each end ﬁrst, and then checking to make sure the header is perpendicular and properly aligned before soldering the rest.
+
+**NOTE:** It's possible to either solder the headers to the main board ﬁrst, and then to each of the breakouts, or attach them to the breakouts ﬁrst and then to the main board.We've found it easier to attach them to the main board ﬁrst, and these instructions describe that method. Installation order is not critical, but because of the heights and placement of the breakouts, we recommend following the sequence weʼve laid out. 
 
 
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/v1.0r2_page12.jpg) 
@@ -130,11 +131,9 @@ Installation order is not critical, but because of the heights and placement of 
 Although most of the headers and breakouts get attached to the front of the main board, two components need to be attached to the backside. Itʼs easier for several reasons to do these ﬁrst. Trust us.... 
 
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/overviewpics/bGeigie Nano manual v5.3big_Page_10_Image_0001.jpg)
-**iRover connector aka “triple connector”**
-
-(This is for connecting 3 wire leads from the iRover sensor controller 
-board to the main board)
-* Solder a 3-pin angled header to the bottom of the board, in the position labeled “JP1.” This means, insert the 3-pin connector from the underside of the main board, in the spot marked "JP1," and solder it from the upper side of the board. This must be done before attaching the OpenLog!! 
+**iRover connector a.k.a. “triple connector”**
+(This connnector is for connecting 3 wire leads from the iRover sensor controller and HV (high voltage) supply board to the main board)
+* Solder a 3-pin angled header to the bottom of the board, in the position labeled “JP1.” This means, insert the 3-pin connector from the underside of the main board, in the spot marked "JP1," and solder it from the upper side of the board. Note this iRover connector must be attached before attaching the OpenLog!! 
 
 ![]
 (https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/overviewpics/bGeigie Nano manual v5.3big_Page_10_Image_0002.jpg)
@@ -153,7 +152,7 @@ board to the main board)
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/overviewpics/bGeigie Nano manual v5.3big_Page_12_Image_0002.jpg)
 (needs indication circle)
 
-**Arduino FIO:** (This is the programmable brain of the device.) 
+**Arduino FIO:** (FIO stands for Funnel Input/Output. This is the programmable brain of the device.) 
 NOTE: It has a small switch on the bottom side which should be turned OFF before soldering! 
 *  A 14-pin length of male header goes on the left side of the FIO outline on the main board. 
 *  An 8-pin length of male header goes on the upper right side of the FIO outline. 
@@ -180,16 +179,15 @@ caption:Placement of GPS.
 
 **GPS:** 
 (Global Positioning System receiver, which makes it possible to precisely locate where a reading was taken) 
-* A 9-pin length of male header goes into the holes at the top of the"GPS" spot on the main board.
-* It's helpful to attach the GPS board with two 5mm stainless standoffs (long hex nuts), using two stainless screws and two nuts, to help keepthe header properly positioned while soldering it.
+* A 9-pin length of male header goes into the holes at the top of the "GPS" spot on the main board.
+* It's helpful to attach the GPS board with two 5mm stainless steel standoffs (long hex nuts), using two stainless steel screws and two nuts, to help keep the header properly positioned while soldering it.
 * Leaving the standoffs in place, solder the 9 pins to the top of the GPS breakout. 
-
 
 
 **Open Log:**
 (This writes the data to a mini-SD card) 
-* A 6pin length of male header goes into the 6 holes at the top of the"OPEN LOG" spot on the main board; the long pins should be facing up. 
-* Foam tape needs to be put on the main board beneath the OpenLog.This helps secure it, and prevents the SD card from accidentally beinginserted into the space between the logger and the main board. Also very importantly, it will insulate the metal face of the OpenLog from the pins of the 3-pin angled connector attached to the bottom of the mainboard, and prevent it from shorting! 
+* A 6-pin length of male header goes into the 6 holes at the top of the "OPEN LOG" spot on the main board; the long pins should be facing up with the OpenLog breakout held flat against the foam tape on the board.
+* Foam tape needs to be put on the main board beneath the OpenLog. This helps secure it, and prevents the SD card from accidentally being inserted into the space between the logger and the main board. Also very importantly, it will insulate the metal face of the OpenLog from the pins of the 3-pin angled connector attached to the bottom of the mainboard, and prevent it from shorting! 
 * Once the OpenLog is secured with foam tape, solder the 6 pins of the header to the OpenLog from above. 
 
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/back_headers_top.jpg)
@@ -232,7 +230,8 @@ Now is a good time to do a test powerup. See **“TEST RUN and DIAGNOSTICS”** 
 ***
 ***
 ##STEP 02: iROVER 
-(The iRover is the controller board for the pancake sensor) 
+(The iRover is the controller board and HV (high voltage) supply for the pancake sensor) 
+
 ####TRIPLE CONNECTOR : 
 (This is for connecting 3 wire leads from the iRover to the main board) 
 * Cut 3 wires to about 8 cm length, and strip both ends to leave about 5mm exposed. (The red will be positive, the black negative, and the green or yellow in the middle). Tin the ends with solder to make the next steps easier. A “third hand” will deﬁnitely make these steps easier! 
@@ -283,7 +282,7 @@ caption: iRover installed in proper orientation.
 ***
 ***
 ##STEP 03: BATTERY 
-Attention: The lithium-ion battery is encased in a mylar membranewhich can be punctured, causing damage. Handle it carefully! 
+ This battery is a 2000mAh 3.7V Li-Po (a.k.a. Li-Poly). Attention: the battery is encased in a mylar membrane. If punctured, Li-Ion cells can be hazardous and cause damage. Handle carefully!  The lead wires connection to the battery may be reinforced with electrica insulation tape to prevent their being cut, torn or falling off. (If broken off, do not attempt to reattach the wire to the battery. Although some DIY lore say repair is possible, it is not advisable given potential hazards.) Only recharge the Li-Po battery in the correct USB recharger.  
 
 This step is a little tricky, so do a dry run ﬁrst before actually attaching the battery with foam tape! 
 
@@ -302,7 +301,7 @@ This step is a little tricky, so do a dry run ﬁrst before actually attaching t
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/iRover_wire_feedthrough.jpg) 
 
 * Thread the wires for the triple connector through the slot in the middle plate. Itʼs easier if you give the wires a couple of twists ﬁrst. Connect the 3-pin female header/socket to the triple connector on the back of the main board, as described in the “triple connector” step on p. 16: make sure itʼs oriented so the red wire connects to the positive pin, the black to the negative, and the green in the middle. 
-* Thread the battery cable down so it will be easy to connect to the battery port on the FIO.But donʼt connect it yet! 
+* Thread the battery cable down so it will be easy to connect to the battery port on the FIO. But DO NOT connect the battery yet! 
 
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/back_plate_install.jpg)
 
@@ -363,7 +362,7 @@ caption: The rear plate should have clear plastic nuts.
 ***
 ***
 ##STEP 06: PELICAN CASE 
-The Pelican case is a standard 1010 model, which has a removable rubber liner. A hole must be cut in this to ﬁt the pancake sensor. 
+The Pelican case is a standard 1010 model, which has a (black, yellow, blue or red) removable rubber liner. A hole must be cut in liner to ﬁt the pancake sensor. 
 
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/cutting_liner.jpg)
 * Itʼs easiest to use the opening in the rear plate as a hole-cutting template. Push it snugly into the rubber liner, and trace the circular opening with a pen, pencil, or thin marker. 
