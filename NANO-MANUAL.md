@@ -282,7 +282,7 @@ caption: iRover installed in proper orientation.
 ***
 ***
 ##STEP 03: BATTERY 
- This battery is a 2000mAh 3.7V Li-Po (a.k.a. Li-Poly). Attention: the battery is encased in a mylar membrane. If punctured, Li-Ion cells can be hazardous and cause damage. Handle carefully!  The lead wires connection to the battery may be reinforced with electrica insulation tape to prevent their being cut, torn or falling off. (If broken off, do not attempt to reattach the wire to the battery. Although some DIY lore say repair is possible, it is not advisable given potential hazards.) Only recharge the Li-Po battery in the correct USB recharger.  
+This battery is a 2000mAh 3.7V Lithium Polymer (Li-Po, Li-Poly). Attention: the battery is encased in a mylar membrane. If punctured, the battery can be hazardous. Handle carefully!  The battery's red and black wires may be reinforced with electrical insulation tape to prevent their falling off or being pulled out. (Do not attempt to reattach a loose wire to the battery. Although some say DIY repair is possible, it is not advisable given hazards.)  Charging the new battery full before first use is recommended. Only recharge the Lithium Polymer battery inside the Nano or in a correct, special USB recharger. Replace a broken battery with same rating. (The Nano charge circuit may overheat if larger batteries are used. The 2000mAh gives over 40 hours of continuous use.) 
 
 This step is a little tricky, so do a dry run ﬁrst before actually attaching the battery with foam tape! 
 
