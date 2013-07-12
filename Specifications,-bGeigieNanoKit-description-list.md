@@ -16,7 +16,7 @@ Here in https://github.com/Safecast/bGeigieNanoKit/wiki/_pages as updated with c
 *	Orange indicator LED for charge status
 *	Battery status indicator on OLED display, with low Battery alarm.
 *	Buzzer (can be switched off)
-*	**2000mAh Li-ion 3.7V battery** (Li-Po) for about 40-hour nonstop operation in bGeigie mode. USB rechargeable.
+*	**2000mAh 3.7V 7.4Wh Lithium Polymer battery** (Li-Po) for about 40-hours nonstop operation in bGeigie mode. USB rechargeable
 *	Memory: 2Gb SD micro card  (included)
 *	Many parameters configureable through config file on SD card (e.g. user name, conversion factor for µSv/h and Bq/m2, time interval, Safecast API format, etc)
 *	Audio data communication cable for Apple iPad or iPhone
