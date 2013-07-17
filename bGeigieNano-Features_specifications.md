@@ -6,7 +6,7 @@ Initially copied from June 2013 version on http://medcom.com/radiation-monitors/
 *	**xGeigie mode** – geiger counter mode (no logging) with display indicator for uSv/h dose-rate (Cs137), max dose-rate, dosimeter, Bq/m2 display (Cs137), time stamp and Alarm LED
 *	**iGeigie mode** – iPhone compatible output for Safecast iOS app. iPhone app shows dose rate and can upload data realtime to Safecast API.
 *	Hot switch between bGeigie and xGeigie modes (recording is paused in xGeigie)
-*	**Sensor**: LND 7317 2” pancake GM tube with Medcom iRover controller and HV (high voltage) supply; capable of measuring alpha, beta and gamma radiation
+*	**Sensor**: LND 7317 2” pancake GM tube with Medcom iRover controller and HV (high voltage) supply; capable of measuring alpha, beta and gamma radiation. URL: http://www.lndinc.com/products/17/
 *	**Dual use modular design** – main unit can be taken out of case for α-, β-detection, e.g. use as surface contamination survey meter
 *	High quality **GPS** receiver with external booster antenna connector
 *	**Dual CPU**: Atmel, Arduino. Open-source software.
@@ -25,7 +25,7 @@ Initially copied from June 2013 version on http://medcom.com/radiation-monitors/
 *	Function button (user assignable)
 *	Wireless option – bluetooth, 802.15.4 or Wifi supported through Xbee socket – send data wirelessly to bGeigie Ninja or smartphone. Wireless components not included in this kit. (On experimental development, options, updates and all, see safecast-devices google group and follow the links on the Safecast website http://blog.safecast.org)
 *        Dimensions: see http://www.pelican.com/cases_detail_specs.php?Case=1010 
-*        Weight (without optional Xbee socket):  ?? 
+*        Weight (without added option in Xbee socket):  ?? gr
 
 For **Nano (kit assembly) Manual** see  https://github.com/Safecast/bGeigieNanoKit/wiki/NANO-MANUAL
 
