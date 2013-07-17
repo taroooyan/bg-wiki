@@ -21,10 +21,12 @@ Initially copied from June 2013 version on http://medcom.com/radiation-monitors/
 *	Many parameters configureable through config file on SD card (e.g. user name, conversion factor for µSv/h and Bq/m2, time interval, Safecast API format, etc)
 *	Audio data communication cable for Apple iPad or iPhone
 *	Realtime clock
-*	**Pelican 1010 micro case**:  Water resistant (not for submerging), crushproof, and dust proof. Clear plastic with Safecast Logo. Removable liner (in yellow, black, blue or red). With strap, plastic buckle and carabiner (spring hook) for easy carry or secure mounting on vehicle. (Compact size fits some bicycle cases.) Dimensions: see http://www.pelican.com/cases_detail_specs.php?Case=1010 
+*	**Pelican 1010 micro case**:  Water resistant (not for submerging), crushproof, and dust proof. Clear plastic with Safecast Logo. Removable liner (in yellow, black, blue or red). With strap, plastic buckle and carabiner (spring hook) for easy carry or secure mounting on vehicle. (Compact size fits some bicycle cases.)
 *	Function button (user assignable)
-*	Wireless option – bluetooth, 802.15.4 or Wifi supported through Xbee socket – send data wirelessly to bGeigie Ninja or smartphone. Wireless components not included in this kit. (On experimental development, options, updates and all, see safecast-devices google group and follow the links on the Safecast website http://blog.safecast.org) 
+*	Wireless option – bluetooth, 802.15.4 or Wifi supported through Xbee socket – send data wirelessly to bGeigie Ninja or smartphone. Wireless components not included in this kit. (On experimental development, options, updates and all, see safecast-devices google group and follow the links on the Safecast website http://blog.safecast.org)
+*        Dimensions: see http://www.pelican.com/cases_detail_specs.php?Case=1010 
+*        Weight (without optional Xbee socket):  ?? 
 
-For **Nano Assembly Manual** see  https://github.com/Safecast/bGeigieNanoKit/wiki/NANO-MANUAL
+For **Nano (kit assembly) Manual** see  https://github.com/Safecast/bGeigieNanoKit/wiki/NANO-MANUAL
 
 -17/7/2013
