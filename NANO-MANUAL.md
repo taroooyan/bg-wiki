@@ -2,8 +2,8 @@
 ![]
 (https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/bGeigie_Nano_side.jpg)
 
-## Assembly ideas and guide 
-#### bGeigie Nano assembly instructions, v5a 
+## Kit Assembly ideas and guide 
+#### bGeigie Nano kit assembly instructions, v5a 
 To the new users of the bGeigie Nano, congratulations and welcome to the Safecast community. We're happy to be able to deliver this high-performance geiger counter with GPS logging and memory, which has been developed and field-tested by Safecast volunteers. 
 
 The kit format allows for cost savings and for DIY learning. The assembly can take as little as 3-4 hours depending on electronics skill and experience level. This assembly manual is for all users including novices. So we are trying to make these instructions clear, graphic and explicit. For some we're explaining the obvious, for others this still may not be helpful enough. If you're very experienced at assembling electronic devices, feel free to modify the order of the steps. Docs, including the schematic (circuit  diagram), parts list, and a copy of these assembly instructions as well as the user's manual will be available soon, to download from the website  http://blog.safecast.org/ . 
@@ -42,7 +42,9 @@ What is polarity and why should you care? Basically, several types of electronic
 (https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/overviewpics/bGeigie Nano manual v5.3big_Page_03_Image_0002.jpg)
 
 ##STEP 01: MAIN BOARD 
-Almost all the components get attached to the main board, so itʼs a good place to start. Weʼve arranged the assembly steps in a logical order as based on our experience. Of course you can change the order of some steps. Most questions can be resolved by referring to the three large diagrams, the Large Parts, Small Parts and Back Parts placement diagrams on pp. 4, 9, and 11. (A paper printout of these diagrams can be handy.) While we suggest starting from components that lie close to the board before the higher ones, the order of assembly is partly a matter of preference. Similarly some builders place all the components and then solder them, others place and solder each in turn as they go.
+Almost all the components get attached to the main board, so itʼs a good place to start. Weʼve arranged the assembly steps in a logical order as based on our experience. Of course you can change the order of some steps. Most questions can be resolved by referring to the three large diagrams, the Large Parts, Small Parts and Back Parts placement diagrams on pp. 4, 9, and 11. (A paper printout of these diagrams can be handy.)
+
+While we suggest starting from components that lie close to the board before the higher ones, the order of assembly is partly a matter of preference. Similarly some builders place all the components and then solder them, others place and solder each in turn as they go.
 
 To begin and to make handling easier, attach 4 black plastic standoffs through the holes in the corners of the main board ﬁrst. At each corner, insert a 10mm standoff from the upper face of the board, then screw corresponding 8mm one to it from the bottom. (Relevant photos: see the standoffs in the 4 corners of the panels in the finished product.)
 
@@ -382,7 +384,7 @@ An optional beta window can be made if desired. See “Options.” [needs to be 
 
 An Apple audio cord is provided for iGiegie mode update to online databases. See the "Safecast API User Manual". [needs to be added!]  
 
-####Congratulations, your kit assembly is finished! Run the tests Step 07.
+####Congratulations, your Nano kit assembly is finished! 
 
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/closed_front.jpg)
 
