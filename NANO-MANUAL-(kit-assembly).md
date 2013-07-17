@@ -141,7 +141,7 @@ Although most of the headers and breakouts get attached to the front of the main
 **Audio Out jack **
 (This is for connecting an audio cable to an iPhone or other device)
 * Solder a 4-pin male header to the holes marked “audio out.” This means inserting the header from the backside and soldering the pins from the front face. 
-* Attach a thin piece of double-sided foam tape to the black plastic jack housing, and use it to hold the jack in place on the board. Double check the orientation to make sure itʼs the same as in the photo!
+* Attach a thin piece of double-sided foam tape to the black plastic jack housing, and use it to hold the jack in place on the board. Double-check the orientation to make sure itʼs the same as in the photo!
 * Solder the four header pins to the audio jack. 
 
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/v1.0r2_page13.jpg)
@@ -205,9 +205,9 @@ caption: Placement of OpenLog, in relation to GPS breakout.
 ***
 
 **OLED display:** 
-(Organic Light-Emitting Diode display)There's more than one way to do this, but this is the method that has worked best for us: 
+(Organic Light-Emitting Diode display) There's more than one way to do this, but this is the method that has worked best for us: 
 * Solder the 8-pin female header to the holes on the main board at the top of the "LCD" spot (the leftmost one is marked DATA). 
-* Insert the long pins of an 8-pin male header into the female header, and attach the OLED board to the main board using two 10mm stainless standoffs, screws, and nuts. Screw a nut to each standoff ﬁrst before placing the display on top of them to bring it to the proper height. Note that not many threads will protrude above the OLED then, so care is needed in attaching the remaining two nuts. 
+* Insert the long pins of an 8-pin male header into the female header, and attach the OLED board to the main board using two 10mm stainless steel standoffs, screws, and nuts. Screw a nut to each standoff ﬁrst before placing the display on top of them which brings the OLED to its proper height. Care is needed in attaching the remaining two nuts as not many threads of the standoff will protrude above the OLED then. 
 * Solder the 8-pin male header to the OLED board from the top. The display will be easily removable. 
 
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/lcd_header_placement.jpg)
@@ -217,7 +217,7 @@ caption: Placement of headers and standoffs for OLED
 caption: Placement of OLED using nuts. 
 
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/lcd_placement_top.jpg)
-caption:Note nuts used as spacers under OLED. 
+caption: Note nuts used as spacers under OLED. 
 
 
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/fully_assembled_top.jpg)
@@ -282,26 +282,26 @@ caption: iRover installed in proper orientation.
 ***
 ***
 ##STEP 03: BATTERY 
-This battery is a 2000mAh 3.7V Lithium Polymer (Li-Po, Li-Poly). Attention: the battery is encased in a mylar membrane. If punctured, the battery can be hazardous. Handle carefully!  The battery's red and black wires may be reinforced with electrical insulation tape to prevent their falling off or being pulled out. (Do not attempt to reattach a loose wire to the battery. Although some say DIY repair is possible, it is not advisable given hazards.)  Charging the new battery full before first use is recommended. Only recharge the Lithium Polymer battery inside the Nano or in a correct, special USB recharger. Replace a broken battery with same rating. (The Nano charge circuit may overheat if larger batteries are used. The 2000mAh gives over 40 hours of continuous use.) 
+This battery is a 2000mAh 3.7V Lithium Polymer (Li-Po, Li-Poly). Attention: the battery is encased in a mylar membrane. If punctured, the battery can be hazardous. Handle carefully!  The battery's red and black wires may be reinforced with electrical insulation tape to prevent their falling off or being pulled out. (Do not attempt to reattach a loose wire to the battery. Although some say DIY repair is possible, it is not advisable given potential hazards.)  Charging the new battery full before first use is recommended. (In startup the Nano OLED reports level of battery charge.) Recharging is via a cable between the Nano (the mini USB on bottom of the FIO) to a USB on a computer or on a Li-Po battery recharger. (When not recharged via a standard computer usb,  the Lithium Polymer battery requires a special, correctly rated, USB recharger.) Replace a broken battery with same same rating. (The Nano charge circuit may overheat if larger batteries are used. The 2000mAh gives over 40 hours of continuous use.) 
 
 This step is a little tricky, so do a dry run ﬁrst before actually attaching the battery with foam tape! 
 
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/battery_location.jpg)
 
 * Place the partly assembled Nano face down, i.e. with the backside of the main board facing up. Orient it as shown so the red audio connector is at the top and the triple connector is at the bottom. 
-* Put a couple of strips of foam tape on the battery as shown, but donʼt peel the exposed side of the tape yet! Lay the battery on the main board with the wires extending to the left. Place the thin square protective plastic sheet between the battery and the circuit board. 
+* Place a couple of strips of the double-sided foam tape on the battery as shown on photo. Stick one side of tape to the battery, but DO NOT peel the exposed, other (middle plate) side of the tape yet! Lay the battery on the main board with the wires extending to the left. Place the thin square protective plastic sheet between the battery and the circuit board. 
 
 
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/iRover_placement_over_battery.jpg)
 
 * Test-ﬁt the middle plate, using the black plastic corner standoffs for positioning. The iRover should be facing up. Make note of the position of the battery. 
-* When youʼre sure the battery will be located properly, remove the middle plate, peel the foam tape, and carefully put the middle plate back in place. Make sure the thin plastic protective sheet is between the battery and the circuit board. Push on the plate gently to get the tape to stick. Remove the plate and battery again and make the tape connection secure. 
+* When youʼre sure the battery will be located properly, remove the middle plate, peel the foam tape, and carefully put the middle plate back in place sticking it to the battery. Make sure the thin plastic protective sheet is between the battery and the circuit board. Push on the plate gently to get the tape to stick. Remove the taped together plate and battery from over the circuit board and press them together firmly to make the tape connection secure. 
 
 
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/iRover_wire_feedthrough.jpg) 
 
 * Thread the wires for the triple connector through the slot in the middle plate. Itʼs easier if you give the wires a couple of twists ﬁrst. Connect the 3-pin female header/socket to the triple connector on the back of the main board, as described in the “triple connector” step on p. 16: make sure itʼs oriented so the red wire connects to the positive pin, the black to the negative, and the green in the middle. 
-* Thread the battery cable down so it will be easy to connect to the battery port on the FIO. But DO NOT connect the battery yet! 
+* Thread the battery cable down so it will be easy to connect to the battery port on the FIO. But DO NOT connect the battery yet! (The Nano power switch is down, off.)
 
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/back_plate_install.jpg)
 
@@ -314,7 +314,7 @@ This step is a little tricky, so do a dry run ﬁrst before actually attaching t
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/sensor_box.jpg)
 
 The pancake sensor is very delicate. Take care to protect sensor membrane during the assembly process! 
-Once it's been connected to the battery it also presents an slight electric shock risk (about 500 volts! Yow!) so be very careful about touching it. Especially the iRover connection where the bare wire is soldered. And take care not to let the bare wire touch the silver metal connector. 
+Once it's been connected to the battery it also presents an slight electric shock risk (about 500 volts! Yow!), so be very careful about touching it. Especially the iRover connection where the bare wire is soldered. And take care not to let the bare wire touch the silver metal connector. 
 
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/sensor.jpg)
 caption: This is how the sensor should look. 
@@ -365,21 +365,24 @@ caption: The rear plate should have clear plastic nuts.
 The Pelican case is a standard 1010 model, which has a (black, yellow, blue or red) removable rubber liner. A hole must be cut in liner to ﬁt the pancake sensor. 
 
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/cutting_liner.jpg)
-* Itʼs easiest to use the opening in the rear plate as a hole-cutting template. Push it snugly into the rubber liner, and trace the circular opening with a pen, pencil, or thin marker. 
-* Use an X-acto, Olfa, or similar knife to cut the hole. 
+* Itʼs easiest to use the opening in the rear plate as a hole-cutting template. Push it snugly into the rubber liner, and trace the circular opening with a pen, pencil, or thin marker. Remove the liner from the case before cutting the hole in the rubber liner.
+
+* Use an X-acto, Olfa, or similar knife to cut the liner hole. (Joeʼs half a sawed beer can of correct diameter also works as a sensor window cutter!) 
 
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/front_plate_assembly.jpg)
-* Replace the liner into the plastic case, and gently but ﬁrmly insert the assembled iGeigie Nano.It should be a very snug ﬁt. Check to see that the case closes properly, and that the sensor is properly aligned with the opening in the liner. 
+* Replace the liner into the plastic case, and gently but ﬁrmly insert the assembled bGeigie Nano into the liner. Check that the sensor is properly aligned with the opening in the liner. (Alternatively place the Nano into the liner and insert them together into the case.) It should be a very snug ﬁt. Close the case. The case closes properly when the clasp shuts tightly with click. (If initially the case cannot be completely closed, check carefully for any jammed point, fix and try again.)
 
-ADD: Joeʼs sharpened beer can sensor window cutter! 
+* Clear neoprene feet are provided in the kit to stick on the corners of the bottom of the case. Theyʼre not absolutely necessary, but these feet or runners make it easier to mount the device in many situations. See “Mounting tips.” [needs to be added!!]
 
-####Congratulations, youʼre done! 
+* Strap(s)are provided to make it easier to mount the Nano on a car or other vehicle. See “Mounting tips.” [needs to be added!]
 
-However...... 
-* Straps are provided to make it easier to mount the Nano to a car or other vehicle. See “Mounting tips.”[need to add!!] 
-* Clear neoprene feet are also provided. Theyʼre not absolutely necessary, but make it easier to mount the device in many situations. See “Mounting tips.” 
-* Finally, in this conﬁguration, the Nano is fully operational for most types of data gathering, but an optional beta window can be made if desired. See “Options.” 
+In this conﬁguration, the Nano is fully operational for most types of data gathering. See the "Nano User Guide" (operations manual).  [needs to be added!]
 
+An optional beta window can be made if desired. See “Options.” [needs to be added!] 
+
+An Apple audio cord is provided for iGiegie mode update to online databases. See the "Safecast API User Manual". [needs to be added!]  
+
+####Congratulations, your kit assembly is finished! Run the tests Step 07.
 
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/closed_front.jpg)
 
@@ -468,3 +471,4 @@ TROUBLESHOOTING
 PARAMETER SETTINGS 
 The MiniSD card that ships with the bGeigie Nano contains a settings ﬁle that has been pre-set by SAFECAST. While werecommend retaining the default settings, the parameters can be changed if desired. Itʼs best to make a copy of the ﬁle and keep it handy it handy, in case the SD card becomes damaged or corrupted. 
 The ﬁle is also available online at: <https://docs.google.com/spreadsheet/ccc?key=0Ag8Z8O-yL
+
