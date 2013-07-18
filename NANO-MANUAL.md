@@ -6,7 +6,9 @@
 #### bGeigie Nano kit assembly instructions, v5a 
 To the new users of the bGeigie Nano, congratulations and welcome to the Safecast community. We're happy to be able to deliver this high-performance geiger counter with GPS logging and memory, which has been developed and field-tested by Safecast volunteers. 
 
-The kit format allows for cost savings and for DIY learning. The assembly can take as little as 3-4 hours depending on electronics skill and experience level. This assembly manual is for all users including novices. So we are trying to make these instructions clear, graphic and explicit. For some we're explaining the obvious, for others this still may not be helpful enough. If you're very experienced at assembling electronic devices, feel free to modify the order of the steps. Docs, including the schematic (circuit  diagram), parts list, and a copy of these assembly instructions as well as the user's manual will be available soon, to download from the website  http://blog.safecast.org/ or from https://github.com/Safecast/bGeigieNanoKit/wiki/_pages.  For support see the site and the links on the home page (including:  https://groups.google.com/forum/#!forum/safecast-devices "a group for the community to use for questions and protips and hacking ideas for Safecast".)
+The kit format allows for cost savings and for DIY learning. The assembly can take as little as 3-4 hours depending on electronics skill and experience level. This assembly manual is for all users including novices. So we are trying to make these instructions clear, graphic and explicit. For some we're explaining the obvious, for others this still may not be helpful enough. If you're very experienced at assembling electronic devices, feel free to modify the order of the steps. 
+
+For support there's this community-edited wiki (https://github.com/Safecast/bGeigieNanoKit/wiki/_pages), as well as  the github technical archives. See the website http://blog.safecast.org/ -- visit the links on the home page, including:  https://groups.google.com/forum/#!forum/safecast-devices "a group for the community to use for questions and protips and hacking ideas for Safecast". Many bGeigie Nano docs are available or are being added, including the schematic (circuit  diagram), the kit contents (parts list), user's manual, API interface guide, etc.
 
 ![](https://raw.github.com/safecast/bGeigieNanoKit/0fe74739db57eaff2645784c28dcb78e88a4b2f0/nano%20manual%20named%20pics/Pieter_frustrated.jpg)
 
@@ -75,13 +77,13 @@ All of these will go on the main board. Place and solder them, nipping off the l
 ![]
 (https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/wiki_small_components_2.jpg)
 **Switches:** there are four of them: 
-* Dual DIP switch (SW1) goes in the "SW1" spot. It has 4 pins. It should be positioned so that the side with the "ON" label points towards the top of the board, i.e. the "ON" label aligns with the "SW1" label on the board. The correct orientation is necessary for the switch to work. (Once you put the switch on the board, neither label is visible. Read this and look first before soldering.)
+* Dual DIP switch (SW1) goes in the "SW1" spot. It has 4 pins. It should be positioned so that the side with the "ON" label points towards the top of the board, i.e. the "ON" label aligns with the "SW1" label on the board. The correct orientation is necessary for the switch to work. [Function: the DIP switch functions are to be explained in operations guide which is to be added!!]
  
-* Toggle switch: No label on the case. It ﬁts above the rectangular outline between transistor "T1" and the blue"COUNT" LED. It has three leads, and a mounting clip with 2 pins. Solder them all in place. 
+* Toggle switch: No label on the case. It ﬁts above the rectangular outline between transistor "T1" and the blue "COUNT" LED. It has three leads, and a mounting clip with 2 pins. Solder them all in place. [Function:  switches between two OLED displays. Up for uS/h screen; Down for CPM and satellites screen. (or until this is corrected or explained in user's guide to be added!!)]
 
-* Shift switch (S1): goes in spot "S1." It has 3 leads which need to be soldered in place, plus 2 pins on the aluminum case which need to be nipped off. The 3 leads go in the 3 center holes in the board; the two outer holes are unused (Ok, you could try ﬁling the aluminum case pins down enough to ﬁt in these holes, but it's secure enough attached by just the 3 leads. 
+* Shift switch (S1): goes in spot "S1." It has 3 leads which need to be soldered in place, plus 2 pins on the aluminum case which need to be nipped off. The 3 leads go in the 3 center holes in the board; the two outer holes are unused. (Ok, you could try ﬁling the aluminum case pins down enough to ﬁt in these holes, but it's secure enough attached by just the 3 leads.) [Function: power. Up for ON; Down for OFF.] 
 
-* Black or yellow push switch: goes in the "Fn" spot. The black ones have 2 leads which need to be mounted in the holes that are setback from the edge of the board. The leads can be bent so the switch lays ﬂat if desired. Yellow ones have 4 leads, and fit the holes precisely.
+* Black or yellow push switch: goes in the "Fn" spot. The black ones have 2 leads which need to be mounted in the holes that are setback from the edge of the board. The leads can be bent so the switch lays ﬂat if desired. Yellow ones have 4 leads, and fit the holes precisely. [Function: user assignable.]
 
 **Audio:** there are two items, but only one goes in now: 
 * NOW: Piezo buzzer: Goes in the large circular spot in the upper left quadrant of the main board, and has {MISSING SOME TEXT HERE?}
