@@ -6,7 +6,7 @@ Initially copied from June 2013 version on http://medcom.com/radiation-monitors/
 *	**xGeigie mode** – geiger counter mode (no logging) with display indicator for uSv/h dose-rate (Cs137), max dose-rate, dosimeter, Bq/m2 display (Cs137), time stamp and Alarm LED
 *	**iGeigie mode** – iPhone compatible output for Safecast iOS app. iPhone app shows dose rate and can upload data realtime to Safecast API.
 *	Hot switch between bGeigie and xGeigie modes (recording is paused in xGeigie)
-*	**Sensor**: LND 7317 2” pancake GM tube with Medcom iRover controller and HV (high voltage) supply; capable of measuring alpha, beta and gamma radiation. URL: http://www.lndinc.com/products/17/
+*	**Sensor**: LND 7317 2” pancake GM tube with Medcom iRover controller and HV (high voltage) supply; capable of measuring alpha, beta and gamma radiation. Maximum range to about 1mSv/h dose rates. URL: http://www.lndinc.com/products/17/
 *	**Dual use modular design** – main unit can be taken out of case for α-, β-detection, e.g. use as surface contamination survey meter
 *	High quality **GPS** receiver with external booster antenna connector
 *	**Dual CPU**: Atmel, Arduino. Open-source software.
