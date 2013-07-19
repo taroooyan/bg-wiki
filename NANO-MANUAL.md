@@ -78,7 +78,7 @@ All of these will go on the main board. Place and solder them, nipping off the l
 (https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/wiki_small_components_2.jpg)
 **Switches:** (There are four switches. Some have labels above them on the top panel, nearby on the PCB board or on the component itself. Once the Nano is built, the labels are more readable when the case is open and the power is off.) 
 
-* Dual DIP switch (SW1) goes in the "SW1" spot. It has 4 pins. It should be positioned with the side labelled <"ON","2H"> toward the top of board, aligned under the "SW1" label on the board. The correct orientation is necessary for the switch to work. [Function: to be explained in operations guide which is to be added!!]
+* Dual DIP switch (SW1) goes in the "SW1" spot. It has 4 pins. It should be positioned with the side labeled "ON" toward the top of board, aligned under the "SW1" label on the board. The correct orientation is necessary for the switch to work. [Function: to be explained in operations guide which is to be added!!]
  
 * Toggle switch: It ﬁts above the rectangular outline between transistor "T1" and the blue "COUNT" LED. It has three leads, and a mounting clip with 2 pins. Solder them all in place. [Label on the transparent top panel: bq/m^2 uS/h; log cpm. Function: switches between bGeigie and xGeigie modes. (mode features are mentioned on the Specifications wiki page. To be explained in user's guide to be added!!)]
 
