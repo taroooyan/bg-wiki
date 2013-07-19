@@ -14,7 +14,7 @@ wiki/_pages (as of 19.07.2013):
 * How to setup build environment on Mac OS X
 * NANO MANUAL [Kit Assembly] 
 
-Pages to be added:
+Pages to be added (or desired):
 * API interface (user's connecting to online database) [!!]
 * FAQ [?]
 * History [release dates? links to pages on Nano development?]
