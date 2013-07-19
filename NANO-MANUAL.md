@@ -82,7 +82,7 @@ All of these will go on the main board. Place and solder them, nipping off the l
  
 * Toggle switch: It ﬁts above the rectangular outline between transistor "T1" and the blue "COUNT" LED. It has three leads, and a mounting clip with 2 pins. Solder them all in place. [Label on the transparent top panel: bq/m^2 uS/h; log cpm. Function:  switches between the bGeigie and xGeigie modes. (mode features are mentioned on the Specifications wiki page. To be explained in user's guide to be added!!)]
 
-* Shift switch (S1): goes in spot "S1." It has 3 leads which need to be soldered in place, plus 2 pins on the aluminum case which need to be nipped off. The 3 leads go in the 3 center holes in the board; the two outer holes are unused. (Ok, you could try ﬁling the aluminum case pins down enough to ﬁt in these holes, but it's secure enough attached by just the 3 leads.) [Function label "0 power 1".] 
+* Shift switch (S1): goes in spot "S1." It has 3 leads which need to be soldered in place, plus 2 pins on the aluminum case which need to be nipped off. The 3 leads go in the 3 center holes in the board; the two outer holes are unused. (You could try ﬁling the aluminum case pins down enough to ﬁt in these holes, but it's secure enough attached by just the 3 leads.) [Function: "0 power 1"] 
 
 * Black or yellow push switch: goes in the "Fn" spot. The black ones have 2 leads which need to be mounted in the holes that are set back from the edge of the board. The leads can be bent so the switch lays ﬂat if desired. Yellow ones have 4 leads, and fit the holes precisely. [Function: user assignable.]
 
