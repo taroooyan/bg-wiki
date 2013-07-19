@@ -80,7 +80,7 @@ All of these will go on the main board. Place and solder them, nipping off the l
 
 * Dual DIP switch (SW1) goes in the "SW1" spot. It has 4 pins. It should be positioned with the side labeled "ON" toward the top of board, aligned under the "SW1" label on the board. The correct orientation is necessary for the switch to work. [Function: to be explained in operations guide which is to be added!!]
  
-* Toggle switch: It ﬁts above the rectangular outline between transistor "T1" and the blue "COUNT" LED. It has three leads, and a mounting clip with 2 pins. Solder them all in place. [Label on the transparent top panel: bq/m^2 uS/h; log cpm. Function: switches between bGeigie and xGeigie modes. (mode features are mentioned on the Specifications wiki page. To be explained in user's guide to be added!!)]
+* Toggle switch: It ﬁts above the rectangular outline between transistor "T1" and the blue "COUNT" LED. It has three leads, and a mounting clip with 2 pins. Solder them all in place. [Function: switches between bGeigie and xGeigie modes. Label on the transparent top panel: "bq/m^2 uS/h", "log cpm". (mode features are mentioned on the Specifications wiki page. To be explained in user's guide to be added!!)]
 
 * Shift switch (S1): goes in spot "S1." It has 3 leads which need to be soldered in place, plus 2 pins on the aluminum case which need to be nipped off. The 3 leads go in the 3 center holes in the board; the two outer holes are unused. (You could try ﬁling the aluminum case pins down enough to ﬁt in these holes, but it's secure enough attached by just the 3 leads.) [Function: "0 power 1"] 
 
