@@ -10,17 +10,17 @@ Nano support addresses:
 
 wiki/_pages (as of 19.07.2013):
 * bGeigieNano Features_specifications
-* Home
+* Home   [this page]
 * How to setup build environment on Mac OS X
 * NANO MANUAL [Kit Assembly] 
 
 Pages to be added (or desired):
 * API interface (user's connecting to online database) [!!]
 * FAQ [?]
-* History [release dates? links to pages on Nano development?]
+* History [for notes on Nano development?]  
 * Mounting tips [how to attach the Nano securely to vehicles] [!]
 * Operating Manual (Nano user's guide) [!!!]
-* Options [Hard-, firm- and software updates and instructions] 
+* Options [Hard-, firm-, software updates and instructions] 
 * Parameter settings for MiniSD card (? file address in Kit Assembly Manual -- dead link 19/7) 
 * Parts list  (kit contents)
 * Schematics [circuit diagrams are available in technical Nano github archive but ask for help?]
