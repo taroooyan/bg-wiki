@@ -1,10 +1,21 @@
 Nano Operation Manual Outline
+version July 23 2013
 
 Opening info: What's the Nano for?  What can you do with it?
 
 Quickstart guide
       Base this on the guide done for Hong Kong
            Boot sequence
+1. The power switch is a sliding switch at the lower right. To turn the unit on, slide it to the up position. The SAFECAST logo will appear on the display. 
+
+2.Next, the bGeigie Nano’s firmware number, battery charge level, basic settings, and the user’s name (or other customizable information) are indicated. 
+
+The bGeigie Nano has two modes, controlled by the toggle switch at uper right. The “up” position is puts the unit in  measuring mode (Bq/m^2/μSv/h). The “down” position puts it in recording mode (Log/cpm). When bGeigie Nano is swtched to recording mode, the display shows whether a micro SD memory card is inserted or not. The photo on the right displays the “NO SD CARD” message, meaning no card is inserted. When a card is inserted properly, this message will disappear. 
+
+In recording mode the display also shows a lock GPS indication. When the device locks onto GPS, it show the number of sattelites found, and a small red LED will glow. The picture shows the “No GPS” message. In this case, GPS lock can be achieved by placing the device near a window and waiting for a few minutes
+    
+
+
       - small Red LED will only glow if: GPS is locked, SD card is present, battery has more than 10% charge left, unit is on for one minute, geiger tube is providing a pulse). It can be dimmed by putting the DIP switch #2 Off.
       - Speaker "clicks" and small Blue LED blinks for each pulse from the geiger tube. It can be dimmed by putting the DIP switch #1 Off.
       - Red LED on GPS unit blinks every 1 second in case the GPS is not locked. After that blinks every 10 seconds once locked.
@@ -34,6 +45,9 @@ Charging
        cautions- NEVER charge the bGeigie while the unit is in ON. MUST turn OFF before charging to avoid permanent damage to charge circuit
 
 Uploading data
+After recording measurements, you can upload your data through Safecast API site. 
+It will be reflected to the Safecast map http://map.safecast.org/ and also iOS application [Safecast] (Download Free)
+
        make API account
        steps
 
@@ -46,7 +60,7 @@ Other cautions:
 
     - more questions: go to nano.safecast.org, google group xyz or mail us at info@safecast.org
 
-
+Parameter settings: The SD card contains a setting file which must not be deleted from the card or the Nano wll not work properly.  In addition, it muct be copied to any additional cards which will be used with the nano (This information can be edited to modify the device’s operation, but this is only recommended for expert users)  
 Troubleshooting
 
 
