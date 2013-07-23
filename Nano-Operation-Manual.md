@@ -1,7 +1,7 @@
 Nano Operation Manual Outline
 version July 23 2013
 
-Opening info: What's the Nano for?  What can you do with it?
+Opening info: What's the Nano for?  What can you do with it? [add text]
 
 Quickstart guide
       Base this on the guide done for Hong Kong
@@ -10,9 +10,9 @@ Quickstart guide
 
 2.Next, the bGeigie Nano’s firmware number, battery charge level, basic settings, and the user’s name (or other customizable information) are indicated. 
 
-The bGeigie Nano has two modes, controlled by the toggle switch at uper right. The “up” position is puts the unit in  measuring mode (Bq/m^2/μSv/h). The “down” position puts it in recording mode (Log/cpm). When bGeigie Nano is swtched to recording mode, the display shows whether a micro SD memory card is inserted or not. The photo on the right displays the “NO SD CARD” message, meaning no card is inserted. When a card is inserted properly, this message will disappear. 
+The bGeigie Nano has two modes, controlled by the toggle switch at uper right. The “up” position is puts the unit in measuring [??geiger? survey? ] mode (Bq/m^2/μSv/h). The “down” position puts it in recording (logging) mode (Log/cpm). When bGeigie Nano is swtched to recording mode, the display shows whether a micro SD memory card is inserted or not. [The photo] displays the “NO SD CARD” message, meaning no card is inserted. When a card is inserted properly, this message will disappear. 
 
-In recording mode the display also shows a lock GPS indication. When the device locks onto GPS, it show the number of sattelites found, and a small red LED will glow. The picture shows the “No GPS” message. In this case, GPS lock can be achieved by placing the device near a window and waiting for a few minutes
+In recording (logging) mode the display also shows a lock GPS indication. When the device locks onto GPS, it show the number of sattelites found, and a small red LED will glow. The picture shows the “No GPS” message. In this case, GPS lock can be achieved by placing the device near a window and waiting for a few minutes
     
 
 
