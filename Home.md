@@ -8,11 +8,12 @@ Nano support addresses:
 * this community-edited Nano wiki (https://github.com/Safecast/bGeigieNanoKit/wiki/_pages);
 * the Nano github technical archives
 
-wiki/_pages (as of 19.07.2013):
+wiki/_pages (as of 23.07.2013):
 * bGeigieNano Features_specifications
 * Home   [this page]
 * How to setup build environment on Mac OS X
 * NANO MANUAL [Kit Assembly] 
+* Nano Operation Manual 
 
 Pages to be added (or desired):
 * API interface (user's connecting to online database) [!!]
