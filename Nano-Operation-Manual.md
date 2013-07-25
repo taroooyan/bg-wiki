@@ -18,7 +18,7 @@ In recording (logging) mode the display also shows a lock GPS indication. When t
       - small Red LED will only glow if: GPS is locked, SD card is present, battery has more than 10% charge left, unit is on for one minute, geiger tube is providing a pulse). It can be dimmed by putting the DIP switch #2 Off.
       - Speaker "clicks" and small Blue LED blinks for each pulse from the geiger tube. It can be dimmed by putting the DIP switch #1 Off.
       - Red LED on GPS unit blinks every 1 second in case the GPS is not locked. After that blinks every 10 seconds once locked.
-      - the time stamp on the display is in UTC (formerly called GMT) and not in local time. The time stamp is refreshed when a log data is written to the card. The time stamp is used to create the LOG file name. The log filename may not match the date of the measurement in local time (e.g. maybe +/- one day off) given time zone variance.
+      - the time stamp on the display is in UTC (formerly called GMT) and not in local time. The time stamp is refreshed when a log data is written to the card. The time stamp is used to create the LOG file name. The log filename may be +/- one day off from the local date of the measurement given time zones and IDL (International Date Line).
 
 
            What are the switches for?
