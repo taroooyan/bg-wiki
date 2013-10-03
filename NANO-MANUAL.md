@@ -373,7 +373,7 @@ The Pelican case is a standard 1010 model, which has a (black, yellow, blue or r
 
 * Use an X-acto, Olfa, or similar knife to cut the liner hole. (Joeʼs half a sawed beer can of correct diameter also works as a sensor window cutter!) 
 
-NICE! Joe's can cutter hack:
+#### NICE! Joe's can cutter hack:
 ![]
 (https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/beercantrick.jpg)
 * Joe came up with an ingenious hack to simplify cutting nice holes for the sensor in the rubber lining of the Pelican case, which takes advantage of the fact that the sensor is almost exactly the same diameter as a standard aluminum drink can. Basically, you remove the top face of the can, using a sturdy knife or other method, and sharpen the thick aluminum edge a bit as shown in the photo. It doesn't have to be extremely sharp to work. Place the rubber liner on a block of wood or similar surface, and use the rear acrylic plate (the one with the hole for the sensor) to gauge or mark the position of the hole. Align the can carefully, push down hard with your palm, and rotate it a couple of time slowly. This method requires a bit of a knack, but it makes the best holes!
