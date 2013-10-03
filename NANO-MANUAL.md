@@ -343,9 +343,14 @@ caption: Wrecked sensor. The parts inside sure looks cool though! (Thatʼs the a
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/back_plate_install.jpg)
 * Now is a good time to attach the rear plate, using 4 black plastic standoffs and nuts. 
 
+#### Sensor cover:  
+![]
+(https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/nailpolishtrick.jpg)
+The copper mesh cover should be attached to the pancake sensor so that it protects the membrane. We've found that a thin coat of clear acrylic nail polish carefully applied to the edge of the mesh works well as an adhesive. It can also easily be removed later if needed by using nail polish remover. 
 
-![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/sensor_cover.jpg)
-* Circular metal mesh and thin clear plastic covers are provided for protecting the sensor membrane. Put the mesh in place, then add the plastic one on top of it. Both are removable. The clear plastic cover will need a small notch cut into it for clearance for the sensor post. If you want you can use a small piece of cellophane or other tape to hold it in place. 
+Use clear nail polish or "nail top coat," without glitter or other anything like that in it. Only a thin coat is needed. You should apply it to the edge of the mesh because it's easier to handle than the sensor. Carefully position it on the sensor as shown in the photo, and press down on it lightly with your finger for a minute or so until the polish starts to set. Let it dry for about 5 minutes. 
+
+NOTE:  Early versions of the bGeigie Nano included a clear plastic cover for the pancake sensor. These are no longer used.
 
 ***
 ***
@@ -376,7 +381,7 @@ The Pelican case is a standard 1010 model, which has a (black, yellow, blue or r
 #### NICE! Joe's can cutter hack:
 ![]
 (https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/beercantrick.jpg)
-* Joe came up with an ingenious hack to simplify cutting nice holes for the sensor in the rubber lining of the Pelican case, which takes advantage of the fact that the sensor is almost exactly the same diameter as a standard aluminum drink can. Basically, you remove the top face of the can, using a sturdy knife or other method, and sharpen the thick aluminum edge a bit as shown in the photo. It doesn't have to be extremely sharp to work. Place the rubber liner on a block of wood or similar surface, and use the rear acrylic plate (the one with the hole for the sensor) to gauge or mark the position of the hole. Align the can carefully, push down hard with your palm, and rotate it a couple of time slowly. This method requires a bit of a knack, but it makes the best holes!
+* Joe came up with an ingenious hack to simplify cutting nice holes for the sensor in the rubber lining of the Pelican case, which takes advantage of the fact that the sensor is almost exactly the same diameter as a standard aluminum drink can. Basically, you remove the top face of the can, using a sturdy knife or other method (actually Joe uses a razor saw), and sharpen the thick aluminum edge a bit as shown in the photo. It doesn't have to be extremely sharp to work. Place the rubber liner on a block of wood or similar surface, and use the rear acrylic plate (the one with the hole for the sensor) to gauge or mark the position of the hole. Align the can carefully, push down hard with your palm, and rotate it a couple of time slowly. This method requires a bit of a knack, but it makes the best holes!
 
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/front_plate_assembly.jpg)
 * Replace the liner into the plastic case, and gently but ﬁrmly insert the assembled bGeigie Nano into the liner. Check that the sensor is properly aligned with the opening in the liner. (Alternatively place the Nano into the liner and insert them together into the case.) It should be a very snug ﬁt. Close the case. The case closes properly when the clasp shuts tightly with click. (If initially the case cannot be completely closed, check carefully for any jammed point, fix and try again.)
