@@ -147,6 +147,7 @@ Although most of the headers and breakouts get attached to the front of the main
 * Solder a 4-pin male header to the holes marked “audio out.” This means inserting the header from the backside and soldering the pins from the front face. 
 * Attach a thin piece of double-sided foam tape to the black plastic jack housing, and use it to hold the jack in place on the board. Double-check the orientation to make sure itʼs the same as in the photo!
 * Solder the four header pins to the audio jack. 
+* The audio connector might bump against a few of the OLED breakout pins on the rear of the main board; it's probably best to snip those pins off or file them down. 
 
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/v1.0r2_page13.jpg)
 ***
@@ -186,7 +187,7 @@ caption:Placement of GPS.
 * A 9-pin length of male header goes into the holes at the top of the "GPS" spot on the main board.
 * It's helpful to attach the GPS board with two 5mm stainless steel standoffs (long hex nuts), using two stainless steel screws and two nuts, to help keep the header properly positioned while soldering it.
 * Leaving the standoffs in place, solder the 9 pins to the top of the GPS breakout. 
-
+* NOTE:  The GPS unit comes with a metal battery clip. It's not needed, and in fact can cause problems if it's installed, so it's best to ignore it.
 
 **Open Log:**
 (This writes the data to a mini-SD card) 
@@ -281,6 +282,7 @@ caption: Standoffs for iRover attached to middle plate
 caption: iRover installed in proper orientation. 
 
 * Position the iRover board on the standoffs, and attach it with two nuts. Make sure the side of the iRover that has the label is facing up, and the thick red wire with the black connector is to the left. 
+* We find it works best to attach the stainless-steel standoffs to the middle plate by inserting the screwpost through the plate and attaching a nut from the rear.  The iRover itself can be connected to the posts using the screws afterward.  This makes it easier to adjust its position slightly if desired.[the current photo shows it differently, with the nuts on top,  but will be updated soon]
 
 * Now is a good time to attach the front plate (the one with the SAFECAST logo, which covers the front side of the main board). Use plastic screws through the four holes in the corner to attach it to the black plastic standoffs. Use pliers to tighten all the standoffs. 
 ***
@@ -329,7 +331,7 @@ caption: Wrecked sensor. The parts inside sure looks cool though! (Thatʼs the a
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/sensor_placement.jpg)
 * The sensor will also be attached to the middle place with double-sided foam tape. The etched outline on the plate itself may be enough to help you position it accurately, but we recommend you do a test ﬁt using the opening in the rear plate as a guide. Attach a couple of pieces of foam tape either to the middle plate or to the bottom of the sensor, and drop the sensor into place. When youʼre sure you can do it accurately, peel the tape and drop it in place for real. Then remove the rear plate for the following steps. 
 
-[ADD IMAGE: Wrap the bare metal on the post with tape, or thin rubber insulation.] 
+It's a good idea to cover the exposed silver metal of the sensor post with shrink tubing, electrical tape, or something else that can act as an insulator, to help guard against electrical shock and shorts.[photo to be added]
 
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/attaching_sensor_to_iRover.jpg)
 * The sensor gets two connections to the iRover: the anode connection, which is the thick red wire with black connector, and the cathode connection, which is a thin, uninsulated silver wire. 
