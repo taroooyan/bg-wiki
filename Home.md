@@ -20,7 +20,6 @@ Pages to be added (or desired):
 * FAQ [?]
 * History [for notes on Nano development?]  
 * Mounting tips [how to attach the Nano securely to vehicles] [!]
-* Operating Manual (Nano user's guide) [!!!]
 * Options [Hard-, firm-, software updates and instructions] 
 * Parts list  (kit contents)
 * Safety caution (links to radiation safety manuals, Safecast brief on how to use a geiger counter reliably and safely)
