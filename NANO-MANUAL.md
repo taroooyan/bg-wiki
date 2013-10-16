@@ -388,7 +388,7 @@ The Pelican case is a standard Pelican Micro Case 1010 model. (The sticker, the 
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/front_plate_assembly.jpg)
 * Replace the liner into the plastic case, and gently but ﬁrmly insert the assembled bGeigie Nano into the liner. Check that the sensor is properly aligned with the opening in the liner. (Alternatively place the Nano into the liner and insert them together into the case.) It should be a very snug ﬁt. Close the case. The case closes properly when the clasp shuts tightly with click. (If initially the case cannot be completely closed, check carefully for any jammed point, fix and try again.)
 
-* 8 clear neoprene feet are provided in the kit to stick on the 4 corners of each side of the case. Theyʼre not absolutely necessary, but these feet or runners make it easier to mount the device in many situations. See “Mounting tips.” [needs to be added!!]
+* 8 clear neoprene feet are provided in the kit to stick on the 4 corners of the top and bottom sides of the case. Theyʼre not absolutely necessary, but these feet or runners make it easier to mount the device in many situations. See “Mounting tips.” [needs to be added!!]
 
 * Strap(s)are provided to make it easier to mount the Nano on a car or other vehicle. See “Mounting tips.” [needs to be added!]
 
