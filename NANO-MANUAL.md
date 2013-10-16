@@ -8,15 +8,15 @@ To the new users of the bGeigie Nano, congratulations and welcome to the Safecas
 
 The kit format allows for cost savings and for DIY learning. The assembly can take as little as 3-4 hours depending on electronics skill and experience level. This assembly manual is for all users including novices. So we are trying to make these instructions clear, graphic and explicit. For some we're explaining the obvious, for others this still may not be helpful enough. If you're very experienced at assembling electronic devices, feel free to modify the order of the steps. 
 
-For support there's this community-edited wiki (https://github.com/Safecast/bGeigieNanoKit/wiki/_pages), as well as  the github technical archives. See the website http://blog.safecast.org/ -- visit the links on the home page, including:  https://groups.google.com/forum/#!forum/safecast-devices "a group for the community to use for questions and protips and hacking ideas for Safecast". Many bGeigie Nano docs are available or are being added, including the schematic (circuit  diagram), the kit contents (parts list), user's manual, API interface guide, etc.
+For support there's this community-edited wiki (https://github.com/Safecast/bGeigieNanoKit/wiki/_pages/, alias http://nano.safecast.org/), as well as  the github technical archives. See the website http://blog.safecast.org/ -- visit the links on the home page, including:  https://groups.google.com/forum/#!forum/safecast-devices "a group for the community to use for questions and protips and hacking ideas for Safecast". Many bGeigie Nano docs are available or are being added, including the schematic (circuit  diagram), the kit contents (parts list), user's manual, API interface guide, etc.
 
 ![](https://raw.github.com/safecast/bGeigieNanoKit/0fe74739db57eaff2645784c28dcb78e88a4b2f0/nano%20manual%20named%20pics/Pieter_frustrated.jpg)
 
 #### BEFORE YOU START: 
-The LND7317 pancake sensor is very delicate, although it looks robust. It has a thin mylar covering on one face, and inside there is a partial vacuum. The mylar is easily punctured, rendering the tube useless. Since it's the single most expensive component, it would be a shame to trash it. Please handle it carefully! May we recommend that you leave it in the box until you're ready to attach it? (That would be Step 04.) And as with any work, before you start take time to gather tools, clear space, read the manual and turn off distractions. The assembly is not difficult but there are little details to pay attention to. Take a breath and enjoy the build.
+The LND7317 pancake sensor is very delicate, although it looks robust. It has a thin mylar covering on one face, inside of which there is a partial vacuum. The mylar is easily punctured, rendering the tube useless. Since it's the single most expensive component, it would be a shame to trash it. Please handle it carefully! May we recommend that you leave it in the box until you're ready to attach it? (That would be Step 04.) And as with any work, before you start take time to gather tools, clear space, read the manual and turn off distractions. The assembly is not difficult but there are little details to pay attention to. Take a breath and enjoy the build.
 
 #### WARNINGS: 
-Solder iron should be 200-350 degrees Celsius (400-650 degrees Fahrenheit?] We hate to be a nanny, but smoke from solder is dangerous for your health, so work in a well-ventilated area please. Wear safety glasses when cutting off leads. They become needle-like projectiles that could blind you or your cat. Do not puncture the Li-Po battery. Be gentle with the kit. Some of the components are fragile, e.g. it's possible to break the wire leads from the battery accidentally. 
+Solder iron termperature should be about 200-350 degrees Celsius (400-650 degrees Fahrenheit). We hate to be a nanny, but smoke from solder is dangerous for your health, so work in a well-ventilated area please. Wear safety glasses when cutting off leads. They become needle-like projectiles that could blind you or your cat. Do not puncture the Li-Po battery. Be gentle with the kit. Some of the components are fragile, e.g. it's possible to break the wire leads from the battery accidentally. 
  
 ### Essential Tools: 
 * soldering iron or gun
@@ -282,13 +282,13 @@ caption: Standoffs for iRover attached to middle plate
 caption: iRover installed in proper orientation. 
 
 * Position the iRover board on the standoffs, and attach it with two nuts. Make sure the side of the iRover that has the label is facing up, and the thick red wire with the black connector is to the left. 
-* We find it works best to attach the stainless-steel standoffs to the middle plate by inserting the screwpost through the plate and attaching a nut from the rear.  The iRover itself can be connected to the posts using the screws afterward.  This makes it easier to adjust its position slightly if desired.[the current photo shows it differently, with the nuts on top,  but will be updated soon]
+* We find it works best to attach the stainless-steel standoffs to the middle plate by inserting the screwpost through the plate and attaching a nut from the rear.  The iRover itself can be connected to the posts using the screws afterward.  This makes it easier to adjust its position slightly if desired. [Note the current photo shows it differently, with the nuts on top -- but this photo will be updated soon.]
 
 * Now is a good time to attach the front plate (the one with the SAFECAST logo, which covers the front side of the main board). Use plastic screws through the four holes in the corner to attach it to the black plastic standoffs. Use pliers to tighten all the standoffs. 
 ***
 ***
 ##STEP 03: BATTERY 
-This battery is a 2000mAh 3.7V Lithium Polymer (Li-Po, Li-Poly). Attention: the battery is encased in a mylar membrane. If punctured, the battery can be hazardous. Handle carefully!  The battery's red and black wires may be reinforced with electrical insulation tape to prevent their falling off or being pulled out. (Do not attempt to reattach a loose wire to the battery. Although some say DIY repair is possible, it is not advisable given potential hazards.)  Charging the new battery full before first use is recommended. (In startup the Nano OLED reports level of battery charge.) Recharging is via a cable between the Nano (the mini USB on bottom of the FIO) to a USB on a computer or on a Li-Po battery recharger. (When not recharged via a standard computer usb,  the Lithium Polymer battery requires a special, correctly rated, USB recharger.) Replace a broken battery with same same rating. (The Nano charge circuit may overheat if larger batteries are used. The 2000mAh gives over 40 hours of continuous use.) 
+This battery is a 2000mAh 3.7V Lithium Polymer (Li-Po, Li-Poly). Attention: the battery is encased in a mylar membrane. If punctured, the battery can be hazardous. Handle carefully!  The battery's red and black wires may be reinforced with electrical insulation tape to prevent their falling off or being pulled out. (Do not attempt to reattach a loose wire to the battery. Although some say DIY repair is possible, it is not advisable given potential hazards.)  Charging the new battery full before first use is recommended. (In startup the Nano OLED reports level of battery charge.) Recharging is via a cable between the Nano (the mini USB on bottom of the FIO) to a USB on a computer or on a Li-Po battery recharger. (When not recharged via a standard computer usb,  the Lithium Polymer battery requires a special, correctly rated, USB recharger.) Replace a broken battery with the same rating. (The Nano charge circuit may overheat if larger batteries are used. The 2000mAh gives over 40 hours of continuous use.) 
 
 This step is a little tricky, so do a dry run ﬁrst before actually attaching the battery with foam tape! 
 
@@ -331,7 +331,7 @@ caption: Wrecked sensor. The parts inside sure looks cool though! (Thatʼs the a
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/sensor_placement.jpg)
 * The sensor will also be attached to the middle place with double-sided foam tape. The etched outline on the plate itself may be enough to help you position it accurately, but we recommend you do a test ﬁt using the opening in the rear plate as a guide. Attach a couple of pieces of foam tape either to the middle plate or to the bottom of the sensor, and drop the sensor into place. When youʼre sure you can do it accurately, peel the tape and drop it in place for real. Then remove the rear plate for the following steps. 
 
-It's a good idea to cover the exposed silver metal of the sensor post with shrink tubing, electrical tape, or something else that can act as an insulator, to help guard against electrical shock and shorts.[photo to be added]
+It's a good idea to cover the exposed silver metal of the sensor post with shrink tubing, electrical tape, or something else that can act as an insulator, to help guard against electrical shock and shorts. [Photo to be added]
 
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/attaching_sensor_to_iRover.jpg)
 * The sensor gets two connections to the iRover: the anode connection, which is the thick red wire with black connector, and the cathode connection, which is a thin, uninsulated silver wire. 
@@ -373,12 +373,12 @@ caption: The rear plate should have clear plastic nuts.
 ***
 ***
 ##STEP 06: PELICAN CASE 
-The Pelican case is a standard 1010 model, which has a (black, yellow, blue or red) removable rubber liner. A hole must be cut in liner to ﬁt the pancake sensor. 
+The Pelican case is a standard Pelican Micro Case 1010 model. (The sticker, the manufacturer's logo label, can be peeled- and cleaned-off.) The case has a (black, yellow, blue or red) removable rubber liner. A hole must be cut in this removable rubber liner to ﬁt the pancake sensor, as follows: 
 
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/cutting_liner.jpg)
 * Itʼs easiest to use the opening in the rear plate as a hole-cutting template. Push it snugly into the rubber liner, and trace the circular opening with a pen, pencil, or thin marker. Remove the liner from the case before cutting the hole in the rubber liner.
 
-* Use an X-acto, Olfa, or similar knife to cut the liner hole. (Joeʼs half a sawed beer can of correct diameter also works as a sensor window cutter!) 
+* Use an X-acto, Olfa, or similar knife to cut the liner hole. (Joeʼs half a sawed beer can of correct diameter also works as a sensor window cutter!)
 
 #### NICE! Joe's can cutter hack:
 ![]
@@ -388,7 +388,7 @@ The Pelican case is a standard 1010 model, which has a (black, yellow, blue or r
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/front_plate_assembly.jpg)
 * Replace the liner into the plastic case, and gently but ﬁrmly insert the assembled bGeigie Nano into the liner. Check that the sensor is properly aligned with the opening in the liner. (Alternatively place the Nano into the liner and insert them together into the case.) It should be a very snug ﬁt. Close the case. The case closes properly when the clasp shuts tightly with click. (If initially the case cannot be completely closed, check carefully for any jammed point, fix and try again.)
 
-* Clear neoprene feet are provided in the kit to stick on the corners of the bottom of the case. Theyʼre not absolutely necessary, but these feet or runners make it easier to mount the device in many situations. See “Mounting tips.” [needs to be added!!]
+* 8 clear neoprene feet are provided in the kit to stick on the 4 corners of each side of the case. Theyʼre not absolutely necessary, but these feet or runners make it easier to mount the device in many situations. See “Mounting tips.” [needs to be added!!]
 
 * Strap(s)are provided to make it easier to mount the Nano on a car or other vehicle. See “Mounting tips.” [needs to be added!]
 
@@ -432,7 +432,7 @@ What appears on the display may change with ugrades to the ﬁrmware. With ﬁrm
 
 4c. The main screen  
 
-4c1. With the toggle switch in the down position (logging mode/CPM), (during a mid-assembly test, with the sensor not connected),  the main screen should display [photo]:  Left column:  0 CPM  0 uSv/hr  NO SD CARD (when the SD card is installed, this should display Date/time, )  Right column:  battery charge indicator  No GPS (probably, though in certain conditions it may lock quickly and show the number of GPS satellites it's  receiving signals from)  ---m (height)  XXhXXm (elapsed time) 
+4c1. With the toggle switch in the down position (logging mode/CPM), (during a mid-assembly test, with the sensor not connected),  the main screen should display [photo]:  Left column:  0 CPM  0 uSv/hr  NO SD CARD (when the SD card is installed, this should display Date/time).  Right column:  battery charge indicator  No GPS (probably, though in certain conditions it may lock quickly and show the number of GPS satellites it's  receiving signals from)  ---m (height)  XXhXXm (elapsed time) 
  
 4c2. With the toggle switch in the up position (Bqm2/uSv/h), the display should show:  Only one column:  0uSv/hr  0CPM 0Bq/m2, alternating with Mx=0 (max reading since reset) Ds=0 (cumulative dose since reset)  NO SD CARD, etc, as above  
   
@@ -453,7 +453,7 @@ This completes the basic test. The following steps describe additional tests:
  
 **ADDITIONAL TESTS:** 
 
-5. To test the counter function with the sensor not connected, use a knife blade or other small piece of metal to make a brief connection between the plus and middle pins on the triple connector. The blue COUNT LED should light, the speaker should click softly, and the display will show counts each time the pins are touched(If the blue LED does not blink, it was probably installed with the polarity reversed. Another possibility is that the polarity of the diode (D1) is wrong. Check those, and remove and resolder them if necessary). 
+5. To test the counter function with the sensor not connected, use a knife blade or other small piece of metal to make a brief connection between the plus and middle pins on the triple connector. The blue COUNT LED should light, the speaker should click softly, and the display will show counts each time the pins are touched. (If the blue LED does not blink, it was probably installed with the polarity reversed. Another possibility is that the polarity of the diode (D1) is wrong. Check those, and if necessary remove and solder them again.) 
  
 6. Test the SD card:  
 6a. Since the card is only detected at startup, switch the power off ﬁrst.  
@@ -486,4 +486,4 @@ TROUBLESHOOTING
 
 PARAMETER SETTINGS 
 The MiniSD card that ships with the bGeigie Nano contains a settings ﬁle that has been pre-set by SAFECAST. While werecommend retaining the default settings, the parameters can be changed if desired. Itʼs best to make a copy of the ﬁle and keep it handy it handy, in case the SD card becomes damaged or corrupted. 
-The ﬁle is also available online at: <https://docs.google.com/spreadsheet/ccc?key=0Ag8Z8O-yL
+The ﬁle is also available online at: https://github.com/Safecast/bGeigieNanoKit/tree/master/SD%20card 
