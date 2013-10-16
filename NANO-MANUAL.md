@@ -8,7 +8,7 @@ To the new users of the bGeigie Nano, congratulations and welcome to the Safecas
 
 The kit format allows for cost savings and for DIY learning. The assembly can take as little as 3-4 hours depending on electronics skill and experience level. This assembly manual is for all users including novices. So we are trying to make these instructions clear, graphic and explicit. For some we're explaining the obvious, for others this still may not be helpful enough. If you're very experienced at assembling electronic devices, feel free to modify the order of the steps. 
 
-For support there's this community-edited wiki (https://github.com/Safecast/bGeigieNanoKit/wiki/_pages/, alias http://nano.safecast.org/), as well as  the github technical archives. See the website http://blog.safecast.org/ -- visit the links on the home page, including:  https://groups.google.com/forum/#!forum/safecast-devices "a group for the community to use for questions and protips and hacking ideas for Safecast". Many bGeigie Nano docs are available or are being added, including the schematic (circuit  diagram), the kit contents (parts list), user's manual, API interface guide, etc.
+For support there's this community-edited wiki (https://github.com/Safecast/bGeigieNanoKit/wiki/_pages/, alias http://nano.safecast.org/), within the github technical archive (https://github.com/Safecast/bGeigieNanoKit). See the website http://blog.safecast.org/ -- visit the links on the home page, including:  https://groups.google.com/forum/#!forum/safecast-devices "a group for the community to use for questions and protips and hacking ideas for Safecast". Many bGeigie Nano docs are available or are being added, including the schematic (circuit  diagram), the kit contents (parts list), user's manual, API interface guide, etc.
 
 ![](https://raw.github.com/safecast/bGeigieNanoKit/0fe74739db57eaff2645784c28dcb78e88a4b2f0/nano%20manual%20named%20pics/Pieter_frustrated.jpg)
 
@@ -487,3 +487,5 @@ TROUBLESHOOTING
 PARAMETER SETTINGS 
 The MiniSD card that ships with the bGeigie Nano contains a settings ﬁle that has been pre-set by SAFECAST. While werecommend retaining the default settings, the parameters can be changed if desired. Itʼs best to make a copy of the ﬁle and keep it handy it handy, in case the SD card becomes damaged or corrupted. 
 The ﬁle is also available online at: https://github.com/Safecast/bGeigieNanoKit/tree/master/SD%20card 
+
+
