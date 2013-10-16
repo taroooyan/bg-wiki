@@ -485,6 +485,6 @@ Optional beta window WiFi
 TROUBLESHOOTING 
 
 PARAMETER SETTINGS 
-The MiniSD card that ships with the bGeigie Nano contains a settings ﬁle that has been pre-set by SAFECAST. While werecommend retaining the default settings, the parameters can be changed if desired. Itʼs best to make a copy of the ﬁle and keep it handy it handy, in case the SD card becomes damaged or corrupted. 
+The MiniSD card that ships with the bGeigie Nano contains a settings ﬁle that has been pre-set by SAFECAST. While we recommend retaining the default settings, the parameters can be changed if desired. Itʼs best to make a copy of the ﬁle and keep it handy it handy, in case the SD card becomes damaged or corrupted. 
 The ﬁle is also available online at: https://github.com/Safecast/bGeigieNanoKit/tree/master/SD%20card 
 
