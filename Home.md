@@ -22,7 +22,6 @@ Pages to be added (or desired):
 * Mounting tips [how to attach the Nano securely to vehicles] [!]
 * Operating Manual (Nano user's guide) [!!!]
 * Options [Hard-, firm-, software updates and instructions] 
-* Parameter settings for MiniSD card (? file address in Kit Assembly Manual -- dead link 19/7) 
 * Parts list  (kit contents)
 * Safety caution (links to radiation safety manuals, Safecast brief on how to use a geiger counter reliably and safely)
 * Schematics [circuit diagrams are available in technical Nano github archive but ask for help?]
