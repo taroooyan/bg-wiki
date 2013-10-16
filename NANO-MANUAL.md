@@ -66,11 +66,11 @@ All of these will go on the main board. Place and solder them, nipping off the l
 [needs a callout: Black stripe]
 * Diode (D1): Take care with the polarity (see polarity note). The little black stripe on one end of the small orangish glass part should align with the small white stripe on the component outline on the board. 
 
-* Capacitors (C1- C3):They're blue with two leads. These have no polarity, and can go in either way. Take care not to split them in two by bending the leads outward too much. Itʼs ok for them to ride a little high off the board. 
+* Capacitors (C1- C3): They're blue with two leads. These have no polarity, and can go in either way. Take care not to split them in two by bending the leads outward too much. Itʼs ok for them to ride a little high off the board. 
 
-* LEDs: One each, red (the case is clear, though),and blue. These have polarity and must go in the proper orientation. One lead is longer than the other; this is the positive (+) lead. It goes in the hole marked "+" on the board. Also, if you look carefully, one side of the plastic case is ﬂattened; that's the negative (-) side. Take care not to overheat the LEDs when soldering! Wrong polarity is the most common mistake. 
-    *     Red (clear): goes in the "LOG/ALARM" spot 
-    *     Blue: goes in the "COUNT" spot 
+* LEDs ("COUNT"; "LOG/ALARM"): One each: Blue and Red. (The red LED has clear, no-color case.) These have polarity and must go in the proper orientation. One lead is longer than the other. This longer lead is the positive (+) lead. It goes in the hole marked "+" on the board. Also, if you look carefully, one side of the plastic case is ﬂattened -- that's the negative (-) side. Take care not to overheat the LEDs when soldering! Wrong polarity is the most common mistake. 
+    *     Blue LED (blue-green case): goes in the "COUNT" spot 
+    *     Red LED (clear no-color case): goes in the "LOG/ALARM" spot 
 
 * Transistor (T1): Goes in the "T1" spot. It has three leads, which need to be spread a bit to ﬁt. It needs to be mounted matching the shape on the board, with the ﬂat side of the case aligned with the ﬂat side of the diagram. 
  
@@ -487,5 +487,4 @@ TROUBLESHOOTING
 PARAMETER SETTINGS 
 The MiniSD card that ships with the bGeigie Nano contains a settings ﬁle that has been pre-set by SAFECAST. While werecommend retaining the default settings, the parameters can be changed if desired. Itʼs best to make a copy of the ﬁle and keep it handy it handy, in case the SD card becomes damaged or corrupted. 
 The ﬁle is also available online at: https://github.com/Safecast/bGeigieNanoKit/tree/master/SD%20card 
-
 
