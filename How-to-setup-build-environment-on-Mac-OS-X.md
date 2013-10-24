@@ -1,6 +1,6 @@
 # How to setup build environment on Mac OS X
 # Build yourself
-
+ (followed by appended stub on MS Windows firmware upgrade? -24-10.13)
 ## Setup for Mac OS X
 
 1. Install the latest FTDI serial driver: [http://www.ftdichip.com/Drivers/VCP/MacOSX/FTDIUSBSerialDriver_v2_2_17.dmg](http://www.ftdichip.com/Drivers/VCP/MacOSX/FTDIUSBSerialDriver_v2_2_17.dmg)
@@ -49,20 +49,28 @@ From a terminal type the following commands,
 
 
 # How to setup build environment on MS Windows
-#[stub, preliminary draft, 24-10-2013, tacked on to MAC]
+[for pc users, Stub-draft, note query, appended here to above firmware on MAC page, 24-10-2013]
 
-For firmware setup in MS Windows, apparently one has to modify the above MAC instructions with the following recommendations (quoted from a thread which began on 2013-07-06 entitled "V1.2.6" as posted on the Safecast Device Discussions and Support google group.  https://groups.google.com/forum/?hl=en#!topic/safecast-devices/106n-Bs3v-Q
+For firmware setup in MS Windows, apparently one has to modify the above MAC instructions with the following recommendations (quoting from Jul 21 and Aug 6 comments from a thread which began on 2013-07-06 entitled "V1.2.6" as posted on the Safecast Device Discussions and Support group,   https://groups.google.com/forum/?hl=en#!topic/safecast-devices/106n-Bs3v-Q
 
-Aug 6> For a Windows PC it is very easy to upload an HEX file into a bGeigeiNanao.
-http://xloader.russemotto.com/
-
-Jul 21> You will need to have FTDI driver from here;
+>>Jul 21> You will need to have FTDI driver from here;
 http://www.ftdichip.com/Drivers/VCP.htm
 
-Then, you will have to follow something similar to this instruction from Adafruit;
+>>Then, you will have to follow something similar to this instruction from Adafruit;
 http://ladyada.net/learn/avr/avrdude.html
 
-You will need avrdude;
+>>You will need avrdude;
 http://savannah.nongnu.org/projects/avrdude
 
+>>Aug 6> For a Windows PC it is very easy to upload an HEX file into a bGeigeiNanao.
+http://xloader.russemotto.com/
+<<
 
+
+[A few draft notes, by newbie, pc user)]
+
+The FTDI driver is for communication between pc and nano via the audio cord that comes with kit.
+
+Download the xloader.zip ; unzip; the XLoader folder includes avrdude files]
+
+Edit the file DEVICES.TXT in the XLoader folder. [A text code editor may be better than Windows Notepad for this?] 
