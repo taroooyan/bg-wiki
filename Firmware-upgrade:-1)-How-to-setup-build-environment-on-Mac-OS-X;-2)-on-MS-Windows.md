@@ -51,7 +51,7 @@ From a terminal type the following commands,
 # How to setup build environment on MS Windows
 #[stub, preliminary draft, 24-10-2013, tacked on to MAC]
 
-For firmware setup in MS Windows apparently modify the above MAC instructions with the following recommendations (quoted from a thread which began on 2013-07-06 entitled "V1.2.6" as posted on the Safecast Device Discussions and Support google group.  https://groups.google.com/forum/?hl=en#!topic/safecast-devices/106n-Bs3v-Q
+For firmware setup in MS Windows, apparently one has to modify the above MAC instructions with the following recommendations (quoted from a thread which began on 2013-07-06 entitled "V1.2.6" as posted on the Safecast Device Discussions and Support google group.  https://groups.google.com/forum/?hl=en#!topic/safecast-devices/106n-Bs3v-Q
 
 Aug 6> For a Windows PC it is very easy to upload an HEX file into a bGeigeiNanao.
 http://xloader.russemotto.com/
