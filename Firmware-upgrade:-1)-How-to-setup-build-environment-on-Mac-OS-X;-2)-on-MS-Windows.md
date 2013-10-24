@@ -44,3 +44,25 @@ From a terminal type the following commands,
 1. to upload the firmware to the Arduino Fio
 
          /usr/local/bin/avrdude -DV -p atmega328p -P /dev/tty.usbserial-A700eYeV -c arduino -b 57600 -U flash:w:bGeigieNano.hex:i
+
+
+
+
+# How to setup build environment on MS Windows
+#[stub, preliminary draft, 24-10-2013, tacked on to MAC]
+
+For firmware setup in MS Windows apparently modify the above MAC instructions with the following recommendations (quoted from a thread which began on 2013-07-06 entitled "V1.2.6" as posted on the Safecast Device Discussions and Support google group.  https://groups.google.com/forum/?hl=en#!topic/safecast-devices/106n-Bs3v-Q
+
+Aug 6> For a Windows PC it is very easy to upload an HEX file into a bGeigeiNanao.
+http://xloader.russemotto.com/
+
+Jul 21> You will need to have FTDI driver from here;
+http://www.ftdichip.com/Drivers/VCP.htm
+
+Then, you will have to follow something similar to this instruction from Adafruit;
+http://ladyada.net/learn/avr/avrdude.html
+
+You will need avrdude;
+http://savannah.nongnu.org/projects/avrdude
+
+
