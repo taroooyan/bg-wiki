@@ -67,9 +67,9 @@ http://xloader.russemotto.com/
 <<
 
 
-[A few draft notes, by newbie, pc user)]
+[A few notes, newbie interpretation of above)]
 
-The FTDI driver is for communication between pc and nano via the audio cord that comes with kit.
+The FTDI driver is for communication between pc and nano via the USB cable. (Besides recharging the battery, the Nano's usb cable does file transfer, here for loading ﬁrmware to the Arduino FIO.  (Not to be confused with the audio cord which can be used for data transfer to API on iPhone, iPad, or Mac...)
 
 Download the xloader.zip ; unzip; the XLoader folder includes avrdude files]
 
