@@ -25,7 +25,9 @@ Initially copied from June 2013 version on http://medcom.com/radiation-monitors/
 *       Dimensions: see http://www.pelican.com/cases_detail_specs.php?Case=1010 
 *       Weight (without added option in Xbee socket):  ?? gr
 *	Function button (user assignable)
-*	Wireless option – bluetooth, 802.15.4 or Wifi supported through Xbee socket – send data wirelessly to bGeigie Ninja or smartphone. Wireless components not included in this kit. (On experimental development, options, updates and all, see safecast-devices google group and follow the links on the Safecast website http://blog.safecast.org)
+*	Wireless option – bluetooth, 802.15.4 or Wifi supported through Xbee socket – send data wirelessly to bGeigie Ninja or smartphone. Wireless components not included in this kit. 
+(On experimental development, options, updates and all, follow the news and links on the Safecast website http://blog.safecast.org esp. Safecast Device Discussions and Support google group. e.g. thread which began on 2013-06-29 entitled "enticing looking socket on gGeigie Nano" https://groups.google.com/forum/?hl=en#!topic/safecast-devices/ZUurezK2aaE)
 *       Safecast logo and serial number on top panel
 
 For **Nano (kit assembly) Manual** see  https://github.com/Safecast/bGeigieNanoKit/wiki/NANO-MANUAL
+On firmware hardware licenses, notes, see https://github.com/Safecast/bGeigieNanoKit/blob/master/README.md
