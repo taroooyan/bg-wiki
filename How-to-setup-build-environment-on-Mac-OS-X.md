@@ -45,32 +45,27 @@ From a terminal type the following commands,
 
          /usr/local/bin/avrdude -DV -p atmega328p -P /dev/tty.usbserial-A700eYeV -c arduino -b 57600 -U flash:w:bGeigieNano.hex:i
 
-
-
+= = = = = = = = = 
 
 # How to setup build environment on MS Windows
-[for pc users, Stub-draft, note query, appended here to above firmware on MAC page, 24-10-2013]
+[for pc users, stub-draft, appended here to above firmware on MAC page, 24-10-2013]
 
-For firmware setup in MS Windows, apparently one has to modify the above MAC instructions with the following recommendations (quoting from Jul 21 and Aug 6 comments from a thread which began on 2013-07-06 entitled "V1.2.6" as posted on the Safecast Device Discussions and Support group,   https://groups.google.com/forum/?hl=en#!topic/safecast-devices/106n-Bs3v-Q
+Firmware build in MS Windows, quoting 3 helpful posts from Jul 21, Aug 6 and Oct 25 in thread which began on 2013-07-06 entitled "V1.2.6" in the Safecast Device Discussions and Support group,   https://groups.google.com/forum/?hl=en#!topic/safecast-devices/106n-Bs3v-Q
 
 >>Jul 21> You will need to have FTDI driver from here;
 http://www.ftdichip.com/Drivers/VCP.htm
 
->>Then, you will have to follow something similar to this instruction from Adafruit;
-http://ladyada.net/learn/avr/avrdude.html
-
->>You will need avrdude;
-http://savannah.nongnu.org/projects/avrdude
-
->>Aug 6> For a Windows PC it is very easy to upload an HEX file into a bGeigeiNanao.
+>>Aug 6> For a Windows PC it is very easy to upload an HEX file into a bGeigeiNano.
 http://xloader.russemotto.com/
+
+>>Oct 25> I used a Windows 7 64-bit system to do the upgrade. I downloaded and installed X-loader. I did not use the USB charging port on the Nano, but the 6 pin FTDI connector on the edge of the FIO. Purchase an FDTI breakout adapter https://www.sparkfun.com/products/9873      
+ 
+>>When you plug this little FDTI breakout board onto the 6 pin header and then plug the recharging usb cable into your computer, the Nano will power up by itself (even though the Nano power switch is off).
+ 
+>>I monitored device manager com ports to see the device appear and what com # Windows assigned to the device.
+ 
+>>Then Run X-loader, select com port, browse to HEX file, and I'm pretty sure I selected in the drop down Duemilanove/nano(ATmega328) device.  I left the baud rate at 57600 and hit upload.   If I remember correctly when it was done, the Nano rebooted/restarted all by itself and was running the new code.
 <<
 
+(Newbie notes on above: Download the xloader.zip ; unzip. The XLoader folder includes avrdude files and DEVICES.TXT which provide hardware options for the XLoader menu. The FTDI driver is for communication between pc and nano best via the "6-pin length of angled male header on the FIO... which connects the FIO to a computer for programming". (The FTDI Basic Breakout for Arduino FIO 3.3V is not to be confused with the audio cord which is used for data transfer to API on iPhone, iPad, or Mac. Nor with the power battery recharging USB cable. 
 
-[A few notes, newbie interpretation of above)]
-
-Download the xloader.zip ; unzip. (The XLoader folder includes avrdude files and DEVICES.TXT which provide hardware options for the XLoader menu.)
-
-The FTDI driver is for communication between pc and nano via the USB cable. (Besides recharging the battery, the Nano's usb cable does file transfer, here for loading ﬁrmware from pc to the Arduino FIO.  (Not to be confused with the audio cord which can be used for data transfer to API on iPhone, iPad, or Mac...)
-
-[When stuck RTM and ask support. If still in doubt ask your local help?)] 
