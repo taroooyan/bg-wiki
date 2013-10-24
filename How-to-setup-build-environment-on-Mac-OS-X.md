@@ -1,6 +1,6 @@
 # How to setup build environment on Mac OS X
+ (followed by appended stub on upgrading firmware on MS Windows pc)
 # Build yourself
- (followed by appended stub on MS Windows firmware upgrade? -24-10.13)
 ## Setup for Mac OS X
 
 1. Install the latest FTDI serial driver: [http://www.ftdichip.com/Drivers/VCP/MacOSX/FTDIUSBSerialDriver_v2_2_17.dmg](http://www.ftdichip.com/Drivers/VCP/MacOSX/FTDIUSBSerialDriver_v2_2_17.dmg)
@@ -44,9 +44,10 @@ From a terminal type the following commands,
 1. to upload the firmware to the Arduino Fio
 
          /usr/local/bin/avrdude -DV -p atmega328p -P /dev/tty.usbserial-A700eYeV -c arduino -b 57600 -U flash:w:bGeigieNano.hex:i
-
-= = = = = = = = = 
-
+  
+  
+  
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
 # How to setup build environment on MS Windows
 [for pc users, stub-draft, appended here to above firmware on MAC page, 24-10-2013]
 
@@ -68,4 +69,3 @@ http://xloader.russemotto.com/
 <<
 
 (Newbie notes on above: Download the xloader.zip ; unzip. The XLoader folder includes avrdude files and DEVICES.TXT which provide hardware options for the XLoader menu. The FTDI driver is for communication between pc and nano best via the "6-pin length of angled male header on the FIO... which connects the FIO to a computer for programming". (The FTDI Basic Breakout for Arduino FIO 3.3V is not to be confused with the audio cord which is used for data transfer to API on iPhone, iPad, or Mac. Nor with the power battery recharging USB cable.)
-
