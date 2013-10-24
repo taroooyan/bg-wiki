@@ -14,8 +14,6 @@ The bGeigie Nano has two operating (display and recording) modes, controlled by 
 +    The “up” position (to the right) switches the unit into geiger counter mode without recording (no logging). Fields displayed on the OLED are indicators for uSv/h dose-rate (Cs137), max dose-rate, dosimeter, Bq/m2 display (Cs137), time stamp and Alarm LED. 
 +    The “down” position puts the Nano into recording (logging, mobile tracing) mode. Displayed on the OLED are indicators for CPM and µSv/h, number of satellites locked, altitude (height m), distance traversed (km), total duration of measurement (h:m) and time stamp (dd:hh:mm:ss). When bGeigie Nano is switched to recording mode, the display shows whether a micro SD memory card is inserted or not. [The photo] displays the “NO SD CARD” message, meaning no card is inserted. When a card is inserted properly, this message will disappear. 
 
-Note: some features (like local date/time stamp) were fixed in firmware upgrades. For current version see the description of file bGeigieNano.[ino,hex] in https://github.com/Safecast/bGeigieNanoKit (V1.2.9 on 24-10-2013]  [needed wiki page on upgrading the firmware]
-
 In recording (logging) mode the display also shows a lock GPS indication. When the device locks onto GPS, it show the number of satellites found, and a small red LED will glow. The picture shows the “No GPS” message. In this case, GPS lock can be achieved by placing the device near a window and waiting for a few minutes
       - small Red LED will only glow if: GPS is locked, SD card is present, battery has more than 10% charge left, unit is on for one minute, geiger tube is providing a pulse). It can be dimmed by putting the DIP switch #2 Off.
       - Speaker "clicks" and small Blue LED blinks for each pulse from the geiger tube. It can be dimmed by putting the DIP switch #1 Off.
@@ -65,6 +63,9 @@ Other cautions:
     - more questions: go to nano.safecast.org, google group xyz or mail us at info@safecast.org
 
 Parameter settings: The SD card contains a setting file which must not be deleted from the card or the Nano wll not work properly.  In addition, it must be copied to any additional cards which will be used with the nano (This information can be edited to modify the device’s operation, but this is only recommended for expert users)  
+
+Firmware upgrades: for the current version of firmware see the description of file bGeigieNano in https://github.com/Safecast/bGeigieNanoKit (currently V1.2.9 on 24-10-2013]  [see wiki page "How to setup build environment..."]
+
 Troubleshooting
 
 
