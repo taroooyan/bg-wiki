@@ -73,4 +73,4 @@ The FTDI driver is for communication between pc and nano via the audio cord that
 
 Download the xloader.zip ; unzip; the XLoader folder includes avrdude files]
 
-Edit the file DEVICES.TXT in the XLoader folder. [A text code editor may be better than Windows Notepad for this?] 
+There is a file named DEVICES.TXT in the XLoader folder. [If to edit, a text code editor may be better than Windows Notepad. However editing this file necessary? (When stuck RTM and ask support. If still in doubt ask your local help?)] 
