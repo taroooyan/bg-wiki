@@ -29,5 +29,5 @@ Initially copied from June 2013 version on http://medcom.com/radiation-monitors/
 (On experimental development, options, updates and all, follow the news and links on the Safecast website http://blog.safecast.org esp. Safecast Device Discussions and Support google group. e.g. thread which began on 2013-06-29 entitled "enticing looking socket on gGeigie Nano" https://groups.google.com/forum/?hl=en#!topic/safecast-devices/ZUurezK2aaE)
 *       Safecast logo and serial number on top panel
 
-For **Nano (kit assembly) Manual** see  https://github.com/Safecast/bGeigieNanoKit/wiki/NANO-MANUAL
-On firmware hardware licenses, notes, see https://github.com/Safecast/bGeigieNanoKit/blob/master/README.md
+For **Nano (kit assembly) Manual**, see  https://github.com/Safecast/bGeigieNanoKit/wiki/NANO-MANUAL
+On **firmware history**, see https://github.com/Safecast/bGeigieNanoKit/commits/master  For **summary and licenses**, see https://github.com/Safecast/bGeigieNanoKit/blob/master/README.md
