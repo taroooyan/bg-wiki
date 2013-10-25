@@ -1,6 +1,6 @@
 # How to setup build environment on Mac OS X
  (followed by appended stub on upgrading firmware on MS Windows pc)
-# Build yourself
+# Build (firmware master by) yourself
 ## Setup for Mac OS X
 
 1. Install the latest FTDI serial driver: [http://www.ftdichip.com/Drivers/VCP/MacOSX/FTDIUSBSerialDriver_v2_2_17.dmg](http://www.ftdichip.com/Drivers/VCP/MacOSX/FTDIUSBSerialDriver_v2_2_17.dmg)
@@ -48,10 +48,10 @@ From a terminal type the following commands,
   
   
 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
-# How to setup build environment on MS Windows
-[for pc users, stub-draft, appended here to above firmware on MAC page, 24-10-2013]
+# How to install Nano firmware on MS Windows
+[for pc users, stub-draft, appended here to above MAC firmware build page]
 
-Firmware build in MS Windows, quoting 3 helpful posts from Jul 21, Aug 6 and Oct 25 in thread which began on 2013-07-06 entitled "V1.2.6" in the Safecast Device Discussions and Support group,   https://groups.google.com/forum/?hl=en#!topic/safecast-devices/106n-Bs3v-Q
+Firmware build in MS Windows -- quoting 3 helpful posts from Jul 21, Aug 6 and Oct 25 in thread which began on 2013-07-06 entitled "V1.2.6" in the Safecast Device Discussions and Support group,   https://groups.google.com/forum/?hl=en#!topic/safecast-devices/106n-Bs3v-Q
 
 >>Jul 21> You will need to have FTDI driver from here;
 http://www.ftdichip.com/Drivers/VCP.htm
