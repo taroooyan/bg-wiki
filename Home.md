@@ -27,4 +27,4 @@ Further relevant links
 * Safety and education note of caution [to be added in Operations Manual? how to use Nano reliably and safely?]
 
 Nano wiki page(s) to be added:
-* Nano kit parts list -- complete and detailed
+* Parts list -- (Nano kit contents described in Assembly manual. 
