@@ -7,6 +7,7 @@ Nano support addresses:
 * Safecast Device Discussions and Support https://groups.google.com/forum/#!forum/safecast-devices 
 * this community-edited Nano wiki (https://github.com/Safecast/bGeigieNanoKit/wiki/_pages);
 * the Nano github technical archive https://github.com/Safecast/bGeigieNanoKit/
+* Nano summary and licenses, see https://github.com/Safecast/bGeigieNanoKit/blob/master/README.md
 
 Existing wiki/_pages (in various stages of community drafting & editing):
 * Features/specifications of bGeigieNano
