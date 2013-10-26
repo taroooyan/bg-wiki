@@ -26,5 +26,5 @@ Further relevant links
 * History of nano development [search website, devices group, github master, wikipaedia, etc.]
 * Mounting tips [mentioned in Operations Manual and in photos on website]
 * Options list [possible XBee chip additions, i.e. barometer, BLE bluetooth...- see website and Devices group]
-* Safecast bGeigie Nano purchase order in USA via Medcom http://medcom.com/radiation-monitors/geiger-counters/bgeigie-kit/
+* Purchase Safecast bGeigie Nano in USA via Medcom order http://medcom.com/radiation-monitors/geiger-counters/bgeigie-kit/
 * Safety and education note of caution [to be added in Operations Manual? how to use Nano reliably and safely?]
