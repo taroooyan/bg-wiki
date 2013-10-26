@@ -18,7 +18,7 @@ For Nano description and support addresses:
 * Nano summary and licenses, see https://github.com/Safecast/bGeigieNanoKit/blob/master/README.md
 * Safecast Device Discussions and Support https://groups.google.com/forum/#!forum/safecast-devices 
 * Safecast website http://blog.safecast.org/  and its home page links
-* Schematics circuit diagrams in Eagle format https://github.com/Safecast/SafecastEagleHW/tree/master/bGeigieNanoKit
+* Schematics (circuit diagrams) in Eagle format https://github.com/Safecast/SafecastEagleHW/tree/master/bGeigieNanoKit
 
 Further relevant links 
 * API - query and add to the Safecast dataset with your own application at  https://api.safecast.org/  (concurrent data submission via apple audio cord or optional BLE-enabled chip, or retrospectively via API menu or emailed log??]
