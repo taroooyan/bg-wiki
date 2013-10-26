@@ -12,19 +12,19 @@ For Nano description and support addresses:
 Nano wiki/_pages (in various stages of community drafting):
 * Features/specifications of bGeigieNano
 * Firmware upgrade: how to setup build environment on Mac OS X [also on Nano firmware installation via MS-Windows]
-* Home   [this page]
+* Home [this page]
 * NANO MANUAL [Kit Assembly] 
 * Nano Operation Manual 
 
-Nano wiki page(s) to be added (or desired):
-* API interface (user's connecting to online database) [!!]
-* Nano kit parts list -- complete and detailed
-
-Links to other safecast pages and to related literature...  
-* API interface (user's connecting to online database) [!!]
-* History [search safecast website, devices group, github master, wikipaedia, etc.]  
+Further relevant links
+* API - query and add to the Safecast dataset with your own application at  https://api.safecast.org/  [Submit data via the mini-SD card or emailed logs, or;  on the App via apple audio cord or optional BLE-enabled bluetooth chip]
+* App: the Safecast Apple App uses geigerbot, has help screens as well as online help https://sites.google.com/site/geigerbot/docs 
+* History of nano development [search website, devices group, github master, wikipaedia, etc.]
 * Mounting tips [mentioned in Operations Manual and in photos on website]
-* Options list [possible XBee chip additions, i.e. barometer, BLE bluetooth...- see website and Devices group] 
-* Safety caution [search geiger use and radiation safety manuals, [Safecast brief on how to use a geiger counter reliably and safely?]
-* Schematics circuit diagrams are available in Eagle format https://github.com/Safecast/SafecastEagleHW/tree/master/bGeigieNanoKit [Query cognoscenti in devices discussion group.]
-  
+* Options list [possible XBee chip additions, i.e. barometer, BLE bluetooth...- see website and Devices group]
+* Schematics circuit diagrams in Eagle format https://github.com/Safecast/SafecastEagleHW/tree/master/bGeigieNanoKit
+* Safecast bGeigie Nano purchase order in USA via Medcom http://medcom.com/radiation-monitors/geiger-counters/bgeigie-kit/
+* Safety and education note of caution [to be added in Operations Manual? how to use Nano reliably and safely?]
+
+Nano wiki page(s) to be added:
+* Nano kit parts list -- complete and detailed
