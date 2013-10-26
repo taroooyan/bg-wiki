@@ -20,7 +20,7 @@ Nano KIT wiki page(s) to be added:
 * Parts list -- (Nano kit contents described in Assembly manual. 
 
 Further relevant links 
-* API - query and add to the Safecast dataset with your own application at  https://api.safecast.org/  [Submit data via the mini-SD card or emailed logs, or;  on the App via apple audio cord or optional BLE-enabled bluetooth chip]
+* API - query and add to the Safecast dataset with your own application at  https://api.safecast.org/  (concurrent data submission via apple audio cord or optional BLE-enabled chip, or retrospectively via API menu or emailed log??]
 * App: the Safecast Apple App uses geigerbot, has help screens as well as online help https://sites.google.com/site/geigerbot/docs 
 * History of nano development [search website, devices group, github master, wikipaedia, etc.]
 * Mounting tips [mentioned in Operations Manual and in photos on website]
