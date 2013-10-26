@@ -469,21 +469,18 @@ This completes the basic test. The following steps describe additional tests:
 ***
 ***
 
-##TO BE ADDED: 
+##MISCELLANEOUS: 
 
-SCHEMATICS 
+***PARAMETER SETTINGS:*** The MiniSD card that ships with the bGeigie Nano contains two pre-set ﬁles, CONFIG.TXT for communication rate and SAFECAST.TXT for some operating parameters. The parameters are described elsewhere in this bGeigieNanoKit/wiki and in the larger archive https://github.com/Safecast/. Edit the parameters accordingly.  Keep a backup of your 2 files in case the miniSD card becomes damaged or corrupted. Default settings are available online at: https://github.com/Safecast/bGeigieNanoKit/tree/master/SD%20card   
 
-OPERATION 
---Basic functions --connect to app --how to use API 
+***KIT ORDER FULFILLMENT:*** to request missing/replacement kit part(s) by air mail, contact info@safecast.org, as given in contacts on the safecast.org home page. (If you're in a hurry, search your local and web DIY electronics sources, e.g. https://www.sparkfun.com/categories). 
 
-MOUNTING TIPS 
+***TROUBLESHOOTING:*** Search, query and report the problem in the Safecast Device Discussions and Support group, https://groups.google.com/forum/?hl=en#!forum/safecast-devices. Also contact info@safecast.org.
 
-OPTIONS 
+***SCHEMATICS:*** circuit diagrams are available in Eagle format 
+https://github.com/Safecast/SafecastEagleHW/tree/master/bGeigieNanoKit [Query the cognoscenti in the devices discussion group.]
 
-Optional beta window WiFi 
+***COMMUNITY EDITED WIKI PAGES:*** For other docs see the pages, e.g. home page of this wiki https://github.com/Safecast/bGeigieNanoKit/wiki.  Join in the Devices discussion group and editing. Improve the manuals with your build experience and Nano use. 
 
-TROUBLESHOOTING 
 
-PARAMETER SETTINGS 
-The MiniSD card that ships with the bGeigie Nano contains a settings ﬁle that has been pre-set by SAFECAST. While we recommend retaining the default settings, the parameters can be changed if desired. Itʼs best to make a copy of the ﬁle and keep it handy it handy, in case the SD card becomes damaged or corrupted. 
-The ﬁle is also available online at: https://github.com/Safecast/bGeigieNanoKit/tree/master/SD%20card 
+
