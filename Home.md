@@ -11,7 +11,7 @@ For Nano description and support addresses:
 
 Nano wiki/_pages (in various stages of community drafting):
 * Features/specifications of bGeigieNano
-* Firmware upgrade: how to setup build environment on Mac OS X [also on Nano firmware installation via MS-Windows]
+* Firmware upgrade: how to setup build environment on Mac OS X [+note on MS-Windows Nano firmware installation]
 * Home [this page]
 * NANO MANUAL [Kit Assembly] 
 * Nano Operation Manual 
