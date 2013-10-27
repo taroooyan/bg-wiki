@@ -21,8 +21,8 @@ For Nano description and support addresses:
 * Schematics (circuit diagrams) in Eagle format https://github.com/Safecast/SafecastEagleHW/tree/master/bGeigieNanoKit
 
 Further relevant links 
-* API - query and add to the Safecast dataset with your own application at  https://api.safecast.org/  (concurrent data submission via apple audio cord or optional BLE-enabled chip, or retrospectively via API menu or emailed log??]
-* App: the Safecast Apple App uses geigerbot, has help screens as well as online help https://sites.google.com/site/geigerbot/docs 
+* API - https://api.safecast.org/ query and add to the Safecast dataset (data submission via apple audio cord or optional XBee (Wifi or BLE-enabled) chip, or from sd card via API menu or emailed log) [??]
+* App - https://itunes.apple.com/us/app/safecast/id571167450  The Safecast App uses "geiger bot, a radiation detection, mapping, and sharing app. (currently iOS only)". https://sites.google.com/site/geigerbot/ has help screens and online doc.  https://itunes.apple.com/us/app/safecast/id571167450?mt=8&uo=4
 * History of nano development [search website, devices group, github master, wikipaedia, etc.]
 * Mounting tips [mentioned in Operations Manual and in photos on website]
 * Options list [possible XBee chip additions, i.e. barometer, BLE bluetooth...- see website and Devices group]
