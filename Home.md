@@ -23,8 +23,8 @@ For Nano description and support addresses:
 Further relevant links 
 * API - https://api.safecast.org/ query and add to the Safecast dataset (data submission via apple audio cord or optional XBee (Wifi or BLE-enabled) chip, or from sd card via API menu or emailed log) [??]
 * App - https://itunes.apple.com/us/app/safecast/id571167450  The Safecast App uses "geiger bot, a radiation detection, mapping, and sharing app. (currently iOS only)". https://sites.google.com/site/geigerbot/ has help screens and online doc.  https://itunes.apple.com/us/app/safecast/id571167450?mt=8&uo=4
-* History of nano development [search website, devices group, github master, wikipaedia, etc.]
+* History of Safecast bGeigie Nano model [search website, devices group, github master, wikipaedia, etc.]
 * Mounting tips [mentioned in Operations Manual and in photos on website]
 * Options list [possible XBee chip additions, i.e. barometer, BLE bluetooth...- see website and Devices group]
 * Purchase Safecast bGeigie Nano in USA via Medcom order http://medcom.com/radiation-monitors/geiger-counters/bgeigie-kit/
-* Safety and education note of caution [to be added in Operations Manual? how to use Nano reliably and safely?]
+* Safety and education note of caution [to be added in Operations Manual? how to use Nano reliably and safely]
