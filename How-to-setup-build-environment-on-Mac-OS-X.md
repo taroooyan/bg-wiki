@@ -57,7 +57,7 @@ From a terminal type the following commands,
 ----
 ---- 
 # c) MS Windows: Nano firmware installation
-This stub on MS Windows firmware loading follows above on MAC build. To quote 3 helpful posts for pc users from Jul 21, Aug 6 and Oct 25, in thread which began on 2013-07-06 entitled "V1.2.6", in the Safecast Device Discussions and Support group, https://groups.google.com/forum/?hl=en#!topic/safecast-devices/106n-Bs3v-Q
+This firmware loading stub for MS Windows follows above on MAC build. To quote 3 helpful posts for pc users from Jul 21, Aug 6 and Oct 25, in thread which began on 2013-07-06 entitled "V1.2.6", in the Safecast Device Discussions and Support group, https://groups.google.com/forum/?hl=en#!topic/safecast-devices/106n-Bs3v-Q
 
 >>Jul 21> You will need to have FTDI driver from here;
 http://www.ftdichip.com/Drivers/VCP.htm
