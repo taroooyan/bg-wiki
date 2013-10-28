@@ -16,8 +16,8 @@ Initially copied from June 2013 version on http://medcom.com/radiation-monitors/
 *	Orange indicator LED for charge status
 *	Buzzer (can be switched off)
 *	Battery status indicator on OLED display, with low Battery alarm.
-*	**2000mAh 3.7V 7.4Wh Lithium Polymer battery** (Li-Po) for about 40-hours nonstop operation in bGeigie mode. USB rechargeable
-*	Memory: 2Gb SD micro card  (included)
+*	**2000mAh 3.7V 7.4Wh Lithium Polymer battery** (Li-Po) for about 40-hours nonstop operation in bGeigie mode. mini-USB rechargeable
+*	Memory: 2Gb micro-SD card  (included)
 *	Many parameters configureable through config file on µ-SD card (e.g. user name, conversion factor for µSv/h and Bq/m2, time interval, Safecast API format, fields of added options such as barometer's, etc.)
 *	Audio data communication cable for Apple iPad or iPhone
 *	Realtime clock
