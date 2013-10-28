@@ -6,7 +6,7 @@
 
 >>c) MS Windows - Nano firmware installation
 
-*[Load firmware with the Nano power switch off and with correct FTDI driver via FTDI-FIO 6-pin breakout adapter (https://www.sparkfun.com/products/9873), or; also [perhaps possible??] via recharging microUSB port. See http://www.ftdichip.com/FTDrivers.htm]*
+*[Load firmware with the Nano power switch off and with correct FTDI driver via FTDI-FIO 6-pin breakout adapter (https://www.sparkfun.com/products/9873), or; also [perhaps possible??] via recharging mini-USB port. See http://www.ftdichip.com/FTDrivers.htm]*
 
 # a) Build yourself
 ## Setup for Mac OS X
@@ -73,4 +73,4 @@ http://xloader.russemotto.com/
  
 >>Then Run X-loader, select com port, browse to HEX file, and I'm pretty sure I selected in the drop down Duemilanove/nano(ATmega328) device.  I left the baud rate at 57600 and hit upload.   If I remember correctly when it was done, the Nano rebooted/restarted all by itself and was running the new code.
 
-(Newbie notes on above: Download the xloader.zip ; unzip. The XLoader folder includes the avrdude files and also the DEVICES.TXT file which provides the hardware options for the XLoader menu. The FTDI driver is for communication between pc and nano best via the "6-pin length of angled male header on the FIO... which connects the FIO to a computer for programming". (The FTDI Basic Breakout for Arduino FIO 3.3V is not to be confused with the audio cord which is used for data transfer to API on iPhone, iPad, or Mac; nor with the microUSB cable [which is mainly for power to battery??].)
+(Newbie notes on above: Download the xloader.zip ; unzip. The XLoader folder includes the avrdude files and also the DEVICES.TXT file which provides the hardware options for the XLoader menu. The FTDI driver is for communication between pc and nano best via the "6-pin length of angled male header on the FIO... which connects the FIO to a computer for programming". (The FTDI Basic Breakout for Arduino FIO 3.3V is not to be confused with the audio cord which is used for data transfer to API on iPhone, iPad, or Mac; nor with the mini-USB cable [which is mainly for power to battery??].)
