@@ -6,7 +6,7 @@
 
 >>c) MS Windows - Nano firmware installation
 
-*[Load firmware with correct FTDI driver via FTDI-FIO 6-pin breakout adapter (https://www.sparkfun.com/products/9873), or; also [perhaps possible??] via recharging microUSB port. See  http://www.ftdichip.com/FTDrivers.htm]*
+*[Load firmware with the Nano power switch off and with correct FTDI driver via FTDI-FIO 6-pin breakout adapter (https://www.sparkfun.com/products/9873), or; also [perhaps possible??] via recharging microUSB port. See http://www.ftdichip.com/FTDrivers.htm]*
 
 # a) Build yourself
 ## Setup for Mac OS X
@@ -57,7 +57,7 @@ From a terminal type the following commands,
 ----
 ---- 
 # c) MS Windows: Nano firmware installation
-This MS Windows stub to above community-edited wiki page on MAC build quotes 3 helpful posts for pc users from Jul 21, Aug 6 and Oct 25, in thread which began on 2013-07-06 entitled "V1.2.6", in the Safecast Device Discussions and Support group, https://groups.google.com/forum/?hl=en#!topic/safecast-devices/106n-Bs3v-Q
+This stub on MS Windows firmware loading follows above on MAC build. To quote 3 helpful posts for pc users from Jul 21, Aug 6 and Oct 25, in thread which began on 2013-07-06 entitled "V1.2.6", in the Safecast Device Discussions and Support group, https://groups.google.com/forum/?hl=en#!topic/safecast-devices/106n-Bs3v-Q
 
 >>Jul 21> You will need to have FTDI driver from here;
 http://www.ftdichip.com/Drivers/VCP.htm
