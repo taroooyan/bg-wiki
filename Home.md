@@ -8,9 +8,7 @@ Nano wiki/_pages (in various stages of community drafting):
 * Home [this page]
 * NANO MANUAL [Kit Assembly] 
 * Nano Operation Manual 
-
-Nano KIT wiki page(s) to be added:
-* Parts list -- (Nano kit contents described in Assembly manual. 
+* Parts list (Nano kit contents); optional accessories 
 
 For Nano description and support addresses: 
 * this community-edited Nano wiki (https://github.com/Safecast/bGeigieNanoKit/wiki/_pages);
