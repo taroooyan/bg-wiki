@@ -192,8 +192,9 @@ caption:Placement of GPS.
 **Open Log:**
 (This writes the data to a micro-SD card) 
 * A 6-pin length of male header goes into the 6 holes at the top of the "OPEN LOG" spot on the main board; the long pins should be facing up with the OpenLog breakout held flat against the foam tape on the board.
-* Foam tape needs to be put on the main board beneath the OpenLog. This helps secure it, and prevents the SD card from accidentally being inserted into the space between the logger and the main board. Also very importantly, it will insulate the metal face of the OpenLog from the pins of the 3-pin angled connector attached to the bottom of the mainboard, and prevent it from shorting! 
+* Foam tape needs to be put on the main board beneath the OpenLog. This helps secure it, and prevents the microSD card from accidentally being inserted into the space between the logger and the main board. Also very importantly, it will insulate the metal face of the OpenLog from the pins of the 3-pin angled connector attached to the bottom of the mainboard, and prevent it from shorting! 
 * Once the OpenLog is secured with foam tape, solder the 6 pins of the header to the OpenLog from above. 
+*(The microSD card is inserted into the microSD card slot with the gold terminals facing up. Gently push the card in until it clicks into place.)
 
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/back_headers_top.jpg)
 caption: Three exposed pins need to be insulated from the OpenLog.
@@ -481,5 +482,4 @@ This completes the basic test. The following steps describe additional tests:
 https://github.com/Safecast/SafecastEagleHW/tree/master/bGeigieNanoKit [Query the cognoscenti in the devices discussion group.]
 
 ***COMMUNITY EDITED WIKI PAGES:*** For other docs see the pages, e.g. home page of this wiki https://github.com/Safecast/bGeigieNanoKit/wiki.  Join in the Devices discussion group and editing. Improve the manuals with your build experience and Nano use. 
-
 
