@@ -481,4 +481,4 @@ This completes the basic test. The following steps describe additional tests:
 ***SCHEMATICS:*** circuit diagrams are available in Eagle format 
 https://github.com/Safecast/SafecastEagleHW/tree/master/bGeigieNanoKit [Query the cognoscenti in the devices discussion group.]
 
-***COMMUNITY EDITED WIKI PAGES:*** For other docs see the pages, e.g. home page of this wiki https://github.com/Safecast/bGeigieNanoKit/wiki.  Join in the Devices discussion group and editing. Improve the manuals with your build experience and Nano use. 
+***CONGRATULATIONS!*** Report your build in the Devices discussion group. Help in Safecast efforts. Make good use of this new tool. Enjoy!
