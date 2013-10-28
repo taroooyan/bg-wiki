@@ -193,8 +193,8 @@ caption:Placement of GPS.
 (This writes the data to a micro-SD card) 
 * A 6-pin length of male header goes into the 6 holes at the top of the "OPEN LOG" spot on the main board; the long pins should be facing up with the OpenLog breakout held flat against the foam tape on the board.
 * Foam tape needs to be put on the main board beneath the OpenLog. This helps secure it, and prevents the microSD card from accidentally being inserted into the space between the logger and the main board. Also very importantly, it will insulate the metal face of the OpenLog from the pins of the 3-pin angled connector attached to the bottom of the mainboard, and prevent it from shorting! 
-* Once the OpenLog is secured with foam tape, solder the 6 pins of the header to the OpenLog from above. 
-*(The microSD card is inserted into the microSD card slot with the gold terminals facing up. Gently push the card in until it clicks into place.)
+* Once the OpenLog is secured with foam tape, solder the 6 pins of the header to the OpenLog from above. (The microSD card is inserted into the microSD slot with the card's gold terminals facing up. Gently push the card in until it clicks into place.)
+
 
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/back_headers_top.jpg)
 caption: Three exposed pins need to be insulated from the OpenLog.
@@ -289,7 +289,7 @@ caption: iRover installed in proper orientation.
 ***
 ***
 ##STEP 03: BATTERY 
-This battery is a 2000mAh 3.7V Lithium Polymer (Li-Po, Li-Poly). Attention: the battery is encased in a mylar membrane. If punctured, the battery can be hazardous. Handle carefully!  The battery's red and black wires may be reinforced with electrical insulation tape to prevent their falling off or being pulled out. (Do not attempt to reattach a loose wire to the battery. Although some say DIY repair is possible, it is not advisable given potential hazards.)  Charging the new battery full before first use may not be necessary, but it is recommended. (In startup the Nano OLED reports level of battery charge in %; in both modes display shows a battery measure graphic.) Recharging is via a cable between the Nano (the mini USB on bottom of the FIO) to a USB on a computer or on a Li-Po battery recharger. (When not recharged via a standard computer usb, the Lithium Polymer battery requires a special, correctly rated, USB recharger, such as https://www.sparkfun.com/products/10401 .) Replace a broken battery with the same rating. (The Nano charge circuit may overheat if larger batteries are used. The 2000mAh gives over 40 hours of continuous use.) 
+This battery is a 2000mAh 3.7V Lithium Polymer (Li-Po, Li-Poly). Attention: the battery is encased in a mylar membrane. If punctured, the battery can be hazardous. Handle carefully!  The battery's red and black wires may be reinforced with electrical insulation tape to prevent their falling off or being pulled out. (Some say DIY reattaching a loose wire to the battery is possible, but first see the cautions and potential hazards in datasheet https://www.sparkfun.com/products/8483.)  Charging the new battery full with the first use is recommended. Percentage of battery charge appears in the start-screen and a graphic indicator is displayed in the bottom right during use. Recharging is via a cable between the miniUSB port on bottom of the FIO to a USB on a computer or a correctly rated miniUSB recharger (such as https://www.sparkfun.com/products/10401). Replace a broken battery with the same rating. The Nano charge circuit may overheat if larger batteries are used. The 2000mAh gives over 40 hours of continuous use and is rated for over 300 recharging cycles.  Caution: NEVER charge the Nano while the unit is in ON. The Nano Power switch MUST be turned OFF before charging to avoid permanent damage to the charge circuit. Do not connect a miniUSB cable from a power-ON USB without first turning Power OFF on the Nano.
 
 This step is a little tricky, so do a dry run ﬁrst before actually attaching the battery with foam tape! 
 
@@ -482,4 +482,3 @@ This completes the basic test. The following steps describe additional tests:
 https://github.com/Safecast/SafecastEagleHW/tree/master/bGeigieNanoKit [Query the cognoscenti in the devices discussion group.]
 
 ***COMMUNITY EDITED WIKI PAGES:*** For other docs see the pages, e.g. home page of this wiki https://github.com/Safecast/bGeigieNanoKit/wiki.  Join in the Devices discussion group and editing. Improve the manuals with your build experience and Nano use. 
-
