@@ -190,7 +190,7 @@ caption:Placement of GPS.
 * NOTE:  The GPS unit comes with a metal battery clip. It's not needed, and in fact can cause problems if it's installed, so it's best to ignore it.
 
 **Open Log:**
-(This writes the data to a mini-SD card) 
+(This writes the data to a micro-SD card) 
 * A 6-pin length of male header goes into the 6 holes at the top of the "OPEN LOG" spot on the main board; the long pins should be facing up with the OpenLog breakout held flat against the foam tape on the board.
 * Foam tape needs to be put on the main board beneath the OpenLog. This helps secure it, and prevents the SD card from accidentally being inserted into the space between the logger and the main board. Also very importantly, it will insulate the metal face of the OpenLog from the pins of the 3-pin angled connector attached to the bottom of the mainboard, and prevent it from shorting! 
 * Once the OpenLog is secured with foam tape, solder the 6 pins of the header to the OpenLog from above. 
@@ -288,7 +288,7 @@ caption: iRover installed in proper orientation.
 ***
 ***
 ##STEP 03: BATTERY 
-This battery is a 2000mAh 3.7V Lithium Polymer (Li-Po, Li-Poly). Attention: the battery is encased in a mylar membrane. If punctured, the battery can be hazardous. Handle carefully!  The battery's red and black wires may be reinforced with electrical insulation tape to prevent their falling off or being pulled out. (Do not attempt to reattach a loose wire to the battery. Although some say DIY repair is possible, it is not advisable given potential hazards.)  Charging the new battery full before first use is recommended. (In startup the Nano OLED reports level of battery charge.) Recharging is via a cable between the Nano (the mini USB on bottom of the FIO) to a USB on a computer or on a Li-Po battery recharger. (When not recharged via a standard computer usb, the Lithium Polymer battery requires a special, correctly rated, USB recharger, such as https://www.sparkfun.com/products/10401 .) Replace a broken battery with the same rating. (The Nano charge circuit may overheat if larger batteries are used. The 2000mAh gives over 40 hours of continuous use.) 
+This battery is a 2000mAh 3.7V Lithium Polymer (Li-Po, Li-Poly). Attention: the battery is encased in a mylar membrane. If punctured, the battery can be hazardous. Handle carefully!  The battery's red and black wires may be reinforced with electrical insulation tape to prevent their falling off or being pulled out. (Do not attempt to reattach a loose wire to the battery. Although some say DIY repair is possible, it is not advisable given potential hazards.)  Charging the new battery full before first use may not be necessary, but it is recommended. (In startup the Nano OLED reports level of battery charge in %; in both modes display shows a battery measure graphic.) Recharging is via a cable between the Nano (the mini USB on bottom of the FIO) to a USB on a computer or on a Li-Po battery recharger. (When not recharged via a standard computer usb, the Lithium Polymer battery requires a special, correctly rated, USB recharger, such as https://www.sparkfun.com/products/10401 .) Replace a broken battery with the same rating. (The Nano charge circuit may overheat if larger batteries are used. The 2000mAh gives over 40 hours of continuous use.) 
 
 This step is a little tricky, so do a dry run ﬁrst before actually attaching the battery with foam tape! 
 
@@ -471,7 +471,7 @@ This completes the basic test. The following steps describe additional tests:
 
 ##MISCELLANEOUS: 
 
-***PARAMETER SETTINGS:*** The MiniSD card that ships with the bGeigie Nano contains two pre-set ﬁles, CONFIG.TXT for communication rate and SAFECAST.TXT for some operating parameters. The parameters are described elsewhere in this bGeigieNanoKit/wiki and in the larger archive https://github.com/Safecast/. Edit the parameters accordingly.  Keep a backup of your 2 files in case the miniSD card becomes damaged or corrupted. Default settings are available online at: https://github.com/Safecast/bGeigieNanoKit/tree/master/SD%20card   
+***PARAMETER SETTINGS:*** The micro-SD card that ships with the bGeigie Nano contains two pre-set ﬁles, CONFIG.TXT for communication rate and SAFECAST.TXT for some operating parameters. The parameters are described elsewhere in this bGeigieNanoKit/wiki and in the larger archive https://github.com/Safecast/. Edit the parameters accordingly.  Keep a backup of your 2 files in case the micro-SD card becomes damaged or corrupted. Default settings are available online at: https://github.com/Safecast/bGeigieNanoKit/tree/master/SD%20card   
 
 ***KIT ORDER FULFILLMENT:*** to request missing/replacement kit part(s) by air mail, contact info@safecast.org, as given in contacts on the safecast.org home page. (If you're in a hurry, search your local and web DIY electronics sources, e.g. https://www.sparkfun.com/categories). 
 
@@ -481,6 +481,5 @@ This completes the basic test. The following steps describe additional tests:
 https://github.com/Safecast/SafecastEagleHW/tree/master/bGeigieNanoKit [Query the cognoscenti in the devices discussion group.]
 
 ***COMMUNITY EDITED WIKI PAGES:*** For other docs see the pages, e.g. home page of this wiki https://github.com/Safecast/bGeigieNanoKit/wiki.  Join in the Devices discussion group and editing. Improve the manuals with your build experience and Nano use. 
-
 
 
