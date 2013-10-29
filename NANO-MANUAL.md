@@ -84,7 +84,7 @@ All of these will go on the main board. Place and solder them, nipping off the l
 
 * Shift switch (S1): goes in spot "S1." It has 3 leads which need to be soldered in place, plus 2 pins on the aluminum case which need to be nipped off. The 3 leads go in the 3 center holes in the board; the two outer holes are unused. (You could try ﬁling the aluminum case pins down enough to ﬁt in these holes, but it's secure enough attached by just the 3 leads.) [Function: "0 power 1"] 
 
-* Black or yellow push switch: goes in the "Fn" spot. (Formerly had two long angled leads and two short which were to be mounted in the holes that are set back from the edge of the board. Now shipped with four identical short legs. The leads can be bent so the switch lays ﬂat if desired.)  [Function: user assignable, optional, currently without use.]
+* Black or yellow push button switch: goes in the "Fn" spot. (Formerly this had two long angled leads and two short which were to be mounted in the holes that are set back from the edge of the board. Now shipped with four identical short legs. The leads can be bent so the switch lays ﬂat if desired.)  [Function: user assignable, optional, currently without use. ("Feel free to add code for custom function".)]
 
 **Audio:** there are two items, but only one goes in now: 
 * NOW: Piezo buzzer: Goes in the large circular spot in the upper left quadrant of the main board, and has {MISSING SOME TEXT HERE?}
