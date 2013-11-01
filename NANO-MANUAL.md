@@ -476,7 +476,7 @@ This completes the basic test. The following steps describe additional tests:
 
 ***PARAMETER SETTINGS:*** The micro-SD card that ships with the bGeigie Nano contains two pre-set ﬁles, CONFIG.TXT for communication rate and SAFECAST.TXT for certain operating parameters. The parameters are defined in [[source|https://github.com/Safecast/bGeigieNanoKit/blob/master/NanoSetup.cpp]] and to be listed elsewhere in this [[nano-wiki|https://github.com/Safecast/bGeigieNanoKit/wiki/_pages]] -- in the [[Nano Operation Manual|https://github.com/Safecast/bGeigieNanoKit/wiki/Nano-Operation-Manual]]. Edit the parameters accordingly.    Keep a backup of your 2 files in case the micro-SD card becomes damaged or corrupted. Default settings are available online in their [[safecast github folder|https://github.com/Safecast/bGeigieNanoKit/tree/master/SD%20card]].
 
-***KIT ORDER FULFILLMENT:*** to request missing/replacement kit part(s) by air mail, contact info@safecast.org, as given in contacts on the safecast.org home page. (If you're in a hurry, search your local and web DIY electronics sources, e.g. [[sparkfun|https://www.sparkfun.com/categories]]. 
+***KIT ORDER FULFILLMENT:*** to request missing/replacement kit part(s) by air mail, contact info@safecast.org, as given in contacts on the safecast.org home page. (If you're in a hurry, search your local and web DIY electronics sources, e.g. [[sparkfun|https://www.sparkfun.com/categories]].) 
 
 ***TROUBLESHOOTING:*** Search, query and report the problem in the [[Safecast Device Discussions and Support group|https://groups.google.com/forum/?hl=en#!forum/safecast-devices]]. Also contact info@safecast.org.
 
