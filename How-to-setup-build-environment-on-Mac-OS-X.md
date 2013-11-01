@@ -8,7 +8,7 @@
 
 *[Load firmware with the Nano power switch off and with correct FTDI driver via FTDI-FIO 6-pin breakout adapter (https://www.sparkfun.com/products/9873), or; also [perhaps possible??] via recharging mini-USB port. See http://www.ftdichip.com/FTDrivers.htm.*]
 
-**See https://github.com/Safecast/SafecastBGeigie for detailed instructions on firmware system setup]**
+**See on Setup System in the README.md at bottom of https://github.com/Safecast/SafecastBGeigie for detailed instructions]**
 
 # a) Build yourself
 ## Setup for Mac OS X
