@@ -6,7 +6,9 @@
 
 >>c) MS Windows - Nano firmware installation
 
-*[Load firmware with the Nano power switch off and with correct FTDI driver via FTDI-FIO 6-pin breakout adapter (https://www.sparkfun.com/products/9873), or; also [perhaps possible??] via recharging mini-USB port. See http://www.ftdichip.com/FTDrivers.htm]*
+*[Load firmware with the Nano power switch off and with correct FTDI driver via FTDI-FIO 6-pin breakout adapter (https://www.sparkfun.com/products/9873), or; also [perhaps possible??] via recharging mini-USB port. See http://www.ftdichip.com/FTDrivers.htm.*]
+
+**See https://github.com/Safecast/SafecastBGeigie for detailed instructions on firmware system setup]**
 
 # a) Build yourself
 ## Setup for Mac OS X
