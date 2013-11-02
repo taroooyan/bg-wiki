@@ -17,7 +17,7 @@ Safecast bGeigieNanoKit features description list. Community edited here in [[Na
 *	Battery status indicator on OLED display, with low Battery alarm.
 *	**2000mAh 3.7V 7.4Wh Lithium Polymer battery** (Li-Po) for about 40-hours nonstop operation in bGeigie mode. mini-USB rechargeable
 *	Memory: 2Gb micro-SD card  (included)
-*	Many parameters configureable through config file on µ-SD card (e.g. user name, conversion factor for µSv/h and Bq/m2, time interval, Safecast API format, fields of added options such as barometer's, etc.)
+*	Many parameters configureable through config file on micro-SD card (e.g. user name, conversion factor for µSv/h and Bq/m2, time interval, Safecast API format, fields of added options such as barometer's, etc.)
 *	Audio data communication cable for Apple iPad or iPhone
 *	Realtime clock
 *	**Pelican 1010 micro case**:  Clear plastic, hinged cover and strong latch. Water resistant (not for submerging), crushproof, and dust proof. Removable liner (in yellow, black, blue or red). With strap, plastic buckle and carabiner (spring hook) for easy carry or secure mounting on vehicle. (Compact size fits some bicycle cases.) 
