@@ -12,15 +12,16 @@ bGeigie Nano wiki/_pages (in various stages of community drafting):
 
 bGeigie Nano description and support addresses: 
 * this community-edited Nano wiki (https://github.com/Safecast/bGeigieNanoKit/wiki/_pages);
-* the Nano github technical archive https://github.com/Safecast/bGeigieNanoKit/
+* the Safecast bGeigie Nano github technical archive https://github.com/Safecast/bGeigieNanoKit/
 * Nano summary and licenses, see https://github.com/Safecast/bGeigieNanoKit/blob/master/README.md
-* Safecast Device Discussions and Support https://groups.google.com/forum/#!forum/safecast-devices 
+* Safecast Devices Discussions and Support https://groups.google.com/forum/#!forum/safecast-devices 
 * Safecast website http://blog.safecast.org/  and its home page links
 * Schematics (circuit diagrams) in Eagle format https://github.com/Safecast/SafecastEagleHW/tree/master/bGeigieNanoKit
 
-Further relevant links 
+More Safecast bGeigie Nano links 
 * API - https://api.safecast.org/ query and add to the Safecast dataset (data submission via apple audio cord or optional XBee (Wifi or BLE-enabled) chip, or from sd card via API menu or emailed log) [??]
-* App - https://itunes.apple.com/us/app/safecast/id571167450  The Safecast App uses "geiger bot, a radiation detection, mapping, and sharing app. (currently iOS only)". https://sites.google.com/site/geigerbot/ has help screens and online doc.  https://itunes.apple.com/us/app/safecast/id571167450?mt=8&uo=4
-* History of Safecast bGeigie Nano model [search website, devices group, github master, wikipaedia, etc.]
-* Purchase Safecast bGeigie Nano in USA via Medcom order http://medcom.com/radiation-monitors/geiger-counters/bgeigie-kit/
-http://medcom.com/imi-international-medcom-response-to-fukushima-daichi-event/
+* App - [[Safecast App|https://itunes.apple.com/us/app/safecast/id571167450]] uses "geiger bot, a radiation detection, mapping, and sharing app. (currently iOS only)". [[Geiger bot docs|https://sites.google.com/site/geigerbot/docs]]
+* Nano Kit Distributor: [[Medcom (USA) order|http://medcom.com/radiation-monitors/geiger-counters/bgeigie-kit/]]
+
+
+
