@@ -24,10 +24,10 @@ Safecast bGeigieNanoKit features description list. Community edited here in [[Na
 *       Dimensions: see http://www.pelican.com/cases_detail_specs.php?Case=1010 
 *       Weight (without added option in Xbee socket):  ?? gr
 *	Function button (user assignable)
-*	Wireless option – BLE-enabled bluetooth, 802.15.4 or Wifi supported through Xbee socket – send data wirelessly to bGeigie Ninja or smartphone. Wireless components not included in this kit. (On wireless and other developments, see the *[[Safecast Devices Discussions and Support group|https://groups.google.com/forum/?hl=en#!forum/safecast-devices]], thread entitled *[["enticing looking socket on bGeigie Nano"|https://groups.google.com/forum/?hl=en#!topic/safecast-devices/ZUurezK2aaE)]]* which began on 2013-06-29.  
+*	Wireless option – BLE-enabled bluetooth, 802.15.4 or Wifi supported through Xbee socket – send data wirelessly to bGeigie Ninja or smartphone. Wireless components not included in this kit. (On wireless and other developments, see the [[Safecast Devices Discussions and Support group|https://groups.google.com/forum/?hl=en#!forum/safecast-devices]], thread entitled [["enticing looking socket on bGeigie Nano"|https://groups.google.com/forum/?hl=en#!topic/safecast-devices/ZUurezK2aaE)]] which began on 2013-06-29.  
 *       Safecast logo and serial number on top panel
 
-Further information at the [[Safecast website|http://blog.safecast.org]]. Also these [[community-edited Nano wiki pages|https://github.com/Safecast/bGeigieNanoKit/wiki/_pages]] (e.g. the kit assembly NANO MANUAL, alias http://nano.safecast.org/). Within the [[github Nano repository|https://github.com/Safecast/bGeigieNanoKit]] see [[README.md|https://github.com/Safecast/bGeigieNanoKit/blob/master/README.md]]. Distributor: [[Medcom|http://medcom.com/radiation-monitors/geiger-counters/bgeigie-kit/]]. Contact info@safecast.org.
+Further information at the [[Safecast website|http://blog.safecast.org]]. Also these [[community-edited Nano wiki pages|https://github.com/Safecast/bGeigieNanoKit/wiki/_pages]] (e.g. the kit assembly NANO MANUAL, alias http://nano.safecast.org/). Within the [[github Nano repository|https://github.com/Safecast/bGeigieNanoKit]] see [[README.md|https://github.com/Safecast/bGeigieNanoKit/blob/master/README.md]]. Kit distributor: [[Medcom|http://medcom.com/radiation-monitors/geiger-counters/bgeigie-kit/]]. Contact info@safecast.org.
 
 
 
