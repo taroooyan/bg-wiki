@@ -8,7 +8,7 @@ To the new users of the bGeigie Nano, congratulations and welcome to the Safecas
 
 The kit format allows for cost savings and for DIY learning. The assembly can take as little as 3-4 hours depending on electronics skill and experience level. This assembly manual is for all users including novices. So we are trying to make these instructions clear, graphic and explicit. For some we're explaining the obvious, for others this still may not be helpful enough. If you're very experienced at assembling electronic devices, feel free to modify the order of the steps. 
 
-For support: join the [[Safecast Device Discussions and Support group|https://groups.google.com/forum/?hl=en#!forum/safecast-devices]]. Read the [[community-edited Nano wiki pages|https://github.com/Safecast/bGeigieNanoKit/wiki/_pages]] (among the wiki pages this kit assembly manual, alias http://nano.safecast.org/). Or for a technical source one might begin at [[README.md|https://github.com/Safecast/bGeigieNanoKit/blob/master/README.md]] within the [[github Nano repository|https://github.com/Safecast/bGeigieNanoKit]], or better at the [[bGeigie README|https://github.com/Safecast/SafecastBGeigie/blob/master/README.md]]. Surf the Safecast website http://blog.safecast.org/ and the links on the home page. Contact info@safecast.org.
+**For support**: join the [[Safecast Devices Discussions and Support group|https://groups.google.com/forum/?hl=en#!forum/safecast-devices]]. Read the [[community-edited Nano wiki pages|https://github.com/Safecast/bGeigieNanoKit/wiki/_pages]] (among the wiki pages this kit assembly manual, alias http://nano.safecast.org/). Or for a technical source one might begin at [[README.md|https://github.com/Safecast/bGeigieNanoKit/blob/master/README.md]] within the [[github Nano repository|https://github.com/Safecast/bGeigieNanoKit]], or better at the [[bGeigie README|https://github.com/Safecast/SafecastBGeigie/blob/master/README.md]]. Surf the Safecast website http://blog.safecast.org/ and the links on the home page. Contact info@safecast.org.
 
 ![](https://raw.github.com/safecast/bGeigieNanoKit/0fe74739db57eaff2645784c28dcb78e88a4b2f0/nano%20manual%20named%20pics/Pieter_frustrated.jpg)
 
@@ -478,7 +478,7 @@ This completes the basic test. The following steps describe additional tests:
 
 ***KIT ORDER FULFILLMENT:*** to request missing/replacement kit part(s) by air mail, contact info@safecast.org, as given in contacts on the safecast.org home page. (If you're in a hurry, search your local and web DIY electronics sources, e.g. [[sparkfun|https://www.sparkfun.com/categories]].) 
 
-***TROUBLESHOOTING:*** Search, query and report the problem in the [[Safecast Device Discussions and Support group|https://groups.google.com/forum/?hl=en#!forum/safecast-devices]]. Also contact info@safecast.org.
+***TROUBLESHOOTING:*** Search, query and report the problem in the [[Safecast Devices Discussions and Support group|https://groups.google.com/forum/?hl=en#!forum/safecast-devices]]. Also contact info@safecast.org.
 
 ***SCHEMATICS:*** available in Eagle format in their [[Safecast github repository|https://github.com/Safecast/SafecastEagleHW/tree/master/bGeigieNanoKit]] (For help locating circuit, query the cognoscenti in the [[devices discussion and support group|https://groups.google.com/forum/?hl=en#!forum/safecast-devices]].)
 
