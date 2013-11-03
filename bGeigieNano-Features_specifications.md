@@ -25,7 +25,7 @@ Safecast bGeigieNanoKit features description list. Community edited here in [[Na
 *	**Parameters configurable** through settings file on micro-SD card (according to Safecast API geo-tagged logging format, customizations, etc)
 *	 3.5 mm Apple **audio data communication cable** and jack (sends pulses to Safecast iOS app)
 *	 **Realtime clock**
-*	**Pelican 1010 micro case**:  Clear plastic, hinged cover and strong latch. Water resistant (not for submerging), crushproof, and dust proof. Removable liner (in yellow, black, blue or red). With strap, plastic buckle and carabiner (spring hook) for easy carry or secure mounting on vehicle. (Compact size fits some bicycle cases.) 
+*	**Pelican 1010 micro case**:  Clear plastic, hinged cover and strong latch. Water resistant (not for submerging), crushproof, and dust proof -- when closed. Removable liner (in yellow, black, blue or red). With strap, plastic buckle and carabiner (spring hook) for easy carry or secure mounting on vehicle. (Compact size fits some bicycle cases.) 
 *       **Dimensions**: see http://www.pelican.com/cases_detail_specs.php?Case=1010 
 *       **Weight** (including battery; without added option in Xbee socket and straps):  ?? gr
 *	**Function button** (user assignable)
