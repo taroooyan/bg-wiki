@@ -1,8 +1,9 @@
 # How to setup build environment on Mac OS X
+*(draft rev.1.11.13)*
 
->>*[Load firmware with the Nano power switch off and with correct FTDI driver via FTDI-FIO 6-pin breakout adapter (https://www.sparkfun.com/products/9873), or; [perhaps??] via recharging mini-USB port.]* 
+>>*Load firmware with an accessory FTDI breakout board 3.3V, for example this [[one| https://www.sparkfun.com/products/9873]] or that [[one| https://www.adafruit.com/products/284]]; with correct FTDI driver; and with the Nano power switch turned OFF.  [Or perhaps also can be loaded via Nano recharging mini-USB port??]* 
 
->>*See Setup System in the README.md at bottom of https://github.com/Safecast/SafecastBGeigie in the instructions there on programming bGeigie model, for possibly relevant photos on the Nano build ??]*
+>>*[See Setup System in the README.md at bottom of https://github.com/Safecast/SafecastBGeigie in the instructions there on programming bGeigie model, for possibly relevant photo on simpler loading of Nano build??]*
 
 >a) MAC - Build (from master by) yourself, or;
 
