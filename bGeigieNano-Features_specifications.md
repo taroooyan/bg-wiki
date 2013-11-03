@@ -5,7 +5,7 @@ Safecast bGeigieNanoKit features description list. Community edited here in [[Na
 *	**xGeigie mode** – geiger counter (no logging) with display indicators for µSv/h dose-rate (Cs137), max dose-rate, dosimeter, CPM, Bq/m2 (Cs137), time stamp and Alarm LED
 *	**iGeigie mode** – iPhone compatible output for Safecast iOS app. iPhone app shows dose rate and can upload data realtime to Safecast API.
 *	Hot switch between bGeigie and xGeigie modes (recording is paused in xGeigie)
-*	**Sensor**:  [[LND 7317|http://www.lndinc.com/products/17/]] “Pancake” Halogen-Quenched Geiger-Mueller (GM) tube; 2”; Effective diameter 1.75” (45 mm); Mica window density 1.5-2.0 mg/cm2; capable of detecting Alpha-, Beta-, Gamma- and X-radiation. Maximum range to about 1mSv/h dose rates. With Medcom iRover controller and HV (high voltage) supply.
+*	**Sensor**:  [[LND 7317|http://www.lndinc.com/products/17/]] “Pancake” Halogen-Quenched Geiger-Mueller (GM) tube; 2”; Effective diameter 1.75” (45 mm); Mica window density 1.5-2.0 mg/cm2; capable of detecting Alpha-, Beta-, Gamma- [[and X-radiation ??]. Maximum range to about 1mSv/h dose rates. With Medcom iRover controller and HV (high voltage) supply.
 *	**Dual use modular design** – main unit can be taken out of case for α-, β-detection, e.g. use as surface contamination survey meter
 *	High quality **GPS** receiver with external booster antenna connector
 *	**Dual CPU**: Atmel, Arduino. Open-source software.
