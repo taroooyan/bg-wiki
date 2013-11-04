@@ -1,4 +1,3 @@
-
 draft soon
 
 **Parts list (Nano kit contents)** [draft]
