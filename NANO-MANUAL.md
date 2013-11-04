@@ -32,7 +32,7 @@ ___
 (https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/assembly.jpg)
 
 ##STEP 00: SORT AND CHECK PARTS 
-It's a good idea to check the parts against the parts list (the three Placement Diagrams and the relevant photos in this manual). This is for you to identify the parts, and also to count and check that all contents arrived undamaged in the well packed parcel (e.g. battery wires, component connectors and pins did not break or get folded.)
+Open the well packed parcel. Identify, count and check the parts (against the three Placement Diagrams, relevant photos in this manual, and [[kit contents wiki page|https://github.com/Safecast/bGeigieNanoKit/wiki/Parts-and-accessories]] [soon]).  If part(s) are missing or damaged (e.g. battery wires, component connectors and pins did not break or get folded), see the Kit Order Fulfillment (at end of manual) and Support addresses (at top of manual). 
 
 ####POLARITY NOTE: 
 What is polarity and why should you care? Basically, several types of electronic components are designed to work with the current ﬂowing in one set direction only, while others can work either way. Putting a component that has polarity in the wrong way will usually only prevent the device from working properly, but in some circumstances it could fry a few things as well. So make sure! 
