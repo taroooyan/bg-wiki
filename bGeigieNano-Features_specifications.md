@@ -7,7 +7,7 @@ Safecast bGeigieNanoKit features description list. Community edited here in [[Na
 *	**iGeigie mode** – iPhone compatible output for Safecast iOS app (geiger bot): shows dose rate, mapping and can upload data realtime to Safecast API.
 *	**Hot switch** between bGeigie (logging) and xGeigie (no logging) modes (recording is paused in xGeigie)
 *	**Dual use modular design** – main unit can be taken out of case for α-, β-detection, for careful use as surface contamination spot meter
-*	**Sensor**:  [[LND 7317|http://www.lndinc.com/products/17/]] “Pancake” Halogen-Quenched Geiger-Mueller (GM) tube; 2”; Effective diameter 1.75” (45 mm); Mica window density 1.5-2.0 mg/cm2; capable of detecting Alpha-, Beta-, Gamma- and X-radiation. With Medcom iRover controller and HV (high voltage) supply.
+*	**Sensor**:  [[LND 7317|http://www.lndinc.com/products/17/]] “Pancake” Halogen-Quenched Geiger-Mueller (GM) tube; 2”; Effective diameter 1.75” (45 mm); Mica window density 1.5-2.0 mg/cm2; capable of detecting Alpha-, Beta- and Gamma-radiation. With Medcom iRover controller and HV (high voltage) supply.
 *       **Operating Range**: μSv/h**: .000 to 1,000 ; mR/hr: .000 to 100 ; CPM: 0 to 350,000 
 *       **Alarm LED** [and buzzer?] when warning level is set . Alert Range 0 to 99,999 CPM (maximum to about 1mSv/h dose rate).   
 *       **Accuracy**: +/- 10% typical, +/- 15% maximum   [* as with Onyx ?]  
