@@ -487,6 +487,7 @@ This completes the basic test. The following steps describe additional tests:
 ***CONGRATULATIONS!*** Report your build in the Devices discussion group. Help in Safecast efforts. Make good, safe use of this new tool. Enjoy!
 
 ---
-p.s. How long did it take you?  Peter Blakely recorded a time-lapse "bGeigie nano assembly in 2 min". 29-3-2013. http://vimeo.com/62926075 
 ---
 Further information at the [[Safecast website|http://blog.safecast.org]] and these [[community-edited Nano wiki pages|https://github.com/Safecast/bGeigieNanoKit/wiki/_pages]].
+
+p.s. How long did it take you?  Peter Blakely recorded a time-lapse "bGeigie nano assembly in 2 min". 29-3-2013. http://vimeo.com/62926075 
