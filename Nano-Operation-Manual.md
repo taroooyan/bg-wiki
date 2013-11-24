@@ -354,8 +354,7 @@ Other Files on the MicroSD Card:  The micro-SD card is delivered with apple disc
 
 - The date/time stamp on the display is in UTC (formerly called GMT) and not in local time. The time stamp is refreshed when a log data is written to the card. The time stamp is used to create the LOG file name. The UTC log filename may be +/- one day off from the local date of the measurement given time zones and IDL (International Date Line). The local time zone offset appears with the parameters in the top header line of the log file.
 
-09. **How to measure in surface mode**
-* (using the Nano taken outside of its case for α- and more β-detection)
+**09. How to measure in surface mode** (using the Nano taken outside of its case for α- and more β-detection)
 
 - removal from its case (with or without the rubber liner)
 
@@ -374,7 +373,7 @@ Kalin wrote: “The grid on the pancake sensor is only useful when you take the 
 “Averaging two different Nanos --you should only compare long-term counting (e.g. number of counts for 10 minutes). “ 
 
 
-10. **Mounting on person, vehicle, stand, etc.**
+**10. Mounting on person, vehicle, stand, etc.**
 
 Mobile sensor -- the Log mode display also shows height (m), distance traversed (km) and duration of measurement (hh:mm) The log file UTC date/time, TZ header, GPS coordinates, readings,… *[Mounting examples need editing and photos.]*
 
@@ -395,30 +394,22 @@ Mobile sensor -- the Log mode display also shows height (m), distance traversed 
 **Baby carriage** (Baby can kick Nano out when you’re not looking. Keep Nano fastened.. The height from ground setting is preset at 1 meter for car window. (On 2nd thought the Nano is not a baby toy given possible contamination in sampling.)
 
 
-**11. Safecast API, uploading sharing data to Safecast **
+**11. Safecast API, uploading sharing data to Safecast**
 
 Where once data logs were sent by email, now this is done by the safecast API
 
 The Safecast Dataset is meant to represent mobile background readings, not spot measures of items that happens to be in front of you. Hence the two modes on the device - one for logging and one for spot measurements. Monitoring use and data submission to gets further mention below: in Mode uses; in Uploading data via your API to Safecast dataset. *[Perhaps this should be more clearly stated on the api webpage. Hopefully a guide to monitoring and submitting logs to data-shared projects or successive revisions of this operation manual will explain this point clearly enough for novice Nano users. For reliability of dataset, perhaps need guide rules for mobile monitoring in api web page?]*
 
-You should not submit any readings that are samples of "items" or stationary static logs. [*need something here about the approval of data criteria ? guide to mobile logging? ]
+You should not submit any readings that are samples of "items" or stationary static logs. *[need something here about the approval of data criteria ? guide to mobile logging? datasets ;  make API account ;   steps  ??]*
 
-datasets 
-make API account
-steps  
-
-12. **Uploading data to other datasets (comparative note)**
+**12. Uploading data to other datasets (comparative note)**
 
 You can submit Nano measures to other radiation mapping datasets,. (The more the merrier. In any comparative note Safecast might stand out for its mobile monitoring, open datasets, mappings, visualization, reliability of measures, -- but that is separate study)
 
 Of course you need to configure the Nano sensor and your data with the other datasets. An exception may be the Cosm/Pachube setting in the Safecast geigerbot. (Theoretically you can upload to the mobile Safecast and the static Cosm/Pachube datasets simultaneously. However you’re either mobile or static. [??])  
 
 
-13. . **Downloading data from Safecast **
-whole dataset.csv in zip 
-* [Safecast] (Download Free) 
-
-CC0 legal status: web entry by joi. “The legal and ethical reasoning behind using CC0 for Safecast data”. Sept 5, 2011  http://creativecommons.org/publicdomain/zero/1.0/ 
+**13. . Downloading data from Safecast** whole dataset.csv in zip  * [Safecast] (Download Free)  CC0 legal status: web entry by joi. “The legal and ethical reasoning behind using CC0 for Safecast data”. Sept 5, 2011  http://creativecommons.org/publicdomain/zero/1.0/ 
 Creative Commons Zero, CC0 (occasionally written as CC Zero) is a public domain dedication that allows copyright holders to place works in the public domain to the extent legally possible, worldwide. “all rights granted” space of the public domain.
 
 Uses of data. analysis mapping , etc, mapped track of recording device..
@@ -479,8 +470,7 @@ app-API Troubleshooting
 >B. Enter your API key. Change the upload interval as desired, but you shouldn't change the Safecast device.<< back to nano 
 
 
-15. ** Troubleshooting:** Firmware, Hardware, Current bugs, Cleaning** 
-
+**15. Troubleshooting:** Firmware, Hardware, Current bugs, Cleaning**
 **Current bugs** Open issues are processed in the devices discussion group. could also be mentioned here in manual – under troubleshooting or separate item.?*)
 
 * Oct 2013. GPS model Adafruit “Ultimate GPS”. Failed on 7 recent builds. Manufacturer support forum thread opened on 28 Oct 2013. http://forums.adafruit.com/viewtopic.php?f=22&t=45198  Issue resolved with firmware fix, group threads https://groups.google.com/forum/?hl=en#!topic/safecast-devices/iRlxIvspjkE
@@ -514,7 +504,7 @@ Please check all solder joints carefully - you must have missed a joint or have 
 
 *LED wipe?  Work with the screen display turned off and cool.  Wipe the screen using light pressure.  Use clean, lint free cotton, microfiber cloths or low-lint wipes. ( 
 
-16. **Warranty, Certification, Calibration, reliability, validity**
+**16. Warranty, Certification, Calibration, reliability, validity**
 
 **Warranty**. This is a kit. See kit fulfillment in the Nano Manual Kit Assembly. email contact@safecast.org. 
 
@@ -547,7 +537,7 @@ Data interpretation, data sharing, interpretation, reliability, robustness, pres
 
 * On radiation units* (borrowing from Kalin comparing bGeigie against droids): >”…there’s a reasonable degree of variation that can be caused by the slight differences in the specs of the various devices. Though grays (Gy) are the technically correct unit to use for measuring activity in terms of “absorbed” dose, sieverts (Sv), which represent a conversion of this to “equivalent” dose, are more familiar to most people. When we are looking at gamma or beta activity, grays and sieverts are essentially equivalent numerically, despite their different meanings (much like how 1 liter of water weighs 1 kilo), and the labeling of the droid’s display might be confusing to some citizens. …accuracy range of 20% and a detection range of from 0.01 microsievert/hr to 5.0 Sievert/hr, uses Geiger-Muller sensors placed at 1 meter height, displaying averaged samples updated every 60 seconds, etc.. It also states clearly that the readings are intended as a general guideline only. 
 
-17. **Cautions, hardware protection ** 
+**17. Cautions, hardware protection ** 
 
 * The Pelican micro case is shockproof and water-resistant. However it is not waterproof and it cannot be used underwater. Condensation can build up in the case due to temperature differences. This condensation will evaporate with time, or can simply be removed by opening the unit and drying it {with fibrefree cloth}. Closed-up inside its case the Nano can be used on bicycles without problem.
 
@@ -598,5 +588,4 @@ Github is a community project development archive mainly for technical users. Sa
 Appropriate use of the Nano has a modest learning curve. Fortunately, the end user doesn’t have to master the fields of radiation safety, health physics and environmental sciences which in contrast are huge studies. Spot and mobile monitoring and crowd data-sharing projects require a orientation and a little practice.
 
 The Safecast end user, the volunteer civilian monitor, **the citizen scientist** is helping to collect data, environmental information, for the public and for scientists. Scientists may use this data in their research methods, possibly making science, possibly discovering new knowledge in their fields. With Nano use and contribution of data logs to web datasets, Nano users learn and teach about radiation detection, safety and many issues. 
-
 
