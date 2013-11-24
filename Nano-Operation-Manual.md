@@ -193,7 +193,7 @@ There are various small pieces, like headers, fasteners, spacers… Their specif
 
 + A Li-Po battery can be hazardous if mylar membrane is punctured. Handle carefully! (See the Manual on kit assembly for more on battery.) 
 
-04. ** TOOLS, ACCESSORIES, OPTIONS **
+**04. TOOLS, ACCESSORIES, OPTIONS**
 
 **The [[Safecast bGeigie Library|https://github.com/Safecast/SafecastBGeigie]]** is the code including the firmware building blocks, such as SD card logger, GPS parser, power management, etc in the form of an Arduino library.
 
@@ -409,7 +409,7 @@ You can submit Nano measures to other radiation mapping datasets,. (The more the
 Of course you need to configure the Nano sensor and your data with the other datasets. An exception may be the Cosm/Pachube setting in the Safecast geigerbot. (Theoretically you can upload to the mobile Safecast and the static Cosm/Pachube datasets simultaneously. However you’re either mobile or static. [??])  
 
 
-**13. . Downloading data from Safecast** whole dataset.csv in zip  * [Safecast] (Download Free)  CC0 legal status: web entry by joi. “The legal and ethical reasoning behind using CC0 for Safecast data”. Sept 5, 2011  http://creativecommons.org/publicdomain/zero/1.0/ 
+**13. Downloading data from Safecast** whole dataset.csv in zip  * [Safecast] (Download Free)  CC0 legal status: web entry by joi. “The legal and ethical reasoning behind using CC0 for Safecast data”. Sept 5, 2011  http://creativecommons.org/publicdomain/zero/1.0/ 
 Creative Commons Zero, CC0 (occasionally written as CC Zero) is a public domain dedication that allows copyright holders to place works in the public domain to the extent legally possible, worldwide. “all rights granted” space of the public domain.
 
 Uses of data. analysis mapping , etc, mapped track of recording device..
@@ -470,7 +470,7 @@ app-API Troubleshooting
 >B. Enter your API key. Change the upload interval as desired, but you shouldn't change the Safecast device.<< back to nano 
 
 
-**15. Troubleshooting:** Firmware, Hardware, Current bugs, Cleaning**
+**15.  Troubleshooting:** Firmware, Hardware, Current bugs, Cleaning**
 **Current bugs** Open issues are processed in the devices discussion group. could also be mentioned here in manual – under troubleshooting or separate item.?*)
 
 * Oct 2013. GPS model Adafruit “Ultimate GPS”. Failed on 7 recent builds. Manufacturer support forum thread opened on 28 Oct 2013. http://forums.adafruit.com/viewtopic.php?f=22&t=45198  Issue resolved with firmware fix, group threads https://groups.google.com/forum/?hl=en#!topic/safecast-devices/iRlxIvspjkE
@@ -510,7 +510,7 @@ Please check all solder joints carefully - you must have missed a joint or have 
 
 **Certification** “The nano itself will go through official certification for gamma reading inside and outside of the pelican case. Once this has been done and we find any variance, the nano allows for easy recallibration in the parameter file that's on the nano's SD card. ; the Onyx certification we found accuracy within 2% over a wide range of radiation. itself (like the Onyx with the same GM pancake sensor) Source” [[Information, Misinformation, Disinformation (or, these aren’t the droids you’re looking for)|http://blog.safecast.org/2012/12/information-misinformation-disinformation-or-these-arent-the-droids-youre-looking-for-part-1/ ]] Part 1 December 29, 2012, which blog article compares different kinds of radiation detectors, radiation units..…  
 
-Calibration, jam wrote in some blog or thread, the following:
+**Calibration**: jam wrote in some blog or thread, the following:
 “The sensor is pre-calibrated so nothing needs to be done on that end. The calibration of the unit for Bq for Cs assumes the grid is in front of the pancake. The difference is around 5%. For gamma only, the grid has negligibly effect on the measured value.
 
 “The uSv/h conversion from CPM is calibrated assuming the grid is on the tube. As all Safecast measurements are done with the pancake WITH grid, please keep the grid on the tube. The grid itself will not block alpha or beta, but reduces the sensitivity a little bit as the grid covers a small portion of the sensor. In practice the difference with and without grid will be around 4-5% for a beta source, and less for a gamma source.
@@ -537,7 +537,7 @@ Data interpretation, data sharing, interpretation, reliability, robustness, pres
 
 * On radiation units* (borrowing from Kalin comparing bGeigie against droids): >”…there’s a reasonable degree of variation that can be caused by the slight differences in the specs of the various devices. Though grays (Gy) are the technically correct unit to use for measuring activity in terms of “absorbed” dose, sieverts (Sv), which represent a conversion of this to “equivalent” dose, are more familiar to most people. When we are looking at gamma or beta activity, grays and sieverts are essentially equivalent numerically, despite their different meanings (much like how 1 liter of water weighs 1 kilo), and the labeling of the droid’s display might be confusing to some citizens. …accuracy range of 20% and a detection range of from 0.01 microsievert/hr to 5.0 Sievert/hr, uses Geiger-Muller sensors placed at 1 meter height, displaying averaged samples updated every 60 seconds, etc.. It also states clearly that the readings are intended as a general guideline only. 
 
-**17. Cautions, hardware protection ** 
+**17. Cautions, hardware protection** 
 
 * The Pelican micro case is shockproof and water-resistant. However it is not waterproof and it cannot be used underwater. Condensation can build up in the case due to temperature differences. This condensation will evaporate with time, or can simply be removed by opening the unit and drying it {with fibrefree cloth}. Closed-up inside its case the Nano can be used on bicycles without problem.
 
