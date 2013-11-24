@@ -103,29 +103,31 @@ Also in Safecast thread, it’s written: >”High zone is not for novice, but re
 
 Safecast bGeigie Nano kit is a **geo-tagged mobile sensor of ionizing radiation** with internet data sharing format and optional wireless capability. It follows from the earlier, larger Bento Geigie. The word “bento” is Japanese for lunchbox; Geigie is cute for Geiger counter; nano followed the mini model. Together with the distributor Medcom Safecast released the nano kit in May [??] 2013.
 
-Although Safecast’s history is outside the scope of this operation manual, a few paragraphs of background. Safecast is a civilian, citizen, non-governmental, non-profit organization which began in April 2011 as an initiative to monitor radioactive contamination from the Fukushima nuclear accident. Safecast’s emphasis on “open data” and environmental mapping stems from the perceived weakness in the initial environmental emergency reporting by the “competent authorities”. 
+Although Safecast is best described by its website [[Safecast/About pages|http://blog.safecast.org/about/]], meanwhile a few paragraphs of background (which may move to en.wiki).
 
-The Safecast organization in Japan began developing car-borne geo-tagged radiation measurement devices and crowd-sourced maps. Their mainly open-design, open-source monitoring and mapping tools have been developed at the Tokyo Hackerspace with inputs of friends from around the world. (For Adrian Storey’s [[3 minute film|http://vimeo.com/51823402]] on Safecast see [[the 14.11.2012 blog|http://blog.safecast.org/2012/11/safecast-short-film/]].
+ Safecast is a civilian, citizen, non-governmental, non-profit organization which began in April 2011 as an initiative to monitor radioactive contamination from the Fukushima nuclear accident. Safecast’s emphasis on “open data” and environmental mapping stems from the perceived weakness in the initial environmental emergency reporting by the “competent authorities”. 
 
-Safecast’s purpose dictated the development and design of the Nano kit mobile sensor. If the non-partisan Safecast organization has an agenda, it is in its **“pro-open data” banner**. The homepage header states, *“Safecast is a global sensor network for collecting and sharing radiation measurements to empower people with data about their environments.”* (The slogan on the flag could as well say, Safecast is to help official factors in charge of environmental monitoring to be honest with the public.) 
+The Safecast organization in Japan began developing car-borne geo-tagged radiation measurement devices and crowd-sourced maps which are mainly open-design, open-source hardware and software. Safecast Japan has coordinated the work, mainly at the Tokyo Hackerspace, with inputs of friends from around the world. (For Adrian Storey’s [[3 minute film|http://vimeo.com/51823402]] on Safecast see [[the 14.11.2012 blog|http://blog.safecast.org/2012/11/safecast-short-film/]].
 
-The structure of Safecast is presented in the team hierarchy page:
+Safecast’s purpose dictated the development and design of the Nano kit mobile sensor. If the non-partisan Safecast organization has an agenda, it is in its **“pro-open data” banner**. The homepage header states, ***“Safecast is a global sensor network for collecting and sharing radiation measurements to empower people with data about their environments.”*** 
 
-On the continuing development of open-source software: 
-In a thread on Nano software which began 10-Nov-2013, https://groups.google.com/forum/?hl=en#!topic/safecast-japan/ne5xjGk0lOQ
-Rob (roubouden) wrote: …>”Basically Lionel, Robin, Kalin, Joe and me are in charge for software development of the bGiegies. Pieter is coordinating most of the development. Most software is on Github. Intermediate releases are kept off line. Akiba(Chris) is the person who started with Pieter to make the hardware with his company FreakLabs. Naim made the boards for the bGiegienano. Talk with Pieter or Sean about what needs to be done.”
+On the continuing development of open-source software, quoting a thread on Nano software which began 10-Nov-2013, https://groups.google.com/forum/?hl=en#!topic/safecast-japan/ne5xjGk0lOQ
+Rob (roubouden) wrote: …>”Basically Lionel, Robin, Kalin, Joe and me are in charge for software development of the bGiegies. Pieter is coordinating most of the development. Most software is on Github. Intermediate releases are kept off line. Akiba(Chris) is the person who started with Pieter to make the hardware with his company FreakLabs. Naim made the boards for the bGiegienano. Talk with Pieter or Sean about what needs to be done.”  *[the history of safecast and nano is outside scope of manual. Move delete]*
 
-Quick list of main uses of the bGeigie Nano: mobile,. static or spot radiation detection. The main use is as a mobile geo-tagged sensor of radiation especially from car windows. It can also be used in static and spot measurements. 
-
-Rob answered this question on Nov 10: What is the functional comparative difference between the bGeigienano and my Inspector alert?
->”Lots of differences. Inspector is not a logging radiation device. So no GPS, no storage. Also the Inspector Alert is not open source hardware and not open source software.
+Quick list of main uses of the bGeigie Nano: mobile, static or spot radiation detection. The main use is as a mobile geo-tagged sensor of radiation especially from car windows. It can also be used in static and spot measurements. 
 
 These are some of the **Onyx Applications** in common to nano uses? 
+
 >Documenting the effectiveness of decontamination and safety programs. 
+
 >Sharing radiation measurements with a global mapping system developed by Safecast with MIT Media Lab. 
+
 >Monitoring possible radiation exposure while working around radionuclides or in contaminated environments. 
+
 >Alerting the user with an audible indicator if radiation goes above a pre‐set Alert level. 
+
 >Detecting noble gases [??] and low energy radionuclides. 
+
 >Continuous logging of radiation levels.<
 
 The Nano follows the prototype bento Geigie, and is followed by [or concurrent to] the Safecast Onyx. The Nano has the shape of a car window sensor box, the Onyx a touch button pocket cigarette lighter. They are more similar than they look as they have the same sensor. Where the Nano has self-contained GPS, the Onyx requires the GPS of connecting device (e.g. iOS apple phone). The Nano’s do it yourself, connect it yourself kit allows for customization, for cost savings and user learning. Modular options include an XBee socket, firmware reprogramming and an unassigned button. Options and extra tools are mentioned later in “More Parts”. 
@@ -148,64 +150,38 @@ It is very difficult to detect radioactive contamination in food or drink. Food 
 
 [[Nano features and specifications|https://github.com/Safecast/bGeigieNanoKit/wiki/bGeigieNano-Features_specifications]] are listed elsewhere in [[Nano wiki pages|https://github.com/Safecast/bGeigieNanoKit/wiki/_pages]]. The main part, the sensor is gets repeat mention here. 
 
-* The sensor is the 2” pancake GM tube [[LND 7317|http://www.lndinc.com/products/17/]], capable of measurement of alpha- and beta- as well as gamma- radiation (referenced for Cs-137 nuclide check source data efficiency). Nano's maximum operating range is to about 350,000cpm, or 1mSv/h (1 millisievert per hour dose rate or 1000µSv/h microsieverts per hour)
- (micro sometimes written with u, uSv=µSv). 
-(Radiation detection units are mentioned further in this guide, see Calibration, reliability. Radiation measurements are averaged, approximate; the more accurate the more complicated?? “Go learn nuclear physics.”)
+* The sensor is the 2” pancake GM tube [[LND 7317|http://www.lndinc.com/products/17/]], capable of measurement of alpha- and beta- as well as gamma- radiation (referenced for Cs-137 nuclide check source data efficiency). Nano's maximum operating range is to about 350,000cpm, or 1mSv/h (1 millisievert per hour dose rate or 1000µSv/h microsieverts per hour)  (micro sometimes written with u, uSv=µSv).  (Radiation detection units are mentioned further in this guide, see Calibration, reliability. Radiation measurements are averaged, approximate; the more accurate the more complicated?? “Go learn nuclear physics.”)
 
-@@@
 
-03, **PARTS (NAMES, FUNCTIONS, DIAGRAM)**
+**03. PARTS (NAMES, FUNCTIONS)** [needs diagram]
 
-Nano parts are listed here and there in github, in kit assembly manual, in specifications.
-(A complete Nano wiki parts page is still to do. The following draft is incomplete.)
+Nano parts are listed in github, in kit assembly manual, in specifications. (A complete Nano wiki parts page is still to do. The following draft list is incomplete.)
 
-Contents list is handy in the connecting the kit. It might also be useful for the technically advantaged who package their own kit, collect the Nano parts which are reportedly are all individually available on the shelf at their sources. (e.g. see below, the purple color PCB). 
+Contents list is handy in the connecting the kit. It might also be useful for the technically advantaged who package their own kit, collect the Nano parts which are reportedly are all individually available on the shelf at their sources.). 
 
 Other Small Parts
-0	NAME OF SMALL PART	POSITION
-4	LED R 	(Log/alarm)
-3	Dual-Dip-switch .	
-5	LED B 	Count
-2	Toggle Switch 	
-6	Piezo Buzzer	B1
-1	Switch on/off	
-7	3.5 mm Audio port connector	
-8	microUSB port for power charging 
-(+data upload FTDI-capable??)	
+* Switch on/off 
+* Toggle Switch  
+* Dual-Dip-switch . 
+* LED R  (Log/alarm)
+* LED B  (Count)
+* Piezo Buzzer (B1)
+* 3.5 mm Audio port connector 
+* microUSB port for power charging 
+* (+data upload FTDI-capable??) 
 
 Large parts
 
-1	LND-7317 pancake geiger 
-http://www.lndinc.com/products/17/
-
-2	+Medcom iRover HV board (TBA)
- http://medcom.com/imi-international-medcom-response-to-fukushima-daichi-event/ )
-
-3	PCB bGeigieNanoKit v.1.0 the kit has blue PCB. There is also a purple color PCB (community Printed Circuit Board ) http://oshpark.com/shared_projects/EElEjLq3 
-http://blog.safecast.org/2013/09/bgeigie-nano-pcb-available-now/
-
-4	Arduino Fio 
-https://www.sparkfun.com/products/10116
-
-5	OpenLog 
-https://www.sparkfun.com/products/9530
-
-6	Adafruit Ultimate GPS 
-https://www.adafruit.com/products/746
-
-7	Monochrome 128x32 OLED screen (or 128×64 high contrast, two display sizes supported )
-https://www.adafruit.com/products/661
-
-8	2000mAh 3.7V 7.4Wh Lithium Polymer battery (Li-Po) 
- https://www.sparkfun.com/products/8483
-
-9	Pelican 1010 micro-case (with lanyard, carabiner for the Japanese market)
-http://www.pelican.com/cases_detail.php?Case=1010
-
-10	Apple audio cable with 3.5mm jack (white bidirectional stereo) 
-http://store.apple.com/us/product/HA829ZM/A/belkin-35mm-retractable-stereo-cable-1-m33-ft?fnode=3a
-
-	
+* [[LND-7317 pancake Geiger|http://www.lndinc.com/products/17/]]
+* [[Medcom iRover HV board (TBA)|http://medcom.com/imi-international-medcom-response-to-fukushima-daichi-event/ ]]
+* PCB bGeigieNanoKit v.1.0 the kit has blue PCB. There is also a purple color PCB (community Printed Circuit Board ) http://oshpark.com/shared_projects/EElEjLq3  Aslo see  http://blog.safecast.org/2013/09/bgeigie-nano-pcb-available-now/
+* [[Arduino Fio|https://www.sparkfun.com/products/10116]]
+* [[OpenLog |https://www.sparkfun.com/products/9530]]
+* [[Adafruit Ultimate GPS|https://www.adafruit.com/products/746]]
+* [[Monochrome 128x32 OLED screen (or 128×64 high contrast, two display sizes supported|https://www.adafruit.com/products/661]]
+* [[2000mAh 3.7V 7.4Wh Lithium Polymer battery (Li-Po)| https://www.sparkfun.com/products/8483]]
+* [[Pelican 1010 micro-case|http://www.pelican.com/cases_detail.php?Case=1010]]
+* [[Audio cable with 3.5mm jack (white bidirectional stereo)| http://store.apple.com/us/product/HA829ZM/A/belkin-35mm-retractable-stereo-cable-1-m33-ft?fnode=3a]]
 
 There are various small pieces, like headers, fasteners, spacers… Their specific description and online source catalog numbers could be included in the nano wiki parts list. 
 *
