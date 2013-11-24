@@ -1,63 +1,105 @@
-https://github.com/Safecast/bGeigieNanoKit/wiki/Nano-Operation-Manual
-
-Nov 24, 2013 – verbose draft needs editing. Adds from ebsite, devices group, app, etc. hopefully excerpts in context, usually without attribution. Community-edited wiki page. (needs more input  photos, log file, LEDs diagrams, etc.  Please check [??]=unsure
-
-Community edited operation manual is for nano users including novices. When this user guide doesn’t answer your Nano question, then surf the resources, read the [[community-edited Nano wiki|https://github.com/Safecast/bGeigieNanoKit/wiki/_pages]], go to support ([[devices group|https://groups.google.com/forum/?hl=en#!forum/safecast-devices]], contact info@safecast.org). 
-
 ***Safecast bGeigie Nano Operation Manual***
 
-Contents: Nano operation guide:
+Nov 24, 2013 –. verbose draft needs editing. Excerpts from website, devices group, app, etc. hopefully in context, usually without attribution. Community-edited wiki page. (needs more input, photos, log file, LEDs diagrams, etc.  Please check [??]=unsure
 
-01. 	Resources, links, support
-
-02. 	Model name, description, uses/agendas. 
-
-03. 	Parts (names, functions, diagram) incl switches 
-
-04. 	Tools, accessories, options 
-
-05. 	** Parameter Settings; Data Log; MicroSD Files **
-
-06. 	LED display fields, Toggle Modes 
-
-07. 	Start: Boot sequence
-
-08. 	How to measure in logging mode
-
-09. 	How to measure in surface mode
-
-10. 	Mounting on person, vehicle, stand, etc.
-
-11. 	API, uploading sharing data to Safecast 
-
-12. 	Uploading data to other datasets (comparative note)
-
-13. 	Downloading data from Safecast 
-
-14. 	iOS app -- Safecast Geiger Bot 
-
-15. 	Troubleshooting: Firmware, Hardware, Bugs, Cleaning, etc.
-
-16. 	**Warranty, Certification, Calibration, reliability, validity, units**
-
-17. 	Hardware Cautions 
-
-18. 	Safety tips for radiation detection
+[[https://github.com/Safecast/bGeigieNanoKit/wiki/Nano-Operation-Manual| https://github.com/Safecast/bGeigieNanoKit/wiki/Nano-Operation-Manual]]
+Part of [[community-edited Nano wiki|https://github.com/Safecast/bGeigieNanoKit/wiki/_pages]]. For support also read and query ([[devices group|https://groups.google.com/forum/?hl=en#!forum/safecast-devices]], contact info@safecast.org), etc.
 
 
-01. ** RESOURCES, LINKS, SUPPORT**: A brief orientation to information resources for users of the Safecast bGeigie Nano mobile sensor of ionizing radiation. 
+**Contents:**
 
-The Safecast website http://blog.safecast.org/ has articles, news, notices, API upload and open download of crowd-sourced radiation data and visualized mapping, etc
+**01.  Safety tips for radiation detection**
 
-Join the Safecast Devices Discussions and Support: ([[devices group|https://groups.google.com/forum/?hl=en#!forum/safecast-devices]]. “A discussion group for the community using and hacking Safecast designed open source hardware including the Medcom Onyx and the bGeigie Nano”. It is listed among several links on the Safecast home page.
+**02.  Model name, description, uses/agendas**
 
-Github is a community project development archive mainly for technical users. Safecast currently has 16 public github respositories, repos or buckets, including [[bGeigieNanoKit|https://github.com/Safecast/bGeigieNanoKit/]], the more veteran firmeware [[SafecastBGeigie|https://github.com/Safecast/SafecastBGeigie]], the electronics [[Eagle repo|https://github.com/Safecast/SafecastEagleHW]], etc.
+**03.  Parts (names, functions, diagram) incl switches**
 
-Appropriate use of the Nano has a modest learning curve. Fortunately, the end user doesn’t have to master the fields of radiation safety, health physics and environmental sciences which in contrast are huge studies. Spot and mobile monitoring and crowd data-sharing projects require a orientation and a little practice.
+**04.  Tools, accessories, options**
 
-The Safecast end user, the volunteer civilian monitor, **the citizen scientist** is helping to collect data, environmental information, for the public and for scientists. Scientists may use this data in their research methods, possibly making science, possibly discovering new knowledge in their fields. With Nano use and contribution of data logs to web datasets, Nano users become familiar with radiation detection and many issues. Reference to background information is an ongoing study, which requires separate wiki- or webpage -- favorite useful reference links of Safecast users… Everyone can surf and find resources, background information and reference desk. 
+**05.  Parameter Settings; Data Log; MicroSD Files**
 
-02. ** MODEL NAME, SAFECAST HISTORY, DESCRIPTION, USES/AGENDAS.. **
+**06.  LED display fields, Toggle Modes**
+
+**07.  Start: Boot sequence**
+
+**08.  How to measure in logging mode**
+
+**09.  How to measure in surface mode**
+
+**10.  Mounting on person, vehicle, stand, etc.**
+
+**11.  API, uploading sharing data to Safecast**
+
+**12.  Uploading data to other datasets (comparative note)**
+
+**13.  Downloading data from Safecast**
+
+**14.  iOS app -- Safecast Geiger Bot**
+
+**15.  Troubleshooting: Firmware, Hardware, Bugs, Cleaning, etc.**
+
+**16.  Warranty, Certification, Calibration, reliability, validity, units**
+
+**17.  Hardware Cautions**
+
+**18.  Resources, links, support**
+ 
+ -
+**01.  Safety tips for radiation detection**
+Familiarity with Nano’s operation includes awareness of its safe use.  Nano users don’t all begin at the same place. A naïve casual approach may not be hazardous, but it is inappropriate. This radiation detection safety advice is taken from various sources especially Safecast films, blogs, help, threads and links.
+
+[[Video on radiation absorption filtering methods| http://blog.safecast.org/2011/05/radiation-measurement-experiment/]]: The Safecast team members wear work overalls (not their ordinary clothing). Reportedly they have backup hazmat gear in the car. Their approach is serious and careful, not casual or light, around hot readings.
+
+**Guest blog by Marco Kaltofen, June 24, 2011**, [[Measuring hot particles from air filters| http://blog.safecast.org/2011/06/measuring-hot-particles-from-air-filters/]], attaches an informative [[sampling guide|http://www.naticklabs.org/samplinginstructions.pdf]] http://www.naticklabs.org/samplinginstructions.pdf. The guideline is for sampling air filters study. It focuses on sampling rules, various grades of filtering masks, bagging, labeling, shipping to laboratory of radioactive samples. But a great part of Marco’s cautions are relevant and important for the Nano user. Here are a few of the safety items.
+
+>Remember that radioactive dusts can be inhaled, ingested, or can be retained on clothing and shoes. You can walk away from external radiation, but radioactive dust may result in lifelong exposures !
+
+>Do not use tobacco, eat, or drink while sampling. This reduces the chances of ingesting radioactive dusts. 
+
+>When sampling, wear long sleeved shirts, trousers, and shoes that cover your feet – no sandals. 
+
+>Use disposable gloves while sampling to reduce cross contamination between samples, and to reduce your exposure to dusts. 
+
+>Do not bring contaminated samples, used masks and gloves, or dusty clothing into clean environments. Bag your dusty used gear before entering your vehicle or home. 
+
+>Wash hands or better yet, shower, after leaving the field. 
+
+
+**In a FAQ** on radiation safety. 
+>What is Safe?
+>Short answer: Good question. 
+>Long answer: Unfortunately there is very little agreement within the health physics world about what is safe and what is unsafe. While there are some things that are generally agreed upon, children and pregnant women are at greater risk for example, there is no clear measurement that is the cut off point for safe or not. What’s most important is being aware of what you are exposed to, and what others are exposed to so you can decide if that is acceptable or not. The matter is very complex because risk factors are very different for individual people based on age, existing health issues, exposure time, areas of exposure, etc… therefore risk is best gauged on an individual basis and not generalized to the entire population.
+
+>One caveat: Individual comfort levels should not be discounted, and different people will be more or less comfortable with various levels.
+
+In early blog, Jun 2, 2011, [[Farm readings in Hanawa near Shirakawa| http://blog.safecast.org/2011/06/farm-readings-in-hanawa-near-shirakawa/]], it was stated that “100 counts per minute, equivalent to approximately .3 microSieverts per hour, *above background level* is considered contaminated.”
+
+**ADVISORY IN HELP FILE** example of a caution inside a help doc, Nick Dolezal in his [[Geiger Bot app docs|https://sites.google.com/site/geigerbot/docs]] brings this caution: 
+>* WARNING! The indicators and dose equivalent rate displayed by Geiger Bot are not a guarantee of safety. There are types of radiation that are difficult to measure with standard GM tubes (alpha, soft beta, neutron, soft x-ray, etc). The greatest risk to your health is likely from ingesting or inhaling radioisotopes, and a gross radiation background count cannot directly measure that.
+>It is also very difficult to detect contamination in food or drink, and is usually something done by a laboratory scintillation counter with chemically processed samples.
+
+**ADVICE IN DISCUSSION GROUP THREAD** A good example of quality explanation of radiation safety and safe use, see Kalin’s thread begun 26 Jan 2013, [[Radiation safety: educated guess|https://groups.google.com/forum/?hl=en#!searchin/safecast-japan/safety/safecast-japan/fV_DAWD63fo/uA_W_1rUhzgJ]].
+
+**RECOMMENDED LINKS:** example of recommended good link given in a devices group thread:
+> Safety notes: How can I find out the relative danger from these readings to put some perspective onto them?   -- 
+
+> Get a degree in nuclear engineering, LoL . Really it is a very difficult question that we avoid to answer directly. For a "starter" and a longish answer see: Google good readable safety orientation: http://shop.perkinelmer.com/content/manuals/gde_safehandlingradioactivematerials.pdf
+
+The web has endless information on safe use of radiation detection devices. Find your own favorite safety page. Share your information and experience with others
+
+Avoid radiation hazards that can be avoided. If you find some high hot sample or field – USE YOUR HEAD AND YOUR NANO. Don't touch it or hold it directly. Back off. Walk away. Monitor everything. Especially spot read yourself. Did you, your belongings, your shoes pick up contamination? Don’t track it with you into your house. Be especially careful with food. Avoid ingestion of radiation. For example, if you have open leafy vegetables from market which rested or contacted the hot spot or matter’s dusty vicinity, use the nano to spot check the food for possible contamination. If in doubt, throw it out. And don’t take food along, don’t mix food with monitoring—as written in Marco’s rules. Wash your hands. Within limits, paranoia can be rational, sensible, reasonable…
+
+“If an instrument indicates an unexpectedly high dose rate, believe it and leave the area as soon as possible. Do not assume that it is an instrument failure. (Only once away from the high dose rate area should the instrument functionality be assessed.)” -- from http://www.hse.gov.uk/pubns/irp7.pdf 
+
+Also in Safecast thread, it’s written: >”High zone is not for novice, but requires training…”
+
+*Many Nano users probably will not find any notable radiation. But you never know. If on your first use, you should stumble upon an extremely high sample, such as [[an antique radium kit c.1904|https://groups.google.com/forum/?hl=en#!searchin/safecast-devices/radium/safecast-devices/KGJOPe61in4/vUbLUtE1I7MJ]], you can high score and return the console for full refund and prize. Congratulations! You won the game on your first outing! – (Ah, unfortunately, the bGeigie Nano is not an internet game. Would that there was no need for this and Safecast was a game.)*
+
+
+*[delete safety section and leave pointer, if section moved to separate wiki page]*
+
+
+**02. MODEL NAME, SAFECAST HISTORY, DESCRIPTION, USES/AGENDAS**
 
 Safecast bGeigie Nano kit is a **geo-tagged mobile sensor of ionizing radiation** with internet data sharing format and optional wireless capability. It follows from the earlier, larger Bento Geigie. The word “bento” is Japanese for lunchbox; Geigie is cute for Geiger counter; nano followed the mini model. Together with the distributor Medcom Safecast released the nano kit in May [??] 2013.
 
@@ -592,56 +634,14 @@ But, the membrane is basically extremely thin glass. Mica to be precise, so it's
 <<
 
 @@@
-18. ** Safety tips for radiation detection ** 
+**18. RESOURCES, LINKS, SUPPORT**: repeats on information resources for users of the Safecast bGeigie Nano mobile sensor of ionizing radiation. 
 
-READ THIS FIRST! 
+The Safecast website http://blog.safecast.org/ has articles, news, notices, API upload and open download of crowd-sourced radiation data and visualized mapping, etc
 
-Nano users include both hardcore nuclear expert technical users and novices, totally new to radiation detection. Although all users are interested in radiation safety, we don’t all begin at the same place. A naïve casual approach may not be hazardous, but it is inappropriate. Take some minutes to surf and read radiation detection safety guidelines. Familiarity with Nano’s operation includes awareness of its safe use. 
+Join the Safecast Devices Discussions and Support: ([[devices group|https://groups.google.com/forum/?hl=en#!forum/safecast-devices]]. “A discussion group for the community using and hacking Safecast designed open source hardware including the Medcom Onyx and the bGeigie Nano”. It is listed among several links on the Safecast home page.
 
-Although Safecast may not yet have a separate advisory page on safe use and hazard avoidance, the subject is not taken for granted. Many of its films, blogs, help, threads and links do address safe use. Here is a short list of some of these advisories.
+Github is a community project development archive mainly for technical users. Safecast currently has 16 public github respositories, repos or buckets, including [[bGeigieNanoKit|https://github.com/Safecast/bGeigieNanoKit/]], the more veteran firmeware [[SafecastBGeigie|https://github.com/Safecast/SafecastBGeigie]], the electronics [[Eagle repo|https://github.com/Safecast/SafecastEagleHW]], etc.
 
-[[Video on radiation absorption filtering methods| http://blog.safecast.org/2011/05/radiation-measurement-experiment/]]: The Safecast team members wear work overalls (not their ordinary clothing). Reportedly they have backup hazmat gear in the car. Their approach is serious and careful, not casual or light, around hot readings.
+Appropriate use of the Nano has a modest learning curve. Fortunately, the end user doesn’t have to master the fields of radiation safety, health physics and environmental sciences which in contrast are huge studies. Spot and mobile monitoring and crowd data-sharing projects require a orientation and a little practice.
 
-**BLOG** Guest blog by Marco Kaltofen, June 24, 2011, [[Measuring hot particles from air filters| http://blog.safecast.org/2011/06/measuring-hot-particles-from-air-filters/]], attaches an informative [[sampling guide|http://www.naticklabs.org/samplinginstructions.pdf]] http://www.naticklabs.org/samplinginstructions.pdf. The guideline is for sampling air filters study. It focuses on sampling rules, various grades of filtering masks, bagging, labeling, shipping to laboratory of radioactive samples. But a great part of Marco’s cautions are relevant and important for the Nano user. Here are a few of the safety items.
-
->Remember that radioactive dusts can be inhaled, ingested, or can be retained on clothing and shoes. You can walk away from external radiation, but radioactive dust may result in lifelong exposures! 
->Do not use tobacco, eat, or drink while sampling. This reduces the chances of ingesting radioactive dusts. 
->When sampling, wear long sleeved shirts, trousers, and shoes that cover your feet – no sandals. 
->Use disposable gloves while sampling to reduce cross contamination between samples, and to reduce your exposure to dusts. 
->Do not bring contaminated samples, used masks and gloves, or dusty clothing into clean environments. Bag your dusty used gear before entering your vehicle or home. 
->Wash hands or better yet, shower, after leaving the field. 
-<<
-
-**In a FAQ** on radiation safety. 
->What is Safe?
->Short answer: Good question. 
->Long answer: Unfortunately there is very little agreement within the health physics world about what is safe and what is unsafe. While there are some things that are generally agreed upon, children and pregnant women are at greater risk for example, there is no clear measurement that is the cut off point for safe or not. What’s most important is being aware of what you are exposed to, and what others are exposed to so you can decide if that is acceptable or not. The matter is very complex because risk factors are very different for individual people based on age, existing health issues, exposure time, areas of exposure, etc… therefore risk is best gauged on an individual basis and not generalized to the entire population.
->One caveat: Individual comfort levels should not be discounted, and different people will be more or less comfortable with various levels.
-
-In early blog, Jun 2, 2011, [[Farm readings in Hanawa near Shirakawa| http://blog.safecast.org/2011/06/farm-readings-in-hanawa-near-shirakawa/]], it was stated that “100 counts per minute, equivalent to approximately .3 microSieverts per hour, *above background level* is considered contaminated.”
-
-**ADVISORY IN HELP FILE** example of a caution inside a help doc, Nick Dolezal in his [[Geiger Bot app docs|https://sites.google.com/site/geigerbot/docs]] brings this caution: 
->* WARNING! The indicators and dose equivalent rate displayed by Geiger Bot are not a guarantee of safety. There are types of radiation that are difficult to measure with standard GM tubes (alpha, soft beta, neutron, soft x-ray, etc). The greatest risk to your health is likely from ingesting or inhaling radioisotopes, and a gross radiation background count cannot directly measure that.
->It is also very difficult to detect contamination in food or drink, and is usually something done by a laboratory scintillation counter with chemically processed samples.
-
-**ADVICE IN DISCUSSION GROUP THREAD** A good example of quality explanation of radiation safety and safe use, see Kalin’s thread begun 26 Jan 2013, [[Radiation safety: educated guess|https://groups.google.com/forum/?hl=en#!searchin/safecast-japan/safety/safecast-japan/fV_DAWD63fo/uA_W_1rUhzgJ]].
-
-**RECOMMENDED LINKS:** example of recommended good link given in a devices group thread:
-> Safety notes: How can I find out the relative danger from these readings to put some perspective onto them? 
-> Get a degree in nuclear engineering, LoL . Really it is a very difficult question that we avoid to answer directly. For a "starter" and a longish answer see: Google good readable safety orientation: http://shop.perkinelmer.com/content/manuals/gde_safehandlingradioactivematerials.pdf
-<
-The web has endless information on safe use of radiation detection devices. Find your own favorite safety page. Share your information and experience with others
-
-SAFETY INSTRUCTIONS ESPECIALLY FOR NOVICE:
-
-Many Nano users probably will not find any notable radiation. But you never know. If on your first use, you should stumble unluckily upon an extremely high sample, such as [[an antique radium kit c.1904|https://groups.google.com/forum/?hl=en#!searchin/safecast-devices/radium/safecast-devices/KGJOPe61in4/vUbLUtE1I7MJ]], you can high score and return the console for full refund and prize. Congratulations! You won the game on your first outing! – (Ah, unfortunately, the bGeigie Nano is not an internet game. Would that there was no need for this and Safecast was a game.)
-
-Avoid radiation hazards that can be avoided. If you find some high hot sample or field – USE YOUR HEAD AND YOUR NANO. Don't touch it or hold it directly. Back off. Walk away. Monitor everything. Especially spot read yourself. Did you, your belongings, your shoes pick up contamination? Don’t track it with you into your house. Be especially careful with food. Avoid ingestion of radiation. For example, if you have open leafy vegetables from market which rested or contacted the hot spot or matter’s dusty vicinity, use the nano to spot check the food for possible contamination. If in doubt, throw it out. And don’t take food along, don’t mix food with monitoring—as written in Marco’s rules. Wash your hands. Within limits, paranoia can be rational, sensible, reasonable…
-
-“If an instrument indicates an unexpectedly high dose rate, believe it and leave the area as soon as possible. Do not assume that it is an instrument failure. (Only once away from the high dose rate area should the instrument functionality be assessed.)” -- from http://www.hse.gov.uk/pubns/irp7.pdf 
-
-Also in Safecast thread, it’s written: >”High zone is not for novice, but requires training…”
-
-*[if this list of safecast safe use is moved to separate wiki page, then to delete this section of operating manual, leave brief pointer]*   
-
-
+The Safecast end user, the volunteer civilian monitor, **the citizen scientist** is helping to collect data, environmental information, for the public and for scientists. Scientists may use this data in their research methods, possibly making science, possibly discovering new knowledge in their fields. With Nano use and contribution of data logs to web datasets, Nano users learn and teach about radiation detection, safety and many issues. 
