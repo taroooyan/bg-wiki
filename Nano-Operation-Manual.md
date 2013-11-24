@@ -134,7 +134,7 @@ As Pieter wrote: “bGeige Nano [is] the only device with GPS and Wifi/Bluetooth
 
 The Nano is designed as a mobile sensor, to hang outside on a car’s side window. Outside so as not to be shielded by the car. The Nano is hung at the top of the window to be far enough from the ground to get a good background average. The parameter setting of 100 cm is set in the Sensor eight field. This contrasts with close specific surface contamination monitoring (which we do when we find a hotspot thanks to an increased average). The radiation measured on the car window is not areal or airborne gas per se. It's radiating out from radioactive solid stuff (also from liquids ??) on the asphalt, ground, walls, leaves, etc... The Nano is pre-set to monitor radiation from nuclide Cs137. 
 
-Inside the case the Nano measures [[gamma rays\https://en.wikipedia.org/wiki/Gamma_ray]]; outside the case, it can measure [[alpha-, |https://en.wikipedia.org/wiki/Alpha_particle]]/[[beta-, || https://en.wikipedia.org/wiki/Beta_particle]] and gamma-radiation. The grid glued to Nano’s Geiger-muller sensor only blocks a couple percent of radiation and serves to protect the sensitive pancake sensor. As the plastic case blocks alpha- beta- particle radiation, a hole can be cut in a plastic case for a custom alpha-, beta-window. The BoPET (Mylar) film allows for alpha, beta and gamma radiation measurement. Optionally the Nano can be fitted with a beta/gamma only window, which is less fragile. [There is a Safecast video of this cut-open case [URL??]. This custom nano hangs in the same place on the car’s side window, with the thin film covered a/b window facing out [??] to measure airborne radioactive particles while driving.
+Inside the case the Nano measures [[gamma rays|https://en.wikipedia.org/wiki/Gamma_ray]]; outside the case, it can measure [[alpha-, |https://en.wikipedia.org/wiki/Alpha_particle]]/[[beta-, || https://en.wikipedia.org/wiki/Beta_particle]] and gamma-radiation. The grid glued to Nano’s Geiger-muller sensor only blocks a couple percent of radiation and serves to protect the sensitive pancake sensor. As the plastic case blocks alpha- beta- particle radiation, a hole can be cut in a plastic case for a custom alpha-, beta-window. The BoPET (Mylar) film allows for alpha, beta and gamma radiation measurement. Optionally the Nano can be fitted with a beta/gamma only window, which is less fragile. [There is a Safecast video of this cut-open case [URL??]. This custom nano hangs in the same place on the car’s side window, with the thin film covered a/b window facing out [??] to measure airborne radioactive particles while driving.
 
 (The radioactive atoms in air and on dust that give off particles do not need to enter the sensor, only the nuclear particle. The speed and direction of car is negligible. The slowest particle, the high mass alpha has a speed of 15,000 km/s, which is 5% of the speed of light. The speed of the beta particle approaches c, the speed of light.) This mylar a/b window is only useful where there are sufficient airborne particles.
 
@@ -323,11 +323,7 @@ A key to the fields of the Data Log is given in the [[bGeigie library README.md 
 
 >17. **Checksum**: *1D
 
-*A data log or section starts with several #-lines. Here is (temporary) example of header lines from my data log-yw*
-# NEW LOG
-# format=1.1.1nano
-# deadtime=on
-*[bring example]*
+*A data log or section starts with several #-lines# NEW LOG ; # format=1.1.1nano;  deadtime=on ; etc. *[bring example]*
 
 Other Files on the MicroSD Card:  The micro-SD card is delivered with apple disc system files and folders. [non Apple devices users can delete or leave these on micro-SD? Plenty of space to leave them on the 2gb Micro-SD card.] 
 
@@ -382,7 +378,7 @@ Kalin wrote: “The grid on the pancake sensor is only useful when you take the 
 
 Mobile sensor -- the Log mode display also shows height (m), distance traversed (km) and duration of measurement (hh:mm) The log file UTC date/time, TZ header, GPS coordinates, readings,… *[Mounting examples need editing and photos.]*
 
-**Car** Close window on straps. Tie straps to interior anchor, inside bar over window. In a blog there’s mention of child opening back seat window and the bGeigie falling off and recovered without damage. Don’t rely on window lock, anchor strap.
+**Car** Close window on straps. Tie straps to interior anchor, inside bar over window. In a blog there’s mention of child inadvertently opening back seat window and the bGeigie falling off the care, but it was recovered without damage. Don’t rely on window lock, but tie the strap to anchor.
 
 **Bicycle ** (See photos and film clip with bGeigie Nano with extra options (wireless, air quality sensors, bicycle exercise sensors) http://www.youtube.com/watch?feature=player_embedded&v=nHpVq1szhz0  at Tokyo Maker Faire Nov 3rd-4th 2013 https://groups.google.com/forum/?hl=en#!topic/safecast-japan/2DqAoqkWAn8
 
