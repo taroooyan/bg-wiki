@@ -2,8 +2,10 @@
 
 Nov 24, 2013 –. verbose draft needs editing. Excerpts from website, devices group, app, etc. hopefully in context, usually without attribution. Community-edited wiki page. (needs more input, photos, log file, LEDs diagrams, etc.  Please check [??]=unsure
 
-[[https://github.com/Safecast/bGeigieNanoKit/wiki/Nano-Operation-Manual| https://github.com/Safecast/bGeigieNanoKit/wiki/Nano-Operation-Manual]]
-Part of [[community-edited Nano wiki|https://github.com/Safecast/bGeigieNanoKit/wiki/_pages]]. For support also read and query ([[devices group|https://groups.google.com/forum/?hl=en#!forum/safecast-devices]], contact info@safecast.org), etc.
+Draft is part of community-edited [[Nano wiki|https://github.com/Safecast/bGeigieNanoKit/wiki/_pages]]. For support also read and query ([[devices group|https://groups.google.com/forum/?hl=en#!forum/safecast-devices]], contact info@safecast.org), etc.
+
+**For SUPPORT**:  See the relevant parts in these community-edited [[Nano wiki pages|https://github.com/Safecast/bGeigieNanoKit/wiki/_pages]]. Surf the Safecast website http://blog.safecast.org/ and the links on the home page. Join the [[Safecast Devices Discussions and Support group|https://groups.google.com/forum/?hl=en#!forum/safecast-devices]]. 
+Contact info@safecast.org. 
 
 
 **Contents:**
@@ -157,18 +159,7 @@ Nano parts are listed in github, in kit assembly manual, in specifications. (A c
 
 Contents list is handy in the connecting the kit. It might also be useful for the technically advantaged who package their own kit, collect the Nano parts which are reportedly are all individually available on the shelf at their sources.). 
 
-Other Small Parts
-* Switch on/off 
-* Toggle Switch  
-* Dual-Dip-switch . 
-* LED R  (Log/alarm)
-* LED B  (Count)
-* Piezo Buzzer (B1)
-* 3.5 mm Audio port connector 
-* microUSB port for power charging 
-* (+data upload FTDI-capable??) 
-
-Large parts
+**Large parts**
 
 * [[LND-7317 pancake Geiger|http://www.lndinc.com/products/17/]]
 * [[Medcom iRover HV board (TBA)|http://medcom.com/imi-international-medcom-response-to-fukushima-daichi-event/ ]]
@@ -181,7 +172,20 @@ Large parts
 * [[Audio cable with 3.5mm jack (white bidirectional stereo)| http://store.apple.com/us/product/HA829ZM/A/belkin-35mm-retractable-stereo-cable-1-m33-ft?fnode=3a]]
 * [[Pelican 1010 micro-case|http://www.pelican.com/cases_detail.php?Case=1010]]  is a strong, tight, transparent plastic, crush proof, water resistant [[Pelican 1010 micro case|http://www.pelican.com/cases_detail.php?Case=1010]]. The case has strap holders at its two ends, a lanyard or [[carabiner|https://en.wikipedia.org/wiki/Carabiner]], and neoprene feet on top and bottom. The kit can be easily attached to vehicles. (See examples of mountings later.) User who may possibly prefer an opaque case can order the [[i1010 micro case|http://www.pelican.com/cases_detail_specs.php?Case=i1010]] from manufacturer.  It’s customary to see the lanyard carabiner as top of case with hinge on left so that power button is on the open right. Whatever direction is your up or down, the pancake sensor goes into the liner’s hole. It’s easier to replace the nano together inside the liner back into the case.  
 
-There are various small pieces, like headers, fasteners, spacers… Their specific description and online source catalog numbers could be included in the nano wiki parts list. 
+
+**Small Parts**
+
+* Switch on/off 
+* Toggle Switch  
+* Dual-Dip-switch . 
+* LED R  (Log/alarm)
+* LED B  (Count)
+* Piezo Buzzer (B1)
+* 3.5 mm Audio port connector 
+* microUSB port for power charging 
+* (+data upload FTDI-capable??) 
+
+**More small pieces**, like headers, fasteners, spacers… Their specific description and online source catalog numbers could be included in the nano wiki parts list. 
 
 **BATTERY USE, RECHARGING** (redundant, see [[Nano Manual Kit Assembly|https://github.com/Safecast/bGeigieNanoKit/wiki/NANO-MANUAL]]; & below Cautions)
 
