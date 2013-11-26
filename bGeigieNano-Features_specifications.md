@@ -13,7 +13,7 @@ Safecast bGeigieNanoKit features description list. Community edited here in [[Na
 *       **Accuracy**: +/- 10% typical, +/- 15% maximum   [* as with Onyx ?]  
 *       **Temperature Range** -20 to +50 C, -4 to +122 F   [* as with Onyx ?] 
 *	High quality **GPS** receiver with external booster antenna connector for (geo-tagged logging, mapping)
-*	**Dual CPU**: Atmel, Arduino. Open-source software.
+*	**Dual CPU**: Atmel, Arduino. (The [[Arduino Fio|http://arduino.cc/en/Main/ArduinoBoardFio]] board based on the Atmel AVR ATmega328P microcontroller.) Open-source software.
 *	**OLED display**: 128×64 high contrast, two OLED display sizes supported
 *	**Blue Indicator LED** for every nuclide detected (with cool afterglow)
 *	**Red Indicator LED** for “recording” (bGeigie mode) or “alarm” (xGeigie mode) indicators
