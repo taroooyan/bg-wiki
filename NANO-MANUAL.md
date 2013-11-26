@@ -113,15 +113,15 @@ This is how the main board should look with all the small components installed:
 ![]
 (https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/wiki_small_components_4.jpg)
 
-The "headers" are long black components with pins or legs. They are provided in several types and lengths of rows, several which you cut to size with a pair of wire-cutters. They are used for attaching the breakouts to the board. (The breakouts in the kit include the OLED display, the Arduino FIO, the GPS module, the OpenLog memory unit and the audio connector. Their installation is detailed below, further along in this manual. Breakouts sometimes are called “daughter boards” or “shields”.) Most of the headers go on the front face of the main board, but two go on the backside as discussed below. Refer to the placement guides. 
+The "headers" are long black components with pins or legs. They are provided in several types and lengths of rows, several which you cut to size with a pair of wire-cutters. They are used for attaching the breakouts to the board. (The breakouts in the kit include the OLED display, the Arduino Fio, the GPS module, the OpenLog memory unit and the audio connector. Their installation is detailed below, further along in this manual. Breakouts sometimes are called “daughter boards” or “shields”.) Most of the headers go on the front face of the main board, but two go on the backside as discussed below. Refer to the placement guides. 
 
 Be careful when cutting the long headers to length. Refer to  Fig.# Large Parts Placement Guide guide and to their relevant photos in this Manual. Cutting is done easily with fingernail clippers, but is also possible by scoring with a knife and snapping them off. Some people prefer to cut all of them to length ﬁrst, some like to cut them as needed. These are the header rows which are to be cut, as follows:
 
-* One 40-pin (or “leg”) length, straight, male header. Cut this row into four pieces to mount the Arduino FIO (14-pin and 8-pin), the GPS (9-pin) and the OpenLog memory unit (6-pin).
+* One 40-pin (or “leg”) length, straight, male header. Cut this row into four pieces to mount the Arduino Fio (14-pin and 8-pin), the GPS (9-pin) and the OpenLog memory unit (6-pin).
 
 * One 19-pin length, male header. Cut one (1x) 4-pin length for mounting the audio out jack which will be attached on the back side of the main board. Also cut four (x4) 2-pin lengths from this row.
 
-* One 10-pin length, angled, male header: Cut this row into a 6-pin length which will be attached to the Arduino FIO for connecting to an external cable for loading ﬁrmware, etc. From the remainder of the row cut a 3-pin length which will be attached to the backside of the board as part of the “triple connector.”
+* One 10-pin length, angled, male header: Cut this row into a 6-pin length which will be attached to the Arduino Fio for connecting to an external cable for loading ﬁrmware, etc. From the remainder of the row cut a 3-pin length which will be attached to the backside of the board as part of the “triple connector.”
 
 * One 8-pin length, female header: to be used for mounting the OLED display.
 
@@ -161,24 +161,24 @@ Although most of the headers and breakouts get attached to the front of the main
 ##STEP 01-2: HEADERS and BREAKOUTS, contʼd: 
 ####FRONTSIDE 
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/overviewpics/bGeigie Nano manual v5.3big_Page_12_Image_0002.jpg)
-(Place of FIO on PCB)
+(Place of Fio on PCB)
 
-**Arduino FIO:** This is the programmable brain of the device. (FIO is the name of this version of Arduino board. It also stands for Funnel Input/Output. For background, see [[Sparkfun page|https://www.sparkfun.com/products/10116]], [[Arduino list|http://en.wikipedia.org/wiki/List_of_Arduino_boards_and_compatible_systems]] and the [[arduino.cc website|http://arduino.cc/]].)
+**Arduino Fio:** The Arduino Fio is a microcontroller board based on the Atmel AVR ATmega328P microcontroller. This is the programmable brain of the Nano. (Fio is the name of this version of Arduino board. FIO also stands for Funnel Input/Output. For background, see the [[Fio home page|http://arduino.cc/en/Main/ArduinoBoardFio]] on the [[arduino.cc website|http://arduino.cc/]]; also see the [[Sparkfun page|https://www.sparkfun.com/products/10116]] and [[wikipaedia table of Arduinos|http://en.wikipedia.org/wiki/List_of_Arduino_boards_and_compatible_systems]].) 
  
 NOTE: It has a small switch on the bottom side which should be turned OFF before soldering! 
-*  A 14-pin length of male header goes on the left side of the FIO outline on the main board. 
-*  An 8-pin length of male header goes on the upper right side of the FIO outline. 
-*  A 6-pin length of angled male header goes on the FIO itself, in the row of holes beginning with GNDBLK and ending with DTR GRN. It is inserted from the top and soldered on the bottom (see photo). This is used to connect the FIO to a computer for programming. 
-* There are four pairs of holes in the main board labeled CHG, BATT, SW, and DTR-CTS. Each gets a 2pin male header. Make sure you install these before you solder the the FIO to the board 
-* You can go ahead and solder the header pins to the top of the FIO now, or wait until all the headers are in place to solder the breakouts. You can use the FIO itself as an alignment guide to position the headers on the board properly. Soldering the end pins ﬁrst makes it easier to be sure everything is properly aligned. 
+*  A 14-pin length of male header goes on the left side of the Fio outline on the main board. 
+*  An 8-pin length of male header goes on the upper right side of the Fio outline. 
+*  A 6-pin length of angled male header goes on the Fio itself, in the row of holes beginning with GNDBLK and ending with DTR GRN. It is inserted from the top and soldered on the bottom (see photo). This is used to connect the Fio to a computer for programming. 
+* There are four pairs of holes in the main board labeled CHG, BATT, SW, and DTR-CTS. Each gets a 2pin male header. Make sure you install these before you solder the the Fio to the board 
+* You can go ahead and solder the header pins to the top of the Fio now, or wait until all the headers are in place to solder the breakouts. You can use the Fio itself as an alignment guide to position the headers on the board properly. Soldering the end pins ﬁrst makes it easier to be sure everything is properly aligned. 
 
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/overviewpics/bGeigie Nano manual v5.3big_Page_12_Image_0001.jpg)
 
-caption: Proper location of the angled male header on the FIO. 
+caption: Proper location of the angled male header on the Fio. 
 
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/fio_placement.jpg)
 
-caption: Using the FIO as an alignment guide for the headers.
+caption: Using the Fio as an alignment guide for the headers.
 
 ***
 ***
@@ -297,7 +297,7 @@ caption: iRover installed in proper orientation.
 ##STEP 03: BATTERY 
 This battery is a 2000mAh 3.7V Lithium Polymer (Li-Po, Li-Poly). Attention: the battery is encased in a mylar membrane. If punctured, the battery can be hazardous. Handle carefully!  The battery's red and black wires may be reinforced with electrical insulation tape to prevent their falling off or being pulled out. (Some say DIY reattaching a loose wire to the battery is possible, but first see the cautions and potential hazards in datasheet https://www.sparkfun.com/products/8483.)  Charging the new battery full with the first use is recommended. Percentage of battery charge appears in the start-screen and a graphic indicator is displayed in the bottom right during use. (In addition the PCB reportedly has a white 'reflective' pad that shows its charge thus allowing check without having to turn on the unit.) 
 
-The 2000mAh battery gives over 40 hours of continuous use and is rated for over 300 recharging cycles. Recharging is via a cable between the miniUSB port on bottom of the FIO to a USB on a computer or a correctly rated miniUSB recharger (such as https://www.sparkfun.com/products/10401).  Caution: NEVER charge the Nano while the unit is ON. The Nano Power switch MUST be turned OFF before charging to avoid permanent damage to the charge circuit. (Do not connect a miniUSB cable from a power-ON USB source without first turning Power OFF on the Nano.) Replace a broken battery with the same rating. If larger batteries are used the Nano charge circuit may overheat. 
+The 2000mAh battery gives over 40 hours of continuous use and is rated for over 300 recharging cycles. Recharging is via a cable between the miniUSB port on bottom of the Fio to a USB on a computer or a correctly rated miniUSB recharger (such as https://www.sparkfun.com/products/10401).  Caution: NEVER charge the Nano while the unit is ON. The Nano Power switch MUST be turned OFF before charging to avoid permanent damage to the charge circuit. (Do not connect a miniUSB cable from a power-ON USB source without first turning Power OFF on the Nano.) Replace a broken battery with the same rating. If larger batteries are used the Nano charge circuit may overheat. 
 
 This step is a little tricky, so do a dry run ﬁrst before actually attaching the battery with foam tape! 
 
@@ -316,7 +316,7 @@ This step is a little tricky, so do a dry run ﬁrst before actually attaching t
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/iRover_wire_feedthrough.jpg) 
 
 * Thread the wires for the triple connector through the slot in the middle plate. Itʼs easier if you give the wires a couple of twists ﬁrst. Connect the 3-pin female header/socket to the triple connector on the back of the main board, as described in the “triple connector” step on p. 16: make sure itʼs oriented so the red wire connects to the positive pin, the black to the negative, and the green in the middle. 
-* Thread the battery cable down so it will be easy to connect to the battery port on the FIO. But DO NOT connect the battery yet! (The Nano power switch is down, off.)
+* Thread the battery cable down so it will be easy to connect to the battery port on the Fio. But DO NOT connect the battery yet! (The Nano power switch is down, off.)
 
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/back_plate_install.jpg)
 
@@ -405,7 +405,7 @@ In this conﬁguration, the Nano is fully operational for most types of data gat
 
 An optional beta window can be made if desired. See “Options.” [needs to be added!] 
 
-An Apple audio cord is provided for iGiegie mode update to online databases. See the "Safecast API User Manual". [needs to be added!]  
+An Apple audio cord is provided for iGeigie mode update to online databases. See the "Safecast API User Manual". [needs to be added!]  
 
 ####Congratulations, your Nano kit assembly is finished! 
 
@@ -421,7 +421,7 @@ An Apple audio cord is provided for iGiegie mode update to online databases. See
 **MID-ASSEMBLY TEST POWERUP: **
 If you've just ﬁnished assembling the main board, including the breakouts, it's a good idea to do a test power up. We recommend this because it's much easier to ﬁx problems that might be due to misplaced or poorly connected components before the unit is fully assembled. The same sequence can be used for diagnostics after the entire nano is assembled. 
 1. Before connecting the battery: 
- 1a.There is a small ON/OFF switch on the underside of the FIO. Make sure that it is in the OFF position. If you didn't remember to do this  before attaching the FIO, it's accessible (barely!) on the assembled unit. [photo]  If this switch is in the ON position, the unit will power up as soon as the battery is connected, and power switch attached to the main  board will not function. 
+ 1a.There is a small ON/OFF switch on the underside of the Fio. Make sure that it is in the OFF position. If you didn't remember to do this  before attaching the Fio, it's accessible (barely!) on the assembled unit. [photo]  If this switch is in the ON position, the unit will power up as soon as the battery is connected, and power switch attached to the main  board will not function. 
  
 1b. Remove the SD card if it has been inserted  
 1c. Set the switches on the main board:  
@@ -429,7 +429,7 @@ If you've just ﬁnished assembling the main board, including the breakouts, it'
 1c2. Toggle switch: Can be in either position, but we suggest moving it to the down position (log/cpm)  
 1c3. Slider switch (power): in OFF position  
 
-Plug the battery connector to the FIO. 
+Plug the battery connector to the Fio. 
 
 Turn the power switch to ON 
 
@@ -447,7 +447,7 @@ What appears on the display may change with ugrades to the ﬁrmware. With ﬁrm
   
 4d. Several LEDs should illuminate:  
 
-4d1. the red power light should be glowing visibly glow beneath the upper end of the FIO;  
+4d1. the red power light should be glowing visibly glow beneath the upper end of the Fio;  
 
 4d2. A small red LED on the GPS breakout should blink;  
 
@@ -473,7 +473,7 @@ This completes the basic test. The following steps describe additional tests:
 
 7.Test the GPS lock: Put the unit near a window while it is powered up. In a minute or two (maybe longer) the "No GPS " indicator will change to indicate the number of satellites it has locked to (such as "4 [upcaret]"). A height reading should also appear, such as "3m." 
 
-8. Test charging the battery: Attach a mini usb cable to the FIO, then to a computer or USB charger. A yellow charge light should glow visibly underneath the FIO. It will go out when the battery is fully charged. 
+8. Test charging the battery: Attach a mini usb cable to the Fio, then to a computer or USB charger. A yellow charge light should glow visibly underneath the Fio. It will go out when the battery is fully charged. 
 
 ***
 ***
@@ -499,4 +499,4 @@ Further information at the [[Safecast website|http://blog.safecast.org]] and the
 p.s. How long did it take you?  Peter Blakely recorded a time-lapse "bGeigie nano assembly in 2 min". 29-3-2013. http://vimeo.com/62926075 
 
 [![ScreenShot](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/bGeigie_Nano_bottom.jpg)] (http://vimeo.com/62926075)
-*note to editor, if you can push a screenshot of Blakely's vimeo into pics, how about to quasi embed his video here? Meanwhile click on the image.*  see http://stackoverflow.com/questions/4279611/how-to-embed-a-video-into-github-readme-md?rq=1 >>
+*note to editor, if you can push a screenshot of Blakely's vimeo into named pics, how about to quasi embed his video here? Meanwhile click on the image.*  see http://stackoverflow.com/questions/4279611/how-to-embed-a-video-into-github-readme-md?rq=1 >>
