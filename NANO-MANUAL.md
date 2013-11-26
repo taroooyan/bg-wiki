@@ -12,10 +12,8 @@ The kit format allows for cost savings and for DIY learning. The assembly can ta
 Surf the Safecast website http://blog.safecast.org/ and the links on the home page. Join the [[Safecast Devices Discussions and Support group|https://groups.google.com/forum/?hl=en#!forum/safecast-devices]]. 
 Contact info@safecast.org.
 
-___
-
-![]
-(https://raw.github.com/safecast/bGeigieNanoKit/0fe74739db57eaff2645784c28dcb78e88a4b2f0/nano%20manual%20named%20pics/Pieter_frustrated.jpg)
+-----
+![](https://raw.github.com/safecast/bGeigieNanoKit/0fe74739db57eaff2645784c28dcb78e88a4b2f0/nano%20manual%20named%20pics/Pieter_frustrated.jpg)
 
 
 #### BEFORE YOU START: 
@@ -397,13 +395,13 @@ The Pelican case is a standard Pelican Micro Case 1010 model. (The sticker, the 
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/front_plate_assembly.jpg)
 * Replace the liner into the plastic case, and gently but ﬁrmly insert the assembled bGeigie Nano into the liner. Check that the sensor is properly aligned with the opening in the liner. (Alternatively place the Nano into the liner and insert them together into the case.) It should be a very snug ﬁt. Close the case. The case closes properly when the clasp shuts tightly with click. (If initially the case cannot be completely closed, check carefully for any jammed point, fix and try again.)
 
-* 8 clear neoprene feet are provided in the kit to stick on the 4 corners of the top and bottom sides of the case. Theyʼre not absolutely necessary, but these feet or runners make it easier to mount the device in many situations. See “Mounting tips.” [needs to be added!!]
+* 8 clear neoprene feet or runners are provided in the kit to stick on the 4 corners of the top and bottom sides of the case. Theyʼre not absolutely necessary, but these pads make it easier to mount the device in many situations. 
 
-* Strap(s)are provided to make it easier to mount the Nano on a car or other vehicle. See “Mounting tips.” [needs to be added!]
+* Strap(s)are provided to make it easier to mount the Nano on a car or other vehicle. See “Mounting tips” [in the Operation Manual].
 
-In this conﬁguration, the Nano is fully operational for most types of data gathering. See the "Nano User Guide" (operations manual).  [needs to be added!]
+In this conﬁguration, the Nano is fully operational for most types of data gathering. See the "Nano User Guide" (operations manual). 
 
-An optional beta window can be made if desired. See “Options.” [needs to be added!] 
+An optional beta window can be made if desired. [See in the Operation Manual].
 
 An Apple audio cord is provided for iGeigie mode update to online databases. See the "Safecast API User Manual". [needs to be added!]  
 
@@ -486,15 +484,15 @@ This completes the basic test. The following steps describe additional tests:
 
 ***SCHEMATICS:*** available in Eagle format in their [[Safecast github repository|https://github.com/Safecast/SafecastEagleHW/tree/master/bGeigieNanoKit]] (For help locating circuit, query the cognoscenti in the [[devices discussion and support group|https://groups.google.com/forum/?hl=en#!forum/safecast-devices]].)
 
-***KIT ORDER FULFILLMENT:*** to request missing/replacement kit part(s) by air mail, contact info@safecast.org, as given in contacts on the safecast.org home page. (If you're in a hurry, search your local and web DIY electronics sources, e.g. [[sparkfun|https://www.sparkfun.com/categories]].) 
+***KIT ORDER FULFILLMENT:*** to request missing/replacement kit part(s) by air mail, contact info@safecast.org, as given in contacts on the safecast.org home page. (If you're in a hurry, search your local and web DIY electronics sources, e.g. [[sparkfun|https://www.sparkfun.com/categories]].) See the [[Parts List|https://github.com/Safecast/bGeigieNanoKit/wiki/Parts-and-accessories]] (wiki page draft).
 
-***KIT DISTRIBUTOR:*** [[Medcom|http://medcom.com/radiation-monitors/geiger-counters/bgeigie-kit/]].  (Alternatively you can source parts. The [[bGeigie Nano PCB|http://blog.safecast.org/2013/09/bgeigie-nano-pcb-available-now/]] is available at [[OSH PARK|http://oshpark.com/shared_projects/EElEjLq3]].) 
+***KIT DISTRIBUTOR:*** [[Medcom|http://medcom.com/radiation-monitors/geiger-counters/bgeigie-kit/]].  (Alternatively you can acquire the parts. A purple-color [[bGeigie Nano PCB|http://blog.safecast.org/2013/09/bgeigie-nano-pcb-available-now/]] is available at [[OSH PARK|http://oshpark.com/shared_projects/EElEjLq3]]. The iRover is reportedly available at Medcom.) 
 
 ***CONGRATULATIONS!*** Report your build in the Devices discussion group. Help in Safecast efforts. Make good, safe use of this new tool. Enjoy!
 
 ---
+Further information at the [[Safecast website|http://blog.safecast.org]] and the other community-edited [[Nano wiki pages|https://github.com/Safecast/bGeigieNanoKit/wiki/_pages]].
 ---
-Further information at the [[Safecast website|http://blog.safecast.org]] and these [[community-edited Nano wiki pages|https://github.com/Safecast/bGeigieNanoKit/wiki/_pages]].
 
 p.s. How long did it take you?  Peter Blakely recorded a time-lapse "bGeigie nano assembly in 2 min". 29-3-2013. http://vimeo.com/62926075 
 
