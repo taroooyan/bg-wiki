@@ -1,8 +1,9 @@
 # How to setup build environment on Mac OS X
 *(draft rev.1.11.13)*
 
->>Load firmware with an accessory FTDI breakout board 3.3V, for example this [[one| https://www.sparkfun.com/products/9873]] or that [[one|https://www.adafruit.com/products/284]]; with correct FTDI driver; and with the Nano power switch turned OFF.
->>*[Or perhaps Nano firmware also can be loaded via the power recharging mini-USB?? There is also mention of system reconfiguration via the microSD card?? See Setup System (programming bGeigie) in the [[README.md|https://github.com/Safecast/SafecastBGeigie]] for possibly relevant photo on this simpler loading of Nano build-??]*  For learning to compile source code, see http://www.ladyada.net/learn/avr/setup-mac.html.
+>>Load firmware with an accessory FTDI breakout board 3.3V, for example this [[one| https://www.sparkfun.com/products/9873]] or that [[one|https://www.adafruit.com/products/284]]; with correct FTDI driver; and with the Nano power switch turned OFF. 
+>>(Further relevant photos can be found at [[Arduino Fio Sparkfun|https://www.sparkfun.com/products/10116]], at the guide on [[Arduino Fio Programming|http://arduino.cc/en/Main/ArduinoBoardFioProgramming]] or at Setup System programming bGeigie [[README.md|https://github.com/Safecast/SafecastBGeigie]].) 
+*  For learning to compile source code, see http://www.ladyada.net/learn/avr/setup-mac.html.
 
 >a) MAC - Build (from master by) yourself, or;
 
@@ -74,6 +75,12 @@ http://xloader.russemotto.com/
  
 >>I monitored device manager com ports to see the device appear and what com # Windows assigned to the device.
  
->>Then Run X-loader, select com port, browse to HEX file, and I'm pretty sure I selected in the drop down Duemilanove/nano(ATmega328) device.  I left the baud rate at 57600 and hit upload.   If I remember correctly when it was done, the Nano rebooted/restarted all by itself and was running the new code.
+>>Then Run X-loader, select com port, browse to HEX file (the **current version of the Nano firmware**  which is the [[bGeigieNano.hex file|https://github.com/Safecast/bGeigieNanoKit/blob/master/bGeigieNano.hex]] in the [[bGeigieNanoKit repository|https://github.com/Safecast/bGeigieNanoKit]]). I'm pretty sure I selected in the drop down Duemilanove/nano(ATmega328) device.  I left the baud rate at 57600 and hit upload.   If I remember correctly when it was done, the Nano rebooted/restarted all by itself and was running the new code. (The startup screen displays the version number #.#.#.)
 
-(Newbie notes on above: Download the xloader.zip ; unzip. The XLoader folder includes the avrdude files and also the DEVICES.TXT file which provides the hardware options for the XLoader menu. The FTDI driver is for communication between pc and nano best via the "6-pin length of angled male header on the FIO... which connects the FIO to a computer for programming". (The FTDI Basic Breakout for Arduino FIO 3.3V is not to be confused with the audio cord which is used for data transfer to API on iPhone, iPad, or Mac; nor with the mini-USB cable [which is mainly for power to battery??].)
+Newbie notes on above: Download the xloader.zip ; unzip. The XLoader folder includes the avrdude files and also the DEVICES.TXT file which provides the hardware options for the XLoader menu. The FTDI driver is for communication between pc and nano best via the "6-pin length of angled male header on the FIO... which connects the FIO to a computer for programming". [The FTDI Basic Breakout for Arduino FIO 3.3V is not to be confused with the audio cord which is used for data transfer to API on iPhone, iPad, or Mac; nor with the mini-USB cable [which is mainly for power to battery].
+
+The Arduino Fio uses ATmega328, according to the [[Sparkfun page|https://www.sparkfun.com/products/10116]] and this [[Arduino list|http://en.wikipedia.org/wiki/List_of_Arduino_boards_and_compatible_systems]].
+
+The [[arduino.cc website|http://arduino.cc/]] has well recommended guides and help. The [[en.wikipedia Arudino entry|http://en.wikipedia.org/wiki/Arduino]] provides historical orientation. 
+
+*Miscellaneous (here superfluous) alternatives may include system reconfiguration via the microSD card and wireless programming over an optional pair of XBee radios...* 
