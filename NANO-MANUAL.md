@@ -1,4 +1,5 @@
 #  bGeigie Nano 
+
 ![]
 (https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/bGeigie_Nano_side.jpg)
 
@@ -498,5 +499,6 @@ Further information at the [[Safecast website|http://blog.safecast.org]] and the
 
 p.s. How long did it take you?  Peter Blakely recorded a time-lapse "bGeigie nano assembly in 2 min". 29-3-2013. http://vimeo.com/62926075 
 
-[![ScreenShot](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/bGeigie_Nano_bottom.jpg)] (http://vimeo.com/62926075)
-*note to editor, if you can push a screenshot of Blakely's vimeo into named pics, how about to quasi embed his video here? Meanwhile click on the image.*  see http://stackoverflow.com/questions/4279611/how-to-embed-a-video-into-github-readme-md?rq=1 >>
+[![ScreenShot](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/blakely.jpg)] (http://vimeo.com/62926075)
+
+*note to editor, if you can push a screenshot of Blakely's vimeo into named pics, how about to quasi embed his video here? Meanwhile click on the box marker of image.*  see http://stackoverflow.com/questions/4279611/how-to-embed-a-video-into-github-readme-md?rq=1 >>
