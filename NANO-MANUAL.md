@@ -85,7 +85,7 @@ All of these will go on the main board. Place and solder them, nipping off the l
 (https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/wiki_small_components_2.jpg)
 **Switches:** (There are four switches. Some have labels above them on the top panel, nearby on the PCB board or on the component itself. Once the Nano is built, the labels are more readable when the case is open and the power is off.) 
 
-* Dual DIP switch (SW1) goes in the "SW1" spot. It has 4 pins. It should be positioned with the side labeled "ON" toward the top of board, aligned under the "SW1" label on the board. The correct orientation is necessary for the switch to work. [Function: to be explained in operations guide which is to be added!!]
+* Dual DIP switch (SW1) goes in the "SW1" spot. It has 4 pins. It should be positioned with the side labeled "ON" toward the top of board, aligned under the "SW1" label on the board. The correct orientation is necessary for the switch to work. [Function: two modes explained in [[Operation Manual|https://github.com/Safecast/bGeigieNanoKit/wiki/Nano-Operation-Manual]].]
  
 * Toggle switch: It ﬁts above the rectangular outline between transistor "T1" and the blue "COUNT" LED. It has three leads, and a mounting clip with 2 pins. Solder them all in place. [Function: switches between bGeigie and xGeigie modes. Label on the transparent top panel: "bq/m^2 uS/h", "log cpm". (mode features are mentioned on the Specifications wiki page. To be explained in user's guide to be added!!)]
 
@@ -400,13 +400,13 @@ The Pelican case is a standard Pelican Micro Case 1010 model. (The sticker, the 
 
 * 8 clear neoprene feet or runners are provided in the kit to stick on the 4 corners of the top and bottom sides of the case. Theyʼre not absolutely necessary, but these pads make it easier to mount the device in many situations. 
 
-* Strap(s)are provided to make it easier to mount the Nano on a car or other vehicle. See “Mounting tips” [in the Operation Manual].
+* Strap(s)are provided to make it easier to mount the Nano on a car or other vehicle. (Meanwhile [[#10 “Mounting tips” in Operation Manual|https://github.com/Safecast/bGeigieNanoKit/wiki/Nano-Operation-Manual]].)
 
-In this conﬁguration, the Nano is fully operational for most types of data gathering. See the "Nano User Guide" (operations manual). 
+In this conﬁguration, the Nano is fully operational for most types of data gathering.
 
-An optional beta window can be made if desired. [See in the Operation Manual].
+An optional beta window can be made if desired. [See in #2 Uses in the Operation Manual, or in Options in the Parts List page].
 
-An Apple audio cord is provided for iGeigie mode update to online databases. See the "Safecast API User Manual". [needs to be added!]  
+An Apple audio cord is provided for iGeigie mode update to online databases. See the "Safecast API User Manual". (In draft [[#11 “API, uploading data to Safecast” in Operation Manual|https://github.com/Safecast/bGeigieNanoKit/wiki/Nano-Operation-Manual]].)
 
 ####Congratulations, your Nano kit assembly is finished! 
 
@@ -418,6 +418,7 @@ An Apple audio cord is provided for iGeigie mode update to online databases. See
 
 ***
 ***
+
 ##STEP 07: TEST RUN and DIAGNOSTICS 
 **MID-ASSEMBLY TEST POWERUP: **
 If you've just ﬁnished assembling the main board, including the breakouts, it's a good idea to do a test power up. We recommend this because it's much easier to ﬁx problems that might be due to misplaced or poorly connected components before the unit is fully assembled. The same sequence can be used for diagnostics after the entire nano is assembled. 
