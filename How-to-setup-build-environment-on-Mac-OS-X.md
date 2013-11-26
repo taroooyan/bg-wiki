@@ -79,10 +79,23 @@ http://xloader.russemotto.com/
 
 >>I'm pretty sure I selected in the drop down Duemilanove/nano(ATmega328) device.  I left the baud rate at 57600 and hit upload.   If I remember correctly when it was done, the Nano rebooted/restarted all by itself and was running the new code. (The startup screen displays the version number #.#.#.)
 
+Also see Nov 16 report in "Just completed my first bGeigie build - having display problems and no GPS" [[devices thread|https://groups.google.com/forum/?hl=en#!topic/safecast-devices/UQWsWSkNBbY]] which began Nov 8 2013:
+  
+>All working now - followed instructions for firmware update via GitHub through Chrome browser.  Hex file found on github.com.  Downloaded Xloader and used it to flash (upload) 1.3.2.
+
+>Sticking points (for newbies): Must use 3.3V FTDI cable and insert properly at angled header pins on FIO board - make sure to follow pinout labels for which end is black wire, which green.
+
+>Leave Nano power switch OFF when connecting USB to PC.
+
+>If you get the FTDI cable with the LED in the USB end, you will see light flashing when there is power and traffic while uploading happens - this helps as Xloader had a habit of getting hung up on first few attempts and would display "Uploading" when it had crashed until told to 'end task' through task manager.
+
+>A restart was needed after drivers loaded automatically on Windows 7 Pro after first connecting FTDI cable and Nano.  Did not need drivers from mini CD that came with cable.
+
+---------------------
 Newbie notes on above: Download the xloader.zip ; unzip. The XLoader folder includes the avrdude files and also the DEVICES.TXT file which provides the hardware options for the XLoader menu. The FTDI driver is for communication between pc and nano best via the "6-pin length of angled male header on the FIO... which connects the FIO to a computer for programming".
 
 The Arduino Fio uses ATmega328, according to the [[Sparkfun page|https://www.sparkfun.com/products/10116]] and this [[Arduino list|http://en.wikipedia.org/wiki/List_of_Arduino_boards_and_compatible_systems]].
 
-The [[arduino.cc website|http://arduino.cc/]] has well recommended guides and help. [[en.wikipedia on Arduino|http://en.wikipedia.org/wiki/Arduino]] provides historical orientation. 
+The [[arduino.cc website|http://arduino.cc/]] has well recommended guides and help. For history  orientation see[[en.wikipedia on Arduino|http://en.wikipedia.org/wiki/Arduino]].
 
 *Miscellaneous (here superfluous) alternatives may include system reconfiguration via the microSD card and wireless programming over an optional pair of XBee radios...* 
