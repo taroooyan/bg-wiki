@@ -96,6 +96,6 @@ Newbie notes on above: Download the xloader.zip ; unzip. The XLoader folder incl
 
 The Arduino Fio uses ATmega328, according to the [[Sparkfun page|https://www.sparkfun.com/products/10116]] and this [[Arduino list|http://en.wikipedia.org/wiki/List_of_Arduino_boards_and_compatible_systems]].
 
-The [[arduino.cc website|http://arduino.cc/]] has well recommended guides and help. For history  orientation see[[en.wikipedia on Arduino|http://en.wikipedia.org/wiki/Arduino]].
+The [[arduino.cc website|http://arduino.cc/]] has well recommended guides and help. For history  orientation see [[en.wikipedia on Arduino|http://en.wikipedia.org/wiki/Arduino]].
 
-*Miscellaneous (here superfluous) alternatives may include system reconfiguration via the microSD card and wireless programming over an optional pair of XBee radios...* 
+*Miscellaneous (extraneous and superfluous) alternatives may include system reconfiguration via the microSD card and wireless programming over an optional pair of XBee radios...* 
