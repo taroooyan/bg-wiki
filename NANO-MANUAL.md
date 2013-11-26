@@ -163,7 +163,7 @@ Although most of the headers and breakouts get attached to the front of the main
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/overviewpics/bGeigie Nano manual v5.3big_Page_12_Image_0002.jpg)
 (Place of Fio on PCB)
 
-**Arduino Fio:** The Arduino Fio is a microcontroller board based on the Atmel AVR ATmega328P microcontroller. This is the programmable brain of the Nano. (Fio is the name of this version of Arduino board. FIO also stands for Funnel Input/Output. For background, see the [[Fio home page|http://arduino.cc/en/Main/ArduinoBoardFio]] on the [[arduino.cc website|http://arduino.cc/]]; also see the [[Sparkfun page|https://www.sparkfun.com/products/10116]] and [[wikipaedia table of Arduinos|http://en.wikipedia.org/wiki/List_of_Arduino_boards_and_compatible_systems]].) 
+**Arduino Fio:** The Arduino Fio is a microcontroller board based on the Atmel AVR ATmega328P microcontroller. This is the programmable brain of the Nano. (Fio is the name of this version of Arduino board. FIO also stands for Funnel Input/Output. For background, see the [[Fio home page|http://arduino.cc/en/Main/ArduinoBoardFio]] on the [[arduino.cc website|http://arduino.cc/]]; also see the [[Sparkfun page|https://www.sparkfun.com/products/10116]] and [[wikipedia table of Arduinos|http://en.wikipedia.org/wiki/List_of_Arduino_boards_and_compatible_systems]].) 
  
 NOTE: It has a small switch on the bottom side which should be turned OFF before soldering! 
 *  A 14-pin length of male header goes on the left side of the Fio outline on the main board. 
