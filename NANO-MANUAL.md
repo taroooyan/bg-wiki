@@ -13,6 +13,8 @@ Surf the Safecast website http://blog.safecast.org/ and the links on the home pa
 Contact info@safecast.org.
 
 -----
+
+
 ![](https://raw.github.com/safecast/bGeigieNanoKit/0fe74739db57eaff2645784c28dcb78e88a4b2f0/nano%20manual%20named%20pics/Pieter_frustrated.jpg)
 
 
