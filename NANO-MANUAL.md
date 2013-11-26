@@ -8,9 +8,15 @@ To the new users of the bGeigie Nano, congratulations and welcome to the Safecas
 
 The kit format allows for cost savings and for DIY learning. The assembly can take as little as 3-4 hours depending on electronics skill and experience level. This assembly manual is for all users including novices. So we are trying to make these instructions clear, graphic and explicit. For some we're explaining the obvious, for others this still may not be helpful enough. If you're very experienced at assembling electronic devices, feel free to modify the order of the steps. 
 
-**For support**: join the [[Safecast Devices Discussions and Support group|https://groups.google.com/forum/?hl=en#!forum/safecast-devices]]. Read the [[community-edited Nano wiki pages|https://github.com/Safecast/bGeigieNanoKit/wiki/_pages]] (among the wiki pages this kit assembly manual, alias http://nano.safecast.org/). Or for a technical source one might begin at [[README.md|https://github.com/Safecast/bGeigieNanoKit/blob/master/README.md]] within the [[github Nano repository|https://github.com/Safecast/bGeigieNanoKit]], or better at the [[bGeigie README|https://github.com/Safecast/SafecastBGeigie/blob/master/README.md]]. Surf the Safecast website http://blog.safecast.org/ and the links on the home page. Contact info@safecast.org.
+**For SUPPORT**:  Read these community-edited [[Nano wiki pages|https://github.com/Safecast/bGeigieNanoKit/wiki/_pages]] including this kit assembly manual, alias http://nano.safecast.org/. See the README files within the Safecast [[bGeigie|https://github.com/Safecast/SafecastBGeigie/blob/master/README.md]] and [[bGeigieNanoKit|https://github.com/Safecast/bGeigieNanoKit/blob/master/README.md]] github repositories. 
+Surf the Safecast website http://blog.safecast.org/ and the links on the home page. Join the [[Safecast Devices Discussions and Support group|https://groups.google.com/forum/?hl=en#!forum/safecast-devices]]. 
+Contact info@safecast.org.
 
-![](https://raw.github.com/safecast/bGeigieNanoKit/0fe74739db57eaff2645784c28dcb78e88a4b2f0/nano%20manual%20named%20pics/Pieter_frustrated.jpg)
+___
+
+![]
+(https://raw.github.com/safecast/bGeigieNanoKit/0fe74739db57eaff2645784c28dcb78e88a4b2f0/nano%20manual%20named%20pics/Pieter_frustrated.jpg)
+
 
 #### BEFORE YOU START: 
 The LND_7317 pancake sensor is very delicate, although it looks robust. It has a thin mylar covering on one face, inside of which there is a partial vacuum. The mylar is easily punctured, rendering the tube useless. Since it's the single most expensive component, it would be a shame to trash it. Please handle it carefully! May we recommend that you leave it in the box until you're ready to attach it? (That would be Step 04.) And as with any work, before you start take time to gather tools, clear space, read the manual and turn off distractions. The assembly is not difficult but there are little details to pay attention to. Take a breath and enjoy the build.
@@ -155,9 +161,10 @@ Although most of the headers and breakouts get attached to the front of the main
 ##STEP 01-2: HEADERS and BREAKOUTS, contʼd: 
 ####FRONTSIDE 
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/overviewpics/bGeigie Nano manual v5.3big_Page_12_Image_0002.jpg)
-(needs indication circle)
+(Place of FIO on PCB)
 
-**Arduino FIO:** (FIO stands for Funnel Input/Output. This is the programmable brain of the device.) 
+**Arduino FIO:** This is the programmable brain of the device. (FIO is the name of this version of Arduino board. It also stands for Funnel Input/Output. For background, see [[Sparkfun page|https://www.sparkfun.com/products/10116]], [[Arduino list|http://en.wikipedia.org/wiki/List_of_Arduino_boards_and_compatible_systems]] and the [[arduino.cc website|http://arduino.cc/]].)
+ 
 NOTE: It has a small switch on the bottom side which should be turned OFF before soldering! 
 *  A 14-pin length of male header goes on the left side of the FIO outline on the main board. 
 *  An 8-pin length of male header goes on the upper right side of the FIO outline. 
@@ -166,7 +173,6 @@ NOTE: It has a small switch on the bottom side which should be turned OFF before
 * You can go ahead and solder the header pins to the top of the FIO now, or wait until all the headers are in place to solder the breakouts. You can use the FIO itself as an alignment guide to position the headers on the board properly. Soldering the end pins ﬁrst makes it easier to be sure everything is properly aligned. 
 
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/overviewpics/bGeigie Nano manual v5.3big_Page_12_Image_0001.jpg)
-(needs indication circle)
 
 caption: Proper location of the angled male header on the FIO. 
 
