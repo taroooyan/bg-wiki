@@ -106,19 +106,7 @@ Although Nano features and parts have their own wiki pages, the sensor gets repe
 **03. PARTS (NAMES, FUNCTIONS)** [needs diagram]
 *(Parts list moved to [[Parts and accessories|https://github.com/Safecast/bGeigieNanoKit/wiki/Parts-and-accessories]] page)*
 
-**04. TOOLS, ACCESSORIES, OPTIONS** *(this section STILL mostly to move to [[Parts and accessories|https://github.com/Safecast/bGeigieNanoKit/wiki/Parts-and-accessories]] page)*
-
-**The [[Safecast bGeigie Library|https://github.com/Safecast/SafecastBGeigie]]** is the code including the firmware building blocks, such as SD card logger, GPS parser, power management, etc in the form of an Arduino library.
-
-End users can install upgrades of the firmware with an accessory FTDI breakout board 3.3V, for example this [[one|https://www.sparkfun.com/products/9873]] or that [[one| https://www.adafruit.com/products/284]]. See the Nano wiki page [[How to setup build environment on Mac OS X|https://github.com/Safecast/bGeigieNanoKit/wiki/How-to-setup-build-environment-on-Mac-OS-X]]. 
-
-Technical users can program the Nano firmware with an Pocket AVR Programmer. See the section “Setup System on Mac OS X” the [[bGeigie README.md|https://github.com/Safecast/SafecastBGeigie]].
-
-Data transfer is via the micro SD card, via the audio cord to geiger bot iOS app, or, as additional option there is since Oct 2013 a wireless data transfer option. See the BLEBee v1.0.0 breakout board http://www.seeedstudio.com/depot/blebee-v100-p-1632.html and the iOS app BLExplr https://itunes.apple.com/us/app/blexplr/id524018027 designed by Dr. Michael Kroll. Also see http://www.mkroll.mobi/?page_id=1070 ; and the BLEBee product forum http://forum.mkroll.mobi/. Although BLE can talk to any Bluetooth 4.0, the BLExplr iOS apps work only in BLE-enabled apple devices. (Similarly the Safecast Geigerbot is only in iOS.)
-
-**OPTIONS** (to list in nano wiki parts + options page?) 
-? GPS antenna option
-? additional environmental sensors on the BZee socket (instead of the BLEBee), i.e. air quality, noise level, barometric, meterological, etc. ? Safecast has experimented with various custom formats of the bGeigie series. (i.e. underwater, helicopter drone born, long-life stationary). Consult the devices group about your wants and options, modular XBee socket, specialized data log formats, programming etc  
+**04. TOOLS, ACCESSORIES, OPTIONS** *(this section moved to [[Parts and accessories|https://github.com/Safecast/bGeigieNanoKit/wiki/Parts-and-accessories]] page)*
 
 **05. PARAMETER SETTINGS; DATA LOG; microSD FILES**
 
