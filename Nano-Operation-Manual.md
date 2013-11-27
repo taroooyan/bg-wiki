@@ -1,14 +1,17 @@
 ***Safecast bGeigie Nano Operation Manual***
 
-*Nov 24, 2013 –. verbose draft needs editing. Excerpts from website, devices group, app, etc. hopefully in context, usually without attribution. Community-edited wiki page. (needs more input, photos, log file, LEDs diagrams, etc.  Please check [??]=unsure*
+*Nov 24, 2013 –. verbose user guide draft needs editing. Excerpts from website, devices group, app, etc. hopefully in context, usually without attribution. Community-edited wiki page. (needs more input, photos, log file, LEDs diagrams, etc.  Please check [??]=unsure*
 
-Draft is part of community-edited [[Nano wiki|https://github.com/Safecast/bGeigieNanoKit/wiki/_pages]]. For support also read and query ([[devices group|https://groups.google.com/forum/?hl=en#!forum/safecast-devices]], contact info@safecast.org), etc.
+**Orientation**:  Surf the Safecast website http://blog.safecast.org/ and the links on the home page. Join the [[Safecast Devices Discussions and Support group|https://groups.google.com/forum/?hl=en#!forum/safecast-devices]]. For support, contact info@safecast.org.  Read these [[Nano wiki pages|https://github.com/Safecast/bGeigieNanoKit/wiki/_pages]] (in various stages of community drafting):
+* [[Features/specifications|https://github.com/Safecast/bGeigieNanoKit/wiki/bGeigieNano-Features_specifications]]
+* [[How to setup build environment on Mac OS X|https://github.com/Safecast/bGeigieNanoKit/wiki/How-to-setup-build-environment-on-Mac-OS-X]] (+Nano firmware upgrade on MS-Windows)
+* [[Nano Wiki Home|https://github.com/Safecast/bGeigieNanoKit/wiki]] (index page in the NanoKit wiki folder)
+* [[NANO MANUAL|https://github.com/Safecast/bGeigieNanoKit/wiki/NANO-MANUAL]] (Kit assembly, connecting the pieces)
+* [[Nano Operation Manual|https://github.com/Safecast/bGeigieNanoKit/wiki/Nano-Operation-Manual]] (this page)
+* [[Parts and accessories|https://github.com/Safecast/bGeigieNanoKit/wiki/Parts-and-accessories]] (including tools and options)
+* [[Safety in radiation detection|https://github.com/Safecast/bGeigieNanoKit/wiki/Safety-in-radiation-detection]]
 
-**For SUPPORT**:  See the relevant parts in these community-edited [[Nano wiki pages|https://github.com/Safecast/bGeigieNanoKit/wiki/_pages]]. Surf the Safecast website http://blog.safecast.org/ and the links on the home page. Join the [[Safecast Devices Discussions and Support group|https://groups.google.com/forum/?hl=en#!forum/safecast-devices]]. 
-Contact info@safecast.org. 
-
-
-**Contents:**
+**Contents Operation Manual:**
 
 **01.  Safety tips for radiation detection** *(moved to its own Nano wiki page [[Safety|https://github.com/Safecast/bGeigieNanoKit/wiki/Safety-in-radiation-detection]])*
 
@@ -16,7 +19,7 @@ Contact info@safecast.org.
 
 **03.  Parts (names, functions, diagram) incl switches**  *(Parts list moved to [[Parts and accessories|https://github.com/Safecast/bGeigieNanoKit/wiki/Parts-and-accessories]] page)*
 
-**04.  Tools, accessories, options**
+**04.  Tools, accessories, options**  *(Tools-options list moved to [[Parts and accessories|https://github.com/Safecast/bGeigieNanoKit/wiki/Parts-and-accessories]] page)*
 
 **05.  Parameter Settings; Data Log; MicroSD Files**
 
@@ -148,7 +151,8 @@ Contents list is handy in the connecting the kit. It might also be useful for th
 
 + A Li-Po battery can be hazardous if mylar membrane is punctured. Handle carefully! (See the Manual on kit assembly for more on battery.) 
 
-**04. TOOLS, ACCESSORIES, OPTIONS**
+**04. TOOLS, ACCESSORIES, OPTIONS** *(this section largely to [[Parts and accessories|https://github.com/Safecast/bGeigieNanoKit/wiki/Parts-and-accessories]] page)*
+
 
 **The [[Safecast bGeigie Library|https://github.com/Safecast/SafecastBGeigie]]** is the code including the firmware building blocks, such as SD card logger, GPS parser, power management, etc in the form of an Arduino library.
 
