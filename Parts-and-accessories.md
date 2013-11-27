@@ -23,6 +23,7 @@ Sources: in github and mainly the kit assembly Nano Manual. See photos there in 
 * [[Audio cable with 3.5mm jack (white bidirectional stereo)| http://store.apple.com/us/product/HA829ZM/A/belkin-35mm-retractable-stereo-cable-1-m33-ft?fnode=3a]]
 * [[Pelican 1010 micro-case|http://www.pelican.com/cases_detail.php?Case=1010]]: strong, tight, transparent plastic, crush proof, water resistant. Opaque colors, [[i1010 micro case|http://www.pelican.com/cases_detail_specs.php?Case=i1010]], are also available from manufacturer. 
 
+
 **Small Parts** (need part specification?)
 
 * Switch on/off 
@@ -51,7 +52,13 @@ Sources: in github and mainly the kit assembly Nano Manual. See photos there in 
 
 •	**Pocket AVR Programmer** for technical users to program the Nano firmware. See the  [“Setup System on Mac OS X”](https://github.com/Safecast/SafecastBGeigie “Setup System on Mac OS X”) on the [[bGeigie README.md|https://github.com/Safecast/SafecastBGeigie]].
 
-**EXTRAS, POSSIBLE OPTIONS ? GPS antenna option ? additional environmental sensors on the BZee socket (instead of the BLEBee), i.e. noise level; air quality chemistry; meterologic barometry, humidity, temperature, etc. ? Safecast has experimented with various uses and formats of the bGeigie series. (i.e. underwater, helicopter drone born, long-life stationary). Consult the devices group about your possible customization -- modular XBee socket, specialized data log formats, programming etc
+* **[[BoPET (Mylar) film|http://en.wikipedia.org/wiki/BoPET]] and/or cut-away case for beta/gamma window**: As the plastic case blocks alpha- beta- particle radiation, a hole can be cut in a plastic case for a custom alpha-, beta-window. A BoPET (Mylar) film is strong enough to provide wind protection and thin enough to be allow for alpha- and beta-radiation measurement. Optionally the Nano can be fitted with a beta/gamma only window, which is less fragile. [??] [There is a Safecast video of cut-open case with what looks like aluminum foil taped over it. [URL??]. This custom nano hangs in the same place on the car’s side window, with the thin film covered a/b window facing out [??] to measure airborne radioactive particles while driving.] The mylar a/b window is only useful where there are sufficient airborne particles.
+
+**EXTRAS, Mentioned POSSIBLE OPTIONS ? 
+
+* GPS antenna option ? 
+* additional environmental sensors on the BZee socket (instead of the BLEBee), i.e. noise level; air quality chemistry; meterologic barometry, humidity, temperature, etc. ? Safecast has experimented with various uses and formats of the bGeigie series. (i.e. underwater, helicopter drone born, long-life stationary). 
+Consult the devices group about your possible customization -- modular XBee socket, specialized data log formats, programming etc
 
 Reportedly all Nano parts are separately available from suppliers.
 
