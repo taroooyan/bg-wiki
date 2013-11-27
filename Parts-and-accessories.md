@@ -1,8 +1,12 @@
 *initial stub -- incomplete list, 27-nov*
-Nano contents and options list and links: (also of possible use for the technically advantaged who package their own kit. Reportedly all Nano parts are separately available from suppliers.)
+
+Nano contents and options lists and links: 
+
 •	1) Parts (Nano kit contents) -- to list with link to a supplier page when known [draft]
+
 •	2) Accessory Tools and Options (another place to note source of extra tools and hardware)
-Sources: in github and mainly the kit assembly Nano Manual. See photos there in Nano Manual.
+
+Sources: in github and mainly the kit assembly Nano Manual. See photos there in [[Nano Manual|https://github.com/Safecast/bGeigieNanoKit/wiki/NANO-MANUAL]].
 
 **1. Nano Kit PARTS (with supplier link)**. 
 
@@ -10,7 +14,7 @@ Sources: in github and mainly the kit assembly Nano Manual. See photos there in 
 
 * [[LND-7317 pancake Geiger|http://www.lndinc.com/products/17/]]
 * [[Medcom iRover HV board (TBA)|http://medcom.com/imi-international-medcom-response-to-fukushima-daichi-event/ ]]
-* PCB bGeigieNanoKit v.1.0 the kit has blue PCB. There is also a purple color PCB (community Printed Circuit Board ) http://oshpark.com/shared_projects/EElEjLq3  Also see  http://blog.safecast.org/2013/09/bgeigie-nano-pcb-available-now/
+* PCB (the bGeigieNanoKit v.1.0.l Printed Circuit Board) [[Blog reports|http://blog.safecast.org/2013/09/bgeigie-nano-pcb-available-now/]] there is now a separately available purple [[community PCB|http://oshpark.com/shared_projects/EElEjLq3]] where the kit comes with blue PCB.
 * [[Arduino Fio|https://www.sparkfun.com/products/10116]]
 * [[OpenLog |https://www.sparkfun.com/products/9530]]
 * [[Adafruit Ultimate GPS|https://www.adafruit.com/products/746]]
@@ -39,8 +43,6 @@ Sources: in github and mainly the kit assembly Nano Manual. See photos there in 
 
 * Spacers…
 
-**04. TOOLS, ACCESSORIES, OPTIONS** 
-
 **TOOLS, ACCESSORIES, OPTIONS**
 
 •	Wireless option: [[BLEBee v1.0.0 board|http://www.seeedstudio.com/depot/bluetooth-bee-p-598.html]]  and iOS app [[BLExplr|https://itunes.apple.com/us/app/blexplr/id524018027?mt=8]] designed by Dr. Michael Kroll. Also see the [[product page|http://www.mkroll.mobi/?page_id=1070]]; the [[BLEBee product forum|http://forum.mkroll.mobi/]], and; [[Safecast announcement|https://www.facebook.com/media/set/?set=a.628182673894097.1073741830.196772350368467&type=1]]. (Although BLE can talk to any Bluetooth 4.0, the BLExplr iOS apps work only in BLE-enabled apple devices. Similarly the Safecast Geigerbot is only in iOS.)
@@ -50,6 +52,8 @@ Sources: in github and mainly the kit assembly Nano Manual. See photos there in 
 •	Pocket AVR Programmer for technical users who might want to program the Nano firmware. See the  [“Setup System on Mac OS X”](https://github.com/Safecast/SafecastBGeigie “Setup System on Mac OS X”) on the [[bGeigie README.md|https://github.com/Safecast/SafecastBGeigie]].
 
 **EXTRAS, POSSIBLE OPTIONS ? GPS antenna option ? additional environmental sensors on the BZee socket (instead of the BLEBee), i.e. noise level; air quality chemistry; meterologic barometry, humidity, temperature, etc. ? Safecast has experimented with various uses and formats of the bGeigie series. (i.e. underwater, helicopter drone born, long-life stationary). Consult the devices group about your possible customization -- modular XBee socket, specialized data log formats, programming etc
+
+Reportedly all Nano parts are separately available from suppliers.
 
 **For SUPPORT**:  these community-edited [[Nano wiki pages|https://github.com/Safecast/bGeigieNanoKit/wiki/_pages]]; relevant  [[bGeigieNanoKit|https://github.com/Safecast/bGeigieNanoKit/]] github repositories; the http://blog.safecast.org/ website and links on home page. Join the [[Safecast Devices Discussions and Support group|https://groups.google.com/forum/?hl=en#!forum/safecast-devices]]. 
 Contact info@safecast.org ; suppliers of particular part, etc.
