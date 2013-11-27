@@ -13,7 +13,7 @@ Sources: in github and mainly the kit assembly Nano Manual. See photos there in 
 **Large parts**
 
 * [[LND-7317 pancake Geiger|http://www.lndinc.com/products/17/]]
-* [[Medcom iRover HV board (TBA)|http://medcom.com/imi-international-medcom-response-to-fukushima-daichi-event/ ]]
+* Medcom iRover HV board. ([[Contact Medcom|http://medcom.com/contact-international-medcom/]]
 * PCB (the bGeigieNanoKit v.1.0.l Printed Circuit Board) [[Blog reports|http://blog.safecast.org/2013/09/bgeigie-nano-pcb-available-now/]] there is now a separately available purple [[community PCB|http://oshpark.com/shared_projects/EElEjLq3]] where the kit comes with blue PCB.
 * [[Arduino Fio|https://www.sparkfun.com/products/10116]]
 * [[OpenLog |https://www.sparkfun.com/products/9530]]
