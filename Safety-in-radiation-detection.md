@@ -1,4 +1,3 @@
-
 *(20131127- Moved this stub on safety to its own wiki page here from the Section #01 in Nano Operation Manual draft.)*
 
 *(This is community wiki, please edit, please share your safety advice, links and experience.)* 
@@ -60,9 +59,9 @@ Avoid radiation hazards that can be avoided. If you find some high hot sample or
 
 **SAFE RADIATION DETECTION STORIES**
 
-*(Please add your safe practice story here. And your advice and links also above.)*
+*(Please add your safe or unsafe practice story here. Share your experience. And edit and add your advice and links also above.)*
 
-*yohananw* - Many Nano users probably will not find any notable radiation. But you never know. You might stumble upon a notably high sample, such as my report on an **antique radium kit c.1904**, entry Nov 18 in devices thread entitled [[Suggestions for a good source of radiation to check the functionality|https://groups.google.com/forum/?hl=en#!searchin/safecast-devices/radium/safecast-devices/KGJOPe61in4/vUbLUtE1I7MJ]]. *If you high score the Nano on first use, you can return the game console for full refund and prize. Congratulations!* -- Ah, the bGeigie Nano is not a toy. Safecast is not an internet game. There is a real need to learn and teach radiation safety and share radiation monitoring data.
+*yohananw* - Many Nano users probably will not find any notable radiation. But you never know. You might stumble upon a notably high sample, such as my report on an **antique radium kit c.1904**, entry Nov 18 in devices thread entitled [[Suggestions for a good source of radiation to check the functionality|https://groups.google.com/forum/?hl=en#!searchin/safecast-devices/radium/safecast-devices/KGJOPe61in4/vUbLUtE1I7MJ]]. *If you high score the Nano on first use, you can return the game console for full refund and prize. Congratulations!* --Ah, the bGeigie Nano is not a toy. Safecast is not an internet game. There is a real need to learn and teach radiation safety and share radiation monitoring data.
 
 
 
