@@ -49,7 +49,7 @@ Contact info@safecast.org.
 ---- 
  
 **01.  Safety tips for radiation detection**
-This section has been moved to its own Nano wiki page [[Safety in radiation detection||https://github.com/Safecast/bGeigieNanoKit/wiki/Safety-in-radiation-detection]]
+This section has been moved to its own Nano wiki page [[Safety|https://github.com/Safecast/bGeigieNanoKit/wiki/Safety-in-radiation-detection]]
 
 **02. MODEL NAME, SAFECAST HISTORY, DESCRIPTION, USES/AGENDAS**
 
