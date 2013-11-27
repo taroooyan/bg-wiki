@@ -1,4 +1,4 @@
-draft soon
+*ROUGH draft -- incomlete, later, 27-nov*
 
 **Parts list (Nano kit contents)** [draft]
 
