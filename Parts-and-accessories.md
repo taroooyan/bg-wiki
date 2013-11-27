@@ -1,4 +1,5 @@
-*Nano contents and options: lists and links. (initial stub -- incomplete list, 27-nov)*
+###Nano contents and options: lists and links
+*(initial stub -- incomplete list, 27-nov)*
 
 1) Parts (Nano kit contents) -- to list with link to a supplier page when known [draft]
 
@@ -7,7 +8,7 @@
 Sources: in github and mainly the kit assembly Nano Manual. See photos there in [[Nano Manual|https://github.com/Safecast/bGeigieNanoKit/wiki/NANO-MANUAL]].
 
 
-##1. Nano Kit PARTS
+###1. Nano Kit PARTS
 
 **Large parts**
 
@@ -42,17 +43,17 @@ Sources: in github and mainly the kit assembly Nano Manual. See photos there in 
 
 * Spacers…
 
-##TOOLS, ACCESSORIES, OPTIONS
+###TOOLS, ACCESSORIES, OPTIONS
 
-•	Wireless option: [[BLEBee v1.0.0 board|http://www.seeedstudio.com/depot/bluetooth-bee-p-598.html]]  and iOS app [[BLExplr|https://itunes.apple.com/us/app/blexplr/id524018027?mt=8]] designed by Dr. Michael Kroll. Also see the [[product page|http://www.mkroll.mobi/?page_id=1070]]; the [[BLEBee product forum|http://forum.mkroll.mobi/]], and; [[Safecast announcement|https://www.facebook.com/media/set/?set=a.628182673894097.1073741830.196772350368467&type=1]]. (Although BLE can talk to any Bluetooth 4.0, the BLExplr iOS apps work only in BLE-enabled apple devices. Similarly the Safecast Geigerbot is only in iOS.)
+•	**Wireless option**: [[BLEBee v1.0.0 board|http://www.seeedstudio.com/depot/bluetooth-bee-p-598.html]]  and iOS app [[BLExplr|https://itunes.apple.com/us/app/blexplr/id524018027?mt=8]] designed by Dr. Michael Kroll. Also see the [[product page|http://www.mkroll.mobi/?page_id=1070]]; the [[BLEBee product forum|http://forum.mkroll.mobi/]], and; [[Safecast announcement|https://www.facebook.com/media/set/?set=a.628182673894097.1073741830.196772350368467&type=1]]. (Although BLE can talk to any Bluetooth 4.0, the BLExplr iOS apps work only in BLE-enabled apple devices. Similarly the Safecast Geigerbot is only in iOS.)
 
-•	FTDI breakout board 3.3V, for example this [[one| https://www.sparkfun.com/products/9873]] or that [[one|https://www.adafruit.com/products/284]] for loading firmware upgrades. See the Nano wiki page [[How to setup build environment on Mac OS X|https://github.com/Safecast/bGeigieNanoKit/wiki/How-to-setup-build-environment-on-Mac-OS-X/_edit]].
+•	**FTDI breakout board 3.3V**, for example this [[one| https://www.sparkfun.com/products/9873]] or that [[one|https://www.adafruit.com/products/284]] for loading firmware upgrades. See the Nano wiki page [[How to setup build environment on Mac OS X|https://github.com/Safecast/bGeigieNanoKit/wiki/How-to-setup-build-environment-on-Mac-OS-X/_edit]].
 
-•	Pocket AVR Programmer for technical users who might want to program the Nano firmware. See the  [“Setup System on Mac OS X”](https://github.com/Safecast/SafecastBGeigie “Setup System on Mac OS X”) on the [[bGeigie README.md|https://github.com/Safecast/SafecastBGeigie]].
+•	**Pocket AVR Programmer** for technical users to program the Nano firmware. See the  [“Setup System on Mac OS X”](https://github.com/Safecast/SafecastBGeigie “Setup System on Mac OS X”) on the [[bGeigie README.md|https://github.com/Safecast/SafecastBGeigie]].
 
 **EXTRAS, POSSIBLE OPTIONS ? GPS antenna option ? additional environmental sensors on the BZee socket (instead of the BLEBee), i.e. noise level; air quality chemistry; meterologic barometry, humidity, temperature, etc. ? Safecast has experimented with various uses and formats of the bGeigie series. (i.e. underwater, helicopter drone born, long-life stationary). Consult the devices group about your possible customization -- modular XBee socket, specialized data log formats, programming etc
 
 Reportedly all Nano parts are separately available from suppliers.
 
-**For SUPPORT**:  these community-edited [[Nano wiki pages|https://github.com/Safecast/bGeigieNanoKit/wiki/_pages]]; relevant  [[bGeigieNanoKit|https://github.com/Safecast/bGeigieNanoKit/]] github repositories; the http://blog.safecast.org/ website and links on home page. Join the [[Safecast Devices Discussions and Support group|https://groups.google.com/forum/?hl=en#!forum/safecast-devices]]. 
-Contact info@safecast.org ; suppliers of particular part, etc.
+**For SUPPORT**:  these community-edited [[Nano wiki pages|https://github.com/Safecast/bGeigieNanoKit/wiki/_pages]]; relevant  [[bGeigieNanoKit|https://github.com/Safecast/bGeigieNanoKit/]] github repositories; the http://blog.safecast.org/ website and home page links. Join the [[Safecast Devices Discussions and Support group|https://groups.google.com/forum/?hl=en#!forum/safecast-devices]]. 
+Contact info@safecast.org and suppliers...
