@@ -122,38 +122,38 @@ The following lists of parameters is taken from the [[NanoSetup.cpp|https://gith
 
 **SAFECAST.TXT**
 
-**nm=** User Name API User Name (or your any text) which appears on data log header line (and up to 15 characters appears on the 10 seconds start up LED display)
+>**nm=** User Name API User Name (or your any text) which appears on data log header line (and up to 15 characters appears on the 10 seconds start up LED display)
 
-**did=** #### Device ID (bGeigie Nano ####) the serial number on the top plate (or on the purple PCB?)
+>**did=** #### Device ID (bGeigie Nano ####) the serial number on the top plate (or on the purple PCB?)
 
-**gt=** 0 Geiger Type [??]
+>**gt=** 0 Geiger Type [??]
 
-**gm=** 0 Geiger Mode [??]
+>**gm=** 0 Geiger Mode [??]
 
-**cpmf=** 334 NANO_CPM_ FACTOR (Counts per Minute Detector Efficiency fFactor) 
+>**cpmf=** 334 NANO_CPM_ FACTOR (Counts per Minute Detector Efficiency fFactor) 
 
-**cpmn=** Cs137 CPM Nuclide [Detector Efficiency for Cs137 reference Nuclide]
+>**cpmn=** Cs137 CPM Nuclide [Detector Efficiency for Cs137 reference Nuclide]
 
-**bqmf=** 37 NANO_BQM2_FACTOR (Bequerel Detector Efficiency per Meter Squared, Bq/M^2 Factor] (Bq. Eff.) preset value for counting efficiency for the Nano 
+>**bqmf=** 37 NANO_BQM2_FACTOR (Bequerel Detector Efficiency per Meter Squared, Bq/M^2 Factor] (Bq. Eff.) preset value for counting efficiency for the Nano 
 
-**bqmn=** Cs137 BQM2 Nuclide [Detector Efficiency for Cs137 reference Nuclide]
+>**bqmn=** Cs137 BQM2 Nuclide [Detector Efficiency for Cs137 reference Nuclide]
 
-**al=** 150 Alarm threshold (in cpm)  The setting can be left blank (turned off), or set up to a maximum 99,999 CPM. [??]
+>**al=** 150 Alarm threshold (in cpm)  The setting can be left blank (turned off), or set up to a maximum 99,999 CPM. [??]
 
-**tz=** +/-## Time Zone (local offset to UTC [without daylight savings time ??]) 
+>**tz=** +/-## Time Zone (local offset to UTC [without daylight savings time ??]) 
 e.g. Japan +9; Los Angeles -10 
 
-**cn=** ABC Country code [your 3-character string, eg. JPN] 
+>**cn=** ABC Country code [your 3-character string, eg. JPN] 
 
-**st=** 0 Sensor Type
+>**st=** 0 Sensor Type
 
-**ss=** 0 Sensor Shield
+>**ss=** 0 Sensor Shield
 
-**sh=** 100 Sensor eight (cm) [when if ever can should SH= be modified??]
+>**sh=** 100 Sensor eight (cm) [when if ever can should SH= be modified??]
 
-**sm=** 0 Sensor Mode
+>**sm=** 0 Sensor Mode
 
-**cw=** 60 Character width
+>**cw=** 60 Character width
  
 SAFECAST.TXT, setup parameters file on the micro sd card 
 
@@ -194,7 +194,6 @@ A key to the fields of the Data Log is given in the [[bGeigie library README.md 
 >02. **Device ID**: Device serial number. 300
 
 >03. **Date**: Date formatted according to iso-8601 standard. Usually uses GMT. 2012-12-16T17:58:31Z
-
 
 >04. **Radiation 1 minute**: number of pulses given by the Geiger tube in the last minute. 30
 
