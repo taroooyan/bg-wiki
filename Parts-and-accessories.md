@@ -13,12 +13,12 @@ Sources: in github and mainly the kit assembly Nano Manual. See photos there in 
 **Large parts**
 
 * [[LND-7317 pancake Geiger|http://www.lndinc.com/products/17/]]
-* Medcom iRover HV board. ([[Contact Medcom|http://medcom.com/contact-international-medcom/]]
+* Medcom iRover HV board. ([[Contact Medcom|http://medcom.com/contact-international-medcom/]])
 * PCB (the bGeigieNanoKit v.1.0.l Printed Circuit Board) [[Blog reports|http://blog.safecast.org/2013/09/bgeigie-nano-pcb-available-now/]] there is now a separately available purple [[community PCB|http://oshpark.com/shared_projects/EElEjLq3]] where the kit comes with blue PCB.
 * [[Arduino Fio|https://www.sparkfun.com/products/10116]]
 * [[OpenLog |https://www.sparkfun.com/products/9530]]
 * [[Adafruit Ultimate GPS|https://www.adafruit.com/products/746]]
-* [[Monochrome 128x32 OLED screen (or 128×64 high contrast, two display sizes supported|https://www.adafruit.com/products/661]]
+* [[Monochrome 128x32 SPI OLED graphic display|https://www.adafruit.com/products/661]]
 * [[2000mAh 3.7V 7.4Wh Lithium Polymer battery (Li-Po)| https://www.sparkfun.com/products/8483]]
 * [[Audio cable with 3.5mm jack (white bidirectional stereo)| http://store.apple.com/us/product/HA829ZM/A/belkin-35mm-retractable-stereo-cable-1-m33-ft?fnode=3a]]
 * [[Pelican 1010 micro-case|http://www.pelican.com/cases_detail.php?Case=1010]]: strong, tight, transparent plastic, crush proof, water resistant. Opaque colors, [[i1010 micro case|http://www.pelican.com/cases_detail_specs.php?Case=i1010]], are also available from manufacturer. 
