@@ -1,6 +1,6 @@
 ***Safecast bGeigie Nano Operation Manual***
 
-Nov 24, 2013 –. verbose draft needs editing. Excerpts from website, devices group, app, etc. hopefully in context, usually without attribution. Community-edited wiki page. (needs more input, photos, log file, LEDs diagrams, etc.  Please check [??]=unsure
+*Nov 24, 2013 –. verbose draft needs editing. Excerpts from website, devices group, app, etc. hopefully in context, usually without attribution. Community-edited wiki page. (needs more input, photos, log file, LEDs diagrams, etc.  Please check [??]=unsure*
 
 Draft is part of community-edited [[Nano wiki|https://github.com/Safecast/bGeigieNanoKit/wiki/_pages]]. For support also read and query ([[devices group|https://groups.google.com/forum/?hl=en#!forum/safecast-devices]], contact info@safecast.org), etc.
 
@@ -10,11 +10,11 @@ Contact info@safecast.org.
 
 **Contents:**
 
-**01.  Safety tips for radiation detection**
+**01.  Safety tips for radiation detection** *(moved to its own Nano wiki page [[Safety|https://github.com/Safecast/bGeigieNanoKit/wiki/Safety-in-radiation-detection]])*
 
 **02.  Model name, description, uses/agendas**
 
-**03.  Parts (names, functions, diagram) incl switches**
+**03.  Parts (names, functions, diagram) incl switches**  *(Parts list moved to [[Parts and accessories|https://github.com/Safecast/bGeigieNanoKit/wiki/Parts-and-accessories]] page)*
 
 **04.  Tools, accessories, options**
 
@@ -49,7 +49,7 @@ Contact info@safecast.org.
 ---- 
  
 **01.  Safety tips for radiation detection**
-This section has been moved to its own Nano wiki page [[Safety|https://github.com/Safecast/bGeigieNanoKit/wiki/Safety-in-radiation-detection]]
+*This section has been moved to its own Nano wiki page [[Safety|https://github.com/Safecast/bGeigieNanoKit/wiki/Safety-in-radiation-detection]]*
 
 **02. MODEL NAME, SAFECAST HISTORY, DESCRIPTION, USES/AGENDAS**
 
@@ -104,6 +104,7 @@ It is very difficult to detect radioactive contamination in food or drink. Food 
 
 
 **03. PARTS (NAMES, FUNCTIONS)** [needs diagram]
+*(Parts list moved to [[Parts and accessories|https://github.com/Safecast/bGeigieNanoKit/wiki/Parts-and-accessories]] page)*
 
 Nano parts are listed in github, in kit assembly manual, in specifications. (A complete Nano wiki parts page is still to do. The following draft list is incomplete.)
 
