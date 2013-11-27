@@ -8,8 +8,8 @@ bGeigie Nano wiki/_pages (in various stages of community drafting):
 * Home [this page]
 * NANO MANUAL [Kit Assembly] 
 * Nano Operation Manual 
-* Safety in radiation detection
 * Parts list (Nano kit contents); accessories; options
+* Safety in radiation detection
 
 bGeigie Nano description and support addresses: 
 * this community-edited Nano wiki (https://github.com/Safecast/bGeigieNanoKit/wiki/_pages);
