@@ -87,69 +87,25 @@ The Nano follows the prototype bento Geigie, and is followed by [or concurrent t
 
 As Pieter wrote: “bGeige Nano [is] the only device with GPS and Wifi/Bluetooth option,… versatile system with a high quality sensor that can do GPS based logging, iPhone interface, measures gamma, beta, alpha, has uSV and Bq/m2 measurement, is fully configurable, is water tight, and is fully open source…. Most importantly, the nano is a fairly simple kit comprised of readily available off the shelf parts. …you can build the Nano Kit in an evening, and be Safecasting the next day. You can take individual spot readings, or attach it to your car and drive around collecting geotagged radiation data that can be uploaded to Safecast via our API upload page.
 
-The Nano is designed as a mobile sensor, to hang outside on a car’s side window. Outside so as not to be shielded by the car. The Nano is hung at the top of the window to be far enough from the ground to get a good background average. The parameter setting of 100 cm is set in the Sensor eight field. This contrasts with close specific surface contamination monitoring (which we do when we find a hotspot thanks to an increased average). The radiation measured on the car window is not areal or airborne gas per se. It's radiating out from radioactive solid stuff (also from liquids ??) on the asphalt, ground, walls, leaves, etc... The Nano is pre-set to monitor radiation from nuclide Cs137. 
+The Nano is designed as a mobile sensor, to hang outside on a car’s side window. Outside so as not to be shielded by the car. The Nano is hung at the top of the window to be far enough from the ground to get a good background average. The parameter setting of 100 cm is set in the Sensor Height field. This contrasts with close specific surface contamination monitoring (which we do when we find a hotspot thanks to an increased average). The radiation measured on the car window is not areal or airborne gas per se. It's radiating out from radioactive solid stuff (also from liquids ??) on the asphalt, ground, walls, leaves, etc... The Nano is pre-set to monitor radiation from nuclide Cs137. 
 
-Inside the case the Nano measures [[gamma rays|https://en.wikipedia.org/wiki/Gamma_ray]]; outside the case, it can measure [[alpha-, |https://en.wikipedia.org/wiki/Alpha_particle]]/[[beta-, || https://en.wikipedia.org/wiki/Beta_particle]] and gamma-radiation. The grid glued to Nano’s Geiger-muller sensor only blocks a couple percent of radiation and serves to protect the sensitive pancake sensor. As the plastic case blocks alpha- beta- particle radiation, a hole can be cut in a plastic case for a custom alpha-, beta-window. The BoPET (Mylar) film allows for alpha, beta and gamma radiation measurement. Optionally the Nano can be fitted with a beta/gamma only window, which is less fragile. [There is a Safecast video of this cut-open case [URL??]. This custom nano hangs in the same place on the car’s side window, with the thin film covered a/b window facing out [??] to measure airborne radioactive particles while driving.
+Inside the case the Nano measures [[gamma rays|https://en.wikipedia.org/wiki/Gamma_ray]]; outside the case, it can measure [[alpha-, |https://en.wikipedia.org/wiki/Alpha_particle]]/[[beta-, || https://en.wikipedia.org/wiki/Beta_particle]] and gamma-radiation. The grid glued to Nano’s Geiger-muller sensor only blocks a couple percent of radiation and serves to protect the sensitive pancake sensor. As the plastic case blocks alpha- beta- particle radiation, a hole can be cut in a plastic case for a custom alpha-, beta-window. A BoPET (Mylar) film provides protection and allows for alpha, beta and gamma radiation measurement. Optionally the Nano can be fitted with a beta/gamma only window, which is less fragile. [There is a Safecast video of this cut-open case [URL??]. This custom nano hangs in the same place on the car’s side window, with the thin film covered a/b window facing out [??] to measure airborne radioactive particles while driving.] The mylar a/b window is only useful where there are sufficient airborne particles. (Compared to the nuclear particles, the speed and direction of car is negligible. The slowest particle, the high mass alpha has a speed of 15,000 km/s or about 5% of the speed of light. The speed of the beta particle approaches c, the speed of light.) 
 
-(The radioactive atoms in air and on dust that give off particles do not need to enter the sensor, only the nuclear particle. The speed and direction of car is negligible. The slowest particle, the high mass alpha has a speed of 15,000 km/s, which is 5% of the speed of light. The speed of the beta particle approaches c, the speed of light.) This mylar a/b window is only useful where there are sufficient airborne particles.
+The Safecast Dataset is represents mobile background readings, not spot measures of items that happens to be in front of you. Hence the two modes on the device - one for logging and one for spot measurements. Monitoring use and data submission to gets further mention below: in Mode uses; in Uploading data via your API to Safecast dataset. *[Perhaps this should be more clearly stated on the api webpage. Hopefully a guide to monitoring and submitting logs to data-shared projects or successive revisions of this operation manual will explain this point clearly enough for novice Nano users. For reliability of the Safecast dataset, perhaps need guide rules for mobile monitoring in api web page?]*
 
-The Safecast Dataset is meant to represent mobile background readings, not spot measures of items that happens to be in front of you. Hence the two modes on the device - one for logging and one for spot measurements. Monitoring use and data submission to gets further mention below: in Mode uses; in Uploading data via your API to Safecast dataset. *[Perhaps this should be more clearly stated on the api webpage. Hopefully a guide to monitoring and submitting logs to data-shared projects or successive revisions of this operation manual will explain this point clearly enough for novice Nano users. For reliability of the Safecast dataset, perhaps need guide rules for mobile monitoring in api web page?]*
+Removing the nano from its case allows detection of nearby beta activity [within a few [X??] centimeters]. The pancake is actually much more sensitive to beta than gamma, so any beta source should give a clear response. Carefully hold the sensor close to the surface as beta particles lose much of their energy in air. In anycase leave the glued metal grill on the pancake sensor. (Again, the grid only blocks a few per cent of radiation. Be careful not to get any water on the sensor itself as it will damage it. This is repeated in the section Hardware Cautions, water not in the nano and not in the sensor.)
 
-Removing the nano from its case allows detection of nearby beta activity [within a few [X??] centimeters]. The pancake is actually much more sensitive to beta than gamma, so any beta source should give a clear response. Carefully hold the sensor close to the surface as beta particles lose much of their energy in air. In anycase leave the glued metal grill on the pancake sensor. The grid only blocks a few per cent of radiation. Be careful not to get any water on the sensor itself as it will damage it. (This is repeated in the section Hardware Cautions, water not in the nano and not in the sensor.)
-
-Although the bGeigie Nano is designed to measure alpha- and beta-radiation in addition to gamma-radiation, its detection of radiation from a liquid is inaccurate, but at best an indication. Fluid actually blocks radiation. As water shields everything coming to the sensor from below, water typically measures lower than its actual level. The only radiation that will reach the sensor will be from above, and a certain amount of activity coming from decay of atoms in the sensor itself. 
+Although the bGeigie Nano is designed to measure alpha- and beta-radiation in addition to gamma-radiation, its detection of radiation from a liquid is at best an indication. Fluid actually blocks radiation. As water shields everything coming to the sensor from below, water typically measures lower than its actual level. The only radiation that will reach the sensor will be from above, and a certain amount of activity coming from decay of atoms in the sensor itself. 
 
 It is very difficult to detect radioactive contamination in food or drink. Food monitoring is best done by a laboratory scintillation counter with chemically processed samples. The Nano’s spot monitoring method of holding nano very close to the food source for at least a one minute provides only a rough indication.-??. 
 
-[[Nano features and specifications|https://github.com/Safecast/bGeigieNanoKit/wiki/bGeigieNano-Features_specifications]] are listed elsewhere in [[Nano wiki pages|https://github.com/Safecast/bGeigieNanoKit/wiki/_pages]]. The main part, the sensor is gets repeat mention here. 
+Although Nano features and parts have their own wiki pages, the sensor gets repeat mention here. 
 
 * The sensor is the 2” pancake GM tube [[LND 7317|http://www.lndinc.com/products/17/]], capable of measurement of alpha- and beta- as well as gamma- radiation (referenced for Cs-137 nuclide check source data efficiency). Nano's maximum operating range is to about 350,000cpm, or 1mSv/h (1 millisievert per hour dose rate or 1000µSv/h microsieverts per hour)  (micro sometimes written with u, uSv=µSv).  (Radiation detection units are mentioned further in this guide, see Calibration, reliability. Radiation measurements are averaged, approximate; the more accurate the more complicated?? “Go learn nuclear physics.”)
 
 
 **03. PARTS (NAMES, FUNCTIONS)** [needs diagram]
 *(Parts list moved to [[Parts and accessories|https://github.com/Safecast/bGeigieNanoKit/wiki/Parts-and-accessories]] page)*
-
-Nano parts are listed in github, in kit assembly manual, in specifications. (A complete Nano wiki parts page is still to do. The following draft list is incomplete.)
-
-Contents list is handy in the connecting the kit. It might also be useful for the technically advantaged who package their own kit, collect the Nano parts which are reportedly are all individually available on the shelf at their sources.). 
-
-**Large parts**
-
-* [[LND-7317 pancake Geiger|http://www.lndinc.com/products/17/]]
-* [[Medcom iRover HV board (TBA)|http://medcom.com/imi-international-medcom-response-to-fukushima-daichi-event/ ]]
-* PCB bGeigieNanoKit v.1.0 the kit has blue PCB. There is also a purple color PCB (community Printed Circuit Board ) http://oshpark.com/shared_projects/EElEjLq3  Aslo see  http://blog.safecast.org/2013/09/bgeigie-nano-pcb-available-now/
-* [[Arduino Fio|https://www.sparkfun.com/products/10116]]
-* [[OpenLog |https://www.sparkfun.com/products/9530]]
-* [[Adafruit Ultimate GPS|https://www.adafruit.com/products/746]]
-* [[Monochrome 128x32 OLED screen (or 128×64 high contrast, two display sizes supported|https://www.adafruit.com/products/661]]
-* [[2000mAh 3.7V 7.4Wh Lithium Polymer battery (Li-Po)| https://www.sparkfun.com/products/8483]]
-* [[Audio cable with 3.5mm jack (white bidirectional stereo)| http://store.apple.com/us/product/HA829ZM/A/belkin-35mm-retractable-stereo-cable-1-m33-ft?fnode=3a]]
-* [[Pelican 1010 micro-case|http://www.pelican.com/cases_detail.php?Case=1010]]  is a strong, tight, transparent plastic, crush proof, water resistant [[Pelican 1010 micro case|http://www.pelican.com/cases_detail.php?Case=1010]]. The case has strap holders at its two ends, a lanyard or [[carabiner|https://en.wikipedia.org/wiki/Carabiner]], and neoprene feet on top and bottom. The kit can be easily attached to vehicles. (See examples of mountings later.) User who may possibly prefer an opaque case can order the [[i1010 micro case|http://www.pelican.com/cases_detail_specs.php?Case=i1010]] from manufacturer.  It’s customary to see the lanyard carabiner as top of case with hinge on left so that power button is on the open right. Whatever direction is your up or down, the pancake sensor goes into the liner’s hole. It’s easier to replace the nano together inside the liner back into the case.  
-
-
-**Small Parts**
-
-* Switch on/off 
-* Toggle Switch  
-* Dual-Dip-switch . 
-* LED R  (Log/alarm)
-* LED B  (Count)
-* Piezo Buzzer (B1)
-* 3.5 mm Audio port connector 
-* microUSB port for power charging 
-* (+data upload FTDI-capable??) 
-
-**More small pieces**, like headers, fasteners, spacers… Their specific description and online source catalog numbers could be included in the nano wiki parts list. 
-
-**BATTERY USE, RECHARGING** (redundant, see [[Nano Manual Kit Assembly|https://github.com/Safecast/bGeigieNanoKit/wiki/NANO-MANUAL]]; & below Cautions)
-
-+ (micro USB cable, yellow LED will dim once fully charged, full charge takes 5-6 hours, bGeigie nano runs approx 35-40 hours on a full charge in LOG mode, Battery indicator in bottom right of display, and; Per cent level charged appears on startup.)
-
-+ **NEVER charge the bGeigie while the unit is in ON.** Power MUST be turned OFF before charging to avoid permanent damage to the charge circuit. 
-
-+ Replace a broken (detached wire) battery with the same rating (2000mAh 3.7V Lithium Polymer (Li-Po, Li-Poly). The Nano charge circuit may overheat if larger batteries are used.
-
-+ A Li-Po battery can be hazardous if mylar membrane is punctured. Handle carefully! (See the Manual on kit assembly for more on battery.) 
 
 **04. TOOLS, ACCESSORIES, OPTIONS** *(this section largely to [[Parts and accessories|https://github.com/Safecast/bGeigieNanoKit/wiki/Parts-and-accessories]] page)*
 
@@ -504,13 +460,14 @@ Data interpretation, data sharing, interpretation, reliability, robustness, pres
 
 - The MICRO-SD CARD cannot be read over the USB port [??] -- instead use a micro SD card reader
 
-**BATTERY Cautions:** (also see [[Nano Manual Kit Assembly|https://github.com/Safecast/bGeigieNanoKit/wiki/NANO-MANUAL]], repeated above in 3. Parts?
+**BATTERY Cautions:** (also see [[Nano Manual Kit Assembly|https://github.com/Safecast/bGeigieNanoKit/wiki/NANO-MANUAL]] (Charge via micro USB cable, yellow LED will dim once fully charged, full charge takes 5-6 hours, bGeigie nano runs approx 35-40 hours on a full charge in LOG mode. Battery indicators: icon in bottom right of display, and; Per cent of battery charged appears on startup screen.)
 
 + **NEVER charge the bGeigie while the unit is in ON.** Power MUST be turned OFF before charging to avoid permanent damage to the charge circuit. 
 
 + Replace a broken (detached wire) battery with the same rating (2000mAh 3.7V Lithium Polymer (Li-Po, Li-Poly). The Nano charge circuit may overheat if larger batteries are used.
 
 + A Li-Po battery can be hazardous if mylar membrane is punctured. Handle carefully! 
+
 
 **SENSOR Cautions:**
 
