@@ -1,6 +1,7 @@
 ***Safecast bGeigie Nano Operation Manual***
 
 *Nov 24, 2013 –. verbose user guide draft needs editing. Excerpts from website, devices group, app, etc. hopefully in context, usually without attribution. Community-edited wiki page. (needs more input, photos, log file, LEDs diagrams, etc.  Please check [??]=unsure*
+*(handy - [[markdown editor help|https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet]])
 
 **Orientation**:  Surf the Safecast website http://blog.safecast.org/ and the links on the home page. Join the [[Safecast Devices Discussions and Support group|https://groups.google.com/forum/?hl=en#!forum/safecast-devices]]. For support, contact info@safecast.org.  Read these [[Nano wiki pages|https://github.com/Safecast/bGeigieNanoKit/wiki/_pages]] (in various stages of community drafting):
 * [[Features/specifications|https://github.com/Safecast/bGeigieNanoKit/wiki/bGeigieNano-Features_specifications]]
