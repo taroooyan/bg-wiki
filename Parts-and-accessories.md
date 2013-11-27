@@ -1,12 +1,12 @@
-*initial stub -- incomplete list, 27-nov*
+*Nano contents and options: lists and links. (initial stub -- incomplete list, 27-nov)*
 
-Nano contents and options lists and links: 
 
-•	1) Parts (Nano kit contents) -- to list with link to a supplier page when known [draft]
+1) Parts (Nano kit contents) -- to list with link to a supplier page when known [draft]
 
-•	2) Accessory Tools and Options (another place to note source of extra tools and hardware)
+2) Accessory Tools and Options (another place to note source of extra tools and hardware)
 
 Sources: in github and mainly the kit assembly Nano Manual. See photos there in [[Nano Manual|https://github.com/Safecast/bGeigieNanoKit/wiki/NANO-MANUAL]].
+
 
 **1. Nano Kit PARTS (with supplier link)**. 
 
