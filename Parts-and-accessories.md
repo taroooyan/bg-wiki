@@ -1,6 +1,5 @@
 *Nano contents and options: lists and links. (initial stub -- incomplete list, 27-nov)*
 
-
 1) Parts (Nano kit contents) -- to list with link to a supplier page when known [draft]
 
 2) Accessory Tools and Options (another place to note source of extra tools and hardware)
@@ -8,7 +7,7 @@
 Sources: in github and mainly the kit assembly Nano Manual. See photos there in [[Nano Manual|https://github.com/Safecast/bGeigieNanoKit/wiki/NANO-MANUAL]].
 
 
-**1. Nano Kit PARTS (with supplier link)**. 
+##1. Nano Kit PARTS
 
 **Large parts**
 
@@ -21,7 +20,7 @@ Sources: in github and mainly the kit assembly Nano Manual. See photos there in 
 * [[Monochrome 128x32 OLED screen (or 128×64 high contrast, two display sizes supported|https://www.adafruit.com/products/661]]
 * [[2000mAh 3.7V 7.4Wh Lithium Polymer battery (Li-Po)| https://www.sparkfun.com/products/8483]]
 * [[Audio cable with 3.5mm jack (white bidirectional stereo)| http://store.apple.com/us/product/HA829ZM/A/belkin-35mm-retractable-stereo-cable-1-m33-ft?fnode=3a]]
-* [[Pelican 1010 micro-case|http://www.pelican.com/cases_detail.php?Case=1010]]: strong, tight, transparent plastic, crush proof, water resistant. Opaque color[[i1010 micro case|http://www.pelican.com/cases_detail_specs.php?Case=i1010]] is also available from manufacturer. 
+* [[Pelican 1010 micro-case|http://www.pelican.com/cases_detail.php?Case=1010]]: strong, tight, transparent plastic, crush proof, water resistant. Opaque colors, [[i1010 micro case|http://www.pelican.com/cases_detail_specs.php?Case=i1010]], are also available from manufacturer. 
 
 **Small Parts** (need part specification?)
 
@@ -43,7 +42,7 @@ Sources: in github and mainly the kit assembly Nano Manual. See photos there in 
 
 * Spacers…
 
-**TOOLS, ACCESSORIES, OPTIONS**
+##TOOLS, ACCESSORIES, OPTIONS
 
 •	Wireless option: [[BLEBee v1.0.0 board|http://www.seeedstudio.com/depot/bluetooth-bee-p-598.html]]  and iOS app [[BLExplr|https://itunes.apple.com/us/app/blexplr/id524018027?mt=8]] designed by Dr. Michael Kroll. Also see the [[product page|http://www.mkroll.mobi/?page_id=1070]]; the [[BLEBee product forum|http://forum.mkroll.mobi/]], and; [[Safecast announcement|https://www.facebook.com/media/set/?set=a.628182673894097.1073741830.196772350368467&type=1]]. (Although BLE can talk to any Bluetooth 4.0, the BLExplr iOS apps work only in BLE-enabled apple devices. Similarly the Safecast Geigerbot is only in iOS.)
 
