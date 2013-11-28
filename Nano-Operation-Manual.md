@@ -2,16 +2,13 @@
 
 This is a draft of the Nano user guide (in process nov 28)
 
-*(with attempt at github markdown ToC Table of Contents, editing help - [[github flavored markdown|https://help.github.com/articles/github-flavored-markdown]] and [[markdown cheatsheet|https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet]], and [[model ToC|https://github.com/akshatpradhan/information-security-policy/tree/policy_v1#table-of-contents]] or [[example|https://github.com/akshatpradhan/information-security-policy/pull/2/files]
-])*
+*(editing help - [[github flavored markdown|https://help.github.com/articles/github-flavored-markdown]] and [[markdown cheatsheet|https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet]], and without attempting linked ToC Table of Contents, [[model ToC|https://github.com/akshatpradhan/information-security-policy/tree/policy_v1#table-of-contents]] or [[example|https://github.com/akshatpradhan/information-security-policy/pull/2/files]])*
 
 ###Table of Contents###
-
-
--- [1. Safecast designed uses](#Safecast-designed-uses-)
- -    - [Model name](#model-name-)
- -    - [Safecast background](#Safecast-background-)
- -    - [Nano uses](#Nano-uses-)
+-- [Safecast designed uses](#Safecast-designed-uses)
+ -   - [Model name](#model-name)
+ -   - [Safecast background](#Safecast-background)
+ -   - [Nano uses](#Nano-uses)
 
 **01.  [](https://github.com/Safecast/bGeigieNanoKit/wiki/Nano-Operation-Manual/  "####01")**
 
@@ -45,8 +42,8 @@ This is a draft of the Nano user guide (in process nov 28)
 
 ---- 
 
- +   [1. Safecast designed uses](#Safecast-designed-uses-)
- +    - [Model name](#model-name-)
++-   [1. Safecast designed uses](#Safecast-designed-uses)
+ +    - [Model name](#model-name)
 Safecast bGeigie Nano kit is a **geo-tagged mobile sensor of ionizing radiation** with internet data sharing format and optional wireless capability. It follows from the earlier, larger Bento Geigie. The word “bento” is Japanese for lunchbox; Geigie is cute for Geiger counter; nano followed the mini model. Together with the distributor Medcom Safecast released the nano kit in May [??] 2013.
 
  +    - [Safecast background](#Safecast-background-)
