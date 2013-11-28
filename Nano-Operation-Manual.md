@@ -7,7 +7,7 @@ This is a draft of the Nano user guide (in process nov 28)
 ###Table of Contents###
 -- [Safecast designed uses](#Safecast-designed-uses-)
  -   - [Model name](#model-name-)
- -   - [Safecast background](#Safecast-background-
+ -   - [Safecast background](#Safecast-background-)
  -   - [Nano uses](#Nano-uses-)
 
 **01.  [](https://github.com/Safecast/bGeigieNanoKit/wiki/Nano-Operation-Manual/  "####01")**
