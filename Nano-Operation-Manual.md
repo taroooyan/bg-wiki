@@ -7,11 +7,11 @@ This is a draft of the Nano user guide (in process nov 28) from verbose to markd
 ###Table of Contents###
 
 1. Safecast designed Nano uses
-2. microSD Files; Parameter Settings; Alarm; Data Log
-3. LED display fields, Toggle Modes
-4. Start: Boot sequence
-5.  How to measure in logging mode
-6.  How to measure in surface mode
+6. microSD Files; Parameter Settings; Alarm; Data Log
+2. LED display fields, Toggle Modes
+3. Start: Boot sequence
+4.  How to measure in logging mode
+5.  How to measure in surface mode
 7.  Mounting on person, vehicle, stand, etc.
 8.  API, uploading sharing data to Safecast
 9.  Uploading data to other datasets (comparative note)
@@ -33,7 +33,53 @@ This is a draft of the Nano user guide (in process nov 28) from verbose to markd
 
 - The uses and capabilities are those of the Nano's sensor, the 2” pancake GM tube [[LND 7317|http://www.lndinc.com/products/17/]], capable of measurement of alpha- and beta- as well as gamma- radiation (referenced for Cs-137 nuclide check source data efficiency). Nano's maximum operating range is to about 350,000cpm, or 1mSv/h (1 millisievert per hour dose rate or 1000µSv/h microsieverts per hour)  (micro sometimes written with u, uSv=µSv).
 
-####2. microSD Files; Parameter Settings; Alarm; Data Log; 
+####2. LED display fields, Toggle Modes
+*[needs photos, explicit text?]*
+
+* The bGeigie Nano has two operating (display and recording) modes, controlled by the toggle switch at upper right. Label on the transparent top panel: (to the right) "bq/m^2; uS/h", (to left) "log; cpm".
+
++ The “up” position (to the right) switches the unit into geiger counter mode without recording (no logging). Fields displayed on the OLED are indicators for uSv/h dose-rate (Cs137), max dose-rate, dosimeter, Bq/m2 display (Cs137), time stamp and Alarm LED. 
+
++ The “down” position puts the Nano into recording (logging, mobile tracing) mode. Displayed on the OLED are indicators for CPM and µSv/h, number of satellites locked, altitude (height m), distance traversed (km), total duration of measurement (h:m) and time stamp (dd:hh:mm:ss). When bGeigie Nano is switched to recording mode, the display shows whether a micro SD memory card is inserted or not. [The photo] displays the “NO SD CARD” message, meaning no card is inserted. When a card is inserted properly, this message will disappear. 
+
+
+####3. Quick Start: Boot sequence
+
+* The power switch is a sliding switch at the lower right. To turn the unit on, slide it to the up position. First the SAFECAST logo will appear on the display as the splash screen for about one second. 
+
+* The next start-up screen has these the name of model “bGeigie Nano”, the firmware version number, battery charge level, basic settings, and the user’s name (or other customizable information) are indicated.  
+
+####4. How to measure in logging mode
+* In recording (logging) mode the display also shows a lock GPS indication. When the device locks onto GPS, it show the number of satellites found, and a small red LED will glow. The picture shows the “No GPS” message. In this case, GPS lock can be achieved by placing the device near a window and waiting for a few minutes
+
+- small Red LED will only glow if: GPS is locked, SD card is present, battery has more than 10% charge left, unit is on for one minute, geiger tube is providing a pulse). It can be dimmed by putting the DIP switch #2 Off.
+
+- Speaker "clicks" and small Blue LED blinks for each pulse from the geiger tube. It can be dimmed by putting the DIP switch #1 Off.
+
+- Red LED on GPS unit blinks every 1 second in case the GPS is not locked. After that blinks every 10 seconds once locked.
+
+- The date/time is in __UTC__ (formerly called GMT) and not in local time. (Because the system is global, it uses a single time reference, which is provided by the GPS.) The __date/time stamp__ is refreshed when a log data is written to the card, each line in file. The time stamp is used to create the LOG file name.  (It was not possible to implement setting the date on the file.) The UTC log filename may be +/- one day off from the local date of the measurement given time zones and IDL (International Date Line). The local time zone offset appears with the parameters in the top header line of the log file. The file metadata is not updated (the FAT library is slimmed down/missing features to fit in RAM). When upload log, please enter metadata in the required fields and submit for approval. 
+
+
+####5. How to measure in surface mode
+(using the Nano taken outside of its case for α- and more β-detection)
+
+- removal from its case (with or without the rubber liner)
+
+- photo how to best take unit out of case by using both thumbs to push in and swivel out the unit. (Can be reinserted into case as above or inside the removable rubber liner.)
+
+- in uSv/Bq mode display also shows Peak dose rate (in uSv/h) and total accumulated dose (in uSv) and CPM 
+
+- uSv dose rate (put in case, hold 1m above ground, tilt around 45 degrees, wait for 1 minute for stable reading)
+
+- bQ (take out of case, keep within 5cm to 1cm from surface, 1 minute for stable reading, read value on second line in Bq/m2, speaker sound to aid in finding hotspots)
+
+- provides indication but has limitations  
+Kalin wrote: “The grid on the pancake sensor is only useful when you take the unit out of the Pelican to look for surface contamination (alpha/beta). The grid itself has a very small shielding effect, mostly for alpha/beta and weak gamma. Given the standard +/- 15% accuracy of the unit, you can ignore it.” 
+“Averaging two different Nanos --you should only compare long-term counting (e.g. number of counts for 10 minutes). “ 
+
+
+####6. microSD Files; Parameter Settings; Alarm; Data Log; 
 + The __micro-SD card__ that ships with the bGeigie Nano contains two pre-set ﬁles, CONFIG.TXT for communication and SAFECAST.TXT for certain user, data parameters. Keep a backup and copy the two root files to any additional Nano microSD card. If the files are corrupted or deleted from the micro-SD, the Nano will not work properly. Default settings are available online at: https://github.com/Safecast/bGeigieNanoKit/tree/master/SD%20card
 
 - Carefully edit the setting fields (user-name-text, time zone,...) via a micro SD card reader on a computer's USB. (The micro SD card cannot be read on an microSD card slot.) *(Expert users may edit the calibrated nuclide efficiency fields like cpmf (counts per minute factor Cs137) with cpmn (counts per minute nuclide Cs137) -- but not for submitting data, not without first consulting the Safecast API dataset. ??)*
@@ -136,51 +182,6 @@ e.g. Japan +9; Los Angeles -10
 
 Other Files on the MicroSD Card:  The micro-SD card is delivered with apple disc system files and folders. [non Apple devices users can delete or leave these on micro-SD? Plenty of space to leave them on the 2gb Micro-SD card.] 
 
-####3. LED display fields, Toggle Modes
-*[needs photos, explicit text?]*
-
-* The bGeigie Nano has two operating (display and recording) modes, controlled by the toggle switch at upper right. Label on the transparent top panel: (to the right) "bq/m^2; uS/h", (to left) "log; cpm".
-
-+ The “up” position (to the right) switches the unit into geiger counter mode without recording (no logging). Fields displayed on the OLED are indicators for uSv/h dose-rate (Cs137), max dose-rate, dosimeter, Bq/m2 display (Cs137), time stamp and Alarm LED. 
-
-+ The “down” position puts the Nano into recording (logging, mobile tracing) mode. Displayed on the OLED are indicators for CPM and µSv/h, number of satellites locked, altitude (height m), distance traversed (km), total duration of measurement (h:m) and time stamp (dd:hh:mm:ss). When bGeigie Nano is switched to recording mode, the display shows whether a micro SD memory card is inserted or not. [The photo] displays the “NO SD CARD” message, meaning no card is inserted. When a card is inserted properly, this message will disappear. 
-
-
-####4. Quick Start: Boot sequence
-
-* The power switch is a sliding switch at the lower right. To turn the unit on, slide it to the up position. First the SAFECAST logo will appear on the display as the splash screen for about one second. 
-
-* The next start-up screen has these the name of model “bGeigie Nano”, the firmware version number, battery charge level, basic settings, and the user’s name (or other customizable information) are indicated.  
-
-####5. How to measure in logging mode
-* In recording (logging) mode the display also shows a lock GPS indication. When the device locks onto GPS, it show the number of satellites found, and a small red LED will glow. The picture shows the “No GPS” message. In this case, GPS lock can be achieved by placing the device near a window and waiting for a few minutes
-
-- small Red LED will only glow if: GPS is locked, SD card is present, battery has more than 10% charge left, unit is on for one minute, geiger tube is providing a pulse). It can be dimmed by putting the DIP switch #2 Off.
-
-- Speaker "clicks" and small Blue LED blinks for each pulse from the geiger tube. It can be dimmed by putting the DIP switch #1 Off.
-
-- Red LED on GPS unit blinks every 1 second in case the GPS is not locked. After that blinks every 10 seconds once locked.
-
-- The __date/time stamp__ on the display is in UTC (formerly called GMT) and not in local time. The time stamp is refreshed when a log data is written to the card. The time stamp is used to create the LOG file name. The UTC log filename may be +/- one day off from the local date of the measurement given time zones and IDL (International Date Line). The local time zone offset appears with the parameters in the top header line of the log file.
-
-####6. How to measure in surface mode
-(using the Nano taken outside of its case for α- and more β-detection)
-
-- removal from its case (with or without the rubber liner)
-
-- photo how to best take unit out of case by using both thumbs to push in and swivel out the unit. (Can be reinserted into case as above or inside the removable rubber liner.)
-
-- in uSv/Bq mode display also shows Peak dose rate (in uSv/h) and total accumulated dose (in uSv) and CPM 
-
-- uSv dose rate (put in case, hold 1m above ground, tilt around 45 degrees, wait for 1 minute for stable reading)
-
-- bQ (take out of case, keep within 5cm to 1cm from surface, 1 minute for stable reading, read value on second line in Bq/m2, speaker sound to aid in finding hotspots)
-
-- provides indication but has limitations  
-Kalin wrote: “The grid on the pancake sensor is only useful when you take the unit out of the Pelican to look for surface contamination (alpha/beta). The grid itself has a very small shielding effect, mostly for alpha/beta and weak gamma. Given the standard +/- 15% accuracy of the unit, you can ignore it.” 
-“Averaging two different Nanos --you should only compare long-term counting (e.g. number of counts for 10 minutes). “ 
-
-
 ####7. Mounting on person, vehicle, stand, etc.
 
 Mobile sensor -- the Log mode display also shows height (m), distance traversed (km) and duration of measurement (hh:mm) The log file UTC date/time, TZ header, GPS coordinates, readings,… *[Mounting examples need editing and photos.]*
@@ -280,17 +281,8 @@ app-API Troubleshooting
 >B. Enter your API key. Change the upload interval as desired, but you shouldn't change the Safecast device.<< back to nano 
 
 ####12. Troubleshooting: Firmware, Hardware, Current bugs, Cleaning
-**Current bugs** Open issues are processed in the devices discussion group. could also be mentioned here in manual – under troubleshooting or separate item.?*)
-
-* Oct 2013. GPS model Adafruit “Ultimate GPS”. Failed on 7 recent builds. Manufacturer support forum thread opened on 28 Oct 2013. http://forums.adafruit.com/viewtopic.php?f=22&t=45198  Issue resolved with firmware fix, group threads https://groups.google.com/forum/?hl=en#!topic/safecast-devices/iRlxIvspjkE
-Fix V.1.3.2 firmware fix , 11.11.? 
-
-Other known bugs: 
-* an overflow at high rates ?
-
-*(Piezo electric buzzer? It's odd that it's got quieter over time, we're investigating changing the drive frequency of the buzzer which may help make the buzzer louder in general.
-
-*Date/stamp in log file names? “One other thing I have noticed, is when you are doing readings the date stamp is the log number for the filing system so you can load it to the site. If you was to go out a second time in the same day you will see that the new file will be loaded to the all 0 file and not the date file. With this it writes over the all 0 file. if you try and go out a third time watch out, have your file downloaded because you will lose the prior history of your travels that was logged in the all 0 file, as it will over write again. So keep things backed up before you head out. It seems the only file that maybe loaded onto the site more then once is the all 0 file. because the date file for the event would have already been uploaded if you are consistent in uploading. I am not sure if there is a way to force a new file to be made to not overwrite old files while out in the field.”
+**Bugs** Open issues are processed in the devices discussion group. Mentioned here in manual – under troubleshooting or separate item.?*) Example of Oct 2013 GPS model Adafruit “Ultimate GPS”. Failed on 7 recent builds. Manufacturer support forum thread opened on 28 Oct 2013. http://forums.adafruit.com/viewtopic.php?f=22&t=45198  Issue resolved with V.1.3.2 firmware fix , 11.11, group threads https://groups.google.com/forum/?hl=en#!topic/safecast-devices/iRlxIvspjkE
+Other known possible bugs:  an overflow at high rates ? Piezo electric buzzer gets quieter over time
 
 Please check all solder joints carefully - you must have missed a joint or have a cold solder joint. It can cause the display to act unpredictably.
 
