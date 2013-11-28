@@ -8,7 +8,7 @@
 Sources: in github and mainly the kit assembly Nano Manual. See photos there in [[Nano Manual|https://github.com/Safecast/bGeigieNanoKit/wiki/NANO-MANUAL]].
 
 
-###1. Nano Kit PARTS
+####1. Nano Kit PARTS
 
 **Large parts**
 
@@ -38,13 +38,13 @@ Sources: in github and mainly the kit assembly Nano Manual. See photos there in 
 
 **More small pieces** *(specific description and source to be added here)* 
 
-* Headers:
+* __Headers:__  
 
-* Fasteners:
+* __Fasteners:__ 
 
-* Spacers…
+* __Spacers__:
 
-###TOOLS, ACCESSORIES, OPTIONS
+####TOOLS, ACCESSORIES, OPTIONS
 
 •	**Wireless Low-voltage Bluetooth option**: [[BLEBee v1.0.0 board|http://www.seeedstudio.com/depot/bluetooth-bee-p-598.html]]  and iOS app [[BLExplr|https://itunes.apple.com/us/app/blexplr/id524018027?mt=8]] designed by Dr. Michael Kroll. Also see the [[product page|http://www.mkroll.mobi/?page_id=1070]]; the [[BLEBee product forum|http://forum.mkroll.mobi/]], and; [[Safecast announcement|https://www.facebook.com/media/set/?set=a.628182673894097.1073741830.196772350368467&type=1]]. (Although BLE can talk to any Bluetooth 4.0, the BLExplr iOS apps work only in BLE-enabled apple devices. Similarly the Safecast Geigerbot is only in iOS.)
 
