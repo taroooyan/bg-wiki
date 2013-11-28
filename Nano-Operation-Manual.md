@@ -1,106 +1,40 @@
 ##bGeigie Nano Operation Manual##
 
-This is a draft of the Nano user guide (in process nov 28)
+This is a draft of the Nano user guide (in process nov 28) from verbose to markdown plain text
 
-*(editing help - [[github flavored markdown|https://help.github.com/articles/github-flavored-markdown]] and [[markdown cheatsheet|https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet]], and without attempting linked ToC Table of Contents, [[model ToC|https://github.com/akshatpradhan/information-security-policy/tree/policy_v1#table-of-contents]] or [[example|https://github.com/akshatpradhan/information-security-policy/pull/2/files]])*
+*(editing help - [[markdown syntax|http://daringfireball.net/projects/markdown/syntax]], [[github flavored markdown|https://help.github.com/articles/github-flavored-markdown]] and [[markdown cheatsheet|https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet]], and without attempting linked ToC Table of Contents, [[model ToC|https://github.com/akshatpradhan/information-security-policy/tree/policy_v1#table-of-contents]] or [[example|https://github.com/akshatpradhan/information-security-policy/pull/2/files]])*
 
 ###Table of Contents###
 
-**01.  [Safecast designed uses
-
-**02.  Parameter Settings; Data Log; MicroSD Files**
-
-**06.  LED display fields, Toggle Modes**
-
-**07.  Start: Boot sequence**
-
-**08.  How to measure in logging mode**
-
-**09.  How to measure in surface mode**
-
-**10.  Mounting on person, vehicle, stand, etc.**
-
-**11.  API, uploading sharing data to Safecast**
-
-**12.  Uploading data to other datasets (comparative note)**
-
-**13.  Downloading data from Safecast**
-
-**14.  iOS app -- Safecast Geiger Bot**
-
-**15.  Troubleshooting: Firmware, Hardware, Bugs, Cleaning, etc.**
-
-**16.  Warranty, Certification, Calibration, reliability, validity, units**
-
-**17.  Hardware Cautions**
-
-**18.  Resources, links, support**
+1. Safecast designed Nano uses
+2. Parameter Settings; Data Log; MicroSD Files
+6. LED display fields, Toggle Modes
+7. Start: Boot sequence
+8.  How to measure in logging mode
+9.  How to measure in surface mode
+10.  Mounting on person, vehicle, stand, etc.
+11.  API, uploading sharing data to Safecast
+12.  Uploading data to other datasets (comparative note)
+13.  Downloading data from Safecast
+14.  iOS app -- Safecast Geiger Bot
+15.  Troubleshooting: Firmware, Hardware, Bugs, Cleaning, etc.
+16.  Warranty, Certification, Calibration, reliability, validity, units
+17.  Hardware Cautions
+18.  Resources, links, support
 
 ---- 
 
-**01. Safecast designed uses**
+**01. Safecast designed Nano uses**
 +    - [Model name](#model-name)
-Safecast bGeigie Nano kit is a **geo-tagged mobile sensor of ionizing radiation** with internet data sharing format and optional wireless capability. It follows from the earlier, larger Bento Geigie. The word “bento” is Japanese for lunchbox; Geigie is cute for Geiger counter; nano followed the mini model. Together with the distributor Medcom Safecast released the nano kit in May [??] 2013.
+The Safecast bGeigie Nano kit is a **geo-tagged mobile sensor of ionizing radiation** with internet data sharing format and optional wireless capability. It follows from the earlier, larger Bento Geigie. The word “bento” is Japanese for lunchbox; Geigie is cute for Geiger counter; nano followed the mini model. Together with the distributor Medcom, Safecast released the nano kit in Spring 2013.
 
 +    - [Safecast background](#Safecast-background)
-Although Safecast is best described by its website [[Safecast/About pages|http://blog.safecast.org/about/]], meanwhile a few paragraphs of background (which may move to en.wiki).
-
- Safecast is a civilian, citizen, non-governmental, non-profit organization which began in April 2011 as an initiative to monitor radioactive contamination from the Fukushima nuclear accident.  The Safecast organization in Japan began developing car-borne geo-tagged radiation measurement devices and crowd-sourced maps which are mainly open-design, open-source hardware and software. Safecast Japan has coordinated the work, mainly at the Tokyo Hackerspace, with inputs of friends from around the world. (For Adrian Storey’s [[3 minute film|http://vimeo.com/51823402]] on Safecast see [[the 14.11.2012 blog|http://blog.safecast.org/2012/11/safecast-short-film/]].
-
-Safecast’s purpose dictated the development and design of the Nano kit mobile sensor. If the non-partisan Safecast organization has an agenda, it is in its **“open data” banner**. The homepage header states, ***“Safecast is a global sensor network for collecting and sharing radiation measurements to empower people with data about their environments.”*** 
+The design of the Nano kit mobile sensor reflects Safecast history and purpose. Although Safecast is best described by its website [[Safecast/About pages|http://blog.safecast.org/about/]], [[Safecast Japan's videos|https://vimeo.com/safecast/videos]], group forums, and own documents -- a paragraph of background. Safecast began in Japan in response to lack of environmental mapping information following the Fukushima nuclear accident. If the non-partisan, a-political Safecast organization has an agenda, it is in its **“open data”** banner. The slogan on the homepage header reads, *“Safecast is a global sensor network for collecting and sharing radiation measurements to empower people with data about their environments.”*
 
 +    - [Nano uses](#Nano-uses)
-**Uses of the bGeigie Nano**: mobile, static or spot radiation detection. The main use is as a mobile geo-tagged sensor of radiation especially from car windows. It can also be used in static and spot measurements. 
+**Uses of the bGeigie Nano**: The Nano is a mobile, geo-tagged, logging sensor of radiation, especially for mounting on car window. It can also be used in static or spot radiation detection. Nano users can submit their mobile radiation measurements to the Safecast dataset via the API upload page for inclusion in an online global mapping system developed by Safecast with MIT Media Lab.   The Nano’s do it yourself, connect it yourself kit allows for customization, for cost savings and user learning. Modular options include an XBee socket, firmware reprogramming and an unassigned button.  As Pieter wrote: “bGeige Nano [is] the only device with GPS and Wifi/Bluetooth option,… versatile system with a high quality sensor that can do GPS based logging, iPhone interface, measures gamma, beta, alpha, has uSV and Bq/m2 measurement, is fully configurable, is water tight, and is fully open source…."
 
-These are some of the **Onyx Applications** in common to nano uses? 
-
->Documenting the effectiveness of decontamination and safety programs. 
-
->Sharing radiation measurements with a global mapping system developed by Safecast with MIT Media Lab. 
-
->Monitoring possible radiation exposure while working around radionuclides or in contaminated environments. 
-
->Alerting the user with an audible indicator if radiation goes above a pre‐set Alert level. 
-
->Detecting noble gases [??] and low energy radionuclides. 
-
->Continuous logging of radiation levels.<
-
-The Nano follows the prototype bento Geigie, and is followed by [or concurrent to] the Safecast Onyx. The Nano has the shape of a car window sensor box, the Onyx a touch button pocket cigarette lighter. They are more similar than they look as they have the same sensor. Where the Nano has self-contained GPS, the Onyx requires the GPS of connecting device (e.g. iOS apple phone). The Nano’s do it yourself, connect it yourself kit allows for customization, for cost savings and user learning. Modular options include an XBee socket, firmware reprogramming and an unassigned button. Options and extra tools are mentioned later in “More Parts”. 
-
-As Pieter wrote: “bGeige Nano [is] the only device with GPS and Wifi/Bluetooth option,… versatile system with a high quality sensor that can do GPS based logging, iPhone interface, measures gamma, beta, alpha, has uSV and Bq/m2 measurement, is fully configurable, is water tight, and is fully open source…. Most importantly, the nano is a fairly simple kit comprised of readily available off the shelf parts. …you can build the Nano Kit in an evening, and be Safecasting the next day. You can take individual spot readings, or attach it to your car and drive around collecting geotagged radiation data that can be uploaded to Safecast via our API upload page.
-
-The Nano is designed as a mobile sensor, to hang outside on a car’s side window. Outside so as not to be shielded by the car. The Nano is hung at the top of the window to be far enough from the ground to get a good background average. The parameter setting of 100 cm is set in the Sensor Height field. This contrasts with close specific surface contamination monitoring (which we do when we find a hotspot thanks to an increased average). The radiation measured on the car window is not areal or airborne gas per se. It's radiating out from radioactive solid stuff (also from liquids ??) on the asphalt, ground, walls, leaves, etc... The Nano is pre-set to monitor radiation from nuclide Cs137. 
-
-Inside the case the Nano measures [[gamma rays|https://en.wikipedia.org/wiki/Gamma_ray]]; outside the case, it can measure [[alpha-, |https://en.wikipedia.org/wiki/Alpha_particle]]/[[beta-, || https://en.wikipedia.org/wiki/Beta_particle]] and gamma-radiation. The grid glued to Nano’s Geiger-muller sensor only blocks a couple percent of radiation and serves to protect the sensitive pancake sensor. As the plastic case blocks alpha- beta- particle radiation, a hole can be cut in a plastic case for a custom alpha-, beta-window. A BoPET (Mylar) film provides protection and allows for alpha, beta and gamma radiation measurement. Optionally the Nano can be fitted with a beta/gamma only window, which is less fragile. [There is a Safecast video of this cut-open case [URL??]. This custom nano hangs in the same place on the car’s side window, with the thin film covered a/b window facing out [??] to measure airborne radioactive particles while driving.] The mylar a/b window is only useful where there are sufficient airborne particles. (Compared to the nuclear particles, the speed and direction of car is negligible. The slowest particle, the high mass alpha has a speed of 15,000 km/s or about 5% of the speed of light. The speed of the beta particle approaches c, the speed of light.) 
-
-The Safecast Dataset is represents mobile background readings, not spot measures of items that happens to be in front of you. Hence the two modes on the device - one for logging and one for spot measurements. Monitoring use and data submission to gets further mention below: in Mode uses; in Uploading data via your API to Safecast dataset. *[Perhaps this should be more clearly stated on the api webpage. Hopefully a guide to monitoring and submitting logs to data-shared projects or successive revisions of this operation manual will explain this point clearly enough for novice Nano users. For reliability of the Safecast dataset, perhaps need guide rules for mobile monitoring in api web page?]*
-
-Removing the nano from its case allows detection of nearby beta activity [within a few [X??] centimeters]. The pancake is actually much more sensitive to beta than gamma, so any beta source should give a clear response. Carefully hold the sensor close to the surface as beta particles lose much of their energy in air. In anycase leave the glued metal grill on the pancake sensor. (Again, the grid only blocks a few per cent of radiation. Be careful not to get any water on the sensor itself as it will damage it. This is repeated in the section Hardware Cautions, water not in the nano and not in the sensor.)
-
-Although the bGeigie Nano is designed to measure alpha- and beta-radiation in addition to gamma-radiation, its detection of radiation from a liquid is at best an indication. Fluid actually blocks radiation. As water shields everything coming to the sensor from below, water typically measures lower than its actual level. The only radiation that will reach the sensor will be from above, and a certain amount of activity coming from decay of atoms in the sensor itself. 
-
-It is very difficult to detect radioactive contamination in food or drink. Food monitoring is best done by a laboratory scintillation counter with chemically processed samples. The Nano’s spot monitoring method of holding nano very close to the food source for at least a one minute provides only a rough indication.-??. 
-
-Although Nano features and parts have their own wiki pages, the sensor gets repeat mention here.
-* The sensor is the 2” pancake GM tube [[LND 7317|http://www.lndinc.com/products/17/]], capable of measurement of alpha- and beta- as well as gamma- radiation (referenced for Cs-137 nuclide check source data efficiency). Nano's maximum operating range is to about 350,000cpm, or 1mSv/h (1 millisievert per hour dose rate or 1000µSv/h microsieverts per hour)  (micro sometimes written with u, uSv=µSv).  (Radiation detection units are mentioned further in this guide, see Calibration, reliability. Radiation measurements are averaged, approximate; the more accurate the more complicated?? “Go learn nuclear physics.”)
-
-
-***
-*test TOC edit,  verbose to terse 
-
-####01.  Introduction: bGeigie Nano model - uses**
-
-
-
-On the continuing development of open-source software, quoting a thread on Nano software which began 10-Nov-2013, https://groups.google.com/forum/?hl=en#!topic/safecast-japan/ne5xjGk0lOQ
-Rob (roubouden) wrote: …>”Basically Lionel, Robin, Kalin, Joe and me are in charge for software development of the bGiegies. Pieter is coordinating most of the development. Most software is on Github. Intermediate releases are kept off line. Akiba(Chris) is the person who started with Pieter to make the hardware with his company FreakLabs. Naim made the boards for the bGiegienano. Talk with Pieter or Sean about what needs to be done.”  *[the history of safecast and nano is outside scope of manual. Move delete]*
-
-
-**03. PARTS (NAMES, FUNCTIONS)** [needs diagram]
-*(Parts list moved to [[Parts and accessories|https://github.com/Safecast/bGeigieNanoKit/wiki/Parts-and-accessories]] page)*
-
-**04. TOOLS, ACCESSORIES, OPTIONS** *(this section moved to [[Parts and accessories|https://github.com/Safecast/bGeigieNanoKit/wiki/Parts-and-accessories]] page)*
+The sensor is the 2” pancake GM tube [[LND 7317|http://www.lndinc.com/products/17/]], capable of measurement of alpha- and beta- as well as gamma- radiation (referenced for Cs-137 nuclide check source data efficiency). Nano's maximum operating range is to about 350,000cpm, or 1mSv/h (1 millisievert per hour dose rate or 1000µSv/h microsieverts per hour)  (micro sometimes written with u, uSv=µSv).
 
 **05. PARAMETER SETTINGS; DATA LOG; microSD FILES**
 
@@ -498,6 +432,37 @@ The Safecast end user, the volunteer civilian monitor, **the citizen scientist**
 
 
 ***
+
+
+The Nano is designed as a mobile sensor, to hang outside on a car’s side window. Outside so as not to be shielded by the car. The Nano is hung at the top of the window to be far enough from the ground to get a good background average. The parameter setting of 100 cm is set in the Sensor Height field. This contrasts with close specific surface contamination monitoring (which we do when we find a hotspot thanks to an increased average). The radiation measured on the car window is not areal or airborne gas per se. It's radiating out from radioactive solid stuff (also from liquids ??) on the asphalt, ground, walls, leaves, etc... The Nano is pre-set to monitor radiation from nuclide Cs137. 
+
+Inside the case the Nano measures [[gamma rays|https://en.wikipedia.org/wiki/Gamma_ray]]; outside the case, it can measure [[alpha-, |https://en.wikipedia.org/wiki/Alpha_particle]]/[[beta-, || https://en.wikipedia.org/wiki/Beta_particle]] and gamma-radiation. The grid glued to Nano’s Geiger-muller sensor only blocks a couple percent of radiation and serves to protect the sensitive pancake sensor. As the plastic case blocks alpha- beta- particle radiation, a hole can be cut in a plastic case for a custom alpha-, beta-window. A BoPET (Mylar) film provides protection and allows for alpha, beta and gamma radiation measurement. Optionally the Nano can be fitted with a beta/gamma only window, which is less fragile. [There is a Safecast video of this cut-open case [URL??]. This custom nano hangs in the same place on the car’s side window, with the thin film covered a/b window facing out [??] to measure airborne radioactive particles while driving.] The mylar a/b window is only useful where there are sufficient airborne particles. (Compared to the nuclear particles, the speed and direction of car is negligible. The slowest particle, the high mass alpha has a speed of 15,000 km/s or about 5% of the speed of light. The speed of the beta particle approaches c, the speed of light.) 
+
+The Safecast Dataset is represents mobile background readings, not spot measures of items that happens to be in front of you. Hence the two modes on the device - one for logging and one for spot measurements. Monitoring use and data submission to gets further mention below: in Mode uses; in Uploading data via your API to Safecast dataset. *[Perhaps this should be more clearly stated on the api webpage. Hopefully a guide to monitoring and submitting logs to data-shared projects or successive revisions of this operation manual will explain this point clearly enough for novice Nano users. For reliability of the Safecast dataset, perhaps need guide rules for mobile monitoring in api web page?]*
+
+Removing the nano from its case allows detection of nearby beta activity [within a few [X??] centimeters]. The pancake is actually much more sensitive to beta than gamma, so any beta source should give a clear response. Carefully hold the sensor close to the surface as beta particles lose much of their energy in air. In anycase leave the glued metal grill on the pancake sensor. (Again, the grid only blocks a few per cent of radiation. Be careful not to get any water on the sensor itself as it will damage it. This is repeated in the section Hardware Cautions, water not in the nano and not in the sensor.)
+
+Although the bGeigie Nano is designed to measure alpha- and beta-radiation in addition to gamma-radiation, its detection of radiation from a liquid is at best an indication. Fluid actually blocks radiation. As water shields everything coming to the sensor from below, water typically measures lower than its actual level. The only radiation that will reach the sensor will be from above, and a certain amount of activity coming from decay of atoms in the sensor itself. 
+
+It is very difficult to detect radioactive contamination in food or drink. Food monitoring is best done by a laboratory scintillation counter with chemically processed samples. The Nano’s spot monitoring method of holding nano very close to the food source for at least a one minute provides only a rough indication.-??. 
+
+
+
+***
+*test TOC edit,  verbose to terse 
+
+####01.  Introduction: bGeigie Nano model - uses**
+
+
+
+On the continuing development of open-source software, quoting a thread on Nano software which began 10-Nov-2013, https://groups.google.com/forum/?hl=en#!topic/safecast-japan/ne5xjGk0lOQ
+Rob (roubouden) wrote: …>”Basically Lionel, Robin, Kalin, Joe and me are in charge for software development of the bGiegies. Pieter is coordinating most of the development. Most software is on Github. Intermediate releases are kept off line. Akiba(Chris) is the person who started with Pieter to make the hardware with his company FreakLabs. Naim made the boards for the bGiegienano. Talk with Pieter or Sean about what needs to be done.”  *[the history of safecast and nano is outside scope of manual. Move delete]*
+
+
+**03. PARTS (NAMES, FUNCTIONS)** [needs diagram]
+*(Parts list moved to [[Parts and accessories|https://github.com/Safecast/bGeigieNanoKit/wiki/Parts-and-accessories]] page)*
+
+**04. TOOLS, ACCESSORIES, OPTIONS** *(this section moved to [[Parts and accessories|https://github.com/Safecast/bGeigieNanoKit/wiki/Parts-and-accessories]] page)*
 
 
 ting. Excerpts from website, devices group, app, etc. hopefully in context, usually without attribution. Community-edited wiki page. (needs more input, photos, log file, LEDs diagrams, etc.  Please check [??]=unsure*
