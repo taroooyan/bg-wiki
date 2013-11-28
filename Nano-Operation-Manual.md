@@ -399,7 +399,7 @@ Appropriate use of the Nano has a modest learning curve. Fortunately, the end us
 
 The Safecast end user, the volunteer civilian monitor, **the citizen scientist** is helping to collect data, environmental information, for the public and for scientists. Scientists may use this data in their research methods, possibly making science, possibly discovering new knowledge in their fields. With Nano use and contribution of data logs to web datasets, Nano users learn and teach about radiation detection, safety and many issues. 
 
-
+*end*
 ***
 *misc. moved, still to fit?*
 **Orientation**:  Safecast website http://blog.safecast.org/ and the links on the home page. Join the [[Safecast Devices Discussions and Support group|https://groups.google.com/forum/?hl=en#!forum/safecast-devices]]. Also these [[Nano wiki pages|https://github.com/Safecast/bGeigieNanoKit/wiki/_pages]] (in various stages of community drafting):
@@ -427,28 +427,9 @@ Although the bGeigie Nano is designed to measure alpha- and beta-radiation in ad
 
 It is very difficult to detect radioactive contamination in food or drink. Food monitoring is best done by a laboratory scintillation counter with chemically processed samples. The Nano’s spot monitoring method of holding nano very close to the food source for at least a one minute provides only a rough indication.-??. 
 
-
-
 ***
-*test TOC edit,  verbose to terse 
-
-####01.  Introduction: bGeigie Nano model - uses**
 
 
-
+from 01.  Introduction: 
 On the continuing development of open-source software, quoting a thread on Nano software which began 10-Nov-2013, https://groups.google.com/forum/?hl=en#!topic/safecast-japan/ne5xjGk0lOQ
 Rob (roubouden) wrote: …>”Basically Lionel, Robin, Kalin, Joe and me are in charge for software development of the bGiegies. Pieter is coordinating most of the development. Most software is on Github. Intermediate releases are kept off line. Akiba(Chris) is the person who started with Pieter to make the hardware with his company FreakLabs. Naim made the boards for the bGiegienano. Talk with Pieter or Sean about what needs to be done.”  *[the history of safecast and nano is outside scope of manual. Move delete]*
-
-
-**03. PARTS (NAMES, FUNCTIONS)** [needs diagram]
-*(Parts list moved to [[Parts and accessories|https://github.com/Safecast/bGeigieNanoKit/wiki/Parts-and-accessories]] page)*
-
-**04. TOOLS, ACCESSORIES, OPTIONS** *(this section moved to [[Parts and accessories|https://github.com/Safecast/bGeigieNanoKit/wiki/Parts-and-accessories]] page)*
-
-
-ting. Excerpts from website, devices group, app, etc. hopefully in context, usually without attribution. Community-edited wiki page. (needs more input, photos, log file, LEDs diagrams, etc.  Please check [??]=unsure*
-
-
-
-
-Search the web for discussion of questions like: Where did radiation originate – from natural sources (earth and space) or from man-made (medical, military, industrial, nuclear power sources]? What is normal background radiation level? What is safe level -- for whom, when and where? 
