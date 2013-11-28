@@ -2,15 +2,16 @@
 
 This is a draft of the Nano user guide (in process nov 28)
 
-*(with attempt at github markdown ToC Table of Contents, editing help - [[github flavored markdown|https://help.github.com/articles/github-flavored-markdown]] and [[markdown cheatsheet|https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet]], and [[model ToC|https://github.com/akshatpradhan/information-security-policy/tree/policy_v1#table-of-contents]])*
+*(with attempt at github markdown ToC Table of Contents, editing help - [[github flavored markdown|https://help.github.com/articles/github-flavored-markdown]] and [[markdown cheatsheet|https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet]], and [[model ToC|https://github.com/akshatpradhan/information-security-policy/tree/policy_v1#table-of-contents]] or [[example|https://github.com/akshatpradhan/information-security-policy/pull/2/files]
+])*
 
 ###Table of Contents###
 
 
-- [1. bGeigie Nano -- Safecast designed use](####bGeigie Nano -- Safecast designed use)
-    - [Model name](#####model name)
-    - [Safecast background](#Safecast background)
-    - [Nano uses](#Nano uses)
+-- [1. Safecast designed uses](#Safecast-designed-uses-)
+ -    - [Model name](#model-name-)
+ -    - [Safecast background](#Safecast-background-)
+ -    - [Nano uses](#Nano-uses-)
 
 **01.  [](https://github.com/Safecast/bGeigieNanoKit/wiki/Nano-Operation-Manual/  "####01")**
 
@@ -43,21 +44,19 @@ This is a draft of the Nano user guide (in process nov 28)
 **18.  Resources, links, support**
 
 ---- 
- 
-####bGeigie Nano -- Safecast designed use####
-Model name; Safecast background; Uses.
-#####Model name#####
+
+ +   [1. Safecast designed uses](#Safecast-designed-uses-)
+ +    - [Model name](#model-name-)
 Safecast bGeigie Nano kit is a **geo-tagged mobile sensor of ionizing radiation** with internet data sharing format and optional wireless capability. It follows from the earlier, larger Bento Geigie. The word “bento” is Japanese for lunchbox; Geigie is cute for Geiger counter; nano followed the mini model. Together with the distributor Medcom Safecast released the nano kit in May [??] 2013.
 
-###Safecast background###
+ +    - [Safecast background](#Safecast-background-)
 Although Safecast is best described by its website [[Safecast/About pages|http://blog.safecast.org/about/]], meanwhile a few paragraphs of background (which may move to en.wiki).
 
  Safecast is a civilian, citizen, non-governmental, non-profit organization which began in April 2011 as an initiative to monitor radioactive contamination from the Fukushima nuclear accident.  The Safecast organization in Japan began developing car-borne geo-tagged radiation measurement devices and crowd-sourced maps which are mainly open-design, open-source hardware and software. Safecast Japan has coordinated the work, mainly at the Tokyo Hackerspace, with inputs of friends from around the world. (For Adrian Storey’s [[3 minute film|http://vimeo.com/51823402]] on Safecast see [[the 14.11.2012 blog|http://blog.safecast.org/2012/11/safecast-short-film/]].
 
 Safecast’s purpose dictated the development and design of the Nano kit mobile sensor. If the non-partisan Safecast organization has an agenda, it is in its **“open data” banner**. The homepage header states, ***“Safecast is a global sensor network for collecting and sharing radiation measurements to empower people with data about their environments.”*** 
 
-###Uses###
-
+ +    - [Nano uses](#Nano-uses-)
 **Uses of the bGeigie Nano**: mobile, static or spot radiation detection. The main use is as a mobile geo-tagged sensor of radiation especially from car windows. It can also be used in static and spot measurements. 
 
 These are some of the **Onyx Applications** in common to nano uses? 
