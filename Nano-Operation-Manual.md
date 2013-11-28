@@ -42,7 +42,7 @@ This is a draft of the Nano user guide (in process nov 28)
 
 ---- 
 
-+- [Safecast designed uses](#wiki-Safecast-designed-uses)
++- [Safecast designed uses](#Safecast-designed-uses)
 +    - [Model name](#model-name)
 Safecast bGeigie Nano kit is a **geo-tagged mobile sensor of ionizing radiation** with internet data sharing format and optional wireless capability. It follows from the earlier, larger Bento Geigie. The word “bento” is Japanese for lunchbox; Geigie is cute for Geiger counter; nano followed the mini model. Together with the distributor Medcom Safecast released the nano kit in May [??] 2013.
 
