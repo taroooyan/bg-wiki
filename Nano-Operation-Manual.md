@@ -161,9 +161,10 @@ Other Files on the MicroSD Card:  The micro-SD card is delivered with apple disc
 
 - Red LED on GPS unit blinks every 1 second in case the GPS is not locked. After that blinks every 10 seconds once locked.
 
-- The date/time stamp on the display is in UTC (formerly called GMT) and not in local time. The time stamp is refreshed when a log data is written to the card. The time stamp is used to create the LOG file name. The UTC log filename may be +/- one day off from the local date of the measurement given time zones and IDL (International Date Line). The local time zone offset appears with the parameters in the top header line of the log file.
+- The __date/time stamp__ on the display is in UTC (formerly called GMT) and not in local time. The time stamp is refreshed when a log data is written to the card. The time stamp is used to create the LOG file name. The UTC log filename may be +/- one day off from the local date of the measurement given time zones and IDL (International Date Line). The local time zone offset appears with the parameters in the top header line of the log file.
 
-**09. How to measure in surface mode** (using the Nano taken outside of its case for α- and more β-detection)
+####6. How to measure in surface mode
+(using the Nano taken outside of its case for α- and more β-detection)
 
 - removal from its case (with or without the rubber liner)
 
@@ -176,13 +177,11 @@ Other Files on the MicroSD Card:  The micro-SD card is delivered with apple disc
 - bQ (take out of case, keep within 5cm to 1cm from surface, 1 minute for stable reading, read value on second line in Bq/m2, speaker sound to aid in finding hotspots)
 
 - provides indication but has limitations  
-
-Kalin wrote: “The grid on the pancake sensor is only useful when you take the unit out of the Pelican to look for surface contamination (alpha/beta). The grid itself has a very small shielding effect, mostly for alpha/beta and weak gamma. Given the standard +/- 15% accuracy of the unit, you can ignore it.”
-
+Kalin wrote: “The grid on the pancake sensor is only useful when you take the unit out of the Pelican to look for surface contamination (alpha/beta). The grid itself has a very small shielding effect, mostly for alpha/beta and weak gamma. Given the standard +/- 15% accuracy of the unit, you can ignore it.” 
 “Averaging two different Nanos --you should only compare long-term counting (e.g. number of counts for 10 minutes). “ 
 
 
-**10. Mounting on person, vehicle, stand, etc.**
+####7. Mounting on person, vehicle, stand, etc.
 
 Mobile sensor -- the Log mode display also shows height (m), distance traversed (km) and duration of measurement (hh:mm) The log file UTC date/time, TZ header, GPS coordinates, readings,… *[Mounting examples need editing and photos.]*
 
@@ -203,7 +202,7 @@ Mobile sensor -- the Log mode display also shows height (m), distance traversed 
 **Baby carriage** (Baby can kick Nano out when you’re not looking. Keep Nano fastened.. The height from ground setting is preset at 1 meter for car window. (On 2nd thought the Nano is not a baby toy given possible contamination in sampling.)
 
 
-**11. Safecast API, uploading sharing data to Safecast**
+####8. Safecast API, uploading sharing data to Safecast**
 
 Where once data logs were sent by email, now this is done by the safecast API
 
@@ -211,21 +210,23 @@ The Safecast Dataset is meant to represent mobile background readings, not spot 
 
 You should not submit any readings that are samples of "items" or stationary static logs. *[need something here about the approval of data criteria ? guide to mobile logging? datasets ;  make API account ;   steps  ??]*
 
-**12. Uploading data to other datasets (comparative note)**
+####9. Uploading data to other datasets (comparative note)**
 
 You can submit Nano measures to other radiation mapping datasets,. (The more the merrier. In any comparative note Safecast might stand out for its mobile monitoring, open datasets, mappings, visualization, reliability of measures, -- but that is separate study)
 
 Of course you need to configure the Nano sensor and your data with the other datasets. An exception may be the Cosm/Pachube setting in the Safecast geigerbot. (Theoretically you can upload to the mobile Safecast and the static Cosm/Pachube datasets simultaneously. However you’re either mobile or static. [??])  
 
 
-**13. Downloading data from Safecast** whole dataset.csv in zip  * [Safecast] (Download Free)  CC0 legal status: web entry by joi. “The legal and ethical reasoning behind using CC0 for Safecast data”. Sept 5, 2011  http://creativecommons.org/publicdomain/zero/1.0/ 
+####10. Downloading data from Safecast
+*whole dataset.csv in zip [Safecast] (Download Free)*
+CC0 legal status: web entry by joi. “The legal and ethical reasoning behind using CC0 for Safecast data”. Sept 5, 2011  http://creativecommons.org/publicdomain/zero/1.0/ 
 Creative Commons Zero, CC0 (occasionally written as CC Zero) is a public domain dedication that allows copyright holders to place works in the public domain to the extent legally possible, worldwide. “all rights granted” space of the public domain.
 
 Uses of data. analysis mapping , etc, mapped track of recording device..
 * https://github.com/bidouilles/safemaps Safecast interpolation tools … 
 
 
-**14. iOS app: Safecast Geiger Bot app**
+####11. iOS app: Safecast Geiger Bot app
 
 * Safecast Geiger Bot app works in iOS devices. 
 
@@ -278,8 +279,7 @@ app-API Troubleshooting
 >A. Now tap the "Settings" icon on the fixed button panel, which is a machine gear. Scroll to the bottom of the list and select "Safecast".
 >B. Enter your API key. Change the upload interval as desired, but you shouldn't change the Safecast device.<< back to nano 
 
-
-**15.  Troubleshooting:** Firmware, Hardware, Current bugs, Cleaning**
+####12. Troubleshooting: Firmware, Hardware, Current bugs, Cleaning
 **Current bugs** Open issues are processed in the devices discussion group. could also be mentioned here in manual – under troubleshooting or separate item.?*)
 
 * Oct 2013. GPS model Adafruit “Ultimate GPS”. Failed on 7 recent builds. Manufacturer support forum thread opened on 28 Oct 2013. http://forums.adafruit.com/viewtopic.php?f=22&t=45198  Issue resolved with firmware fix, group threads https://groups.google.com/forum/?hl=en#!topic/safecast-devices/iRlxIvspjkE
@@ -290,19 +290,18 @@ Other known bugs:
 
 *(Piezo electric buzzer? It's odd that it's got quieter over time, we're investigating changing the drive frequency of the buzzer which may help make the buzzer louder in general.
 
-*Datestamp in log file names? “One other thing I have noticed, is when you are doing readings the date stamp is the log number for the filing system so you can load it to the site. If you was to go out a second time in the same day you will see that the new file will be loaded to the all 0 file and not the date file. With this it writes over the all 0 file. if you try and go out a third time watch out, have your file downloaded because you will lose the prior history of your travels that was logged in the all 0 file, as it will over write again. So keep things backed up before you head out. It seems the only file that maybe loaded onto the site more then once is the all 0 file. because the date file for the event would have already been uploaded if you are consistent in uploading. I am not sure if there is a way to force a new file to be made to not overwrite old files while out in the field.”
+*Date/stamp in log file names? “One other thing I have noticed, is when you are doing readings the date stamp is the log number for the filing system so you can load it to the site. If you was to go out a second time in the same day you will see that the new file will be loaded to the all 0 file and not the date file. With this it writes over the all 0 file. if you try and go out a third time watch out, have your file downloaded because you will lose the prior history of your travels that was logged in the all 0 file, as it will over write again. So keep things backed up before you head out. It seems the only file that maybe loaded onto the site more then once is the all 0 file. because the date file for the event would have already been uploaded if you are consistent in uploading. I am not sure if there is a way to force a new file to be made to not overwrite old files while out in the field.”
 
 Please check all solder joints carefully - you must have missed a joint or have a cold solder joint. It can cause the display to act unpredictably.
 
-**Firmware: github; upgrades; troubleshooting****
-
+####### Firmware: github; upgrades; troubleshooting
 * for the current version of firmware see the description of file bGeigieNano in https://github.com/Safecast/bGeigieNanoKit [V1.2.9 on 24-10-2013] 
 
-* Firmware upgrades of FIO via FTDI: [see wiki page "How to setup build environment..."]
+* Firmware upgrades of Fio via FTDI: [see [["How to setup build environment..."|https://github.com/Safecast/bGeigieNanoKit/wiki/How-to-setup-build-environment-on-Mac-OS-X]]
 
 * more questions: go to nano.safecast.org, devices support and discussion google group or email info@safecast.org
 
-**Cleaning ** 
+######Cleaning
 (First remove the nano from the case .Never wet the Nano interior.) 
 
 *. Use a soft brush and air blower can be used o the Nano, carefully. (Vacuum?) (Electronics labs use unheated air blowers for dusting off parts)
@@ -313,9 +312,9 @@ Please check all solder joints carefully - you must have missed a joint or have 
 
 *LED wipe?  Work with the screen display turned off and cool.  Wipe the screen using light pressure.  Use clean, lint free cotton, microfiber cloths or low-lint wipes. ( 
 
-**16. Warranty, Certification, Calibration, reliability, validity**
+####13. Warranty, Certification, Calibration, reliability, validity
 
-**Warranty**. This is a kit. See kit fulfillment in the Nano Manual Kit Assembly. email contact@safecast.org. 
+**Warranty** See kit fulfillment in the Nano Manual Kit Assembly. email contact@safecast.org. 
 
 **Certification** “The nano itself will go through official certification for gamma reading inside and outside of the pelican case. Once this has been done and we find any variance, the nano allows for easy recallibration in the parameter file that's on the nano's SD card. ; the Onyx certification we found accuracy within 2% over a wide range of radiation. itself (like the Onyx with the same GM pancake sensor) Source” [[Information, Misinformation, Disinformation (or, these aren’t the droids you’re looking for)|http://blog.safecast.org/2012/12/information-misinformation-disinformation-or-these-arent-the-droids-youre-looking-for-part-1/ ]] Part 1 December 29, 2012, which blog article compares different kinds of radiation detectors, radiation units..…  
 
@@ -346,7 +345,7 @@ Data interpretation, data sharing, interpretation, reliability, robustness, pres
 
 * On radiation units* (borrowing from Kalin comparing bGeigie against droids): >”…there’s a reasonable degree of variation that can be caused by the slight differences in the specs of the various devices. Though grays (Gy) are the technically correct unit to use for measuring activity in terms of “absorbed” dose, sieverts (Sv), which represent a conversion of this to “equivalent” dose, are more familiar to most people. When we are looking at gamma or beta activity, grays and sieverts are essentially equivalent numerically, despite their different meanings (much like how 1 liter of water weighs 1 kilo), and the labeling of the droid’s display might be confusing to some citizens. …accuracy range of 20% and a detection range of from 0.01 microsievert/hr to 5.0 Sievert/hr, uses Geiger-Muller sensors placed at 1 meter height, displaying averaged samples updated every 60 seconds, etc.. It also states clearly that the readings are intended as a general guideline only. 
 
-**17. Cautions, hardware protection** 
+####14. Cautions, hardware protection
 
 * The Pelican micro case is shockproof and water-resistant. However it is not waterproof and it cannot be used underwater. Condensation can build up in the case due to temperature differences. This condensation will evaporate with time, or can simply be removed by opening the unit and drying it {with fibrefree cloth}. Closed-up inside its case the Nano can be used on bicycles without problem.
 
@@ -387,7 +386,8 @@ But, the membrane is basically extremely thin glass. Mica to be precise, so it's
 > Measuring and learning about radiation is interesting. Please remember to not treat radiation sources casually. Exposure to even relatively low levels of radiation can result in negative health effects over time
 
 
-**18. RESOURCES, LINKS, SUPPORT**: repeats on information resources for users of the Safecast bGeigie Nano mobile sensor of ionizing radiation. 
+####15. RESOURCES, LINKS, SUPPORT
+repeats on information resources for users of the Safecast bGeigie Nano mobile sensor of ionizing radiation. 
 
 The Safecast website http://blog.safecast.org/ has articles, news, notices, API upload and open download of crowd-sourced radiation data and visualized mapping, etc
 
@@ -401,7 +401,7 @@ The Safecast end user, the volunteer civilian monitor, **the citizen scientist**
 
 
 ***
-
+*misc. moved, still to fit?*
 **Orientation**:  Safecast website http://blog.safecast.org/ and the links on the home page. Join the [[Safecast Devices Discussions and Support group|https://groups.google.com/forum/?hl=en#!forum/safecast-devices]]. Also these [[Nano wiki pages|https://github.com/Safecast/bGeigieNanoKit/wiki/_pages]] (in various stages of community drafting):
 * [[Features/specifications|https://github.com/Safecast/bGeigieNanoKit/wiki/bGeigieNano-Features_specifications]]
 * [[How to setup build environment on Mac OS X|https://github.com/Safecast/bGeigieNanoKit/wiki/How-to-setup-build-environment-on-Mac-OS-X]] (+Nano firmware upgrade on MS-Windows)
