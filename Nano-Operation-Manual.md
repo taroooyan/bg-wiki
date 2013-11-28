@@ -24,31 +24,29 @@ This is a draft of the Nano user guide (in process nov 28) from verbose to markd
 
 ---- 
 
-**01. Safecast designed Nano uses**
+####01. Safecast designed Nano uses
 +    - [Model name](#model-name)
-The Safecast bGeigie Nano kit is a **geo-tagged mobile sensor of ionizing radiation** with internet data sharing format and optional wireless capability. It follows from the earlier, larger Bento Geigie. The word “bento” is Japanese for lunchbox; Geigie is cute for Geiger counter; nano followed the mini model. Together with the distributor Medcom, Safecast released the nano kit in Spring 2013.
+The Safecast bGeigie Nano kit is a **geo-tagged mobile sensor of ionizing radiation** with internet data sharing format and optional wireless capability. It follows from the earlier, larger Bento Geigie. The word “bento” is Japanese for lunchbox; Geigie is cute for Geiger counter; nano followed the mini model. Together with the distributor Medcom, Safecast released the bGeigieNano kit in Spring 2013.
 
 +    - [Safecast background](#Safecast-background)
-The design of the Nano kit mobile sensor reflects Safecast history and purpose. Although Safecast is best described by its website [[Safecast/About pages|http://blog.safecast.org/about/]], [[Safecast Japan's videos|https://vimeo.com/safecast/videos]], group forums, and own documents -- a paragraph of background. Safecast began in Japan in response to lack of environmental mapping information following the Fukushima nuclear accident. If the non-partisan, a-political Safecast organization has an agenda, it is in its **“open data”** banner. The slogan on the homepage header reads, *“Safecast is a global sensor network for collecting and sharing radiation measurements to empower people with data about their environments.”*
+The design of the Nano kit mobile sensor reflects Safecast history and purpose. Although Safecast is best described by its website [[Safecast/About pages|http://blog.safecast.org/about/]], [[Safecast Japan's videos|https://vimeo.com/safecast/videos]], group forums, and own documents -- a paragraph of background. Safecast began in Japan in response to a perceived lack of timely, open, public environmental radiation mapping information following the Fukushima nuclear accident. If the non-partisan, a-political Safecast organization has an agenda, it is in its "pro-data", “open data” banner. The slogan on the homepage header reads, *“Safecast is a global sensor network for collecting and sharing radiation measurements to empower people with data about their environments.”*
 
 +    - [Nano uses](#Nano-uses)
-**Uses of the bGeigie Nano**: The Nano is a mobile, geo-tagged, logging sensor of radiation, especially for mounting on car window. It can also be used in static or spot radiation detection. Nano users can submit their mobile radiation measurements to the Safecast dataset via the API upload page for inclusion in an online global mapping system developed by Safecast with MIT Media Lab.   The Nano’s do it yourself, connect it yourself kit allows for customization, for cost savings and user learning. Modular options include an XBee socket, firmware reprogramming and an unassigned button.  As Pieter wrote: “bGeige Nano [is] the only device with GPS and Wifi/Bluetooth option,… versatile system with a high quality sensor that can do GPS based logging, iPhone interface, measures gamma, beta, alpha, has uSV and Bq/m2 measurement, is fully configurable, is water tight, and is fully open source…."
+**Uses of the bGeigie Nano**: The Nano is a mobile, geo-tagged, logging sensor of radiation, especially for mounting on car window. It can also be used in static or spot radiation detection. Nano users can submit their mobile radiation measurements to the Safecast dataset via the API upload page for inclusion in an online global mapping system developed by Safecast with MIT Media Lab. The Nano’s do it yourself, connect it yourself kit allows for customization, for cost savings and user learning. Modular options include an XBee socket, firmware reprogramming and an unassigned button. As Pieter wrote: “bGeige Nano [is] the only device with GPS and Wifi/Bluetooth option,… versatile system with a high quality sensor that can do GPS based logging, iPhone interface, measures gamma, beta, alpha, has uSV and Bq/m2 measurement, is fully configurable, is water tight, and is fully open source…."
 
 The sensor is the 2” pancake GM tube [[LND 7317|http://www.lndinc.com/products/17/]], capable of measurement of alpha- and beta- as well as gamma- radiation (referenced for Cs-137 nuclide check source data efficiency). Nano's maximum operating range is to about 350,000cpm, or 1mSv/h (1 millisievert per hour dose rate or 1000µSv/h microsieverts per hour)  (micro sometimes written with u, uSv=µSv).
 
-**05. PARAMETER SETTINGS; DATA LOG; microSD FILES**
+2. PARAMETER SETTINGS; DATA LOG; microSD FILES**
 
-* The micro-SD card that ships with the bGeigie Nano contains two pre-set ﬁles, CONFIG.TXT for communication and SAFECAST.TXT for certain user, data parameters. Copy the two root files to any additional Nano microSD card. If the files are corrupted or deleted from the micro-SD, the Nano will not work properly. Keep a backup of your 2 files. Default settings are available online at: https://github.com/Safecast/bGeigieNanoKit/tree/master/SD%20card
+* The micro-SD card that ships with the bGeigie Nano contains two pre-set ﬁles, CONFIG.TXT for communication and SAFECAST.TXT for certain user, data parameters. Keep a backup and copy the two root files to any additional Nano microSD card. If the files are corrupted or deleted from the micro-SD, the Nano will not work properly. Default settings are available online at: https://github.com/Safecast/bGeigieNanoKit/tree/master/SD%20card
 
-The end user should modify user fields like user-name-text and time zone fields. Expert users may customize the efficiency calibration data fields like cpmf (counts per minute factor) with cpmn (counts per minute nuclide) -- but only after study and informing the safecast api database. [Possibly there is a table of alternative calibrated nuclide efficiencies??] Edit the parameters carefully. 
-
->*”The SD card can't be read over the USB port - instead please use an micro SD card reader“*< Meaning: [Use a USB micro SD card reader to read and edit the micro SD card on your computer.. The micro SD card cannot be read on an microSD card slot.]?? 
+Edit the user setting fields (user-name-text, time zone,...) via a micro SD card reader on a computer's USB. (The micro SD card cannot be read on an microSD card slot.) Edit the parameters carefully. *(Expert users may edit the calibrated nuclide efficiency fields like cpmf (counts per minute factor Cs137) with cpmn (counts per minute nuclide Cs137) -- but not for submitting data, not without first consulting the Safecast API dataset.)*
 
 The following lists of parameters is taken from the [[NanoSetup.cpp|https://github.com/Safecast/bGeigieNanoKit/blob/master/NanoSetup.cpp]]. The parameters are further mentioned with Data Log Format [ below in 6 – LED Display Fields, Toggle Modes].)
 
-**CONFIG.TXT**: default is: 9600,26,3,2. (Change baud according to hardware customization.) 9600 Baud rate; 26 Data bits; 3 Mark Parity (3=>bit is always logical 1); 2 stop bits (disables use of MARK parity)
+#####CONFIG.TXT:##### default is: 9600,26,3,2. (Change baud according to hardware customization.) 9600 Baud rate; 26 Data bits; 3 Mark Parity (3=>bit is always logical 1); 2 stop bits (disables use of MARK parity)
 
-**SAFECAST.TXT**
+#####SAFECAST.TXT:#####
 
 >**nm=** User Name API User Name (or your any text) which appears on data log header line (and up to 15 characters appears on the 10 seconds start up LED display)
 
