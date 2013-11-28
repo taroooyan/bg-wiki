@@ -1,28 +1,20 @@
-***Safecast bGeigie Nano Operation Manual***
+##bGeigie Nano Operation Manual##
 
-*Nov 24, 2013 –. verbose user guide draft needs editing. Excerpts from website, devices group, app, etc. hopefully in context, usually without attribution. Community-edited wiki page. (needs more input, photos, log file, LEDs diagrams, etc.  Please check [??]=unsure*
-*(handy - [[markdown editor help|https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet]])
+This is a draft of the Nano user guide (in process nov 28)
 
-**Orientation**:  Surf the Safecast website http://blog.safecast.org/ and the links on the home page. Join the [[Safecast Devices Discussions and Support group|https://groups.google.com/forum/?hl=en#!forum/safecast-devices]]. For support, contact info@safecast.org.  Read these [[Nano wiki pages|https://github.com/Safecast/bGeigieNanoKit/wiki/_pages]] (in various stages of community drafting):
-* [[Features/specifications|https://github.com/Safecast/bGeigieNanoKit/wiki/bGeigieNano-Features_specifications]]
-* [[How to setup build environment on Mac OS X|https://github.com/Safecast/bGeigieNanoKit/wiki/How-to-setup-build-environment-on-Mac-OS-X]] (+Nano firmware upgrade on MS-Windows)
-* [[Nano Wiki Home|https://github.com/Safecast/bGeigieNanoKit/wiki]] (index page in the NanoKit wiki folder)
-* [[NANO MANUAL|https://github.com/Safecast/bGeigieNanoKit/wiki/NANO-MANUAL]] (Kit assembly, connecting the pieces)
-* [[Nano Operation Manual|https://github.com/Safecast/bGeigieNanoKit/wiki/Nano-Operation-Manual]] (this page)
-* [[Parts and accessories|https://github.com/Safecast/bGeigieNanoKit/wiki/Parts-and-accessories]] (including tools and options)
-* [[Safety in radiation detection|https://github.com/Safecast/bGeigieNanoKit/wiki/Safety-in-radiation-detection]]
+*(with attempt at github markdown ToC Table of Contents, editing help - [[github flavored markdown|https://help.github.com/articles/github-flavored-markdown]] and [[markdown cheatsheet|https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet]], and [[model ToC|https://github.com/akshatpradhan/information-security-policy/tree/policy_v1#table-of-contents]])*
 
-**Contents Operation Manual:**
+###Table of Contents###
 
-**01.  Safety tips for radiation detection** *(moved to its own Nano wiki page [[Safety|https://github.com/Safecast/bGeigieNanoKit/wiki/Safety-in-radiation-detection]])*
 
-**02.  Model name, description, uses (agendas?)**
+- [1. bGeigie Nano -- Safecast designed use](####bGeigie Nano -- Safecast designed use)
+    - [Model name](#####model name)
+    - [Safecast background](#Safecast background)
+    - [Nano uses](#Nano uses)
 
-**03.  Parts (names, functions, diagram) incl switches**  *(Parts list moved to [[Parts and accessories|https://github.com/Safecast/bGeigieNanoKit/wiki/Parts-and-accessories]] page)*
+**01.  [](https://github.com/Safecast/bGeigieNanoKit/wiki/Nano-Operation-Manual/  "####01")**
 
-**04.  Tools, accessories, options**  *(Tools-options list moved to [[Parts and accessories|https://github.com/Safecast/bGeigieNanoKit/wiki/Parts-and-accessories]] page)*
-
-**05.  Parameter Settings; Data Log; MicroSD Files**
+**02.  Parameter Settings; Data Log; MicroSD Files**
 
 **06.  LED display fields, Toggle Modes**
 
@@ -52,21 +44,19 @@
 
 ---- 
  
-**01.  Safety tips for radiation detection**
-*This section has been moved to its own Nano wiki page [[Safety|https://github.com/Safecast/bGeigieNanoKit/wiki/Safety-in-radiation-detection]]*
-
-**02. MODEL NAME, SAFECAST HISTORY, DESCRIPTION, USES/AGENDAS**
-
+####bGeigie Nano -- Safecast designed use####
+Model name; Safecast background; Uses.
+#####Model name#####
 Safecast bGeigie Nano kit is a **geo-tagged mobile sensor of ionizing radiation** with internet data sharing format and optional wireless capability. It follows from the earlier, larger Bento Geigie. The word “bento” is Japanese for lunchbox; Geigie is cute for Geiger counter; nano followed the mini model. Together with the distributor Medcom Safecast released the nano kit in May [??] 2013.
 
+###Safecast background###
 Although Safecast is best described by its website [[Safecast/About pages|http://blog.safecast.org/about/]], meanwhile a few paragraphs of background (which may move to en.wiki).
 
  Safecast is a civilian, citizen, non-governmental, non-profit organization which began in April 2011 as an initiative to monitor radioactive contamination from the Fukushima nuclear accident.  The Safecast organization in Japan began developing car-borne geo-tagged radiation measurement devices and crowd-sourced maps which are mainly open-design, open-source hardware and software. Safecast Japan has coordinated the work, mainly at the Tokyo Hackerspace, with inputs of friends from around the world. (For Adrian Storey’s [[3 minute film|http://vimeo.com/51823402]] on Safecast see [[the 14.11.2012 blog|http://blog.safecast.org/2012/11/safecast-short-film/]].
 
 Safecast’s purpose dictated the development and design of the Nano kit mobile sensor. If the non-partisan Safecast organization has an agenda, it is in its **“open data” banner**. The homepage header states, ***“Safecast is a global sensor network for collecting and sharing radiation measurements to empower people with data about their environments.”*** 
 
-On the continuing development of open-source software, quoting a thread on Nano software which began 10-Nov-2013, https://groups.google.com/forum/?hl=en#!topic/safecast-japan/ne5xjGk0lOQ
-Rob (roubouden) wrote: …>”Basically Lionel, Robin, Kalin, Joe and me are in charge for software development of the bGiegies. Pieter is coordinating most of the development. Most software is on Github. Intermediate releases are kept off line. Akiba(Chris) is the person who started with Pieter to make the hardware with his company FreakLabs. Naim made the boards for the bGiegienano. Talk with Pieter or Sean about what needs to be done.”  *[the history of safecast and nano is outside scope of manual. Move delete]*
+###Uses###
 
 **Uses of the bGeigie Nano**: mobile, static or spot radiation detection. The main use is as a mobile geo-tagged sensor of radiation especially from car windows. It can also be used in static and spot measurements. 
 
@@ -102,6 +92,17 @@ It is very difficult to detect radioactive contamination in food or drink. Food 
 
 Although Nano features and parts have their own wiki pages, the sensor gets repeat mention here.
 * The sensor is the 2” pancake GM tube [[LND 7317|http://www.lndinc.com/products/17/]], capable of measurement of alpha- and beta- as well as gamma- radiation (referenced for Cs-137 nuclide check source data efficiency). Nano's maximum operating range is to about 350,000cpm, or 1mSv/h (1 millisievert per hour dose rate or 1000µSv/h microsieverts per hour)  (micro sometimes written with u, uSv=µSv).  (Radiation detection units are mentioned further in this guide, see Calibration, reliability. Radiation measurements are averaged, approximate; the more accurate the more complicated?? “Go learn nuclear physics.”)
+
+
+***
+*test TOC edit,  verbose to terse 
+
+####01.  Introduction: bGeigie Nano model - uses**
+
+
+
+On the continuing development of open-source software, quoting a thread on Nano software which began 10-Nov-2013, https://groups.google.com/forum/?hl=en#!topic/safecast-japan/ne5xjGk0lOQ
+Rob (roubouden) wrote: …>”Basically Lionel, Robin, Kalin, Joe and me are in charge for software development of the bGiegies. Pieter is coordinating most of the development. Most software is on Github. Intermediate releases are kept off line. Akiba(Chris) is the person who started with Pieter to make the hardware with his company FreakLabs. Naim made the boards for the bGiegienano. Talk with Pieter or Sean about what needs to be done.”  *[the history of safecast and nano is outside scope of manual. Move delete]*
 
 
 **03. PARTS (NAMES, FUNCTIONS)** [needs diagram]
@@ -490,3 +491,21 @@ Github is a community project development archive mainly for technical users. Sa
 Appropriate use of the Nano has a modest learning curve. Fortunately, the end user doesn’t have to master the fields of radiation safety, health physics and environmental sciences which in contrast are huge studies. Spot and mobile monitoring and crowd data-sharing projects require a orientation and a little practice.
 
 The Safecast end user, the volunteer civilian monitor, **the citizen scientist** is helping to collect data, environmental information, for the public and for scientists. Scientists may use this data in their research methods, possibly making science, possibly discovering new knowledge in their fields. With Nano use and contribution of data logs to web datasets, Nano users learn and teach about radiation detection, safety and many issues. 
+
+
+***
+
+**Orientation**:  Safecast website http://blog.safecast.org/ and the links on the home page. Join the [[Safecast Devices Discussions and Support group|https://groups.google.com/forum/?hl=en#!forum/safecast-devices]]. Also these [[Nano wiki pages|https://github.com/Safecast/bGeigieNanoKit/wiki/_pages]] (in various stages of community drafting):
+* [[Features/specifications|https://github.com/Safecast/bGeigieNanoKit/wiki/bGeigieNano-Features_specifications]]
+* [[How to setup build environment on Mac OS X|https://github.com/Safecast/bGeigieNanoKit/wiki/How-to-setup-build-environment-on-Mac-OS-X]] (+Nano firmware upgrade on MS-Windows)
+* [[Nano Wiki Home|https://github.com/Safecast/bGeigieNanoKit/wiki]] (index page in the NanoKit wiki folder)
+* [[NANO MANUAL|https://github.com/Safecast/bGeigieNanoKit/wiki/NANO-MANUAL]] (Kit assembly, connecting the pieces)
+* [[Nano Operation Manual|https://github.com/Safecast/bGeigieNanoKit/wiki/Nano-Operation-Manual]] (this page)
+* [[Parts and accessories|https://github.com/Safecast/bGeigieNanoKit/wiki/Parts-and-accessories]] (including tools and options)
+* [[Safety in radiation detection|https://github.com/Safecast/bGeigieNanoKit/wiki/Safety-in-radiation-detection]]
+
+
+***
+
+
+ting. Excerpts from website, devices group, app, etc. hopefully in context, usually without attribution. Community-edited wiki page. (needs more input, photos, log file, LEDs diagrams, etc.  Please check [??]=unsure*
