@@ -8,9 +8,9 @@
 Sources: in github and mainly the kit assembly Nano Manual. See photos there in [[Nano Manual|https://github.com/Safecast/bGeigieNanoKit/wiki/NANO-MANUAL]].
 
 
-####1. Nano Kit PARTS
+####A. Nano Kit PARTS
 
-**Large parts**
+#####1. Large parts 
 
 * [[LND-7317 pancake Geiger|http://www.lndinc.com/products/17/]] Also see Medcom http://nanoxpress.com/nano-parts-accessories/
 * [[Medcom iRover HV board|http://nanoxpress.com/nano-parts-accessories/]]. ([[Contact Medcom|http://medcom.com/contact-international-medcom/]])
@@ -24,7 +24,8 @@ Sources: in github and mainly the kit assembly Nano Manual. See photos there in 
 * [[Pelican 1010 micro-case|http://www.pelican.com/cases_detail.php?Case=1010]]: strong, tight, transparent plastic, crush proof, water resistant. Opaque colors, [[i1010 micro case|http://www.pelican.com/cases_detail_specs.php?Case=i1010]], are also available from manufacturer. 
 
 
-**Small Parts** (need part specification?)
+#####2. Small Parts 
+*(need part specification?)*
 
 * Switch on/off 
 * Toggle Switch  
@@ -36,7 +37,8 @@ Sources: in github and mainly the kit assembly Nano Manual. See photos there in 
 * microUSB port for power charging 
 
 
-**More small pieces** *(specific description and source to be added here)* 
+#####3. More small pieces
+*(specific description and source to be added here)* 
 
 * __Headers:__  
 
@@ -44,7 +46,7 @@ Sources: in github and mainly the kit assembly Nano Manual. See photos there in 
 
 * __Spacers__:
 
-####TOOLS, ACCESSORIES, OPTIONS
+####B. TOOLS, ACCESSORIES, OPTIONS
 
 •	**Wireless Low-voltage Bluetooth option**: [[BLEBee v1.0.0 board|http://www.seeedstudio.com/depot/bluetooth-bee-p-598.html]]  and iOS app [[BLExplr|https://itunes.apple.com/us/app/blexplr/id524018027?mt=8]] designed by Dr. Michael Kroll. Also see the [[product page|http://www.mkroll.mobi/?page_id=1070]]; the [[BLEBee product forum|http://forum.mkroll.mobi/]], and; [[Safecast announcement|https://www.facebook.com/media/set/?set=a.628182673894097.1073741830.196772350368467&type=1]]. (Although BLE can talk to any Bluetooth 4.0, the BLExplr iOS apps work only in BLE-enabled apple devices. Similarly the Safecast Geigerbot is only in iOS.)
 
@@ -54,9 +56,10 @@ Sources: in github and mainly the kit assembly Nano Manual. See photos there in 
 
 •	**[[BoPET (Mylar) film|http://en.wikipedia.org/wiki/BoPET]] and/or cut-away case for beta/gamma window**: As the plastic case blocks alpha- beta- particle radiation, a hole can be cut in a plastic case for a custom alpha-, beta-window. A BoPET (Mylar) film is strong enough to provide wind protection and thin enough to be allow for alpha- and beta-radiation measurement. Optionally the Nano can be fitted with a beta/gamma only window, which is less fragile. [??] 
 [There is a Safecast video of cut-open case with what looks like aluminum foil taped over it. [URL??]. This custom nano hangs in the same place on the car’s side window, with the thin film covered a/b window facing out [??] to measure airborne radioactive particles while driving.] "The mylar a/b window is only useful where there are sufficient airborne particles."
-•	**[[Wireless battery charger (5V 500mA)|http://smart-prototyping.com/index.php?route=product%2Fproduct&path=65_80&product_id=211]]**, see devices thread [[Wireless charger for bGeigieNanoKit...|https://groups.google.com/forum/?hl=en#!topic/safecast-devices/rENAKdDvgMM]] (Kalin prefers [[Qi|http://www.qiwireless.com/]]
 
-**EXTRAS, Mentioned POSSIBLE OPTIONS (for customizing or tricking-out the device) ? 
+•	**[[Wireless charger (5V 500mA)|http://smart-prototyping.com/index.php?route=product%2Fproduct&path=65_80&product_id=211]]**, see devices thread [[Wireless charger for bGeigieNanoKit...|https://groups.google.com/forum/?hl=en#!topic/safecast-devices/rENAKdDvgMM]] (Kalin prefers [[Qi|http://www.qiwireless.com/]].)
+
+**EXTRAS, Mentioned POSSIBLE OPTIONS (for customizing or for tricking-out the device) ? 
 
 * GPS antenna option ? 
 * additional environmental sensors on the BZee socket (instead of the BLEBee), i.e. noise level; air quality chemistry; meterologic barometry, humidity, temperature, etc. ? Safecast has experimented with various uses and formats of the bGeigie series. (i.e. underwater, helicopter drone born, long-life stationary). 
