@@ -7,47 +7,43 @@ This is a draft of the Nano user guide (in process nov 28) from verbose to markd
 ###Table of Contents###
 
 1. Safecast designed Nano uses
-2. Parameter Settings; Data Log; MicroSD Files
-6. LED display fields, Toggle Modes
-7. Start: Boot sequence
-8.  How to measure in logging mode
-9.  How to measure in surface mode
-10.  Mounting on person, vehicle, stand, etc.
-11.  API, uploading sharing data to Safecast
-12.  Uploading data to other datasets (comparative note)
-13.  Downloading data from Safecast
-14.  iOS app -- Safecast Geiger Bot
-15.  Troubleshooting: Firmware, Hardware, Bugs, Cleaning, etc.
-16.  Warranty, Certification, Calibration, reliability, validity, units
-17.  Hardware Cautions
-18.  Resources, links, support
+2. microSD Files; Parameter Settings; Alarm; Data Log
+3. LED display fields, Toggle Modes
+4. Start: Boot sequence
+5.  How to measure in logging mode
+6.  How to measure in surface mode
+7.  Mounting on person, vehicle, stand, etc.
+8.  API, uploading sharing data to Safecast
+9.  Uploading data to other datasets (comparative note)
+10.  Downloading data from Safecast
+11.  iOS app -- Safecast Geiger Bot
+12.  Troubleshooting: Firmware, Hardware, Bugs, Cleaning, etc.
+13.  Warranty, Certification, Calibration, reliability, validity, units
+14.  Hardware Cautions
+15.  Resources, links, support
 
 ---- 
 
-####01. Safecast designed Nano uses
-+    - [Model name](#model-name)
-The Safecast bGeigie Nano kit is a **geo-tagged mobile sensor of ionizing radiation** with internet data sharing format and optional wireless capability. It follows from the earlier, larger Bento Geigie. The word “bento” is Japanese for lunchbox; Geigie is cute for Geiger counter; nano followed the mini model. Together with the distributor Medcom, Safecast released the bGeigieNano kit in Spring 2013.
+####1. Safecast designed Nano uses
++ __Model name__: The Safecast bGeigie Nano kit is a *geo-tagged mobile sensor of ionizing radiation* with internet data sharing format and optional wireless capability. It follows from the earlier, larger Bento Geigie. The word “bento” is Japanese for lunchbox; Geigie is cute for Geiger counter; nano followed the mini model. Together with the distributor Medcom, Safecast released the bGeigieNano kit in Spring 2013.
 
-+    - [Safecast background](#Safecast-background)
-The design of the Nano kit mobile sensor reflects Safecast history and purpose. Although Safecast is best described by its website [[Safecast/About pages|http://blog.safecast.org/about/]], [[Safecast Japan's videos|https://vimeo.com/safecast/videos]], group forums, and own documents -- a paragraph of background. Safecast began in Japan in response to a perceived lack of timely, open, public environmental radiation mapping information following the Fukushima nuclear accident. If the non-partisan, a-political Safecast organization has an agenda, it is in its "pro-data", “open data” banner. The slogan on the homepage header reads, *“Safecast is a global sensor network for collecting and sharing radiation measurements to empower people with data about their environments.”*
++ __Safecast background__: The design of the Nano kit mobile sensor reflects Safecast history and purpose. Although Safecast is best described by its website [[Safecast/About pages|http://blog.safecast.org/about/]], [[Safecast Japan's videos|https://vimeo.com/safecast/videos]], group forums, and own documents -- a paragraph of background. Safecast began in Japan in response to a perceived lack of timely, open, public environmental radiation mapping information following the Fukushima nuclear accident. If the non-partisan, a-political Safecast organization has an agenda, it is in its "pro-data", “open data” banner. The slogan on the homepage header reads, *“Safecast is a global sensor network for collecting and sharing radiation measurements to empower people with data about their environments.”*
 
-+    - [Nano uses](#Nano-uses)
-**Uses of the bGeigie Nano**: The Nano is a mobile, geo-tagged, logging sensor of radiation, especially for mounting on car window. It can also be used in static or spot radiation detection. Nano users can submit their mobile radiation measurements to the Safecast dataset via the API upload page for inclusion in an online global mapping system developed by Safecast with MIT Media Lab. The Nano’s do it yourself, connect it yourself kit allows for customization, for cost savings and user learning. Modular options include an XBee socket, firmware reprogramming and an unassigned button. As Pieter wrote: “bGeige Nano [is] the only device with GPS and Wifi/Bluetooth option,… versatile system with a high quality sensor that can do GPS based logging, iPhone interface, measures gamma, beta, alpha, has uSV and Bq/m2 measurement, is fully configurable, is water tight, and is fully open source…."
++ __Nano uses__: The Nano is a mobile, geo-tagged, logging sensor of radiation, especially for mounting on car window. It can also be used in static or spot radiation detection. Nano users can submit their mobile radiation measurements to the Safecast dataset via the API upload page for inclusion in an online global mapping system developed by Safecast with MIT Media Lab. The Nano’s do it yourself, connect it yourself kit allows for customization, for cost savings and user learning. Modular options include an XBee socket, firmware reprogramming and an unassigned button. As Pieter wrote: “bGeige Nano [is] the only device with GPS and Wifi/Bluetooth option,… versatile system with a high quality sensor that can do GPS based logging, iPhone interface, measures gamma, beta, alpha, has uSV and Bq/m2 measurement, is fully configurable, is water tight, and is fully open source…."
 
-The sensor is the 2” pancake GM tube [[LND 7317|http://www.lndinc.com/products/17/]], capable of measurement of alpha- and beta- as well as gamma- radiation (referenced for Cs-137 nuclide check source data efficiency). Nano's maximum operating range is to about 350,000cpm, or 1mSv/h (1 millisievert per hour dose rate or 1000µSv/h microsieverts per hour)  (micro sometimes written with u, uSv=µSv).
+- The uses and capabilities are those of the Nano's sensor, the 2” pancake GM tube [[LND 7317|http://www.lndinc.com/products/17/]], capable of measurement of alpha- and beta- as well as gamma- radiation (referenced for Cs-137 nuclide check source data efficiency). Nano's maximum operating range is to about 350,000cpm, or 1mSv/h (1 millisievert per hour dose rate or 1000µSv/h microsieverts per hour)  (micro sometimes written with u, uSv=µSv).
 
-2. PARAMETER SETTINGS; DATA LOG; microSD FILES**
+####2. microSD Files; Parameter Settings; Alarm; Data Log; 
++ The __micro-SD card__ that ships with the bGeigie Nano contains two pre-set ﬁles, CONFIG.TXT for communication and SAFECAST.TXT for certain user, data parameters. Keep a backup and copy the two root files to any additional Nano microSD card. If the files are corrupted or deleted from the micro-SD, the Nano will not work properly. Default settings are available online at: https://github.com/Safecast/bGeigieNanoKit/tree/master/SD%20card
 
-* The micro-SD card that ships with the bGeigie Nano contains two pre-set ﬁles, CONFIG.TXT for communication and SAFECAST.TXT for certain user, data parameters. Keep a backup and copy the two root files to any additional Nano microSD card. If the files are corrupted or deleted from the micro-SD, the Nano will not work properly. Default settings are available online at: https://github.com/Safecast/bGeigieNanoKit/tree/master/SD%20card
+- Carefully edit the setting fields (user-name-text, time zone,...) via a micro SD card reader on a computer's USB. (The micro SD card cannot be read on an microSD card slot.) *(Expert users may edit the calibrated nuclide efficiency fields like cpmf (counts per minute factor Cs137) with cpmn (counts per minute nuclide Cs137) -- but not for submitting data, not without first consulting the Safecast API dataset. ??)*
 
-Edit the user setting fields (user-name-text, time zone,...) via a micro SD card reader on a computer's USB. (The micro SD card cannot be read on an microSD card slot.) Edit the parameters carefully. *(Expert users may edit the calibrated nuclide efficiency fields like cpmf (counts per minute factor Cs137) with cpmn (counts per minute nuclide Cs137) -- but not for submitting data, not without first consulting the Safecast API dataset.)*
+- The following lists of parameters on the micro sd card is taken from the [[NanoSetup.cpp|https://github.com/Safecast/bGeigieNanoKit/blob/master/NanoSetup.cpp]]. The parameters are further mentioned with Data Log Format [ below in 6 – LED Display Fields, Toggle Modes].)
 
-The following lists of parameters is taken from the [[NanoSetup.cpp|https://github.com/Safecast/bGeigieNanoKit/blob/master/NanoSetup.cpp]]. The parameters are further mentioned with Data Log Format [ below in 6 – LED Display Fields, Toggle Modes].)
-
-#####CONFIG.TXT:##### default is: 9600,26,3,2. (Change baud according to hardware customization.) 9600 Baud rate; 26 Data bits; 3 Mark Parity (3=>bit is always logical 1); 2 stop bits (disables use of MARK parity)
+#####CONFIG.TXT:#####
+Default is: 9600,26,3,2. [9600 Baud rate; 26 Data bits; 3 Mark Parity (3=>bit is always logical 1); 2 stop bits (disables use of MARK parity)]
 
 #####SAFECAST.TXT:#####
-
 >**nm=** User Name API User Name (or your any text) which appears on data log header line (and up to 15 characters appears on the 10 seconds start up LED display)
 
 >**did=** #### Device ID (bGeigie Nano ####) the serial number on the top plate (or on the purple PCB?)
@@ -81,27 +77,14 @@ e.g. Japan +9; Los Angeles -10
 
 >**cw=** 60 Character width
  
-SAFECAST.TXT, setup parameters file on the micro sd card 
+######Alarm: al=### cpm setting , indicators, dip switches:
+- Speaker "clicks" and small Blue LED “Count” blinks (pulse flicker) for each pulse from the geiger tube. It can be dimmed by putting the DIP switch #1 Off.
+- small Red LED “Log/Alarm”  flickers on pulse, remains lit on alarm. It will only glow if: GPS is locked, SD card is present, battery has more than 10% charge left, unit is on for one minute, geiger tube is providing a pulse). It can be dimmed by putting the DIP switch #2 Off.
+- the Piezo buzzer *[?? known bug? "It gets quieter over time. We're investigating changing the drive frequency of the buzzer which may help make the buzzer louder in general."]*
 
-Search the web for discussion of questions like: Where did radiation originate – from natural sources (earth and space) or from man-made (medical, military, industrial, nuclear power sources]? What is normal background radiation level? What is safe level -- for whom, when and where? 
 
-The alarm indicators include:
-- small Red LED “Log/Alarm” flickers on pulse, remains lit on alarm;
-- the small Blue LED “Count” (pulse flicker) and Speaker "clicks" ;
-- the Piezo buzzer [??]
-The first two can be dimmed (turned off).
-
-- small Red LED “Log/Alarm” will only glow if: GPS is locked, SD card is present, battery has more than 10% charge left, unit is on for one minute, geiger tube is providing a pulse). It can be dimmed by putting the DIP switch #2 Off.
-
-- Speaker "clicks" and small Blue LED “Count” blinks for each pulse from the geiger tube. It can be dimmed by putting the DIP switch #1 Off.
-
-- Piezo buzzer [??] [on hitting a high score, the buzzer will wake up??] 
-
-**DATA LOG**
-
-* The data log file is written to the micro-SD card. 
-
-A key to the fields of the Data Log is given in the [[bGeigie library README.md by fukufuku|https://github.com/Safecast/SafecastBGeigie]]. Below is excerpt of example there of a logged Radiation Data Sentence with Device #300. (The github README also gives an example of **Device Status Sentence**, which hardware message is only mentioned here in passing.) 
+#####DATA LOG
+* In recording mode the data log file is written to the micro-SD card. A key to the fields of the Data Log is given in the [[bGeigie library README.md by fukufuku|https://github.com/Safecast/SafecastBGeigie]]. Below is excerpt of example there of a logged *Radiation Data* Sentence with Device #300. (The github README also gives an example of *Device Status Sentence*, a hardware message mentioned here in passing.) 
 
 >**DATA LOG FILE FORMAT**
 
@@ -153,8 +136,8 @@ A key to the fields of the Data Log is given in the [[bGeigie library README.md 
 
 Other Files on the MicroSD Card:  The micro-SD card is delivered with apple disc system files and folders. [non Apple devices users can delete or leave these on micro-SD? Plenty of space to leave them on the 2gb Micro-SD card.] 
 
-
-**06. LED display fields, Toggle Modes** [needs photos, enlarged explicit text?]
+####3. LED display fields, Toggle Modes
+*[needs photos, explicit text?]*
 
 * The bGeigie Nano has two operating (display and recording) modes, controlled by the toggle switch at upper right. Label on the transparent top panel: (to the right) "bq/m^2; uS/h", (to left) "log; cpm".
 
@@ -163,13 +146,13 @@ Other Files on the MicroSD Card:  The micro-SD card is delivered with apple disc
 + The “down” position puts the Nano into recording (logging, mobile tracing) mode. Displayed on the OLED are indicators for CPM and µSv/h, number of satellites locked, altitude (height m), distance traversed (km), total duration of measurement (h:m) and time stamp (dd:hh:mm:ss). When bGeigie Nano is switched to recording mode, the display shows whether a micro SD memory card is inserted or not. [The photo] displays the “NO SD CARD” message, meaning no card is inserted. When a card is inserted properly, this message will disappear. 
 
 
-**07. Quick Start: Boot sequence**
+####4. Quick Start: Boot sequence
 
 * The power switch is a sliding switch at the lower right. To turn the unit on, slide it to the up position. First the SAFECAST logo will appear on the display as the splash screen for about one second. 
 
 * The next start-up screen has these the name of model “bGeigie Nano”, the firmware version number, battery charge level, basic settings, and the user’s name (or other customizable information) are indicated.  
 
-**08. How to measure in logging mode**
+####5. How to measure in logging mode
 * In recording (logging) mode the display also shows a lock GPS indication. When the device locks onto GPS, it show the number of satellites found, and a small red LED will glow. The picture shows the “No GPS” message. In this case, GPS lock can be achieved by placing the device near a window and waiting for a few minutes
 
 - small Red LED will only glow if: GPS is locked, SD card is present, battery has more than 10% charge left, unit is on for one minute, geiger tube is providing a pulse). It can be dimmed by putting the DIP switch #2 Off.
@@ -464,3 +447,8 @@ Rob (roubouden) wrote: …>”Basically Lionel, Robin, Kalin, Joe and me are in 
 
 
 ting. Excerpts from website, devices group, app, etc. hopefully in context, usually without attribution. Community-edited wiki page. (needs more input, photos, log file, LEDs diagrams, etc.  Please check [??]=unsure*
+
+
+
+
+Search the web for discussion of questions like: Where did radiation originate – from natural sources (earth and space) or from man-made (medical, military, industrial, nuclear power sources]? What is normal background radiation level? What is safe level -- for whom, when and where? 
