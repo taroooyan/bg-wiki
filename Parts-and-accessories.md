@@ -56,7 +56,7 @@ Sources: in github and mainly the kit assembly Nano Manual. See photos there in 
 [There is a Safecast video of cut-open case with what looks like aluminum foil taped over it. [URL??]. This custom nano hangs in the same place on the car’s side window, with the thin film covered a/b window facing out [??] to measure airborne radioactive particles while driving.] "The mylar a/b window is only useful where there are sufficient airborne particles."
 
 **EXTRAS, Mentioned POSSIBLE OPTIONS ? 
-
+* [[Wireless battery charger (5V 500mA)|http://smart-prototyping.com/index.php?route=product%2Fproduct&path=65_80&product_id=211]], see devices thread [[Wireless charger for bGeigieNanoKit...|https://groups.google.com/forum/?hl=en#!topic/safecast-devices/rENAKdDvgMM]] (Kalin prefers [[Qi|http://www.qiwireless.com/]]
 * GPS antenna option ? 
 * additional environmental sensors on the BZee socket (instead of the BLEBee), i.e. noise level; air quality chemistry; meterologic barometry, humidity, temperature, etc. ? Safecast has experimented with various uses and formats of the bGeigie series. (i.e. underwater, helicopter drone born, long-life stationary). 
 Consult the devices group about your possible customization -- modular XBee socket, specialized data log formats, programming etc
