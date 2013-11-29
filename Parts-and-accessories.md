@@ -46,11 +46,12 @@ Sources of links: announcements in blog and devices group, and mainly from the k
 
 * __Spacers__:
 
-#####Licenses:
+
+#####4. Licenses:
 The [[Safecast FAQ on licenses|http://blog.safecast.org/faq/licenses/]] includes the following on hardware design:
 
->The hardware developed by Safecast is open source.
-You are free to open, manipulate, hack, break and or improve anything.
+>**The hardware developed by Safecast is open source.
+You are free to open, manipulate, hack, break and or improve anything.**
 
 >All copyrightable, non-text works, hardware reference design, etc are published under a Creative Commons Attribution Share Alike License
 
