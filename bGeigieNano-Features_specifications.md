@@ -36,5 +36,5 @@ Safecast bGeigieNanoKit features description list. Community edited here in [[Na
 *        **Certifications**: (in progress, TBA*) 
 
 
-Further information at the [[Safecast website|http://blog.safecast.org]]. Also these [[community-edited Nano wiki pages|https://github.com/Safecast/bGeigieNanoKit/wiki/_pages]] (e.g. the kit assembly NANO MANUAL, alias http://nano.safecast.org/). Within the [[github Nano repository|https://github.com/Safecast/bGeigieNanoKit]] see [[README.md|https://github.com/Safecast/bGeigieNanoKit/blob/master/README.md]]. Kit distributor: [[Medcom|http://medcom.com/radiation-monitors/geiger-counters/bgeigie-kit/]]. Contact info@safecast.org.
+Further information at the [[Safecast website|http://blog.safecast.org]]. Also these [[community-edited Nano wiki pages|https://github.com/Safecast/bGeigieNanoKit/wiki/_pages]] (i.e.  the [[Parts and accessories|https://github.com/Safecast/bGeigieNanoKit/wiki/Parts-and-accessories]] page and the kit assembly [[NANO MANUAL|https://github.com/Safecast/bGeigieNanoKit/wiki/NANO-MANUAL]], alias http://nano.safecast.org/). Within the [[github Nano repository|https://github.com/Safecast/bGeigieNanoKit]] see [[README.md|https://github.com/Safecast/bGeigieNanoKit/blob/master/README.md]]. Kit distributor: [[Medcom|http://medcom.com/radiation-monitors/geiger-counters/bgeigie-kit/]]. Contact info@safecast.org.
 
