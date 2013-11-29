@@ -1,5 +1,5 @@
 ###Nano contents and options: lists and links
-*(initial stub -- incomplete list, 27-nov)*
+*(initial stub -- incomplete list, needs "A3. More small pieces") 27-nov*
 
 1) Parts (Nano kit contents) -- to list with link to a supplier page when known [draft]
 
