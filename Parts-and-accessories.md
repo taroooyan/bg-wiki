@@ -1,11 +1,11 @@
 ###Nano contents and options: lists and links
-*(initial stub -- incomplete list, needs "A3. More small pieces") 27-nov*
+*(initial stub -- incomplete list, need to add data in "[A3.] More small pieces") 27-nov*
 
 1) Parts (Nano kit contents) -- to list with link to a supplier page when known [draft]
 
 2) Accessory Tools and Options (another place to note source of extra tools and hardware)
 
-Sources of links: announcements in blog and devices group, and mainly from the kit assembly Nano Manual. See photos there in [[Nano Manual|https://github.com/Safecast/bGeigieNanoKit/wiki/NANO-MANUAL]].
+Item references mainly taken from the kit assembly Nano Manual. See photos there in [[Nano Manual|https://github.com/Safecast/bGeigieNanoKit/wiki/NANO-MANUAL]]. Other sources of links: announcements in blog and devices group and google. (There may be some part specifications also in github nano repository.)
 
 
 ####A. Nano Kit PARTS
@@ -47,6 +47,9 @@ Sources of links: announcements in blog and devices group, and mainly from the k
 * __Spacers__:
 
 
+*Note: All Nano parts are separately available from suppliers. (I'm guessing that obtaining all the individual parts on one's own costs about as much as the price of kit, even with the $75.00 donation to Safecast included in the distributor's [[bGeigie Nano Kit order|https://medcom.com/product/bgeigie-nano-geiger-counter-kit/]]. yw)* 
+
+
 #####4. Licenses:
 The [[Safecast FAQ on licenses|http://blog.safecast.org/faq/licenses/]] includes the following on hardware design:
 
@@ -61,9 +64,6 @@ You are free to open, manipulate, hack, break and or improve anything.**
 
 >All the patentable functional works of our hardware designs are published under an XL1.0 Cross License .
  
-Note: Reportedly all Nano parts are separately available from suppliers. 
-*(I'm guessing that obtaining all the individual parts probably costs as much as the price of kit, even with the $75.00 donation to Safecast included in the distributor's [[bGeigie Nano Kit order|https://medcom.com/product/bgeigie-nano-geiger-counter-kit/]]. yw)* 
-
 ####B. TOOLS, ACCESSORIES, OPTIONS
 
 •	**Wireless Low-voltage Bluetooth option**: [[BLEBee v1.0.0 board|http://www.seeedstudio.com/depot/bluetooth-bee-p-598.html]]  and iOS app [[BLExplr|https://itunes.apple.com/us/app/blexplr/id524018027?mt=8]] designed by Dr. Michael Kroll. Also see the [[product page|http://www.mkroll.mobi/?page_id=1070]]; the [[BLEBee product forum|http://forum.mkroll.mobi/]], and; [[Safecast announcement|https://www.facebook.com/media/set/?set=a.628182673894097.1073741830.196772350368467&type=1]]. (Although BLE can talk to any Bluetooth 4.0, the BLExplr iOS apps work only in BLE-enabled apple devices. Similarly the Safecast Geigerbot is only in iOS.)
