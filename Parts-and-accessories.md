@@ -59,7 +59,8 @@ Sources: in github and mainly the kit assembly Nano Manual. See photos there in 
 
 •	**[[Wireless charger (5V 500mA)|http://smart-prototyping.com/index.php?route=product%2Fproduct&path=65_80&product_id=211]]**, see devices thread [[Wireless charger for bGeigieNanoKit...|https://groups.google.com/forum/?hl=en#!topic/safecast-devices/rENAKdDvgMM]] (Kalin prefers [[Qi|http://www.qiwireless.com/]].)
 
-**EXTRAS, Mentioned POSSIBLE OPTIONS (for customizing or for tricking-out the device) ? 
+####C. EXTRAS, Mentioned POSSIBLE OPTIONS, VARIANTS, USES, FORMATS
+*(customized needs and tricked-out prototypes)*
 
 * GPS antenna option ? 
 
@@ -67,7 +68,7 @@ Sources: in github and mainly the kit assembly Nano Manual. See photos there in 
 
 * Parallel to radiation monitoring, Safecast is developing air pollution monitoring devices. See the [[Safecast Air Quality Discussion group|https://groups.google.com/forum/?hl=en#!forum/safecast-air]].
 
-* Safecast has experimented with various uses and various formats of the bGeigie series  (i.e. underwater, helicopter drone born, long-life stationary radiation sensors). Search the Safecast website and consult the the [[Safecast Device Discussions and Support|https://groups.google.com/forum/?hl=en#!forum/safecast-devices]] group about your possible customization -- modular XBee socket, specialized data log formats, programming etc
+* Safecast has experimented with various uses and various formats of the bGeigie series (i.e. underwater, helicopter drone born, long-life stationary radiation sensors). Search the Safecast website and consult the the [[Safecast Device Discussions and Support|https://groups.google.com/forum/?hl=en#!forum/safecast-devices]] group about your possible customization -- modular XBee socket, specialized data log formats, programming etc
 
 Reportedly all Nano parts are separately available from suppliers.
 
