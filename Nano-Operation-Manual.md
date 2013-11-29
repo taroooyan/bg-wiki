@@ -6,15 +6,15 @@ This is a draft of the Nano user guide (in process nov 28) from verbose to markd
 
 ###Table of Contents###
 
-1. Safecast designed Nano uses
-6. microSD Files; Parameter Settings; Alarm; Data Log
-2. LED display fields, Toggle Modes
-3. Start: Boot sequence
+1.  Safecast designed Nano uses
+2.  LED display fields, Toggle Modes
+3.  Start: Boot sequence
 4.  How to measure in logging mode
 5.  How to measure in surface mode
+6.  microSD Files; Parameter Settings; Alarm; Data Log
 7.  Mounting on person, vehicle, stand, etc.
-8.  API, uploading sharing data to Safecast
-9.  Uploading data to other datasets (comparative note)
+8.   API, uploading sharing data to Safecast
+9.   Uploading data to other datasets (comparative note)
 10.  Downloading data from Safecast
 11.  iOS app -- Safecast Geiger Bot
 12.  Troubleshooting: Firmware, Hardware, Bugs, Cleaning, etc.
@@ -379,7 +379,7 @@ But, the membrane is basically extremely thin glass. Mica to be precise, so it's
 
 
 ####15. RESOURCES, LINKS, SUPPORT
-repeats on information resources for users of the Safecast bGeigie Nano mobile sensor of ionizing radiation. 
+*(repeat on information resources for users of the Safecast bGeigie Nano mobile sensor of ionizing radiation...)* 
 
 The Safecast website http://blog.safecast.org/ has articles, news, notices, API upload and open download of crowd-sourced radiation data and visualized mapping, etc
 
@@ -387,25 +387,23 @@ Join the Safecast Devices Discussions and Support: ([[devices group|https://grou
 
 Github is a community project development archive mainly for technical users. Safecast currently has 16 public github respositories, repos or buckets, including [[bGeigieNanoKit|https://github.com/Safecast/bGeigieNanoKit/]], the more veteran firmeware [[SafecastBGeigie|https://github.com/Safecast/SafecastBGeigie]], the electronics [[Eagle repo|https://github.com/Safecast/SafecastEagleHW]], etc.
 
+**Nano pages**: any nano user can edit these [[Nano wiki pages|https://github.com/Safecast/bGeigieNanoKit/wiki/_pages]] (in various stages of community drafting):
+* [[Features/specifications|https://github.com/Safecast/bGeigieNanoKit/wiki/bGeigieNano-Features_specifications]]
+* [[How to setup build environment on Mac OS X|https://github.com/Safecast/bGeigieNanoKit/wiki/How-to-setup-build-environment-on-Mac-OS-X]] (+Nano firmware upgrade on MS-Windows)
+* [[Nano Wiki Home|https://github.com/Safecast/bGeigieNanoKit/wiki]] (index page in the NanoKit wiki folder)
+* [[NANO MANUAL|https://github.com/Safecast/bGeigieNanoKit/wiki/NANO-MANUAL]] (Kit assembly, connecting the pieces)
+* [[Nano Operation Manual|https://github.com/Safecast/bGeigieNanoKit/wiki/Nano-Operation-Manual]]   *(this page)*
+* [[Parts and accessories|https://github.com/Safecast/bGeigieNanoKit/wiki/Parts-and-accessories]] (including tools and options)
+* [[Safety in radiation detection|https://github.com/Safecast/bGeigieNanoKit/wiki/Safety-in-radiation-detection]]
+
 Appropriate use of the Nano has a modest learning curve. Fortunately, the end user doesn’t have to master the fields of radiation safety, health physics and environmental sciences which in contrast are huge studies. Spot and mobile monitoring and crowd data-sharing projects require a orientation and a little practice.
 
 The Safecast end user, the volunteer civilian monitor, **the citizen scientist** is helping to collect data, environmental information, for the public and for scientists. Scientists may use this data in their research methods, possibly making science, possibly discovering new knowledge in their fields. With Nano use and contribution of data logs to web datasets, Nano users learn and teach about radiation detection, safety and many issues. 
 
 *end*
 ***
-*still to fit?*
-**Orientation**:  Safecast website http://blog.safecast.org/ and the links on the home page. Join the [[Safecast Devices Discussions and Support group|https://groups.google.com/forum/?hl=en#!forum/safecast-devices]]. Also these [[Nano wiki pages|https://github.com/Safecast/bGeigieNanoKit/wiki/_pages]] (in various stages of community drafting):
-* [[Features/specifications|https://github.com/Safecast/bGeigieNanoKit/wiki/bGeigieNano-Features_specifications]]
-* [[How to setup build environment on Mac OS X|https://github.com/Safecast/bGeigieNanoKit/wiki/How-to-setup-build-environment-on-Mac-OS-X]] (+Nano firmware upgrade on MS-Windows)
-* [[Nano Wiki Home|https://github.com/Safecast/bGeigieNanoKit/wiki]] (index page in the NanoKit wiki folder)
-* [[NANO MANUAL|https://github.com/Safecast/bGeigieNanoKit/wiki/NANO-MANUAL]] (Kit assembly, connecting the pieces)
-* [[Nano Operation Manual|https://github.com/Safecast/bGeigieNanoKit/wiki/Nano-Operation-Manual]] (this page) *(this page)*
-* [[Parts and accessories|https://github.com/Safecast/bGeigieNanoKit/wiki/Parts-and-accessories]] (including tools and options)
-* [[Safety in radiation detection|https://github.com/Safecast/bGeigieNanoKit/wiki/Safety-in-radiation-detection]]
 
-
-***
-
+*(removed draft still to move/delete)*
 
 The Nano is designed as a mobile sensor, to hang outside on a car’s side window. Outside so as not to be shielded by the car. The Nano is hung at the top of the window to be far enough from the ground to get a good background average. The parameter setting of 100 cm is set in the Sensor Height field. This contrasts with close specific surface contamination monitoring (which we do when we find a hotspot thanks to an increased average). The radiation measured on the car window is not areal or airborne gas per se. It's radiating out from radioactive solid stuff (also from liquids ??) on the asphalt, ground, walls, leaves, etc... The Nano is pre-set to monitor radiation from nuclide Cs137. 
 
