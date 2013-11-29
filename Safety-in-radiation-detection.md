@@ -43,7 +43,7 @@ The following safe practice advice comes from many sources, especially from Safe
 
 >”High zone is not for novice, but requires training…”
 
-**RECOMMENDED LINKS:** example of recommended good link given in a devices group thread:
+**RECOMMENDED SAFETY LINKS:** here's example of a link given in the devices group, a recommended *starter*, the "Guide to the safe handling of radioactive materials in research", a manual on radiological safety practices by the Perkin Elmer Co.
 
 > Safety notes: How can I find out the relative danger from these readings to put some perspective on to them?   -- 
 
@@ -64,4 +64,23 @@ Avoid radiation hazards that can be avoided. If you find some high hot sample or
 *yohananw* - Many Nano users probably will not find any notable radiation. But you never know. You might stumble upon a notably high sample, such as my report on an **antique radium kit c.1904**, entry July 18 in devices thread entitled [[Suggestions for a good source of radiation to check the functionality|https://groups.google.com/forum/?hl=en#!searchin/safecast-devices/radium/safecast-devices/KGJOPe61in4/vUbLUtE1I7MJ]]. *If you high score the Nano on first use, you can return the game console for full refund and prize. Congratulations!* --Ah, the bGeigie Nano is not a toy. Safecast is not an internet game. There is a real need to learn and teach radiation safety and share radiation monitoring data.
 
 
+***
+
+
+***
+#####p.s. Resources:
+*(repeat on information resources for Safecast bGeigie Nano users)*
+
+* the Safecast website http://blog.safecast.org/
+* the [[Safecast Devices Discussions and Support group|https://groups.google.com/forum/?hl=en#!forum/safecast-devices]]. “A discussion group for the community using and hacking Safecast designed open source hardware including the Medcom Onyx and the bGeigie Nano”.
+* Github is a community project development archive mainly for technical users. Safecast currently has 16 public github respositories, repos or buckets, including [[bGeigieNanoKit|https://github.com/Safecast/bGeigieNanoKit/]], Nano's forerunner the  [[SafecastBGeigie|https://github.com/Safecast/SafecastBGeigie]], electronics [[Eagle repo|https://github.com/Safecast/SafecastEagleHW]], etc.
+* **[[Nano wiki pages|https://github.com/Safecast/bGeigieNanoKit/wiki/_pages]]** (Any user can contribute and edit the wiki.) 
+Current pages in various stages of community drafting include:
++   - [[Nano Features/Specifications|https://github.com/Safecast/bGeigieNanoKit/wiki/bGeigieNano-Features_specifications]]
++   - [[How to setup build environment on Mac OS X|https://github.com/Safecast/bGeigieNanoKit/wiki/How-to-setup-build-environment-on-Mac-OS-X]] (+Nano firmware upgrade on MS-Windows)    
++   - [[Nano Wiki Home|https://github.com/Safecast/bGeigieNanoKit/wiki]] (index page in the NanoKit wiki folder)
++   - [[NANO MANUAL|https://github.com/Safecast/bGeigieNanoKit/wiki/NANO-MANUAL]] (Kit assembly, connecting the pieces)  
++   - [[Nano Operation Manual|https://github.com/Safecast/bGeigieNanoKit/wiki/Nano-Operation-Manual]] 
++   - [[Parts and accessories|https://github.com/Safecast/bGeigieNanoKit/wiki/Parts-and-accessories]] (including tools and options)
++   - **[[Safety in radiation detection|https://github.com/Safecast/bGeigieNanoKit/wiki/Safety-in-radiation-detection]]** *(this page)*
 
