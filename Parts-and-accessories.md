@@ -59,7 +59,7 @@ Sources: in github and mainly the kit assembly Nano Manual. See photos there in 
 
 •	**[[Wireless charger (5V 500mA)|http://smart-prototyping.com/index.php?route=product%2Fproduct&path=65_80&product_id=211]]**, see devices thread [[Wireless charger for bGeigieNanoKit...|https://groups.google.com/forum/?hl=en#!topic/safecast-devices/rENAKdDvgMM]] (Kalin prefers [[Qi|http://www.qiwireless.com/]].)
 
-####C. EXTRAS, Mentioned POSSIBLE OPTIONS, VARIANTS, USES, FORMATS
+####C. EXTRAS: OTHER POSSIBLE USES, FORMATS, OPTIONS
 *(customized needs and tricked-out prototypes)*
 
 * GPS antenna option ? 
