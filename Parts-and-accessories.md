@@ -5,14 +5,14 @@
 
 2) Accessory Tools and Options (another place to note source of extra tools and hardware)
 
-Sources: in github and mainly the kit assembly Nano Manual. See photos there in [[Nano Manual|https://github.com/Safecast/bGeigieNanoKit/wiki/NANO-MANUAL]].
+Sources of links: announcements in blog and devices group, and mainly from the kit assembly Nano Manual. See photos there in [[Nano Manual|https://github.com/Safecast/bGeigieNanoKit/wiki/NANO-MANUAL]].
 
 
 ####A. Nano Kit PARTS
 
 #####1. Large parts 
 
-* [[LND-7317 pancake Geiger|http://www.lndinc.com/products/17/]] Also see Medcom http://nanoxpress.com/nano-parts-accessories/
+* [[LND-7317 pancake Geiger|http://www.lndinc.com/products/17/]] Also available through Medcom http://nanoxpress.com/nano-parts-accessories/
 * [[Medcom iRover HV board|http://nanoxpress.com/nano-parts-accessories/]]. ([[Contact Medcom|http://medcom.com/contact-international-medcom/]])
 * [[bGeigieNanoKit v.1.0.l PCB|http://oshpark.com/shared_projects/EElEjLq3]] (Printed Circuit Board). See the [[blog announcement|http://blog.safecast.org/2013/09/bgeigie-nano-pcb-available-now/]] of Nano's purple-color Community PCB available from OSH Park. (The color of the PCB that comes with the kit is blue.)
 * [[Arduino Fio|https://www.sparkfun.com/products/10116]]
@@ -46,6 +46,23 @@ Sources: in github and mainly the kit assembly Nano Manual. See photos there in 
 
 * __Spacers__:
 
+#####Licenses:
+The [[Safecast FAQ on licenses|http://blog.safecast.org/faq/licenses/]] states as follows:
+
+>The hardware developed by Safecast is open source.
+You are free to open, manipulate, hack, break and or improve anything.
+
+>All copyrightable, non-text works, hardware reference design, etc are published under a Creative Commons Attribution Share Alike License
+
+>You are free to copy, edit and republish these, but you must make it clear we are the original source and must publish under this same license. You can’t copyright anything you make based on our work.
+
+>All the copyrightable functional works of our hardware designs are published under BSD
+
+>All the patentable functional works of our hardware designs are published under an XL1.0 Cross License .
+ 
+Note: Reportedly all Nano parts are separately available from suppliers. 
+*(I'm guessing that obtaining all the individual parts probably costs as much as the price of kit, even with the $75.00 donation to Safecast included in the distributor's [[bGeigie Nano Kit order|https://medcom.com/product/bgeigie-nano-geiger-counter-kit/]]. yw)* 
+
 ####B. TOOLS, ACCESSORIES, OPTIONS
 
 •	**Wireless Low-voltage Bluetooth option**: [[BLEBee v1.0.0 board|http://www.seeedstudio.com/depot/bluetooth-bee-p-598.html]]  and iOS app [[BLExplr|https://itunes.apple.com/us/app/blexplr/id524018027?mt=8]] designed by Dr. Michael Kroll. Also see the [[product page|http://www.mkroll.mobi/?page_id=1070]]; the [[BLEBee product forum|http://forum.mkroll.mobi/]], and; [[Safecast announcement|https://www.facebook.com/media/set/?set=a.628182673894097.1073741830.196772350368467&type=1]]. (Although BLE can talk to any Bluetooth 4.0, the BLExplr iOS apps work only in BLE-enabled apple devices. Similarly the Safecast Geigerbot is only in iOS.)
@@ -69,9 +86,6 @@ Sources: in github and mainly the kit assembly Nano Manual. See photos there in 
 * Parallel to radiation monitoring, Safecast is developing air pollution monitoring devices. See the [[Safecast Air Quality Discussion group|https://groups.google.com/forum/?hl=en#!forum/safecast-air]].
 
 * Safecast has experimented with various uses and various formats of the bGeigie series (i.e. underwater, helicopter drone born, long-life stationary radiation sensors). Search the Safecast website and consult the the [[Safecast Device Discussions and Support|https://groups.google.com/forum/?hl=en#!forum/safecast-devices]] group about your possible customization -- modular XBee socket, specialized data log formats, programming etc
-
-Reportedly all Nano parts are separately available from suppliers.  
-As stated by Medcom, the price of [[bGeigie Nano Kit order|https://medcom.com/product/bgeigie-nano-geiger-counter-kit/]] from the distributor includes a $75.00 donation to Safecast.
 
 **For SUPPORT**:  these community-edited [[Nano wiki pages|https://github.com/Safecast/bGeigieNanoKit/wiki/_pages]]; relevant  [[bGeigieNanoKit|https://github.com/Safecast/bGeigieNanoKit/]] github repositories; the http://blog.safecast.org/ website and home page links. Join the [[Safecast Devices Discussions and Support group|https://groups.google.com/forum/?hl=en#!forum/safecast-devices]]. 
 Contact info@safecast.org and suppliers...
