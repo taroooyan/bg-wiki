@@ -99,3 +99,21 @@ The Arduino Fio uses ATmega328, according to the [[Sparkfun page|https://www.spa
 The [[arduino.cc website|http://arduino.cc/]] has well recommended guides and help. For history  orientation see [[en.wikipedia on Arduino|http://en.wikipedia.org/wiki/Arduino]].
 
 *Miscellaneous (extraneous and superfluous) alternatives may include system reconfiguration via the microSD card and wireless programming over an optional pair of XBee radios...* 
+
+(end)
+***
+#####p.s. Resources:
+*(repeat on information resources for Nano users)*
+
+* the Safecast website http://blog.safecast.org/
+* the [[Safecast Devices Discussions and Support group|https://groups.google.com/forum/?hl=en#!forum/safecast-devices]]. “A discussion group for the community using and hacking Safecast designed open source hardware including the Medcom Onyx and the bGeigie Nano”.
+* Github is a community project development archive mainly for technical users. Safecast currently has 16 public github respositories, repos or buckets, including [[bGeigieNanoKit|https://github.com/Safecast/bGeigieNanoKit/]], the more parent model  [[SafecastBGeigie|https://github.com/Safecast/SafecastBGeigie]], electronics [[Eagle repo|https://github.com/Safecast/SafecastEagleHW]], etc.
+* **Nano pages**: any nano user can edit these [[Nano wiki pages|https://github.com/Safecast/bGeigieNanoKit/wiki/_pages]] (in various stages of community drafting):
++   - [[Nano Features/Specifications|https://github.com/Safecast/bGeigieNanoKit/wiki/bGeigieNano-Features_specifications]]
++   - [[How to setup build environment on Mac OS X|https://github.com/Safecast/bGeigieNanoKit/wiki/How-to-setup-build-environment-on-Mac-OS-X]] (+Nano firmware upgrade on MS-Windows)    *(this page)*
++   - [[Nano Wiki Home|https://github.com/Safecast/bGeigieNanoKit/wiki]] (index page in the NanoKit wiki folder)
++   - [[NANO MANUAL|https://github.com/Safecast/bGeigieNanoKit/wiki/NANO-MANUAL]] (Kit assembly, connecting the pieces)
++   - [[Nano Operation Manual|https://github.com/Safecast/bGeigieNanoKit/wiki/Nano-Operation-Manual]] 
++   - [[Parts and accessories|https://github.com/Safecast/bGeigieNanoKit/wiki/Parts-and-accessories]] (including tools and options)
++   - [[Safety in radiation detection|https://github.com/Safecast/bGeigieNanoKit/wiki/Safety-in-radiation-detection]]
+
