@@ -1,11 +1,10 @@
 ###Nano contents and options: lists and links
 *(initial stub -- incomplete list, need to add data in "[A3.] More small pieces") 27-nov*
+*Item names mainly taken from the kit assembly Nano Manual. See photos there in [[Nano Manual|https://github.com/Safecast/bGeigieNanoKit/wiki/NANO-MANUAL]]. Other sources of links: announcements in blog and devices group and google. (There may be some part specifications also in github nano repository.)*
 
-1) Parts (Nano kit contents) -- to list with link to a supplier page when known [draft]
+A) Parts (Nano kit contents) -- to list with link to a supplier page when known [draft]
 
-2) Accessory Tools and Options (another place to note source of extra tools and hardware)
-
-Item references mainly taken from the kit assembly Nano Manual. See photos there in [[Nano Manual|https://github.com/Safecast/bGeigieNanoKit/wiki/NANO-MANUAL]]. Other sources of links: announcements in blog and devices group and google. (There may be some part specifications also in github nano repository.)
+B) Accessory Tools and Options (another place to note source of extra tools and hardware)
 
 
 ####A. Nano Kit PARTS
@@ -47,7 +46,7 @@ Item references mainly taken from the kit assembly Nano Manual. See photos there
 * __Spacers__:
 
 
-*Note: All Nano parts are separately available from suppliers. (I'm guessing that obtaining all the individual parts on one's own costs about as much as the price of kit, even with the $75.00 donation to Safecast included in the distributor's [[bGeigie Nano Kit order|https://medcom.com/product/bgeigie-nano-geiger-counter-kit/]]. yw)* 
+Note: All Nano parts are separately available from suppliers. *(I'm guessing that obtaining all the individual parts on one's own costs about as much as the price of kit, even with the $75.00 donation to Safecast included in the distributor's [[bGeigie Nano Kit order|https://medcom.com/product/bgeigie-nano-geiger-counter-kit/]]. yw)* 
 
 
 #####4. Licenses:
