@@ -14,7 +14,7 @@ Sources: in github and mainly the kit assembly Nano Manual. See photos there in 
 
 * [[LND-7317 pancake Geiger|http://www.lndinc.com/products/17/]] Also see Medcom http://nanoxpress.com/nano-parts-accessories/
 * [[Medcom iRover HV board|http://nanoxpress.com/nano-parts-accessories/]]. ([[Contact Medcom|http://medcom.com/contact-international-medcom/]])
-* PCB (the bGeigieNanoKit v.1.0.l Printed Circuit Board) [[Blog reports|http://blog.safecast.org/2013/09/bgeigie-nano-pcb-available-now/]] there is now a separately available purple [[community PCB|http://oshpark.com/shared_projects/EElEjLq3]] where the kit comes with blue PCB.
+* [[bGeigieNanoKit v.1.0.l PCB|http://oshpark.com/shared_projects/EElEjLq3]] (Printed Circuit Board). See the [[blog announcement|http://blog.safecast.org/2013/09/bgeigie-nano-pcb-available-now/]] of Nano's purple-color Community PCB available from OSH Park. (The color of the PCB that comes with the kit is blue.)
 * [[Arduino Fio|https://www.sparkfun.com/products/10116]]
 * [[OpenLog |https://www.sparkfun.com/products/9530]]
 * [[Adafruit Ultimate GPS|https://www.adafruit.com/products/746]]
@@ -70,7 +70,8 @@ Sources: in github and mainly the kit assembly Nano Manual. See photos there in 
 
 * Safecast has experimented with various uses and various formats of the bGeigie series (i.e. underwater, helicopter drone born, long-life stationary radiation sensors). Search the Safecast website and consult the the [[Safecast Device Discussions and Support|https://groups.google.com/forum/?hl=en#!forum/safecast-devices]] group about your possible customization -- modular XBee socket, specialized data log formats, programming etc
 
-Reportedly all Nano parts are separately available from suppliers.
+Reportedly all Nano parts are separately available from suppliers.  
+As stated by Medcom, the price of [[bGeigie Nano Kit order|https://medcom.com/product/bgeigie-nano-geiger-counter-kit/]] from the distributor includes a $75.00 donation to Safecast.
 
 **For SUPPORT**:  these community-edited [[Nano wiki pages|https://github.com/Safecast/bGeigieNanoKit/wiki/_pages]]; relevant  [[bGeigieNanoKit|https://github.com/Safecast/bGeigieNanoKit/]] github repositories; the http://blog.safecast.org/ website and home page links. Join the [[Safecast Devices Discussions and Support group|https://groups.google.com/forum/?hl=en#!forum/safecast-devices]]. 
 Contact info@safecast.org and suppliers...
