@@ -31,7 +31,7 @@ The following safe practice advice comes from many sources, especially from Safe
 
 >One caveat: Individual comfort levels should not be discounted, and different people will be more or less comfortable with various levels.
 
-**IN EARLY BLOG**, Jun 2, 2011, [[Farm readings in Hanawa near Shirakawa| http://blog.safecast.org/2011/06/farm-readings-in-hanawa-near-shirakawa/]], it was stated that “100 counts per minute, equivalent to approximately 0.3 microSieverts per hour, *above background level* is considered contaminated.” (Background being the natural and previously contaminated level?)
+**IN EARLY BLOG**, Jun 2, 2011, [[Farm readings in Hanawa near Shirakawa| http://blog.safecast.org/2011/06/farm-readings-in-hanawa-near-shirakawa/]], it was stated that “100 counts per minute, equivalent to approximately 0.3 microSieverts per hour, *above background level* is considered contaminated.” *(Background being the natural and previously contaminated level?)*
 
 **ADVICE IN HELP FILE** Nick Dolezal in his [[Geiger Bot app docs|https://sites.google.com/site/geigerbot/docs]] brings this caution: 
 
@@ -57,30 +57,25 @@ Avoid radiation hazards that can be avoided. If you find some high hot sample or
 
 ----
 
-**SAFE RADIATION DETECTION STORIES**
-
-*(Please add your safe or unsafe practice story here. Share your experience. And edit and add your advice and links also above.)*
-
-*yohananw* - Many Nano users probably will not find any notable radiation. But you never know. You might stumble upon a notably high sample, such as my report on an **antique radium kit c.1904**, entry July 18 in devices thread entitled [[Suggestions for a good source of radiation to check the functionality|https://groups.google.com/forum/?hl=en#!searchin/safecast-devices/radium/safecast-devices/KGJOPe61in4/vUbLUtE1I7MJ]]. *If you high score the Nano on first use, you can return the game console for full refund and prize. Congratulations!* --Ah, the bGeigie Nano is not a toy. Safecast is not an internet game. There is a real need to learn and teach radiation safety and share radiation monitoring data.
-
-
-***
-
-
-***
-#####p.s. Resources:
-*(repeat on information resources for Safecast bGeigie Nano users)*
-
+#####p.s. Resources for Nano users
 * the Safecast website http://blog.safecast.org/
-* the [[Safecast Devices Discussions and Support group|https://groups.google.com/forum/?hl=en#!forum/safecast-devices]]. “A discussion group for the community using and hacking Safecast designed open source hardware including the Medcom Onyx and the bGeigie Nano”.
-* Github is a community project development archive mainly for technical users. Safecast currently has 16 public github respositories, repos or buckets, including [[bGeigieNanoKit|https://github.com/Safecast/bGeigieNanoKit/]], Nano's forerunner the  [[SafecastBGeigie|https://github.com/Safecast/SafecastBGeigie]], electronics [[Eagle repo|https://github.com/Safecast/SafecastEagleHW]], etc.
-* **[[Nano wiki pages|https://github.com/Safecast/bGeigieNanoKit/wiki/_pages]]** (Any user can contribute and edit the wiki.) 
-Current pages in various stages of community drafting include:
+* the [[Safecast Devices Discussions and Support group|https://groups.google.com/forum/?hl=en#!forum/safecast-devices]].
+* Github is a community project development archive. Safecast's repositories include [[bGeigieNanoKit|https://github.com/Safecast/bGeigieNanoKit/]] with these **[[Nano wiki pages|https://github.com/Safecast/bGeigieNanoKit/wiki/_pages]]**:
 +   - [[Nano Features/Specifications|https://github.com/Safecast/bGeigieNanoKit/wiki/bGeigieNano-Features_specifications]]
-+   - [[How to setup build environment on Mac OS X|https://github.com/Safecast/bGeigieNanoKit/wiki/How-to-setup-build-environment-on-Mac-OS-X]] (+Nano firmware upgrade on MS-Windows)    
-+   - [[Nano Wiki Home|https://github.com/Safecast/bGeigieNanoKit/wiki]] (index page in the NanoKit wiki folder)
-+   - [[NANO MANUAL|https://github.com/Safecast/bGeigieNanoKit/wiki/NANO-MANUAL]] (Kit assembly, connecting the pieces)  
++   - [[How to setup build environment on Mac OS X|https://github.com/Safecast/bGeigieNanoKit/wiki/How-to-setup-build-environment-on-Mac-OS-X]] (Nano firmware upgrade, also via MS-Windows)    
++   - [[NANO MANUAL|https://github.com/Safecast/bGeigieNanoKit/wiki/NANO-MANUAL]] (Kit assembly, connecting the pieces) 
 +   - [[Nano Operation Manual|https://github.com/Safecast/bGeigieNanoKit/wiki/Nano-Operation-Manual]] 
 +   - [[Parts and accessories|https://github.com/Safecast/bGeigieNanoKit/wiki/Parts-and-accessories]] (including tools and options)
-+   - **[[Safety in radiation detection|https://github.com/Safecast/bGeigieNanoKit/wiki/Safety-in-radiation-detection]]** *(this page)*
++   - [[Safety in radiation detection|https://github.com/Safecast/bGeigieNanoKit/wiki/Safety-in-radiation-detection]]  *(this page)*
 
+
+***
+
+**SAFE RADIATION DETECTION STORIES**
+
+*(Please share your advice and links above and add your practice story here.)* 
+
+*yw* - Many Nano users probably will not find any notable radiation. But you never know. You might stumble upon a notably high sample, such as my report on an **antique radium kit c.1904**, entry July 18 in devices thread entitled [[Suggestions for a good source of radiation to check the functionality|https://groups.google.com/forum/?hl=en#!searchin/safecast-devices/radium/safecast-devices/KGJOPe61in4/vUbLUtE1I7MJ]]. *If you high score the Nano on first use, you can return the game console for full refund and prize. Congratulations!* --Ah, the bGeigie Nano is not a toy. Safecast is not an internet game. There is a real need to learn and teach radiation safety and share data.
+
+
+*(end)*
