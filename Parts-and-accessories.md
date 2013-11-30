@@ -39,6 +39,8 @@ B) Accessory Tools and Options (another place to note source of extra tools and 
 #####3. More small pieces
 *(specific description and source to be added here)* 
 
+* __Resistors:__  
+
 * __Headers:__  
 
 * __Fasteners:__ 
@@ -71,9 +73,8 @@ You are free to open, manipulate, hack, break and or improve anything.**
 
 •	**Pocket AVR Programmer** for technical users to program the Nano firmware. See the  [“Setup System on Mac OS X”](https://github.com/Safecast/SafecastBGeigie “Setup System on Mac OS X”) on the [[bGeigie README.md|https://github.com/Safecast/SafecastBGeigie]].
 
-•	**[[BoPET (Mylar) film|http://en.wikipedia.org/wiki/BoPET]] and/or cut-away case for alpha-/beta-window or beta/gamma window**: As the plastic case blocks alpha- beta- particle radiation, a hole can be cut in the case for a custom alpha-/beta-window. A BoPET (Mylar) film is strong enough to provide wind protection and thin enough to allow for alpha- and beta-radiation measurement. Optionally the Nano can be fitted with a beta/gamma only window, which is less fragile. [??] 
-[There is a Safecast video of cut-open case with what looks like aluminum foil taped over it. [URL??]. This custom nano hangs in the same place on the car’s side window, with the thin film covered a/b window facing out [??] to measure airborne radioactive particles while driving.] "The mylar a/b window is only useful where there are sufficient airborne particles."
-
+•	**[[BoPET (Mylar) film|http://en.wikipedia.org/wiki/BoPET]] and/or cut-away case for alpha-/beta-window OR beta/gamma window**: See the thread [["Beta window"|https://groups.google.com/forum/#!msg/safecast-devices/8a_aJ3otQCw/0dUudUVHXBEJ]] 14/9/2013 in devices group. As the plastic case blocks alpha- beta- particle radiation, a hole (40 to 45mm in diameter)  for a custom alpha-/beta-window can be bored in the case over the sensor.  Emergency "space blankets" are a good source for thin aluminized Mylar.  ...The thickness should be between 10 and 30 microns. Thinner than 10um and it's too fragile. Thicker than 30um and you'll block all the alpha particles and noticeably attenuate the betas as well. Optionally the Nano can be fitted with a beta/gamma only window, which is less fragile. *[??-What is difference between the alpha-/beta-window and the beta/gamma window?]*  
+"...You can use duck tape to seal the film over the hole as we did on the earliest bGeigies.  Or, if you want a neater appearance, try searching hobby stores for model airplane covering film. The "chrome" film is aluminized BoPET (expanded Mylar) usually 25um thick. It also has a thin layer (~5um) of thermoplastic adhesive.  Here's how it looks [[heat-sealed to a bGeigie3 prototype|http://plus.google.com/app/basic/photos/105805543171125420155/album/5912792455672511633]]." **(There is also a Safecast video of cut-open case with what looks like aluminum foil taped over it. [URL??]. This custom nano hangs in the same place on the car’s side window, with the thin film covered a/b window facing out [??] to measure airborne radioactive particles.]* "The mylar a/b window is only useful where there are sufficient airborne particles."
 •	**[[Wireless charger (5V 500mA)|http://smart-prototyping.com/index.php?route=product%2Fproduct&path=65_80&product_id=211]]**, see devices thread [[Wireless charger for bGeigieNanoKit...|https://groups.google.com/forum/?hl=en#!topic/safecast-devices/rENAKdDvgMM]] (Kalin prefers [[Qi|http://www.qiwireless.com/]].)
 
 ####C. EXTRAS: OTHER POSSIBLE USES, FORMATS, OPTIONS
