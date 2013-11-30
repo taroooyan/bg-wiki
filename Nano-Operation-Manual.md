@@ -362,7 +362,7 @@ Although the Nano sensor inside its closed Pelican micro-case is well protected 
 
 -- Passenger air flight: Packing the Nano in a checked bag risks baggage delay or worse. Checked luggage carries a greater chance of the Nano's loss, theft, confiscation, or somehow damage. (The luggage hold on passenger airplanes is pressurized, but not heated, like the cabin air on the deck. It is unlikely that pressure swings or the extreme cold in the storage would be large enough to damage the sensor in checked-in baggage. But hard bag tosses might hurt it.) Best to take your geiger counter with you in your carry-on luggage.
 
--- Shipment by air freight: Also okay. *(Usually pressurized cargo holds. Reportedly the manufacturer uses special packing. LND ships their sensors in an LND paint can.)* 
+-- Shipment by air freight: Also okay. *(Usually pressurized cargo holds. Reportedly the manufacturer uses special packing. LND ships their sensors in an airtight, sealed paint can.)* 
 
 -- Sudden changes in pressure, like slamming a car door, can possibly damage the sensor. The pressure on the inside of the tube is very low. The membrane is under constant tension from atmospheric pressure. Being at altitude *reduces* the strain on it. But, the membrane is basically extremely thin glass. Mica to be precise, so it's low density and very brittle. Any sharp shock can shatter it. And of course anything that pokes it will pop it like a party balloon. 
 
