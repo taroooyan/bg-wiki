@@ -9,7 +9,7 @@
 
 ####A. Nano Kit PARTS
 
-#####1. Large parts 
+#####__1. LARGE PARTS__
 
 * [[LND-7317 pancake Geiger|http://www.lndinc.com/products/17/]] Also available through Medcom http://nanoxpress.com/nano-parts-accessories/
 * [[Medcom IMI iRover HV board|http://nanoxpress.com/nano-parts-accessories/]]. ([[Contact Medcom|http://medcom.com/contact-international-medcom/]])
@@ -23,9 +23,9 @@
 * [[Pelican 1010 micro-case|http://www.pelican.com/cases_detail.php?Case=1010]]: strong, tight, transparent plastic, crush proof, water resistant. Opaque colors, [[i1010 micro case|http://www.pelican.com/cases_detail_specs.php?Case=i1010]], are also available from manufacturer. 
 
 
-#####2. Small Parts 
+#####__2. SMALL PARTS__
 
-###### __Resistors:__ *The kit contains 6 types, 11 resistors. (R1-R10, R12) as listed on the Small Parts Placement Guide.
+#####Resistors: *The kit contains 6 types, 11 resistors. (R1-R10, R12) as listed on the Small Parts Placement Guide.
 
 1. 047     Ohm , x1 ;  (R7)
 2. 001   k Ohm , x4 ;  (R2; R4; R10; R12)
@@ -35,7 +35,7 @@
 6. 100   k Ohm , x1 ;  (R6)
 
 
-######The 12 Small Parts *listed on the right side of the Small Parts Placement Guide in the kit assembly manual. (placement label):*
+#####12 Small Parts *on the Small Parts Placement Guide:*
 1.  Capacitors, 100nF Ceramic x3  (C1, C2, C3)
 2.  Diode 1N4148 
 3.  Dual-Dipswitch . 
@@ -49,14 +49,10 @@
 11.  Toggle Switch  (mode)
 12.  Transistor 2sc1815 (T1)
 
-Additional small parts
+#####Additional small parts
 13. Audio port connector 3.5 mm 
 
-#####3. More small pieces
-*(specific description and source to be added here)* 
-
-###### __Headers:__  *(as they arrive in the kit, before their division of the longer headers into smaller headers)*
-
+#####Headers:  *(as they arrive in the kit, before division of longer into smaller)*
 1. One 40-pin length male header *(before dividing)*
 2. One 19-pin length male header *(before dividing)*
 3. One 10-pin length angled male header *(before dividing)*
@@ -73,13 +69,12 @@ Additional small parts
 
 >* One 6-pin length, female header: Cut one 3-pin length to use for connecting the iRover cable to the triple connector (see Step 02)
 
+#####Fasteners:
 
-###### __Fasteners:__ 
-
-###### __Spacers__:
+#####Spacers:
 
 
-Note: All Nano parts are separately available from suppliers. *(I'm guessing that obtaining all the individual parts on one's own costs about as much as the price of kit, even with the $75.00 donation to Safecast included in the distributor's [[bGeigie Nano Kit order|https://medcom.com/product/bgeigie-nano-geiger-counter-kit/]]. yw)* 
+For technical users and hackers, all Nano parts are available from suppliers. *(Note to the rest of us: I'm guessing that separately buying the individual parts retail would cost about as much as the price of kit, even with the $75.00 donation to Safecast included in the distributor's [[bGeigie Nano Kit order|https://medcom.com/product/bgeigie-nano-geiger-counter-kit/]].-yw)*
 
 
 #####4. Licenses:
