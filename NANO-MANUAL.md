@@ -116,7 +116,9 @@ This is how the main board should look with all the small components installed:
 
 The "headers" are long black components with pins or legs. They are provided in several types and lengths of rows, several which you cut to size with a pair of wire-cutters. They are used for attaching the breakouts to the board. (The breakouts in the kit include the OLED display, the Arduino Fio, the GPS module, the OpenLog memory unit and the audio connector. Their installation is detailed below, further along in this manual. Breakouts sometimes are called “daughter boards” or “shields”.) Most of the headers go on the front face of the main board, but two go on the backside as discussed below. Refer to the placement guides. 
 
-Be careful when cutting the long headers to length. Refer to  Fig.# Large Parts Placement Guide guide and to their relevant photos in this Manual. Cutting is done easily with fingernail clippers, but is also possible by scoring with a knife and snapping them off. Some people prefer to cut all of them to length ﬁrst, some like to cut them as needed. These are the header rows which are to be cut, as follows:
+Be careful when cutting the long headers to length. Refer to  Fig.# Large Parts Placement Guide guide and to their relevant photos in this Manual. Cutting is done easily with fingernail clippers, but is also possible by scoring with a knife and snapping them off. Some people prefer to cut all of them to length ﬁrst, some like to cut them as needed.
+
+For a list of the headers in the kit before their division, see [[Parts and accessories|https://github.com/Safecast/bGeigieNanoKit/wiki/Parts-and-accessories]] wiki page. Of the following 5 header rows, the first 4 long rows are to be divided as follows:
 
 * One 40-pin (or “leg”) length, straight, male header. Cut this row into four pieces to mount the Arduino Fio (14-pin and 8-pin), the GPS (9-pin) and the OpenLog memory unit (6-pin).
 
@@ -126,7 +128,7 @@ Be careful when cutting the long headers to length. Refer to  Fig.# Large Parts 
 
 * One 6-pin length, female header: Cut one 3-pin length to use for connecting the iRover cable to the triple connector (see Step 02)
 
-* One 8-pin length, female header: to be used for mounting the OLED display.
+* One 8-pin length, female header: to be used for mounting the OLED display. (not divided)
 
 The short pins of the headers usually go in the holes in the board and the long ones project above and are soldered to the breakouts. To visualize the fit of the parts, study the relevant photos and diagrams and the parts.  The breakout board as its own placement aid. Also we advise soldering the pins at each end ﬁrst, and then checking to make sure the header is perpendicular and properly aligned before soldering the rest.
 
