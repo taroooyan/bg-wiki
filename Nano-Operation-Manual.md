@@ -356,15 +356,11 @@ Data interpretation, data sharing, interpretation, reliability, robustness, pres
 
 **SENSOR Cautions:**
 
+Although the Nano sensor inside its closed Pelican micro-case is well protected from shock and from pressure transients, sudden changes in pressure, like slamming a car door, can possibly damage the sensor. The pressure on the inside of the tube is very low. The membrane is under constant tension from atmospheric pressure. Being at altitude *reduces* the strain on it. But, the membrane is basically extremely thin glass. Mica to be precise, so it's low density and very brittle. Any sharp shock can shatter it. And of course anything that pokes it will pop it like a party balloon. 
+
 - NEVER touch the membrane of the pancake sensor! (It can damage the sensor!) 
 
-Although the Nano sensor inside its closed Pelican micro-case is well protected from shock and from pressure transients,  a few notes:
-
--- Passenger air flight: Best to take your geiger counter with you in your carry-on luggage. Packing the Nano in a checked bag risks baggage delay or worse. There is a greater chance of the Nano's loss, theft, confiscation, or somehow damage in checked luggage. (Like the cabin, the luggage hold on passenger airplanes is pressurized. However, it is not heated. Although pressure swings and extreme cold temperature in the hold probably won't damage the sensor, hard tosses of the checked-in baggage might.) 
-
--- Shipment by air freight: Also okay. *(Usually pressurized cargo holds. Reportedly the manufacturer uses special packing. LND ships their sensors in an airtight, sealed paint can.)* 
-
--- Sudden changes in pressure, like slamming a car door, can possibly damage the sensor. The pressure on the inside of the tube is very low. The membrane is under constant tension from atmospheric pressure. Being at altitude *reduces* the strain on it. But, the membrane is basically extremely thin glass. Mica to be precise, so it's low density and very brittle. Any sharp shock can shatter it. And of course anything that pokes it will pop it like a party balloon. 
+- Air travel and air freight: Inside its tightly closed case the nano is safe in luggage and cargo holds (except from baggage delay, loss, etc.) Carry-on is preferred. See the thread [[travel advice|https://mail.google.com/mail/u/0/?hl=en&tab=wm#inbox/13fa6e90612f788a]], Pieter wrote, "I always carry the nano on board with me for the simple reason that I use the nano to Safecast at 10,000m height. It only works if you have a window seat... the nano is safest when in the cabin, but as long as the nano is in the Pelican case it should be perfectly safe to check it in as well. The Pelican case protects the nano very well. In fact LND ships the raw tubes in sealed cans, which much do the same as the Pelican case will."  
 
 [[Some of Onyx hardware precautions|http://medcom.com/wp-content/uploads/2013/03/Safecast-X-Kickstarter-Onyx-12.91.pdf]] , relevant for Nano??:
 > Precautions To keep the Onyx™ in good condition, handle it with care, and observe the following precautions:
