@@ -25,7 +25,7 @@
 
 #####2. Small Parts 
 
-###### __Resistors:__  ###### Resistors (R1-R10, R12):  The kit contains 6 types,  11 resistors as listed on the Small Parts Placement Guide.
+###### __Resistors:__ *The kit contains 6 types, 11 resistors. R1-R10, R12 as listed on the Small Parts Placement Guide.
 
 1. 047     Ohm , x1 ;  R7
 2. 001   k Ohm , x4 ;  R2; R4; R10; R12
@@ -49,15 +49,11 @@
 11.  Toggle Switch  (mode)
 12.  Transistor 2sc1815 (T1)
 
-
-
 Additional small parts
-1. Audio port connector 3.5 mm 
+13. Audio port connector 3.5 mm 
 
 #####3. More small pieces
 *(specific description and source to be added here)* 
-
-
 
 * __Headers:__  
 
