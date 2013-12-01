@@ -356,7 +356,7 @@ Data interpretation, data sharing, interpretation, reliability, robustness, pres
 
 **SENSOR Cautions:**
 
-Although the Nano sensor inside its closed Pelican micro-case is well protected from shock and from pressure transients, sudden changes in pressure, like slamming a car door, can possibly damage the sensor. The pressure inside the tube is very low. The membrane is under constant tension from atmospheric pressure. Being at altitude *reduces* the strain on it. But, the membrane is basically extremely thin glass. Mica to be precise, so it's low density and very brittle. Any sharp shock can shatter it. Of course anything that pokes it will pop it like a party balloon. 
+Although the Nano sensor inside its closed Pelican micro-case is well protected from shock and from pressure transients, sudden changes in pressure, like slamming a car door, can possibly damage the sensor. The pressure inside the tube is very low. The membrane is under constant tension from atmospheric pressure. Being at altitude *reduces* the strain on it. But, the membrane is basically extremely thin glass. Mica to be precise, so it's low density and very brittle. Any sharp shock can shatter it. Anything that pokes it will pop it like a party balloon. 
 
 - NEVER touch the membrane of the pancake sensor! (It can damage the sensor!) 
 
