@@ -124,9 +124,9 @@ Be careful when cutting the long headers to length. Refer to  Fig.# Large Parts 
 
 * One 10-pin length, angled, male header: Cut this row into a 6-pin length which will be attached to the Arduino Fio for connecting to an external cable for loading ﬁrmware, etc. From the remainder of the row cut a 3-pin length which will be attached to the backside of the board as part of the “triple connector.”
 
-* One 8-pin length, female header: to be used for mounting the OLED display.
-
 * One 6-pin length, female header: Cut one 3-pin length to use for connecting the iRover cable to the triple connector (see Step 02)
+
+* One 8-pin length, female header: to be used for mounting the OLED display.
 
 The short pins of the headers usually go in the holes in the board and the long ones project above and are soldered to the breakouts. To visualize the fit of the parts, study the relevant photos and diagrams and the parts.  The breakout board as its own placement aid. Also we advise soldering the pins at each end ﬁrst, and then checking to make sure the header is perpendicular and properly aligned before soldering the rest.
 
