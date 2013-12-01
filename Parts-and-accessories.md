@@ -1,11 +1,11 @@
 ###Nano contents and options: lists and links
-*(initial stub -- incomplete list, need to add data in "[A3.] More small pieces") 27-nov*
+*(initial stub -- incomplete list, need to add data and specifications for small and misc pieces)*
+
+**A) Parts (Nano kit contents)** -- to list with link to a supplier page when known [draft]
+
+**B) Accessory Tools and Options** (another place to note source of extra tools, hardware, customizations)
+
 *Item names mainly taken from the kit assembly Nano Manual. See photos there in [[Nano Manual|https://github.com/Safecast/bGeigieNanoKit/wiki/NANO-MANUAL]]. Other sources of links: announcements in blog and devices group and google. (There may be some part specifications also in github nano repository.)*
-
-A) Parts (Nano kit contents) -- to list with link to a supplier page when known [draft]
-
-B) Accessory Tools and Options (another place to note source of extra tools and hardware)
-
 
 ####A. Nano Kit PARTS
 
@@ -24,17 +24,24 @@ B) Accessory Tools and Options (another place to note source of extra tools and 
 
 
 #####2. Small Parts 
-*(need part specification?)*
+######The 12 Small Parts *listed on the right side of the Small Parts Placement Guide in the kit assembly manual.  (placement label):*
+1. Capacitors, 100nF Ceramic  [X3] (C1, C2, C3)
+2.  Diode 1N4148 
+3.  Dual-Dipswitch . 
+4.  iRover connector a.k.a. “triple connector” 
+5.  LED Blue  (Count)
+6.  LED Red (Log/alarm)
+7.  microUSB port for power charging  
+8.  Piezo Buzzer (B1)
+9.  Push button (S5)
+10.  Switch on/off  (power)
+11.  Toggle Switch  (mode)
+12.  Transistor 2sc1815 (T1)
 
-* Switch on/off 
-* Toggle Switch  
-* Dual-Dip-switch . 
-* LED R  (Log/alarm)
-* LED B  (Count)
-* Piezo Buzzer (B1)
-* 3.5 mm Audio port connector 
-* microUSB port for power charging 
 
+
+Additional small parts
+1. Audio port connector 3.5 mm 
 
 #####3. More small pieces
 *(specific description and source to be added here)* 
