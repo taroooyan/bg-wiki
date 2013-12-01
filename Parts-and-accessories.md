@@ -24,8 +24,19 @@
 
 
 #####2. Small Parts 
+
+###### __Resistors:__  ###### Resistors (R1-R10, R12):  The kit contains 6 types,  11 resistors as listed on the Small Parts Placement Guide.
+
+1. 047     Ohm , x1 ;  R7
+2. 001   k Ohm , x4 ;  R2; R4; R10; R12
+3. 004.7 k Ohm , x2 ;  R5; R9
+4. 009.1 k Ohm , x1 ;  R1 
+5. 047   k Ohm , x2 ;  R3; R8
+6. 100   k Ohm , x1 ;  R6
+
+
 ######The 12 Small Parts *listed on the right side of the Small Parts Placement Guide in the kit assembly manual.  (placement label):*
-1. Capacitors, 100nF Ceramic  [X3] (C1, C2, C3)
+1. Capacitors, 100nF Ceramic x3  (C1, C2, C3)
 2.  Diode 1N4148 
 3.  Dual-Dipswitch . 
 4.  iRover connector a.k.a. “triple connector” 
@@ -46,7 +57,7 @@ Additional small parts
 #####3. More small pieces
 *(specific description and source to be added here)* 
 
-* __Resistors:__  
+
 
 * __Headers:__  
 
