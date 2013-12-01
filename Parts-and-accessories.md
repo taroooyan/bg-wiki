@@ -5,14 +5,14 @@
 
 **B) Accessory Tools and Options** (another place to note source of extra tools, hardware, customizations)
 
-*Item names mainly taken from the kit assembly Nano Manual. See photos there in [[Nano Manual|https://github.com/Safecast/bGeigieNanoKit/wiki/NANO-MANUAL]]. Other sources of links: announcements in blog and devices group and google. (There may be some part specifications also in github nano repository.)*
+*Item specifications and links when known as referenced in the kit assembly [[Nano Manual|https://github.com/Safecast/bGeigieNanoKit/wiki/NANO-MANUAL]], safecast blog, devices group and (googled?). See the placement guides and photos in the Manual. (There may be some part specifications also in github nano repository.)*
 
 ####A. Nano Kit PARTS
 
 #####1. Large parts 
 
 * [[LND-7317 pancake Geiger|http://www.lndinc.com/products/17/]] Also available through Medcom http://nanoxpress.com/nano-parts-accessories/
-* [[Medcom iRover HV board|http://nanoxpress.com/nano-parts-accessories/]]. ([[Contact Medcom|http://medcom.com/contact-international-medcom/]])
+* [[Medcom IMI iRover HV board|http://nanoxpress.com/nano-parts-accessories/]]. ([[Contact Medcom|http://medcom.com/contact-international-medcom/]])
 * [[bGeigieNanoKit v.1.0.l PCB|http://oshpark.com/shared_projects/EElEjLq3]] (Printed Circuit Board). See the [[blog announcement|http://blog.safecast.org/2013/09/bgeigie-nano-pcb-available-now/]] of Nano's purple-color Community PCB available from OSH Park. (The color of the PCB that comes with the kit is blue.)
 * [[Arduino Fio|https://www.sparkfun.com/products/10116]]
 * [[OpenLog |https://www.sparkfun.com/products/9530]]
@@ -25,21 +25,21 @@
 
 #####2. Small Parts 
 
-###### __Resistors:__ *The kit contains 6 types, 11 resistors. R1-R10, R12 as listed on the Small Parts Placement Guide.
+###### __Resistors:__ *The kit contains 6 types, 11 resistors. (R1-R10, R12) as listed on the Small Parts Placement Guide.
 
-1. 047     Ohm , x1 ;  R7
-2. 001   k Ohm , x4 ;  R2; R4; R10; R12
-3. 004.7 k Ohm , x2 ;  R5; R9
-4. 009.1 k Ohm , x1 ;  R1 
-5. 047   k Ohm , x2 ;  R3; R8
-6. 100   k Ohm , x1 ;  R6
+1. 047     Ohm , x1 ;  (R7)
+2. 001   k Ohm , x4 ;  (R2; R4; R10; R12)
+3. 004.7 k Ohm , x2 ;  (R5; R9)
+4. 009.1 k Ohm , x1 ;  (R1) 
+5. 047   k Ohm , x2 ;  (R3; R8)
+6. 100   k Ohm , x1 ;  (R6)
 
 
-######The 12 Small Parts *listed on the right side of the Small Parts Placement Guide in the kit assembly manual.  (placement label):*
-1. Capacitors, 100nF Ceramic x3  (C1, C2, C3)
+######The 12 Small Parts *listed on the right side of the Small Parts Placement Guide in the kit assembly manual. (placement label):*
+1.  Capacitors, 100nF Ceramic x3  (C1, C2, C3)
 2.  Diode 1N4148 
 3.  Dual-Dipswitch . 
-4.  iRover connector a.k.a. “triple connector” 
+4.  iRover connector a.k.a. “triple connector”  *(Does this come with the Medcom IMI iRover HV board?)*
 5.  LED Blue  (Count)
 6.  LED Red (Log/alarm)
 7.  microUSB port for power charging  
@@ -55,11 +55,28 @@ Additional small parts
 #####3. More small pieces
 *(specific description and source to be added here)* 
 
-* __Headers:__  
+###### __Headers:__  *(as they arrive in the kit, before their division of the longer headers into smaller headers)*
 
-* __Fasteners:__ 
+1. One 40-pin length male header *(before dividing)*
+2. One 19-pin length male header *(before dividing)*
+3. One 10-pin length angled male header *(before dividing)*
+4. One 6-pin length female header *(before dividing)* 
+5. One 8-pin length female header (for OLED)
 
-* __Spacers__:
+*As detailed in the Manual, these 4 header rows are to be cut, as follows:
+
+>* One 40-pin (or “leg”) length, straight, male header. Cut this row into four pieces to mount the Arduino Fio (14-pin and 8-pin), the GPS (9-pin) and the OpenLog memory unit (6-pin).
+
+>* One 19-pin length, male header. Cut one (1x) 4-pin length for mounting the audio out jack which will be attached on the back side of the main board. Also cut four (x4) 2-pin lengths from this row.
+
+>* One 10-pin length, angled, male header: Cut this row into a 6-pin length which will be attached to the Arduino Fio for connecting to an external cable for loading ﬁrmware, etc. From the remainder of the row cut a 3-pin length which will be attached to the backside of the board as part of the “triple connector.”
+
+>* One 6-pin length, female header: Cut one 3-pin length to use for connecting the iRover cable to the triple connector (see Step 02)
+
+
+###### __Fasteners:__ 
+
+###### __Spacers__:
 
 
 Note: All Nano parts are separately available from suppliers. *(I'm guessing that obtaining all the individual parts on one's own costs about as much as the price of kit, even with the $75.00 donation to Safecast included in the distributor's [[bGeigie Nano Kit order|https://medcom.com/product/bgeigie-nano-geiger-counter-kit/]]. yw)* 
