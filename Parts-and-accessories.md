@@ -84,11 +84,9 @@
 7. Strap(s) for mounting
 8. Clear NEOPRENE FEET (runners or pads) (x8)
 
-#####Miscellaneous (spare pieces?):
 
 - - - - - 
 All Nano parts are available from suppliers. *(My guess: to buy all the parts retail would cost at least as much as the price of kit, even with the $75.00 donation to Safecast included in the distributor's [[bGeigie Nano Kit order|https://medcom.com/product/bgeigie-nano-geiger-counter-kit/]].-yw)*
-#####not included:
 
 - - - - - 
 #####4. Licenses:
