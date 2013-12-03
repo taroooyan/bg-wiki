@@ -84,17 +84,13 @@
 7. Strap(s) for mounting
 8. Clear NEOPRENE FEET (runners or pads) (x8)
 
-#####Miscellaneous (spare?) pieces, notes:
-
-#####not included, as part of lab:
-SOLDER
-GLUE (a couple drops needed for the sensor grid)
+#####Miscellaneous (spare pieces?):
 
 - - - - - 
 All Nano parts are available from suppliers. *(My guess: to buy all the parts retail would cost at least as much as the price of kit, even with the $75.00 donation to Safecast included in the distributor's [[bGeigie Nano Kit order|https://medcom.com/product/bgeigie-nano-geiger-counter-kit/]].-yw)*
+#####not included:
 
 - - - - - 
-
 #####4. Licenses:
 The [[Safecast FAQ on licenses|http://blog.safecast.org/faq/licenses/]] includes the following on hardware design:
 
@@ -125,7 +121,7 @@ You are free to open, manipulate, hack, break and or improve anything.
 
 •	**[[Wireless charger (5V 500mA)|http://smart-prototyping.com/index.php?route=product%2Fproduct&path=65_80&product_id=211]]**, see devices thread [[Wireless charger for bGeigieNanoKit...|https://groups.google.com/forum/?hl=en#!topic/safecast-devices/rENAKdDvgMM]] (Kalin prefers [[Qi|http://www.qiwireless.com/]].)
 
-
+*   *a BLE enabled APPLE DEVICE to host the safecast geigerbot app*  (Currently the safecast geigerbot app and wireless BLE option work on iOS devices with BLE. However, an android app with some of geigerbot's capabilities is reportedly in beta development! On 3 Dec 2013 on safecast google groups, Peter Franken posted a link to https://www.facebook.com/safecast4android, "Safecast for Android is a client-server orientated environment to visualize radioactive data on interactive maps.")
 
 ####C. EXTRAS: OTHER POSSIBLE USES, FORMATS, OPTIONS
 *(customized needs and tricked-out prototypes)*
