@@ -231,8 +231,6 @@ Uses of data. analysis mapping , etc, mapped track of recording device..
 
 * Safecast Geiger Bot app works in iOS devices. 
 
-Although there’s occasional talk on the web about working on an android version, the porting of geigerbot into android is unlikely. See “Android / Platform Support Mini-FAQ” in https://sites.google.com/site/geigerbot/docs , The app author Nick Dolezal writes, "The majority of what Geiger Bot does is heavily tied to iOS-specific frameworks. It would almost all have to be rewritten."
-
 Nick Dolezal  on Oct 12: 
 
 >“The server update process for the app's map data runs every 4 hours starting at midnight GMT, and takes about 10 minutes to run on the server. It will not run if there weren't any new measurements since the last update, so you can have periods greater than 4 hours where the app will not update with the message "You already have the most recent data". It is not really ideal but at least it's working and it will be some time before I can come back to it.
@@ -279,6 +277,8 @@ app-API Troubleshooting
 >4. Configure Safecast Settings
 >A. Now tap the "Settings" icon on the fixed button panel, which is a machine gear. Scroll to the bottom of the list and select "Safecast".
 >B. Enter your API key. Change the upload interval as desired, but you shouldn't change the Safecast device.<< back to nano 
+
+According to the app author Nick Dolezal, the porting of geigerbot into android is unlikely. See “Android / Platform Support Mini-FAQ” in https://sites.google.com/site/geigerbot/docs , "The majority of what Geiger Bot does is heavily tied to iOS-specific frameworks. It would almost all have to be rewritten."  (However, android apps with similar capabilities of safecast api and mapping may be arriving soon! On 3 Dec 2013 on safecast google groups, Peter Franken posted a link to the first beta announcements of **Safecast for Android**, https://www.facebook.com/safecast4android.)
 
 ####12. Troubleshooting: Firmware, Hardware, Current bugs, Cleaning
 **Bugs** Open issues are processed in the devices discussion group. Mentioned here in manual – under troubleshooting or separate item.?*) Example of Oct 2013 GPS model Adafruit “Ultimate GPS”. Failed on 7 recent builds. Manufacturer support forum thread opened on 28 Oct 2013. http://forums.adafruit.com/viewtopic.php?f=22&t=45198  Issue resolved with V.1.3.2 firmware fix , 11.11, group threads https://groups.google.com/forum/?hl=en#!topic/safecast-devices/iRlxIvspjkE
