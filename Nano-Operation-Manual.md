@@ -80,7 +80,7 @@ Kalin wrote: “The grid on the pancake sensor is only useful when you take the 
 
 
 ####6. microSD Files; Parameter Settings; Alarm; Data Log; 
-+ The __2gb micro-SD card__ that ships with the bGeigie Nano contains two pre-set ﬁles in the root directory, CONFIG.TXT for communication and SAFECAST.TXT for certain user data parameters, detailed below. If the files are corrupted or deleted from the micro-SD, the Nano will not work properly.  A new microSD card has to have FAT32 format and these two files in the root. Keep a backup.  Default settings are available online at: https://github.com/Safecast/bGeigieNanoKit/tree/master/SD%20card
++ The __2gb micro-SD card__ that ships with the bGeigie Nano contains two pre-set ﬁles in the root directory, CONFIG.TXT for communication and SAFECAST.TXT for certain user data parameters, detailed below. If the files are corrupted or deleted from the micro-SD, the Nano will not work properly.  A new microSD card has to have FAT format and these two files in the root. Keep a backup.  Default settings are available online at: https://github.com/Safecast/bGeigieNanoKit/tree/master/SD%20card
 
 - Carefully edit the setting fields (user-name-text, time zone,...) via a micro SD card reader on a computer's USB. (The micro SD card cannot be read on an microSD card slot.??) *(Expert users may edit the calibrated nuclide efficiency fields like cpmf (counts per minute factor Cs137) with cpmn (counts per minute nuclide Cs137) -- but not for submitting data, not without first consulting the Safecast API dataset. ??)*
 
