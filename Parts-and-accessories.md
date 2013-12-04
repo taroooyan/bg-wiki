@@ -119,7 +119,7 @@ You are free to open, manipulate, hack, break and or improve anything.
 
 •	**[[Wireless charger (5V 500mA)|http://smart-prototyping.com/index.php?route=product%2Fproduct&path=65_80&product_id=211]]**, see devices thread [[Wireless charger for bGeigieNanoKit...|https://groups.google.com/forum/?hl=en#!topic/safecast-devices/rENAKdDvgMM]] (Kalin prefers [[Qi|http://www.qiwireless.com/]].)
 
-*  an APPLE DEVICE to host the safecast geigerbot app, which iOS device is BLE enabled for the wireless BLEBee option. However, on 3 Dec 2013 on safecast google groups, Peter Franken posted a link of a new android development, https://www.facebook.com/safecast4android, "Safecast for Android is a client-server orientated environment to visualize radioactive data on interactive maps."  "[This is] a ground up rebuild for Android. Instead of in app rendering it will use a server to do it out of app. So it is not a port [of geigerbot]." 
+•	An Apple iOS device is needed for the safecast geigerbot app. And, as mentioned above, a recent BLE enabled iOS device is required for the optional wireless BLEBee connection. However, Safecast's Apple ecology may soon be less dominant. On 3 Dec 2013 on safecast google groups, Peter Franken posted a link to a new android development, https://www.facebook.com/safecast4android, "Safecast for Android is a client-server orientated environment to visualize radioactive data on interactive maps."  (Pieter wrote, "[This is] a ground up rebuild for Android. Instead of in app rendering it will use a server to do it out of app. So it is not a port [of geigerbot].") 
 
 
 ####C. EXTRAS: OTHER POSSIBLE USES, FORMATS, OPTIONS
