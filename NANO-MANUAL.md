@@ -423,6 +423,10 @@ An Apple audio cord is provided for iGeigie mode update to online databases. See
 
 ##STEP 07: TEST RUN and DIAGNOSTICS 
 **MID-ASSEMBLY TEST POWERUP: **
+
+!! IMPORTANT: Make sure you're running the most recent firmware. You can download it at:
+https://github.com/Safecast/bGeigieNanoKit
+
 If you've just ﬁnished assembling the main board, including the breakouts, it's a good idea to do a test power up. We recommend this because it's much easier to ﬁx problems that might be due to misplaced or poorly connected components before the unit is fully assembled. The same sequence can be used for diagnostics after the entire nano is assembled. 
 1. Before connecting the battery: 
  1a.There is a small ON/OFF switch on the underside of the Fio. Make sure that it is in the OFF position. If you didn't remember to do this  before attaching the Fio, it's accessible (barely!) on the assembled unit. [photo]  If this switch is in the ON position, the unit will power up as soon as the battery is connected, and power switch attached to the main  board will not function. 
