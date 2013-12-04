@@ -180,7 +180,7 @@ e.g. Japan +9; Los Angeles -10
 
 *A data log or section starts with several #-lines# NEW LOG ; # format=1.1.1nano;  deadtime=on ; etc. *[bring example]*
 
-Other Files on the MicroSD Card:  The micro-SD card is delivered with apple disc system files and folders. [non Apple devices users can delete or leave these on micro-SD? Plenty of space to leave them on the 2gb Micro-SD card.] 
+Other Files on the MicroSD Card:  The micro-SD card is delivered with apple disc system files and folders which filenames begin with a dot. [Non-Apple devices users can delete these apple system files. Although there's plenty of space to leave the small files on the 2gb Micro-SD card. Main thing -- keep the two Nano configuration files.] 
 
 ####7. Mounting on person, vehicle, stand, etc.
 
