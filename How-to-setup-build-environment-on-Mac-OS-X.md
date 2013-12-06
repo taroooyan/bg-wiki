@@ -92,7 +92,13 @@ Also see Nov 16 report in "Just completed my first bGeigie build - having displa
 >A restart was needed after drivers loaded automatically on Windows 7 Pro after first connecting FTDI cable and Nano.  Did not need drivers from mini CD that came with cable.
 
 ---------------------
-Newbie notes on above: Download the xloader.zip ; unzip. The XLoader folder includes the avrdude files and also the DEVICES.TXT file which provides the hardware options for the XLoader menu. The FTDI driver is for communication between pc and nano best via the "6-pin length of angled male header on the FIO... which connects the FIO to a computer for programming".
+Newbie notes on above: 
+
+For users of various platforms, see the [[ftdi driver installation guides menu|http://www.ftdichip.com/Support/Documents/InstallGuides.htm]]. Including guides for ms=win7 and win8.  For developers, the FTDI site has additional, more detailed pages... 
+
+The FTDI driver allows for communication between the Nano Fio and the computer over the breakout board and a usb cable. Note- not all USB cables are equal in length or in qualities. A 100cm long usb to usb mini cable did power the nano and lit lights -- but wasn't recognized for driver transfer. The ftdi driver or Xloader preferred the 50cm cable that came with the kit. 
+
+Download the xloader.zip. The unzipped XLoader folder includes the avrdude files and also the DEVICES.TXT file which provides the hardware options for the XLoader menu. 
 
 The Arduino Fio uses ATmega328, according to the [[Sparkfun page|https://www.sparkfun.com/products/10116]] and this [[Arduino list|http://en.wikipedia.org/wiki/List_of_Arduino_boards_and_compatible_systems]].
 
