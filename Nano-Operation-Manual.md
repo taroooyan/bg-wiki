@@ -179,22 +179,30 @@ e.g. Japan +9; Los Angeles -10
 >17. **Checksum**: *1D
 
 
-Data log file name is made of 3 parts: #### the did number, ## month and ## of date of data (date initiated??). For example "21080716.LOG" the data log for unit 2108 on 16 July. For space constraints the file date property is 01/01/2000, but every line has UTC time date stamp reading.  The log file name may appear out a day because of time zones dateline.
+Data log file name is made of 3 parts: #### the did number, ## month and ##  date (log initiated). For example "21080716.LOG" the data log for unit 2108 on 16 July. For space constraints the file date property is 01/01/2000, but every line has UTC time date stamp reading.  The log file name may appear out a day because of time zones dateline.
  
-*A data log or section starts with several header comments #-beginning lines of version number and deadtime..
-# NEW LOG
-# format=1.2.9nano
-# deadtime=on
-$BNRDD,2108,2013-12-06T13:03:58Z,22,2,115,A,3145.7607,N,03510.1975,E,734.90,V,3,908*64
+A data log or section starts with several #-beginning comment lines: version number and deadtime...
 
- Version 1.1.1 had a fourth line of headers at the top of the data log with parameter settings user name, time zone, country etc... Apparently no longer printed to log file ??.  For example: 
-NEW LOG
-# format=1.1.1nano
-# deadtime=on
-# nm=safecast,tz=248,cn=US,cpmf=334,st=0,ss=0,sh=100,sm=0
-$BNRDD,2108,2013-07-16T14:45:57Z,23,1,167988,A,3145.7794,N,03510.1883,E,764.20,A,10616837,0*71
+>\# NEW LOG
 
-A definition of [[dead time|http://en.wikipedia.org/wiki/Dead_time]] reads "For detection systems that record discrete events... the dead time is the time after each event during which the system is not able to record another event".  The *ENABLE_LND_DEADTIME* compensation formula can be found in the [[bGeigieNano.ino master|https://github.com/Safecast/bGeigieNanoKit/blob/master/bGeigieNano.ino]].
+>\# format=1.2.9nano
+
+>\# deadtime=on
+
+>$BNRDD,2108,2013-12-06T13:03:58Z,22,2,115,A,3145.7607,N,03510.1975,E,734.90,V,3,908*64
+
+The earlier version 1.1.1 printed a fourth comment line with parameter settings user name, time zone, country etc... This line was apparently dropped or is not currently included. [why??] 
+ 
+>\# NEW LOG
+
+>\# format=1.1.1nano
+
+>\# deadtime=on
+
+>\# nm=safecast,tz=248,cn=US,cpmf=334,st=0,ss=0,sh=100,sm=0
+>$BNRDD,2108,2013-07-16T14:45:57Z,23,1,167988,A,3145.7794,N,03510.1883,E,764.20,A,10616837,0*71
+
+A definition of [[dead time|http://en.wikipedia.org/wiki/Dead_time]] reads "For detection systems that record discrete events... the dead time is the time after each event during which the system is not able to record another event".  The *ENABLE_LND_DEADTIME compensation formula* can be found in the [[bGeigieNano.ino master|https://github.com/Safecast/bGeigieNanoKit/blob/master/bGeigieNano.ino]].
 
 Other Files on the MicroSD Card:  The micro-SD card is delivered with apple disc system files and folders which filenames begin with a dot. [Non-Apple devices users can delete these apple system files. Although there's plenty of space to leave the small files on the 2gb Micro-SD card. Main thing -- keep the two Nano configuration files.] 
 
