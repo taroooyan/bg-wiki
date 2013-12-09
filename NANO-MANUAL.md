@@ -324,7 +324,8 @@ This step is a little tricky, so do a dry run ﬁrst before actually attaching t
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/back_plate_install.jpg)
 
 * Attach the remaining black plastic standoffs to the corners of the middle plate, and tighten them. 
-* Position the rear plate on the standoffs, but donʼt attach it yet. It will be used to help position the pancake sensor in the following step. 
+* Position the rear plate on the standoffs, but donʼt attach it yet. It will be used to help position the pancake sensor in the following step.
+
 ***
 ***
 ##STEP 04: PANCAKE SENSOR 
