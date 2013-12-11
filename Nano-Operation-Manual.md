@@ -58,8 +58,7 @@ This is a draft of the Nano user guide (in process nov 28) from verbose to markd
 
 - Red LED on GPS unit blinks every 1 second in case the GPS is not locked. After that blinks every 10 seconds once locked.
 
-- The date/time is in __UTC__ (formerly called GMT) and not in local time. (Because the system is global, it uses a single time reference, which is provided by the GPS.) The __date/time stamp__ is refreshed when a log data is written to the card, each line in file. The time stamp is used to create the LOG file name.  (It was not possible to implement setting the date on the file.) The UTC log filename may be +/- one day off from the local date of the measurement given time zones and IDL (International Date Line). The local time zone offset appears with the parameters in the top header line of the log file. The file metadata is not updated (the FAT library is slimmed down/missing features to fit in RAM). When upload log, please enter metadata in the required fields and submit for approval. 
-
+- The date/time is in __UTC__ (formerly called GMT) and not in local time. (Because the system is global, it uses a single time reference, which is provided by the GPS.) The __date/time stamp__ is refreshed when a log data is written to the card, each line in file. The time stamp is used to create the LOG file name  (e.g. "21080716.LOG" example described in DATA LOG section below).  The UTC log filename may be +/- one day off from the local date of the measurement given time zones and IDL (International Date Line). The file metadata is not updated as the FAT library is slimmed down/missing features to fit in RAM. (The log's file creation date may read a default date of 01/01/2000. Sort logs by filename and not by date field.)  When uploading a log, please enter its metadata in the required fields and submit for approval. 
 
 ####5. How to measure in surface mode
 (using the Nano taken outside of its case for α- and more β-detection)
@@ -108,8 +107,7 @@ Default is: 9600,26,3,2. [9600 Baud rate; 26 Data bits; 3 Mark Parity (3=>bit is
 
 >**al=** 150 Alarm threshold (in cpm)  The setting can be left blank (turned off), or set up to a maximum 99,999 CPM. [??]
 
->**tz=** +/-## Time Zone (local offset to UTC [without daylight savings time ??]) 
-e.g. Japan +9; Los Angeles -10 
+>**tz=** +/-## Time Zone (local offset to UTC, e.g. Japan +9; Los Angeles -10) [This parameter seems superfluous to Nano's UTC GPS operation. As of v.1.2.9, the TZ is no longer mentioned in a header line in  log file. Perhaps this TZ parameter has some operation or programmable function.]  
 
 >**cn=** ABC Country code [your 3-character string, eg. JPN] 
 
