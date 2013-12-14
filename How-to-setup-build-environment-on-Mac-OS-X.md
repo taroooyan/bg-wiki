@@ -1,7 +1,8 @@
 # How to setup build environment on Mac OS X
+*(and on MS-Win 7)*
 *(draft rev.1.11.13)*
 
->>Load firmware with an accessory FTDI breakout board 3.3V, for example this [[one| https://www.sparkfun.com/products/9873]] or that [[one|https://www.adafruit.com/products/284]]; with correct FTDI driver; and with the Nano power switch turned OFF. 
+>>Load firmware with an accessory FTDI breakout board 3.3V, for example this [[one| https://www.sparkfun.com/products/9873]] or that [[one|https://www.adafruit.com/products/284]]; with correct FTDI driver; and with the Nano power switch turned OFF. (and with a short USB-to-miniUSB cable).
 >>(Further relevant photos can be found at [[Arduino Fio Sparkfun|https://www.sparkfun.com/products/10116]], at the guide on [[Arduino Fio Programming|http://arduino.cc/en/Main/ArduinoBoardFioProgramming]] or at Setup System programming bGeigie [[README.md|https://github.com/Safecast/SafecastBGeigie]].) 
 *  For learning to compile source code, see http://www.ladyada.net/learn/avr/setup-mac.html.
 
@@ -61,7 +62,7 @@ From a terminal type the following commands,
 ----
 ---- 
 # c) MS Windows: Nano firmware installation
-This firmware loading stub for MS Windows follows above on MAC build. To quote 3 helpful posts for pc users  in thread which began on [[2013-07-06 entitled "V1.2.6"|https://groups.google.com/forum/?hl=en#!topic/safecast-devices/106n-Bs3v-Q]] in the Safecast Device Discussions and Support group, from Jul 21, Aug 6 and Oct 25 2013:
+This firmware loading stub for MS Windows 7 follows above on MAC OS X build. To quote 3 helpful posts for pc users  in thread which began on [[2013-07-06 entitled "V1.2.6"|https://groups.google.com/forum/?hl=en#!topic/safecast-devices/106n-Bs3v-Q]] in the Safecast Device Discussions and Support group, from Jul 21, Aug 6 and Oct 25 2013:
 
 >>Jul 21> You will need to have FTDI driver from here;
 http://www.ftdichip.com/Drivers/VCP.htm
