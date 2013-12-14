@@ -9,7 +9,7 @@ This is a draft of the Nano user guide (in process nov 28) from verbose to markd
 1.  Safecast designed Nano uses
 2.  LED display fields, Toggle Modes
 3.  Start: Boot sequence
-4.  How to measure in logging mode
+4.  How to measure in logging mode; GPS Reset
 5.  How to measure in surface mode
 6.  microSD Files; Parameter Settings; Alarm; Data Log
 7.  Mounting on person, vehicle, stand, etc.
@@ -59,6 +59,10 @@ This is a draft of the Nano user guide (in process nov 28) from verbose to markd
 - Red LED on GPS unit blinks every 1 second in case the GPS is not locked. After that blinks every 10 seconds once locked.
 
 - The date/time is in __UTC__ (formerly called GMT) and not in local time. (Because the system is global, it uses a single time reference, which is provided by the GPS.) The __date/time stamp__ is refreshed when a log data is written to the card, each line in file. The time stamp is used to create the LOG file name  (e.g. "21080716.LOG" example described in DATA LOG section below).  The UTC log filename may be +/- one day off from the local date of the measurement given time zones and IDL (International Date Line). The file metadata is not updated as the FAT library is slimmed down/missing features to fit in RAM. (The log's file creation date may read a default date of 01/01/2000. Sort logs by filename and not by date field.)  When uploading a log, please enter its metadata in the required fields and submit for approval. 
+
+- **GPS Reset Procedure** (ver 1.3.0 and later):  1) turn off the bGeigie; 2) remove the SD card; 3) turn on the bGeigie; 4) leave it on one minute; 5) turn off again; 6) put in the SD card.
+During step 4, after about 10 seconds, the display will show a message "NO SD CARD/GPS Reset". (Powering up the unit without the SD card causes an error and a **general re-initialization including the GPS controller**.)
+
 
 ####5. How to measure in surface mode
 (using the Nano taken outside of its case for α- and more β-detection)
