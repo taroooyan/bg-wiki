@@ -12,6 +12,7 @@
 
 >c) MS Windows - Nano firmware installation
 
+*Note: v.1.3.2 (and higher, GPS fix) After you have applied the new firmware, you will need to reset the GPS unit to factory settings. To do so, remove the SD card and power on the nano. Wait for a minute, and then switch off the nano. The display will show a warning "No SD Card/GPS reset".  Insert the SD card and then switch on the nano and take it outside. The first GPS lock may take some time (a couple of minutes is typical but can be longer) Once locked, the next time you switch on, the lock should be immediate. (Also see Operation Manual, #4. Logging Mode: GPS Reset general re-initialization.)* 
 
 # a) Build yourself
 ## Setup for Mac OS X
