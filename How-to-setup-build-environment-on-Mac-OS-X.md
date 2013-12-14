@@ -92,14 +92,16 @@ Also see Nov 16 report in "Just completed my first bGeigie build - having displa
 
 >A restart was needed after drivers loaded automatically on Windows 7 Pro after first connecting FTDI cable and Nano.  Did not need drivers from mini CD that came with cable.
 
----------------------
-Newbie notes on above: 
+---------------------vvvvv
+Another novice's notes on above: 
 
-For users of various platforms, see the [[ftdi driver installation guides menu|http://www.ftdichip.com/Support/Documents/InstallGuides.htm]]. Including guides for ms=win7 and win8.  For developers, the FTDI site has additional, more detailed pages... 
+The ftdi company provides many drivers and [ftdi driver installation guides|http://www.ftdichip.com/Support/Documents/InstallGuides.htm]] for various systems and system verions. Here see the [[FTDI Drivers Installation_Guide for ms win win7|http://www.ftdichip.com/Support/Documents/AppNotes/AN_119_FTDI_Drivers_Installation_Guide_for_Windows7.pdf]].
 
-The FTDI driver allows for communication between the Nano Fio and the computer over the breakout board and a usb cable. Note- not all USB cables are equal in length or in qualities. A 100cm long usb to usb mini cable did power the nano and lit lights -- but wasn't recognized for driver transfer. The ftdi driver or Xloader preferred the 50cm cable that came with the kit. 
+The FTDI driver allows for communication between the Nano Fio and the computer over the breakout board and a usb cable. Note- not all USB cables are equal in length or in qualities. (The ftdi driver or Xloader prefers the  the 50cm cable that came with the kit. A 100cm long usb to usb mini cable did power the nano and lit lights -- but wasn't recognized for driver transfer.)
 
-Download the xloader.zip. The unzipped XLoader folder includes the avrdude files and also the DEVICES.TXT file which provides the hardware options for the XLoader menu. 
+Download the xloader.zip. The unzipped XLoader folder includes the avrdude files and also the DEVICES.TXT file which provides the hardware options for the XLoader menu. There are only 4 fields on the menu: the hex file, the Device (ATmega328), the COM port, and the Baud Rate (57600). 
+
+The hex file contains the firmware. Its github address has been noted above. Click on RAW, Select ALL, Copy all the hex codes lines, put them into a TXT file with the extension .hex, say with notebook or another plain text editor. Easiest location for XLoader to find it is in the same XLoader folder. 
 
 The Arduino Fio uses ATmega328, according to the [[Sparkfun page|https://www.sparkfun.com/products/10116]] and this [[Arduino list|http://en.wikipedia.org/wiki/List_of_Arduino_boards_and_compatible_systems]].
 
