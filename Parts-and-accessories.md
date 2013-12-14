@@ -5,6 +5,8 @@
 
 **B) Accessory Tools and Options** (another place to note source of extra tools, hardware, customizations)
 
+**C) Extras: other possible uses, formats, options, functions: also requested desired
+
 *See the kit assembly [[Nano Manual|https://github.com/Safecast/bGeigieNanoKit/wiki/NANO-MANUAL]] for item definition, placement guides and photos. (Part supplier links also copied from safecast blog, devices group and (googled?). (Elsewhere in the github nano repository there may be some technical specifications...)*
 
 ####A. Nano Kit PARTS
@@ -122,7 +124,7 @@ You are free to open, manipulate, hack, break and or improve anything.
 •	An Apple iOS device is needed for the safecast geigerbot app. And, as mentioned above, a recent BLE enabled iOS device is required for the optional wireless BLEBee connection. However, Safecast's Apple ecology may soon be less dominant. On 3 Dec 2013 on safecast google groups, Peter Franken posted a link to a new android development, https://www.facebook.com/safecast4android, "Safecast for Android is a client-server orientated environment to visualize radioactive data on interactive maps."  (Pieter wrote, "[This is] a ground up rebuild for Android. Instead of in app rendering it will use a server to do it out of app. So it is not a port [of geigerbot].") 
 
 
-####C. EXTRAS: OTHER POSSIBLE USES, FORMATS, OPTIONS
+####C. EXTRAS: OTHER POSSIBLE USES, FORMATS, OPTIONS: REQUESTED (DESIRED?)
 *(customized needs and tricked-out prototypes)*
 
 * GPS antenna option ? 
@@ -131,6 +133,8 @@ You are free to open, manipulate, hack, break and or improve anything.
 * Parallel to radiation monitoring, Safecast is developing **air pollution** monitoring devices. See the [[Safecast Air Quality Discussion group|https://groups.google.com/forum/?hl=en#!forum/safecast-air]].
 
 * Safecast has experimented with various uses and formats of the bGeigie series (i.e. underwater, helicopter drone born, long-life stationary radiation sensors). Search the Safecast website and consult the the [[Safecast Device Discussions and Support|https://groups.google.com/forum/?hl=en#!forum/safecast-devices]] group about your possible customization -- modular XBee socket, specialized data log formats, programming etc
+
+* Additional functions desired: 1) Stealth mode (running silent without lights and buzzer); 2) 
 
 **For SUPPORT**:  these community-edited [[Nano wiki pages|https://github.com/Safecast/bGeigieNanoKit/wiki/_pages]]; relevant  [[bGeigieNanoKit|https://github.com/Safecast/bGeigieNanoKit/]] github repositories; the http://blog.safecast.org/ website and home page links. Join the [[Safecast Devices Discussions and Support group|https://groups.google.com/forum/?hl=en#!forum/safecast-devices]]. 
 Contact info@safecast.org and suppliers...
