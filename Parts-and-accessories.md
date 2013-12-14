@@ -134,7 +134,7 @@ You are free to open, manipulate, hack, break and or improve anything.
 
 * Safecast has experimented with various uses and formats of the bGeigie series (i.e. underwater, helicopter drone born, long-life stationary radiation sensors). Search the Safecast website and consult the the [[Safecast Device Discussions and Support|https://groups.google.com/forum/?hl=en#!forum/safecast-devices]] group about your possible customization -- modular XBee socket, specialized data log formats, programming etc
 
-* Additional functions desired: 1) Stealth mode (running silent without lights and buzzer); 2) 
+* Additional functions desired: 1) Stealth mode (silent operation -- without lights and buzzer); 2) 
 
 **For SUPPORT**:  these community-edited [[Nano wiki pages|https://github.com/Safecast/bGeigieNanoKit/wiki/_pages]]; relevant  [[bGeigieNanoKit|https://github.com/Safecast/bGeigieNanoKit/]] github repositories; the http://blog.safecast.org/ website and home page links. Join the [[Safecast Devices Discussions and Support group|https://groups.google.com/forum/?hl=en#!forum/safecast-devices]]. 
 Contact info@safecast.org and suppliers...
