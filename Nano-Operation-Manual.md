@@ -306,10 +306,11 @@ According to the app author Nick Dolezal, the porting of geigerbot into android 
 
 
 ####12. Troubleshooting: Firmware, Hardware, Current bugs, Cleaning
-**Bugs** Open issues are processed in the devices discussion group. Mentioned here in manual – under troubleshooting or separate item.?*) Example of Oct 2013 GPS model Adafruit “Ultimate GPS”. Failed on 7 recent builds. Manufacturer support forum thread opened on 28 Oct 2013. http://forums.adafruit.com/viewtopic.php?f=22&t=45198  Issue resolved with V.1.3.2 firmware fix , 11.11, group threads https://groups.google.com/forum/?hl=en#!topic/safecast-devices/iRlxIvspjkE
-Other known possible bugs:  an overflow at high rates ? Piezo electric buzzer gets quieter over time
+Reportedly there is an [[issues page|https://github.com/Safecast/teamdata/issues]] for Safecast github technical team. Volunteer users report problems and bugs in the devices discussion group. Feedback and support are forthcoming. Open issues are processed.  For example in Oct 2013 the Adafruit “Ultimate GPS” failed on 7 recent builds. Manufacturer support forum thread opened on 28 Oct 2013. http://forums.adafruit.com/viewtopic.php?f=22&t=45198  Issue resolved with V.1.3.2 firmware fix , 11.11, group threads https://groups.google.com/forum/?hl=en#!topic/safecast-devices/iRlxIvspjkE
 
-Please check all solder joints carefully - you must have missed a joint or have a cold solder joint. It can cause the display to act unpredictably.
+A reported possible bug (on back burner?): Piezo electric buzzer gets quieter over time. 
+
+Display problems: >"Please check all solder joints carefully - you must have missed a joint or have a cold solder joint. It can cause the display to act unpredictably."
 
 ####### Firmware: github; upgrades; troubleshooting
 * for the current version of firmware see the description of file bGeigieNano in https://github.com/Safecast/bGeigieNanoKit [V1.2.9 on 24-10-2013] 
