@@ -239,9 +239,7 @@ You should not submit any readings that are samples of "items" or stationary sta
 
 ####9. Uploading data to other datasets (comparative note)**
 
-You can submit Nano measures to other radiation mapping datasets,. (The more the merrier. In any comparative note Safecast might stand out for its mobile monitoring, open datasets, mappings, visualization, reliability of measures, -- but that is separate study)
-
-Of course you need to configure the Nano sensor and your data with the other datasets. An exception may be the Cosm/Pachube setting in the Safecast geigerbot. (Theoretically you can upload to the mobile Safecast and the static Cosm/Pachube datasets simultaneously. However you’re either mobile or static. [??])  
+Nano measures can be submitted to other radiation mapping datasets. However, in a comparative review, the Safecast dataset might stand out for its open design, open source, mobile monitoring, open datasets, mappings, visualization, some validation of submitted measure, reliability by large number of volunteer monitors and datapoints. There is a growing number of non-governmental radiation monitoring networks... (To submit Nano data to other datasets besides Safecast requires configuration and sometimes purchase of database software.) The Safecast geigerbot menu includes Cosm/Pachube settings. (Cosm.com was bought by Pachube (pronounced Patch-Bay) which was bought up by [[Xively|http://en.wikipedia.org/wiki/Xively]].  (Is this a relic of RDTN? Parallel to Safecast, [[RDTN|http://blog.rdtn.org/2011/04/24/rdtn-is-now-safecast/]] was an early effort at crowdsourced radiation monitoring, that subsumed itself early into safecast in April 2011. Hear 6 min interview 5 Apr 2011 on [[BBC|http://www.bbc.co.uk/programmes/p00fvkxf#synopsis]].)
 
 
 ####10. Downloading data from Safecast
