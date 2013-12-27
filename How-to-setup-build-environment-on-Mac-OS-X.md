@@ -12,7 +12,7 @@
 
 >c) MS Windows - Nano firmware installation
 
-*Note: v.1.3.2 (and higher, GPS fix) After you have applied the new firmware, you will need to reset the GPS unit to factory settings. To do so, remove the SD card and power on the nano. Wait for a minute, and then switch off the nano. The display will show a warning "No SD Card/GPS reset".  Insert the SD card and then switch on the nano and take it outside. The first GPS lock may take some time (a couple of minutes is typical but can be longer) Once locked, the next time you switch on, the lock should be immediate. (Also see Operation Manual, #4. Logging Mode: GPS Reset general re-initialization.)* 
+*Note: v.1.3.2 (and higher, GPS fix) After you have applied the new firmware, you will need to reset the GPS unit to factory settings. To do so, remove the SD card and power on the nano. Wait for a minute, and then switch off the nano. The display will show a warning "No SD Card/GPS reset".  Insert the SD card and then switch on the nano and take it outside. The first GPS lock may take some time (a couple of minutes is typical but can be longer) Once locked, the next time you switch on, the lock should be immediate. (Also in the [[Operation Manual|https://github.com/Safecast/bGeigieNanoKit/wiki/Nano-Operation-Manual]], see #4. Logging Mode: GPS Reset general re-initialization.)* 
 
 # a) Build yourself
 ## Setup for Mac OS X
@@ -103,7 +103,7 @@ The FTDI driver allows for communication between the Nano Fio and the computer o
 
 Download the xloader.zip. The unzipped XLoader folder includes the avrdude files and also the DEVICES.TXT file which provides the hardware options for the XLoader menu. There are only 4 fields on the XLoader menu: the hex file, the Device (ATmega328), the COM port, and the Baud Rate (57600). 
 
-The hex file contains the firmware. Its github address has been noted above. Click on RAW, Select ALL, Copy all the hex codes lines, put them into a TXT file with the extension “.hex”, with windows notebook or another plain text editor. The easiest location for the hex file is in the same XLoader folder.
+The hex file contains the firmware. Its github address has been noted above in the Oct win-7 thread ,  link and location of the firmware hex file (the **current version of the Nano firmware**  which is the [[bGeigieNano.hex file|https://github.com/Safecast/bGeigieNanoKit/blob/master/bGeigieNano.hex]] in the [[bGeigieNanoKit repository|https://github.com/Safecast/bGeigieNanoKit]]. The Xloader uses a copy of that file on your drive. So first browse to that current bGeigieNano.hex in the github archive. Press RAW button to see just the text. With notebook or some plain ASCII text editor, copy all that text into some  anyfilename.hex on your drive, a TXT file with the extension “.hex”, the nano firmware file for XLoader.  The easiest location for the hex file is in the same XLoader folder.
 
 The Arduino Fio uses ATmega328, according to the [[Sparkfun page|https://www.sparkfun.com/products/10116]] and this [[Arduino list|http://en.wikipedia.org/wiki/List_of_Arduino_boards_and_compatible_systems]].
 
@@ -113,18 +113,5 @@ The [[arduino.cc website|http://arduino.cc/]] has well recommended guides and he
 
 (end)
 ***
-#####p.s. Resources:
-*(repeat on information resources for Nano users)*
-
-* the Safecast website http://blog.safecast.org/
-* the [[Safecast Devices Discussions and Support group|https://groups.google.com/forum/?hl=en#!forum/safecast-devices]]. “A discussion group for the community using and hacking Safecast designed open source hardware including the Medcom Onyx and the bGeigie Nano”.
-* Github is a community project development archive. Safecast's repositories, repos or buckets, include [[bGeigieNanoKit|https://github.com/Safecast/bGeigieNanoKit/]]
-* **Nano wiki pages**: any nano user can edit these [[Nano wiki pages|https://github.com/Safecast/bGeigieNanoKit/wiki/_pages]] (in various stages of community drafting):
-+   - [[Nano Features/Specifications|https://github.com/Safecast/bGeigieNanoKit/wiki/bGeigieNano-Features_specifications]]
-+   - [[How to setup build environment on Mac OS X|https://github.com/Safecast/bGeigieNanoKit/wiki/How-to-setup-build-environment-on-Mac-OS-X]] (+Nano firmware upgrade on MS-Windows)    *(this page)*
-+   - [[Nano Wiki Home|https://github.com/Safecast/bGeigieNanoKit/wiki]] (index page in the NanoKit wiki folder)
-+   - [[NANO MANUAL|https://github.com/Safecast/bGeigieNanoKit/wiki/NANO-MANUAL]] (Kit assembly, connecting the pieces)
-+   - [[Nano Operation Manual|https://github.com/Safecast/bGeigieNanoKit/wiki/Nano-Operation-Manual]] 
-+   - [[Parts and accessories|https://github.com/Safecast/bGeigieNanoKit/wiki/Parts-and-accessories]] (including tools and options)
-+   - [[Safety in radiation detection|https://github.com/Safecast/bGeigieNanoKit/wiki/Safety-in-radiation-detection]]
+##### p.s. [[http://blog.safecast.org/bgeigie-nano/|http://blog.safecast.org/bgeigie-nano/]] (catch all nano info landing page) 
 
