@@ -113,5 +113,5 @@ The [[arduino.cc website|http://arduino.cc/]] has well recommended guides and he
 
 (end)
 ***
-##### p.s. [[http://blog.safecast.org/bgeigie-nano/|http://blog.safecast.org/bgeigie-nano/]] (catch all nano info landing page) 
+**p.s. [[http://blog.safecast.org/bgeigie-nano/|http://blog.safecast.org/bgeigie-nano/]] (nano links, catch-all landing page)**
 
