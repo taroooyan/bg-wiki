@@ -9,9 +9,8 @@ To the new users of the bGeigie Nano, congratulations and welcome to the Safecas
 
 The kit format allows for cost savings and for DIY learning. The assembly can take as little as 3-4 hours depending on electronics skill and experience level. This assembly manual is for all users including novices. So we are trying to make these instructions clear, graphic and explicit. For some we're explaining the obvious, for others this still may not be helpful enough. If you're very experienced at assembling electronic devices, feel free to modify the order of the steps. 
 
-**For SUPPORT**:  Read these community-edited [[Nano wiki pages|https://github.com/Safecast/bGeigieNanoKit/wiki/_pages]] including this kit assembly manual, alias http://nano.safecast.org/. See the README files within the Safecast [[bGeigie|https://github.com/Safecast/SafecastBGeigie/blob/master/README.md]] and [[bGeigieNanoKit|https://github.com/Safecast/bGeigieNanoKit/blob/master/README.md]] github repositories. 
-Surf the Safecast website http://blog.safecast.org/ and the links on the home page. Join the [[Safecast Devices Discussions and Support group|https://groups.google.com/forum/?hl=en#!forum/safecast-devices]]. 
-Contact info@safecast.org.
+**For SUPPORT**:  These community-edited [[Nano wiki pages|https://github.com/Safecast/bGeigieNanoKit/wiki/_pages]]. 
+Join the [[Safecast Devices Discussions and Support group|https://groups.google.com/forum/?hl=en#!forum/safecast-devices]]. Contact info@safecast.org. Nano catch-all landing page [[http://blog.safecast.org/bgeigie-nano/]]. The links on the home page of Safecast website http://blog.safecast.org/. 
 
 -----
 
@@ -504,20 +503,11 @@ This completes the basic test. The following steps describe additional tests:
 
 ---
 
-p.s. How long did your build take?  Peter Blakely recorded a time-lapse "bGeigie nano assembly in 2 min". 29-3-2013. **Click on the picture.**
+p.s. How long did your build take? Click on the photo for Peter Blakely's time-lapse "bGeigie nano assembly in 2 min" (29-3-2013). 
 
 
 
 [![ScreenShot] (https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/assembly.jpg)](http://vimeo.com/62926075)
 
 ***
-#####p.s. Resources for Nano users
-* the Safecast website http://blog.safecast.org/
-* the [[Safecast Devices Discussions and Support group|https://groups.google.com/forum/?hl=en#!forum/safecast-devices]].
-* Github is a community project development archive. Safecast's repositories include [[bGeigieNanoKit|https://github.com/Safecast/bGeigieNanoKit/]] with these **[[Nano wiki pages|https://github.com/Safecast/bGeigieNanoKit/wiki/_pages]]**:
-+   - [[Nano Features/Specifications|https://github.com/Safecast/bGeigieNanoKit/wiki/bGeigieNano-Features_specifications]]
-+   - [[How to setup build environment on Mac OS X|https://github.com/Safecast/bGeigieNanoKit/wiki/How-to-setup-build-environment-on-Mac-OS-X]] (Nano firmware upgrade, also via MS-Windows)    
-+   - [[NANO MANUAL|https://github.com/Safecast/bGeigieNanoKit/wiki/NANO-MANUAL]] (Kit assembly, connecting the pieces)  *(this page)*
-+   - [[Nano Operation Manual|https://github.com/Safecast/bGeigieNanoKit/wiki/Nano-Operation-Manual]] 
-+   - [[Parts and accessories|https://github.com/Safecast/bGeigieNanoKit/wiki/Parts-and-accessories]] (including tools and options)
-+   - [[Safety in radiation detection|https://github.com/Safecast/bGeigieNanoKit/wiki/Safety-in-radiation-detection]]
+Resources: **nano catch-all landing page [[http://blog.safecast.org/bgeigie-nano/]]**
