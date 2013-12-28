@@ -1,5 +1,4 @@
 Safecast bGeigieNanoKit features description list. Community edited here in [[Nano wiki pages|https://github.com/Safecast/bGeigieNanoKit/wiki/_pages]].  
-*Draft 4 Nov 2013, adds from similar sensor [[Safecast-Medcom Onyx specs|http://medcom.com/wp-content/uploads/2013/03/Safecast-X-Kickstarter-Onyx-12.91.pdf]]*
 
 **Three system modes in one:**
 *	**bGeigie mode** – mobile radiation sensor logging with display indicators for CPM and µSv/h, number of satellites locked, altitude (m), distance traversed (km), total duration of measurement (h:m) and time stamp (dd:hh:mm:ss)
@@ -36,5 +35,5 @@ Safecast bGeigieNanoKit features description list. Community edited here in [[Na
 *        **Certifications**: (in progress, TBA*) 
 
 
-Further information at the [[Safecast website|http://blog.safecast.org]]. Also these [[community-edited Nano wiki pages|https://github.com/Safecast/bGeigieNanoKit/wiki/_pages]] (i.e.  the [[Parts and accessories|https://github.com/Safecast/bGeigieNanoKit/wiki/Parts-and-accessories]] page and the kit assembly [[NANO MANUAL|https://github.com/Safecast/bGeigieNanoKit/wiki/NANO-MANUAL]], alias http://nano.safecast.org/). Within the [[github Nano repository|https://github.com/Safecast/bGeigieNanoKit]] see [[README.md|https://github.com/Safecast/bGeigieNanoKit/blob/master/README.md]]. Kit distributor: [[Medcom|http://medcom.com/radiation-monitors/geiger-counters/bgeigie-kit/]]. Contact info@safecast.org.
+Further information at nano catch-all landing page **[[http://blog.safecast.org/bgeigie-nano/]]**. (The link http://nano.safecast.org/ is to the [[kit assembly manual|https://github.com/Safecast/bGeigieNanoKit/wiki/NANO-MANUAL]].) Other wiki pages include [[nano parts-and-accessories|https://github.com/Safecast/bGeigieNanoKit/wiki/Parts-and-accessories]].  **Kit distributor:** [[Medcom|http://medcom.com/radiation-monitors/geiger-counters/bgeigie-kit/]]. **Contact:** info@safecast.org.
 
