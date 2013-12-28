@@ -55,19 +55,9 @@ Avoid radiation hazards that can be avoided. If you find some high hot sample or
 
 “If an instrument indicates an unexpectedly high dose rate, believe it and leave the area as soon as possible. Do not assume that it is an instrument failure. (Only once away from the high dose rate area should the instrument functionality be assessed.)” -- from http://www.hse.gov.uk/pubns/irp7.pdf 
 
-----
+---
 
-#####p.s. Resources for Nano users
-* the Safecast website http://blog.safecast.org/
-* the [[Safecast Devices Discussions and Support group|https://groups.google.com/forum/?hl=en#!forum/safecast-devices]].
-* Github is a community project development archive. Safecast's repositories include [[bGeigieNanoKit|https://github.com/Safecast/bGeigieNanoKit/]] with these **[[Nano wiki pages|https://github.com/Safecast/bGeigieNanoKit/wiki/_pages]]**:
-+   - [[Nano Features/Specifications|https://github.com/Safecast/bGeigieNanoKit/wiki/bGeigieNano-Features_specifications]]
-+   - [[How to setup build environment on Mac OS X|https://github.com/Safecast/bGeigieNanoKit/wiki/How-to-setup-build-environment-on-Mac-OS-X]] (Nano firmware upgrade, also via MS-Windows)    
-+   - [[NANO MANUAL|https://github.com/Safecast/bGeigieNanoKit/wiki/NANO-MANUAL]] (Kit assembly, connecting the pieces) 
-+   - [[Nano Operation Manual|https://github.com/Safecast/bGeigieNanoKit/wiki/Nano-Operation-Manual]] 
-+   - [[Parts and accessories|https://github.com/Safecast/bGeigieNanoKit/wiki/Parts-and-accessories]] (including tools and options)
-+   - [[Safety in radiation detection|https://github.com/Safecast/bGeigieNanoKit/wiki/Safety-in-radiation-detection]]  *(this page)*
-
+Nano catch-all landing page **[[http://blog.safecast.org/bgeigie-nano/]]**.
 
 ***
 
