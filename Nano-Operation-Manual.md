@@ -1,8 +1,6 @@
 ##bGeigie Nano Operation Manual##
 
-This is a draft of the Nano user guide (in process nov 28) from verbose to markdown plain text
-
-*(editing help - [[markdown syntax|http://daringfireball.net/projects/markdown/syntax]], [[github flavored markdown|https://help.github.com/articles/github-flavored-markdown]] and [[markdown cheatsheet|https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet]], and without attempting linked ToC Table of Contents, [[model ToC|https://github.com/akshatpradhan/information-security-policy/tree/policy_v1#table-of-contents]] or [[example|https://github.com/akshatpradhan/information-security-policy/pull/2/files]])*
+draft Nano user guide. (User community editing help: [[markdown syntax|http://daringfireball.net/projects/markdown/syntax]], [[github flavored markdown|https://help.github.com/articles/github-flavored-markdown]] and [[markdown cheatsheet|https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet]])
 
 ###Table of Contents###
 
@@ -403,13 +401,15 @@ Although the Nano sensor inside its closed Pelican micro-case is well protected 
 
 
 ####15. RESOURCES, LINKS, SUPPORT
-*(repeat on information resources for users of the Safecast bGeigie Nano mobile sensor of ionizing radiation...)* 
+*(for users of the Safecast bGeigie Nano mobile sensor of ionizing radiation...)* 
+
+Nano catch-all landing page [[http://blog.safecast.org/bgeigie-nano/]]
 
 The Safecast website http://blog.safecast.org/ has articles, news, notices, API upload and open download of crowd-sourced radiation data and visualized mapping, etc
 
 Join the Safecast Devices Discussions and Support: ([[devices group|https://groups.google.com/forum/?hl=en#!forum/safecast-devices]]. “A discussion group for the community using and hacking Safecast designed open source hardware including the Medcom Onyx and the bGeigie Nano”. It is listed among several links on the Safecast home page.
 
-Github is a community project development archive mainly for technical users. Safecast currently has 16 public github respositories, repos or buckets, including [[bGeigieNanoKit|https://github.com/Safecast/bGeigieNanoKit/]], the more veteran firmeware [[SafecastBGeigie|https://github.com/Safecast/SafecastBGeigie]], the electronics [[Eagle repo|https://github.com/Safecast/SafecastEagleHW]], etc.
+Github is a community project development firmware archive. Safecast currently has 16 public github respositories, repos or buckets, including [[bGeigieNanoKit|https://github.com/Safecast/bGeigieNanoKit/]], the more veteran firmeware [[SafecastBGeigie|https://github.com/Safecast/SafecastBGeigie]], the electronics [[Eagle repo|https://github.com/Safecast/SafecastEagleHW]], etc.
 
 **Nano pages**: any nano user can edit these [[Nano wiki pages|https://github.com/Safecast/bGeigieNanoKit/wiki/_pages]] (in various stages of community drafting):
 * [[Features/specifications|https://github.com/Safecast/bGeigieNanoKit/wiki/bGeigieNano-Features_specifications]]
