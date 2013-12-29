@@ -6,7 +6,7 @@ Familiarity with the operation of your geiger counter includes awareness of safe
 
 The following safe practice advice comes from many sources, especially from Safecast films, blogs, help, threads and links.
 
-**VIDEO**: for example see [[video on radiation absorption filtering methods| http://blog.safecast.org/2011/05/radiation-measurement-experiment/]]: The Safecast team members wear work overalls and gloves (not their ordinary clothing). Reportedly they have backup hazmat gear in the car. Their approach is serious and careful, not casual or light, around relatively high readings on rain-soaked wood bench.
+**VIDEO**: for example see [[video on radiation absorption filtering methods| http://blog.safecast.org/2011/05/radiation-measurement-experiment/]]: The Safecast team members wear work overalls  (not their ordinary clothing). Reportedly they have backup hazmat gear in the car. Their approach is serious and careful, not casual or light, around relatively high readings on rain-soaked wood bench. (As opposed to suspect practice of (not Safecast) video less safe "maxed-out" hot ant-hill near Chernobyl. http://www.youtube.com/watch?v=6kg4vVYKc90)
 
 **BLOG**: [[Measuring hot particles from air filters| http://blog.safecast.org/2011/06/measuring-hot-particles-from-air-filters/]], guest blog by Marco Kaltofen, June 24, 2011, offers cautions and attaches an informative [[sampling guide|http://www.naticklabs.org/samplinginstructions.pdf]] for an air filters study. It focuses on sampling rules, various grades of filtering masks, bagging, labeling, shipping to laboratory of radioactive samples. Among Marco’s cautions relevant to radiation monitoring are the following: 
 
