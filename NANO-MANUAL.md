@@ -143,7 +143,7 @@ Although most of the headers and breakouts get attached to the front of the main
 
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/overviewpics/bGeigie Nano manual v5.3big_Page_10_Image_0001.jpg)
 **iRover connector a.k.a. “triple connector”**
-(This connnector is for connecting 3 wire leads from the iRover sensor controller and HV (high voltage) supply board to the main board)
+(This connector is for connecting 3 wire leads from the iRover sensor controller and HV (high voltage) supply board to the main board)
 * Solder a 3-pin angled header to the bottom of the board, in the position labeled “JP1.” This means, insert the 3-pin connector from the underside of the main board, in the spot marked "JP1," and solder it from the upper side of the board. Note this iRover connector must be attached before attaching the OpenLog!! 
 
 ![]
