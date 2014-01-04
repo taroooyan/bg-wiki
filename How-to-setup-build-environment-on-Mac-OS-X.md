@@ -6,15 +6,15 @@
 >>(Further relevant photos can be found at [[Arduino Fio Sparkfun|https://www.sparkfun.com/products/10116]], at the guide on [[Arduino Fio Programming|http://arduino.cc/en/Main/ArduinoBoardFioProgramming]] or at Setup System programming bGeigie [[README.md|https://github.com/Safecast/SafecastBGeigie]].) 
 *  For learning to compile source code, see http://www.ladyada.net/learn/avr/setup-mac.html.
 
->a) MAC - Build (from master by) yourself, or;
+>1a) MAC - Build (from master by) yourself, or;
 
->b) MAC - Use prebuild image.
+>1b) MAC - Use prebuild image.
 
->c) MS Windows - Nano firmware installation
+>2a) MS Windows - Nano firmware installation
 
 *Note: v.1.3.2 (and higher, GPS fix) After you have applied the new firmware, you will need to reset the GPS unit to factory settings. To do so, remove the SD card and power on the nano. Wait for a minute, and then switch off the nano. The display will show a warning "No SD Card/GPS reset".  Insert the SD card and then switch on the nano and take it outside. The first GPS lock may take some time (a couple of minutes is typical but can be longer) Once locked, the next time you switch on, the lock should be immediate. (Also in the [[Operation Manual|https://github.com/Safecast/bGeigieNanoKit/wiki/Nano-Operation-Manual]], see #4. Logging Mode: GPS Reset general re-initialization.)* 
 
-# a) Build yourself
+# 1a) Build yourself
 ## Setup for Mac OS X
 
 1. Install the latest FTDI serial driver: [http://www.ftdichip.com/Drivers/VCP/MacOSX/FTDIUSBSerialDriver_v2_2_17.dmg](http://www.ftdichip.com/Drivers/VCP/MacOSX/FTDIUSBSerialDriver_v2_2_17.dmg)
@@ -36,7 +36,7 @@
          make
          make upload
 
-# b) Use prebuild image
+# 1b) Use prebuild image
 
 ## Setup for Mac OS X
 
@@ -62,7 +62,7 @@ From a terminal type the following commands,
   
 ----
 ---- 
-# c) MS Windows: Nano firmware installation
+# 2) MS Windows: Nano firmware installation
 This firmware loading stub for MS Windows 7 follows above on MAC OS X build. To quote 3 helpful posts for pc users  in thread which began on [[2013-07-06 entitled "V1.2.6"|https://groups.google.com/forum/?hl=en#!topic/safecast-devices/106n-Bs3v-Q]] in the Safecast Device Discussions and Support group, from Jul 21, Aug 6 and Oct 25 2013:
 
 >>Jul 21> You will need to have FTDI driver from here;
