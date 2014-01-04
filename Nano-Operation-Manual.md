@@ -140,11 +140,11 @@ Default is: 9600,26,3,2. [9600 Baud rate; 26 Data bits; 3 Mark Parity (3=>bit is
 
 >EXAMPLE:
 
->$BNXRDD,300,2012-12-16T17:58:31Z,30,1,116,A,4618.9612,N,00658.4831,E,443.7,A,5,1.28,1*1D
+>$BNRDD,300,2012-12-16T17:58:31Z,30,1,116,A,4618.9612,N,00658.4831,E,443.7,A,1.28,*6D
 
 **KEY**
 
->01. **Header**: BNXRDD
+>01. **Header**: Device model header. Mini=BMRDD, Nano=BNRDD, NX=BNXRDD. BNRDD
 
 >02. **Device ID**: Device serial number. 300
 
@@ -170,13 +170,11 @@ Default is: 9600,26,3,2. [9600 Baud rate; 26 Data bits; 3 Mark Parity (3=>bit is
 
 >13. **GPS validity**: 'A' ok, 'V' invalid. A
 
->14. **Number of Satellites**: Number of satellites in view. 5
+>14. **HDOP**: Horizontal Dilution of Precision (HDOP), relative accuracy of horizontal position. 1.28
 
->15. **HDOP**: Horizontal Dilution of Precision (HDOP), relative accuracy of horizontal position. 1.28
+>15. **Fix Quality**: 0 = invalid, 1 = GPS Fix, 2 = DGPS Fix. However, this field is empty for the Nano since the TinyGPS library does not provide this data. [Related Issue](https://github.com/Safecast/bGeigieNanoKit/pull/28)
 
->16. **Fix Quality**: 0 = invalid, 1 = GPS Fix, 2 = DGPS Fix. (However, according to Fakufaku edit Dec 4 2014, [[Changed the log line format to comply with bGeigieMini standard"| https://github.com/Safecast/bGeigieNanoKit/pull/28]] "Since the bGeigieNano uses the TinyGPS library that do not provide the fix quality field, I have moved back HDOP by one position and left the FixQuality field empty." change to Data Log Structure...)
-
->17. **Checksum**: *1D
+>17. **Checksum**: *6D
 
 
 Data log file name is made of 3 parts: #### the did number, ## month and ##  date (log initiated). For example "21080716.LOG" the data log for unit 2108 on 16 July. For space constraints the file date property is 01/01/2000, but every line has UTC time date stamp reading.  The log file name may appear out a day because of time zones dateline.
