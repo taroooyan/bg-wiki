@@ -10,7 +10,9 @@
 
 >1b) MAC - Use prebuild image.
 
->2a) MS Windows - Nano firmware installation
+>2) Linux
+
+>3a) MS Windows 7 - Nano firmware installation
 
 *Note: v.1.3.2 (and higher, GPS fix) After you have applied the new firmware, you will need to reset the GPS unit to factory settings. To do so, remove the SD card and power on the nano. Wait for a minute, and then switch off the nano. The display will show a warning "No SD Card/GPS reset".  Insert the SD card and then switch on the nano and take it outside. The first GPS lock may take some time (a couple of minutes is typical but can be longer) Once locked, the next time you switch on, the lock should be immediate. (Also in the [[Operation Manual|https://github.com/Safecast/bGeigieNanoKit/wiki/Nano-Operation-Manual]], see #4. Logging Mode: GPS Reset general re-initialization.)* 
 
@@ -58,11 +60,14 @@ From a terminal type the following commands,
 1. to upload the firmware to the Arduino Fio
 
          /usr/local/bin/avrdude -DV -p atmega328p -P /dev/tty.usbserial-A700eYeV -c arduino -b 57600 -U flash:w:bGeigieNano.hex:i
-  
+
   
 ----
+# 2) Linux
+*Although Linux users probably don't need a guide to load firmware, the ftdichip.com website has [[ftdi driver installation guides|http://www.ftdichip.com/Support/Documents/InstallGuides.htm]] including for [[Linux|http://www.ftdichip.com/Support/Documents/AppNotes/AN_220_FTDI_Drivers_Installation_Guide_for_Linux%20.pdf]].*
+
 ---- 
-# 2) MS Windows: Nano firmware installation
+# 3a) MS Windows 7: Nano firmware installation
 This firmware loading stub for MS Windows 7 follows above on MAC OS X build. To quote 3 helpful posts for pc users  in thread which began on [[2013-07-06 entitled "V1.2.6"|https://groups.google.com/forum/?hl=en#!topic/safecast-devices/106n-Bs3v-Q]] in the Safecast Device Discussions and Support group, from Jul 21, Aug 6 and Oct 25 2013:
 
 >>Jul 21> You will need to have FTDI driver from here;
