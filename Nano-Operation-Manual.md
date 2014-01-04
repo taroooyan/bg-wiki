@@ -174,7 +174,7 @@ Default is: 9600,26,3,2. [9600 Baud rate; 26 Data bits; 3 Mark Parity (3=>bit is
 
 >15. **HDOP**: Horizontal Dilution of Precision (HDOP), relative accuracy of horizontal position. 1.28
 
->16. **Fix Quality**: 0 = invalid, 1 = GPS Fix, 2 = DGPS Fix. 1
+>16. **Fix Quality**: 0 = invalid, 1 = GPS Fix, 2 = DGPS Fix. (However, according to Fakufaku edit Dec 4 2014, [[Changed the log line format to comply with bGeigieMini standard"| https://github.com/Safecast/bGeigieNanoKit/pull/28]] "Since the bGeigieNano uses the TinyGPS library that do not provide the fix quality field, I have moved back HDOP by one position and left the FixQuality field empty." change to Data Log Structure...)
 
 >17. **Checksum**: *1D
 
