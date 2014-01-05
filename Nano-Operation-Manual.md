@@ -130,7 +130,7 @@ Default is: 9600,26,3,2. [9600 Baud rate; 26 Data bits; 3 Mark Parity (3=>bit is
 
 
 #####DATA LOG
-* In recording mode the data log file is written to the micro-SD card. A key to the fields of the Data Log is given in the [[bGeigie library README.md by fukufuku|https://github.com/Safecast/SafecastBGeigie]]. Below is excerpt of example there of a logged *Radiation Data* Sentence with Device #300. (The github README also gives an example of *Device Status Sentence*, a hardware message mentioned here in passing.) 
+* In recording mode the data log file is written to the micro-SD card. A key to the fields of the Data Log is given in the [[bGeigie library README.md by fakufaku|https://github.com/Safecast/SafecastBGeigie]]. Below is excerpt of example there of a logged *Radiation Data* Sentence with Device #300. (The github README also gives an example of *Device Status Sentence*, a hardware message mentioned here in passing.) 
 
 >**DATA LOG FILE FORMAT**
 
