@@ -176,7 +176,7 @@ Default is: 9600,26,3,2. [9600 Baud rate; 26 Data bits; 3 Mark Parity (3=>bit is
 
 >17. **Checksum**: *6D
 
-*(Above copied from a [[README.md|https://github.com/Safecast/SafecastBGeigie/blob/master/README.md. See there in technical github for updates by fakufaku or core team.)*
+*(Above copied from a [[README.md|https://github.com/Safecast/SafecastBGeigie/blob/master/README.md]] in the technical github.)*
 
 Data log file name is made of 3 parts: #### the did number, ## month and ##  date (log initiated). For example "21080716.LOG" the data log for unit 2108 on 16 July. For space constraints the file date property is 01/01/2000, but every line has UTC time date stamp reading.  The log file name may appear out a day because of time zones dateline.
  
