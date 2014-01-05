@@ -4,9 +4,7 @@
 
 Familiarity with the operation of your geiger counter includes awareness of safe use.  We don't all begin at the same place; many of us join Safecast as novices, others are already expert in radiation safety and detection. Some start out on their own; others have a team to consult. A naïve casual approach may not be hazardous, but it is inappropriate. 
 
-The following safe practice advice comes from many sources, especially from Safecast films, blogs, help, threads and links.
-
-**VIDEO**: for example see [[video on radiation absorption filtering methods| http://blog.safecast.org/2011/05/radiation-measurement-experiment/]]: The Safecast team members wear work overalls  (not their ordinary clothing). Reportedly they have backup hazmat gear in the car. Their approach is serious and careful, not casual or light, around relatively high readings on rain-soaked wood bench. (As opposed to suspect practice of (not Safecast) video less safe "maxed-out" hot ant-hill near Chernobyl. http://www.youtube.com/watch?v=6kg4vVYKc90)
+Safe radiation detection practice can be found in many sources. Below lists some mentioned in Safecast blogs, help, threads, films, etc.
 
 **BLOG**: [[Measuring hot particles from air filters| http://blog.safecast.org/2011/06/measuring-hot-particles-from-air-filters/]], guest blog by Marco Kaltofen, June 24, 2011, offers cautions and attaches an informative [[sampling guide|http://www.naticklabs.org/samplinginstructions.pdf]] for an air filters study. It focuses on sampling rules, various grades of filtering masks, bagging, labeling, shipping to laboratory of radioactive samples. Among Marco’s cautions relevant to radiation monitoring are the following: 
 
@@ -42,6 +40,8 @@ The following safe practice advice comes from many sources, especially from Safe
 **ADVICE IN DISCUSSION GROUP THREAD** A good example of a lengthy, quality explanation of radiation safety and safe use, see Kalin’s thread begun 26 Jan 2013, [[Radiation safety: educated guess|https://groups.google.com/forum/?hl=en#!searchin/safecast-japan/safety/safecast-japan/fV_DAWD63fo/uA_W_1rUhzgJ]].
 
 >”High zone is not for novice, but requires training…”
+
+**VIDEO**: for example see [[video on radiation absorption filtering methods| http://blog.safecast.org/2011/05/radiation-measurement-experiment/]]: The Safecast team members wear work overalls  (not their ordinary clothing). Reportedly they have backup hazmat gear in the car. Their approach is serious, respectful and careful around higher readings on varnished rain-soaked wood bench. (This can be contrasted with whbat appears to be a cavalier, casual approach to explore [["maxed-out" hot ant-hill near Chernobyl|http://www.youtube.com/watch?v=6kg4vVYKc90.]])
 
 **RECOMMENDED SAFETY LINKS:** here's example of a link given in the devices group, a recommended *starter*, the "Guide to the safe handling of radioactive materials in research", a manual on radiological safety practices by the Perkin Elmer Co.
 
