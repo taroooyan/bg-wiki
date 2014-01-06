@@ -190,7 +190,7 @@ A data log or section starts with several #-beginning comment lines: version num
 
 >$BNRDD,2108,2013-12-06T13:03:58Z,22,2,115,A,3145.7607,N,03510.1975,E,734.90,V,3,908*64
 
-The earlier version 1.1.1 printed a fourth comment line with parameter settings user name, time zone, country etc... This line was apparently dropped or is not currently included. [why??] 
+(Firmware version 1.1.1 printed a fourth comment line with parameter settings user name, time zone, country etc. Revised firmware probably dropped it as redundant, given the device i.d. and GPS coordinates besides the api user number and log metadata location.)  
  
 >\# NEW LOG
 
