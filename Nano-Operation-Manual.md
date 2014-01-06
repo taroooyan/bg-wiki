@@ -230,9 +230,18 @@ Mobile sensor -- the Log mode display also shows height (m), distance traversed 
 
 Where once data logs were sent by email, now this is done by the Safecast API. (API stands for Application programming interface.) The [[SUBMIT|https://api.safecast.org/]] header on the [[Safecast homepage|http://blog.safecast.org/]] header leads to https://api.safecast.org/. 
 
-The Safecast Dataset is meant to represent mobile background readings, not spot measures of items that happens to be in front of you. Hence the two modes on the device - one for logging and one for spot measurements. Monitoring and data submission are mentioned elsewhere in manual, e.g. in Mode uses. *[Perhaps this should be more clearly stated on the api webpage. Hopefully a guide to monitoring and submitting logs to data-shared projects or successive revisions of this operation manual will explain this point clearly enough for novice Nano users. For reliability of dataset, perhaps need guide rules for mobile monitoring in api web page?]*
+The Safecast Dataset is meant to represent mobile background readings from a meter high on a car window for example. The nano can also read spot measures of items in front of you. Hence the two modes on the device - one for logging and one for spot measurements. You should not submit readings that are samples of "items" or stationary static logs to the dataset which is meant for mobile monitoring. Monitoring and data submission are mentioned elsewhere in manual, e.g. in Mode uses. 
 
-You should not submit any readings that are samples of "items" or stationary static logs. *[need something here about the approval of data criteria ? guide to mobile logging? datasets ;  make API account ;   steps  ??]*
+See the 3 Jan 2014 blog [[Useful data|http://blog.safecast.org/2014/01/useful-data/]]. Sean lists criteria for data integrity by individual logger and by radiation monitoring network. The api.Safecast.org dataset has these standards:
+>* Every data point must have time stamp and GPS coordinates. City averages are unacceptable.
+>* Device and user must have unique ID to provide ability to identify and track errors (user can remain anonymous but still needs ID)
+>* The device used must have publicly available specs, including sensor size and manufacturer.
+>* We prefer and recommend the 2″ pancake produced by LND.
+>* If data is submitted to Safecast, data must be formatted correctly with all applicable metadata (the fields filled out correctly on submission).
+>* Measurements should be taken at approx 1m height, with care to avoid interference etc.
+>* Measurements should be in CPM, and note what kind of shielding (if any) was used.
+
+*[Perhaps concise guide to mobile logging, reliability and validity of data log and dataset, the rules for monitoring and submitting logs to the api.Safecast.org dataset can be posted also on the api menu.]*
 
 ####9. Uploading data to other datasets (comparative note)**
 
