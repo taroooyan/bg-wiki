@@ -70,7 +70,7 @@ This uploader app will retrieve necessary software including the fdti driver, so
 
 3. Click on the downloaded file, bGeigeiNano_V1.3.5_uploader.app.zip, to Unzip the app;
 
-4. Find and doubleclick on the "bGeigeiNano_V1.3.4_uploader" (or if renamed current  "bGeigieNano_V1.3.#_uploader")
+4. Find and doubleclick on the "bGeigeiNano_V1.3.4_uploader" or current version "bGeigieNano_V1.#.#_uploader". (8-Jan-2014, the 1.3.5 app uses 1.3.4 version because of rollback of a data format change.)
 
 The nano should soon power up with the new firmware version number displayed in the top line of splash screen "bGeigie 
 Nano 1.#.#". If not, try again. (Report on devices group. Edit this wiki.)
