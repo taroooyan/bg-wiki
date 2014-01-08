@@ -63,10 +63,10 @@ From a terminal type the following commands,
 
 ## 1c) Use uploader app (Mac OS X)
 
-1) with the nano power OFF, connect the nano to mac with usb cable and the FTDI breakout board 3.3V;
-2) on Mac browse to https://github.com/Safecast/bGeigieNanoKit/blob/master/bGeigeiNano_V1.3.5_uploader.app.zip and click on view RAW to download the executable zip file; 
-3) Click on the downloaded file, bGeigeiNano_V1.3.5_uploader.app.zip, to Unzip the app;
-4) Find and doubleclick on the "bGeigeiNano_V1.3.4_uploader" (or if renamed current  "bGeigieNano_V1.3.#_uploader")
+1. with the nano power OFF, connect the nano to mac with usb cable and the FTDI breakout board 3.3V;
+2. on Mac browse to https://github.com/Safecast/bGeigieNanoKit/blob/master/bGeigeiNano_V1.3.5_uploader.app.zip and click on view RAW to download the executable zip file; 
+3. Click on the downloaded file, bGeigeiNano_V1.3.5_uploader.app.zip, to Unzip the app;
+4. Find and doubleclick on the "bGeigeiNano_V1.3.4_uploader" (or if renamed current  "bGeigieNano_V1.3.#_uploader")
 The nano should soon power up with the new firmware version number displayed in the top line of splash screen bGeigie Nano 1.#.#. If not, try again.  The app will retrieve necessary software including the fdti driver, so it's a one button utility.  
 
 (This uploader app for Mac users was written by Rob Oudendijk and first posted on 3 Jan 2014 in devices thread [["Successful Nano build, need help w/ GPS, Mac connection"|https://groups.google.com/forum/?hl=en#!topic/safecast-devices/QgIqj7bMzQI]].)
