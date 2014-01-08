@@ -1,7 +1,7 @@
 # How to setup build environment on Mac OS X
 *(and on MS-Win 7)*  ;  *(draft rev.08.Jan.2014)*
 
->>Load firmware with an FTDI breakout board 3.3V (a small accessory tool, e.g. this [[one| https://www.sparkfun.com/products/9873]] or that [[one|https://www.adafruit.com/products/284]]); with a short length USB-to-miniUSB cable; with the Nano power switch turned OFF, and; with correct FTDI driver.
+>>Load firmware with an FTDI breakout board 3.3V (a small accessory tool: i.e. this [[one| https://www.sparkfun.com/products/9873]]; that [[one|https://www.adafruit.com/products/284]], or; combined inside USB cable [[something like|http://www.amazon.com/GearMo%C2%AE-3-3v-Header-like-TTL-232R-3V3/dp/B004LBXO2A]]); with a short length USB-to-miniUSB cable; with the Nano power switch turned OFF, and; with correct FTDI driver.
 >>(Further relevant photos can be found at [[Arduino Fio Sparkfun|https://www.sparkfun.com/products/10116]], at the guide on [[Arduino Fio Programming|http://arduino.cc/en/Main/ArduinoBoardFioProgramming]] or at Setup System programming bGeigie [[README.md|https://github.com/Safecast/SafecastBGeigie]].) 
 
 >1a) MAC - Build (from master by) yourself.
