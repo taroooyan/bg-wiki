@@ -1,23 +1,23 @@
 # How to setup build environment on Mac OS X
-*(and on MS-Win 7)*
-*(draft rev.1.11.13)*
+*(and on MS-Win 7)*  ;  *(draft rev.08.Jan.2014)*
 
->>Load firmware with an accessory FTDI breakout board 3.3V, for example this [[one| https://www.sparkfun.com/products/9873]] or that [[one|https://www.adafruit.com/products/284]]; with correct FTDI driver; and with the Nano power switch turned OFF. (and with a short USB-to-miniUSB cable).
+>>Load firmware with an FTDI breakout board 3.3V (a small accessory tool, e.g. this [[one| https://www.sparkfun.com/products/9873]] or that [[one|https://www.adafruit.com/products/284]]); with a short length USB-to-miniUSB cable; with the Nano power switch turned OFF, and; with correct FTDI driver.
 >>(Further relevant photos can be found at [[Arduino Fio Sparkfun|https://www.sparkfun.com/products/10116]], at the guide on [[Arduino Fio Programming|http://arduino.cc/en/Main/ArduinoBoardFioProgramming]] or at Setup System programming bGeigie [[README.md|https://github.com/Safecast/SafecastBGeigie]].) 
-*  For learning to compile source code, see http://www.ladyada.net/learn/avr/setup-mac.html.
 
->1a) MAC - Build (from master by) yourself, or;
+>1a) MAC - Build (from master by) yourself.
 
 >1b) MAC - Use prebuild image.
 
+>1c) MAC - uploader app
+
 >2) Linux
 
->3a) MS Windows 7 - Nano firmware installation
+>3) MS Windows 7 - Nano firmware installation
 
 *Note: v.1.3.2 (and higher, GPS fix) After you have applied the new firmware, you will need to reset the GPS unit to factory settings. To do so, remove the SD card and power on the nano. Wait for a minute, and then switch off the nano. The display will show a warning "No SD Card/GPS reset".  Insert the SD card and then switch on the nano and take it outside. The first GPS lock may take some time (a couple of minutes is typical but can be longer) Once locked, the next time you switch on, the lock should be immediate. (Also in the [[Operation Manual|https://github.com/Safecast/bGeigieNanoKit/wiki/Nano-Operation-Manual]], see #4. Logging Mode: GPS Reset general re-initialization.)* 
 
-# 1a) Build yourself
-## Setup for Mac OS X
+## 1a) Build yourself (Mac OS X)
+*(For learning to compile source code, see http://www.ladyada.net/learn/avr/setup-mac.html.)*
 
 1. Install the latest FTDI serial driver: [http://www.ftdichip.com/Drivers/VCP/MacOSX/FTDIUSBSerialDriver_v2_2_17.dmg](http://www.ftdichip.com/Drivers/VCP/MacOSX/FTDIUSBSerialDriver_v2_2_17.dmg)
 1. Install Arduino sources: [https://arduino.googlecode.com/files/arduino-1.0.4-src.tar.gz](https://arduino.googlecode.com/files/arduino-1.0.4-src.tar.gz)
@@ -29,7 +29,7 @@
 
 1. Restart a new terminal window
 
-## Build and upload the bGeigieNano software
+### Build and upload the bGeigieNano software
 
 1. Download latest software: [https://github.com/Safecast/bGeigieNanoKit/archive/master.zip](https://github.com/Safecast/bGeigieNanoKit/archive/master.zip)
 1. Build and upload the software:
@@ -38,14 +38,13 @@
          make
          make upload
 
-# 1b) Use prebuild image
+## 1b) Use prebuild image (Mac OS X)
 
-## Setup for Mac OS X
 
 1. Install the latest FTDI serial driver: http://www.ftdichip.com/Drivers/VCP/MacOSX/FTDIUSBSerialDriver_v2_2_17.dmg
 1. Install CrossPack for AVR Development (contains avrdude command and AVR cross-compiler): http://www.obdev.at/products/crosspack/index.html
 
-## Upload the bGeigieNano software
+### Upload the bGeigieNano software
 
 From a terminal type the following commands, 
 
@@ -61,13 +60,23 @@ From a terminal type the following commands,
 
          /usr/local/bin/avrdude -DV -p atmega328p -P /dev/tty.usbserial-A700eYeV -c arduino -b 57600 -U flash:w:bGeigieNano.hex:i
 
-  
+
+## 1c) Use uploader app (Mac OS X)
+
+1) with the nano power OFF, connect the nano to mac with usb cable and the FTDI breakout board 3.3V;
+2) on Mac browse to https://github.com/Safecast/bGeigieNanoKit/blob/master/bGeigeiNano_V1.3.5_uploader.app.zip and click on view RAW to download the executable zip file; 
+3) Click on the downloaded file, bGeigeiNano_V1.3.5_uploader.app.zip, to Unzip the app;
+4) Find and doubleclick on the "bGeigeiNano_V1.3.4_uploader" (or if renamed current  "bGeigieNano_V1.3.#_uploader")
+The nano should soon power up with the new firmware version number displayed in the top line of splash screen bGeigie Nano 1.#.#. If not, try again.  The app will retrieve necessary software including the fdti driver, so it's a one button utility.  
+
+(This uploader app for Mac users was written by Rob Oudendijk and first posted on 3 Jan 2014 in devices thread [["Successful Nano build, need help w/ GPS, Mac connection"|https://groups.google.com/forum/?hl=en#!topic/safecast-devices/QgIqj7bMzQI]].)
+
 ----
 # 2) Linux
-*Although Linux users probably don't need a guide to load firmware, the ftdichip.com website has [[ftdi driver installation guides|http://www.ftdichip.com/Support/Documents/InstallGuides.htm]] including for [[Linux|http://www.ftdichip.com/Support/Documents/AppNotes/AN_220_FTDI_Drivers_Installation_Guide_for_Linux%20.pdf]].*
+*Although Linux users may not need a guide to load nano firmware, ftdichip.com has [[ftdi driver installation guides|http://www.ftdichip.com/Support/Documents/InstallGuides.htm]] including [[Linux|http://www.ftdichip.com/Support/Documents/AppNotes/AN_220_FTDI_Drivers_Installation_Guide_for_Linux%20.pdf]].*
 
 ---- 
-# 3a) MS Windows 7: Nano firmware installation
+# 3) MS Windows 7: Nano firmware installation
 This firmware loading stub for MS Windows 7 follows above on MAC OS X build. To quote 3 helpful posts for pc users  in thread which began on [[2013-07-06 entitled "V1.2.6"|https://groups.google.com/forum/?hl=en#!topic/safecast-devices/106n-Bs3v-Q]] in the Safecast Device Discussions and Support group, from Jul 21, Aug 6 and Oct 25 2013:
 
 >>Jul 21> You will need to have FTDI driver from here;
