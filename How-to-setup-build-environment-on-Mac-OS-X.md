@@ -78,11 +78,11 @@ Nano 1.#.#". If not, try again. (Report on devices group. Edit this wiki.)
 (This uploader app for Mac users was written by Rob Oudendijk and first posted on 3 Jan 2014 in devices thread [["Successful Nano build, need help w/ GPS, Mac connection"|https://groups.google.com/forum/?hl=en#!topic/safecast-devices/QgIqj7bMzQI]].)
 
 ----
-# 2) Linux
+## 2) Linux
 *Although Linux users may not need a guide to load nano firmware, ftdichip.com has [[ftdi driver installation guides|http://www.ftdichip.com/Support/Documents/InstallGuides.htm]] including [[Linux|http://www.ftdichip.com/Support/Documents/AppNotes/AN_220_FTDI_Drivers_Installation_Guide_for_Linux%20.pdf]].*
 
 ---- 
-# 3) MS Windows 7: Nano firmware installation
+## 3) MS Windows 7: Nano firmware installation
 This firmware loading stub for MS Windows 7 follows above on MAC OS X build. To quote 3 helpful posts for pc users  in thread which began on [[2013-07-06 entitled "V1.2.6"|https://groups.google.com/forum/?hl=en#!topic/safecast-devices/106n-Bs3v-Q]] in the Safecast Device Discussions and Support group, from Jul 21, Aug 6 and Oct 25 2013:
 
 >>Jul 21> You will need to have FTDI driver from here;
