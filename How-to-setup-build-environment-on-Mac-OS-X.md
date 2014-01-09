@@ -7,9 +7,9 @@
 - **3.  MS Windows 7 - Nano firmware installation**
 
 bGeigie Nano firmware loading (installation) requires:
-- an FTDI breakout board 3.3V (a small accessory tool: i.e. this [[one| https://www.sparkfun.com/products/9873]]; that [[one|https://www.adafruit.com/products/284]], or; combined in USB cable [[another one|http://www.amazon.com/GearMo%C2%AE-3-3v-Header-like-TTL-232R-3V3/dp/B004LBXO2A]]);
-- a short length USB-to-miniUSB cable;
-- appropriate FTDI and AVR drivers -- in (1c)-mac uploader app both automatically retrieved; (2) MS-Win XLoader includes AVR);
+- an **FTDI breakout board 3.3V** (a small accessory tool: i.e. this [[one| https://www.sparkfun.com/products/9873]]; that [[one|https://www.adafruit.com/products/284]], or; combined in USB cable [[another one|http://www.amazon.com/GearMo%C2%AE-3-3v-Header-like-TTL-232R-3V3/dp/B004LBXO2A]]);
+- a short length **USB-to-miniUSB cable**;
+- FTDI and AVR drivers -- in (1c)-mac uploader app both automatically retrieved; (2) MS-Win XLoader includes AVR);
 - the Nano power switch turned OFF before connecting (powers up from the FTDI breakout connection to computer's USB).
 
 (See relevant photos at Sparkfun [[Arduino Fio |https://www.sparkfun.com/products/10116]], Arduino [[Fio Programming|http://arduino.cc/en/Main/ArduinoBoardFioProgramming]] or at Setup System programming bGeigie [[README.md|https://github.com/Safecast/SafecastBGeigie]].) 
