@@ -1,9 +1,8 @@
-#  bGeigie Nano 
+##  bGeigie Nano Kit Assembly - ideas and guide 
 
 
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/bGeigie_Nano_side.jpg)
 
-## Kit Assembly ideas and guide 
 #### bGeigie Nano kit assembly instructions, v5c (revised Oct 8, 2013)
 To the new users of the bGeigie Nano, congratulations and welcome to the Safecast community. We're happy to be able to deliver this high-performance geiger counter with GPS logging and memory, which has been developed and field-tested by Safecast volunteers. 
 
