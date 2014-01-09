@@ -1,8 +1,4 @@
-*nano parts and options list. (8-Jan-2014 draft -- incomplete specs of fasteners, small pieces)*
- 
-*(Nano wiki edited by Safecast users in plain text [[markdown syntax|http://daringfireball.net/projects/markdown/syntax]], [[github flavored markdown|https://help.github.com/articles/github-flavored-markdown]] and [[markdown cheatsheet|https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet]].)*
-
-##Nano contents and options: lists and links
+*(8-Jan-2014 draft -- incomplete specs of fasteners, small pieces. Nano wiki edited by Safecast users in plain text [[markdown syntax|http://daringfireball.net/projects/markdown/syntax]], [[github flavored markdown|https://help.github.com/articles/github-flavored-markdown]] and [[markdown cheatsheet|https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet]].)*
 
 **A) Parts (Nano kit contents)** -- with link to a supplier page when known [draft]
 
@@ -10,7 +6,7 @@
 
 *See the kit assembly [[Nano Manual|https://github.com/Safecast/bGeigieNanoKit/wiki/NANO-MANUAL]] for item definition, placement guides and photos. (Part supplier links also copied from safecast blog, devices group and (googled?). (Elsewhere in the github nano repository there may be some technical specifications...)*
 
-####A. Nano Kit PARTS
+####A. Nano Kit Parts List
 
 #####__1. LARGE PARTS__
 
@@ -91,23 +87,9 @@
 - - - - - 
 All Nano parts are available from suppliers. *(My guess: to buy all the parts retail would cost at least as much as the price of kit, even with the $75.00 donation to Safecast included in the distributor's [[bGeigie Nano Kit order|https://medcom.com/product/bgeigie-nano-geiger-counter-kit/]].-yw)*
 
-- - - - - 
-#####4. Licenses:
-The [[Safecast FAQ on licenses|http://blog.safecast.org/faq/licenses/]] includes the following on hardware design:
+***
 
->**The hardware developed by Safecast is *[[open source|https://en.wikipedia.org/wiki/Open_source]]*. You are free to open, manipulate, hack, break and or improve anything.**
-
->**All copyrightable, non-text works, hardware reference design, etc are published under a *Creative Commons Attribution Share Alike License*.  https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License**
-
->**You are free to copy, edit and republish these, but you must make it clear we are the original source and must publish under this same license. You can’t copyright anything you make based on our work.**
-
->**All the copyrightable functional works of our hardware designs are published under *BSD*.**
-
->**All the patentable functional works of our hardware designs are published under an *XL1.0 Cross License*.**
- 
-- - - - - 
-
-####B. ACCESSORY TOOLS, OPTIONS, and MORE:
+####B. Accessory Tools, Options, and More:
 *(Notes: on extra tools & hardware; also on desired or requested functions, tricked-out nanos, your custom applications...)*
 
 •	**FTDI breakout board 3.3V**, for example this [[one| https://www.sparkfun.com/products/9873]], that [[one|https://www.adafruit.com/products/284]], or another [[one|http://www.amazon.com/GearMo%C2%AE-3-3v-Header-like-TTL-232R-3V3/dp/B004LBXO2A]]. A small tool necessary for loading firmware upgrades and fixes. See the Nano wiki page [[How to setup build environment on Mac OS X|https://github.com/Safecast/bGeigieNanoKit/wiki/How-to-setup-build-environment-on-Mac-OS-X/_edit]].
@@ -135,6 +117,24 @@ The [[Safecast FAQ on licenses|http://blog.safecast.org/faq/licenses/]] includes
 •	**Desiderata**: additional functions desired (possibly with available top push button?): 
 1) Long discussed **stealth mode** (silent inconspicuous operation -- without lights and buzzer); 
 2) *your ideas...*
+
+***
+
+#####Misc.) Licenses:
+See the [[Safecast FAQ "Licenses We Use"|http://blog.safecast.org/faq/licenses/]] which includes:
+
+>**The hardware developed by Safecast is *[[open source|https://en.wikipedia.org/wiki/Open_source]]*. You are free to open, manipulate, hack, break and or improve anything.**
+
+>**All copyrightable, non-text works, hardware reference design, etc are published under a *[[Creative Commons Attribution Share Alike License|http://creativecommons.org/]]*.**
+
+>**You are free to copy, edit and republish these, but you must make it clear we are the original source and must publish under this same license. You can’t copyright anything you make based on our work.**
+
+>**All the copyrightable functional works of our hardware designs are published under *[[BSD|https://en.wikipedia.org/wiki/BSD_licenses]]*.**
+
+>**All the patentable functional works of our hardware designs are published under an *[[XL1.0 Cross License|http://blog.safecast.org/wp-content/uploads/2012/05/xl_crosslicense.pdf]]*.**
+
+
+***
 
 **For SUPPORT**:  these community-edited [[Nano wiki pages|https://github.com/Safecast/bGeigieNanoKit/wiki/_pages]]; relevant  [[bGeigieNanoKit|https://github.com/Safecast/bGeigieNanoKit/]] github repositories; the http://blog.safecast.org/ website and home page links. Join the [[Safecast Devices Discussions and Support group|https://groups.google.com/forum/?hl=en#!forum/safecast-devices]]. 
 Contact info@safecast.org and suppliers... Nano catch-all landing page http://blog.safecast.org/bgeigie-nano/
