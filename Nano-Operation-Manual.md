@@ -140,7 +140,7 @@ Default is: 9600,26,3,2. [9600 Baud rate; 26 Data bits; 3 Mark Parity (3=>bit is
 
 >EXAMPLE:
 
->$BNRDD,300,2012-12-16T17:58:31Z,30,1,116,A,4618.9612,N,00658.4831,E,443.7,A,1.28,*6D
+>$BNRDD,300,2012-12-16T17:58:31Z,30,1,116,A,4618.9612,N,00658.4831,E,443.7,A,5,1.28*6D
 
 **KEY**
 
@@ -170,11 +170,11 @@ Default is: 9600,26,3,2. [9600 Baud rate; 26 Data bits; 3 Mark Parity (3=>bit is
 
 >13. **GPS validity**: 'A' ok, 'V' invalid. A
 
->14. **HDOP**: Horizontal Dilution of Precision (HDOP), relative accuracy of horizontal position. 1.28
+>14. **Number of sattelites**: number of satellites used by the GPS. 5
 
->15. **Fix Quality**: 0 = invalid, 1 = GPS Fix, 2 = DGPS Fix. However, this field is empty for the Nano since the TinyGPS library does not provide this data. [Related Issue](https://github.com/Safecast/bGeigieNanoKit/pull/28)
+>15. **HDOP**: Horizontal Dilution of Precision (HDOP), relative accuracy of horizontal position. 1.28
 
->17. **Checksum**: *6D
+>16. **Checksum**: *6D
 
 *(For possible updates, see the current [[README.md|https://github.com/Safecast/SafecastBGeigie/blob/master/README.md]] in the technical github, the source of above data format.)*
 
