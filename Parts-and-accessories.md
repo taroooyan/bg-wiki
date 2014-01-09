@@ -35,8 +35,7 @@
 6. 100   k Ohm , x1 ;  (R6)
 
 
-#####12 Small Parts
-*on the Small Parts Placement Guide:*
+#####12 Small Parts *on the [[Small Parts Placement Guide|https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/v1.0r2_page1.jpg]]:*
 
 1.  Capacitors, 100nF Ceramic x3  (C1, C2, C3)
 2.  Diode 1N4148 
@@ -137,4 +136,4 @@ See the [[Safecast FAQ "Licenses We Use"|http://blog.safecast.org/faq/licenses/]
 ***
 
 **For SUPPORT**:  these community-edited [[Nano wiki pages|https://github.com/Safecast/bGeigieNanoKit/wiki/_pages]]; relevant  [[bGeigieNanoKit|https://github.com/Safecast/bGeigieNanoKit/]] github repositories; the http://blog.safecast.org/ website and home page links. Join the [[Safecast Devices Discussions and Support group|https://groups.google.com/forum/?hl=en#!forum/safecast-devices]]. 
-Contact info@safecast.org and suppliers... Nano catch-all landing page http://blog.safecast.org/bgeigie-nano/
+Contact info@safecast.org and suppliers... Nano catch-all landing page http://blog.safecast.org/bgeigie-nano/ ; alias:  http://nano.safecast.org/ 
