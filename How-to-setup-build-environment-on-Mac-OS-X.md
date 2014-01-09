@@ -6,15 +6,15 @@
 - **2.  Linux**
 - **3.  MS Windows 7 - Nano firmware installation**
 
-bGeigie Nano firmware loading (installation) requires:
+**bGeigie Nano firmware loading (installation) requires:**
 - an **FTDI breakout board 3.3V** (a small accessory tool: i.e. this [[one| https://www.sparkfun.com/products/9873]]; that [[one|https://www.adafruit.com/products/284]], or; combined in USB cable [[another one|http://www.amazon.com/GearMo%C2%AE-3-3v-Header-like-TTL-232R-3V3/dp/B004LBXO2A]]);
 - a short length **USB-to-miniUSB cable**;
-- FTDI and AVR drivers -- in (1c)-mac uploader app both automatically retrieved; (2) MS-Win XLoader includes AVR);
-- the Nano power switch turned OFF before connecting (powers up from the FTDI breakout connection to computer's USB).
+- the Nano power switch turned **OFF** before connecting (powers up from the FTDI breakout connection to computer's USB);
+- **FTDI and AVR drivers** and the current version **Nano firmware**, which is the .hex file in the [[bGeigieNanoKit repository|https://github.com/Safecast/bGeigieNanoKit]]. ((1c)-mac uploader app automatically retrieves all software; (2) MS-Win XLoader includes AVR).
 
 (See relevant photos at Sparkfun [[Arduino Fio |https://www.sparkfun.com/products/10116]], Arduino [[Fio Programming|http://arduino.cc/en/Main/ArduinoBoardFioProgramming]] or at Setup System programming bGeigie [[README.md|https://github.com/Safecast/SafecastBGeigie]].) 
 
-Note for v.1.3.2 and higher (GPS fix): After you have applied the new firmware, you will need to reset the GPS unit to factory settings. To do so, remove the SD card and power on the nano. Wait for a minute, and then switch off the nano. The display will show a warning "No SD Card/GPS reset".  Insert the SD card and then switch on the nano and take it outside. The first GPS lock may take some time (a couple of minutes is typical but can be longer) Once locked, the next time you switch on, the lock should be immediate. *(Also in the [[Operation Manual|https://github.com/Safecast/bGeigieNanoKit/wiki/Nano-Operation-Manual]], see #4. Logging Mode: GPS Reset general re-initialization.)* 
+Note for v.1.3.2 and higher: After you have applied the new firmware, you will need to reset the GPS unit to factory settings. To do so, remove the SD card and power on the nano. Wait for a minute, and then switch off the nano. The display will show a warning "No SD Card/GPS reset".  Insert the SD card and then switch on the nano and take it outside. The first GPS lock may take some time (a couple of minutes is typical but can be longer) Once locked, the next time you switch on, the lock should be immediate. *(Also in the [[Operation Manual|https://github.com/Safecast/bGeigieNanoKit/wiki/Nano-Operation-Manual]], see #4. Logging Mode: GPS Reset general re-initialization.)* 
 
 ## 1a) Build yourself (Mac OS X)
 *(For learning to compile source code, see http://www.ladyada.net/learn/avr/setup-mac.html.)*
