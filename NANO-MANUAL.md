@@ -8,7 +8,7 @@ To the new users of the bGeigie Nano, congratulations and welcome to the Safecas
 
 The kit format allows for cost savings and for DIY learning. The assembly can take as little as 3-4 hours depending on electronics skill and experience level. This assembly manual is for all users including novices. So we are trying to make these instructions clear, graphic and explicit. For some we're explaining the obvious, for others this still may not be helpful enough. If you're very experienced at assembling electronic devices, feel free to modify the order of the steps. 
 
-**For Nano SUPPORT**: catch-all landing page [[http://blog.safecast.org/bgeigie-nano/]]. These community-edited [[wiki pages|https://github.com/Safecast/bGeigieNanoKit/wiki/_pages]]. The links on the home page of Safecast website http://blog.safecast.org/. Join the [[Safecast Devices Discussions and Support group|https://groups.google.com/forum/?hl=en#!forum/safecast-devices]]. Contact info@safecast.org. 
+**For Nano SUPPORT**: catch-all landing page [[http://nano.safecast.org/]]; these community-edited [[nano wiki pages|https://github.com/Safecast/bGeigieNanoKit/wiki/_pages]]; the links on the home page of Safecast website http://blog.safecast.org/;  the [[Safecast Devices Discussions and Support group|https://groups.google.com/forum/?hl=en#!forum/safecast-devices]]. Contact info@safecast.org. 
 
 -----
 
