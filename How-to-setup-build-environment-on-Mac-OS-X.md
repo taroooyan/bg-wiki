@@ -1,9 +1,9 @@
 # How to setup build environment on Mac OS X
 *(draft rev.08.Jan.2014)*
 
-- **1a. MAC - Build (from master by) yourself.**
-- **1b. MAC - Use prebuild image.**
-- **1c. MAC - uploader app**
+- **1a. MAC - Build (from master by) yourself**
+- **1b. MAC - Use prebuild image**
+- **1c. MAC - Use uploader app**
 - **2.  Linux**
 - **3.  MS Windows 7 - Nano firmware installation**
 
@@ -40,7 +40,6 @@ Note for v.1.3.2 and higher (GPS fix): After you have applied the new firmware, 
          make upload
 
 ## 1b) Use prebuild image (Mac OS X)
-
 
 1. Install the latest FTDI serial driver: http://www.ftdichip.com/Drivers/VCP/MacOSX/FTDIUSBSerialDriver_v2_2_17.dmg
 1. Install CrossPack for AVR Development (contains avrdude command and AVR cross-compiler): http://www.obdev.at/products/crosspack/index.html
