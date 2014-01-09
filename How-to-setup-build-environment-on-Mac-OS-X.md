@@ -1,5 +1,4 @@
-# How to setup build environment on Mac OS X
-*(draft rev.08.Jan.2014)*
+#####**How to load Nano firmware upgrades & fixes (from filename "How to setup build environment on Mac OS X")**
 
 - **1a. MAC - Build (from master by) yourself**
 - **1b. MAC - Use prebuild image**
@@ -8,7 +7,7 @@
 - **3.  MS Windows 7 - Nano firmware installation**
 
 Load bGeigie Nano firmware:
-- with an FTDI breakout board 3.3V (a small accessory tool: i.e. this [[one| https://www.sparkfun.com/products/9873]]; that [[one|https://www.adafruit.com/products/284]], or; combined into USB cable [[something like|http://www.amazon.com/GearMo%C2%AE-3-3v-Header-like-TTL-232R-3V3/dp/B004LBXO2A]]);
+- with an FTDI breakout board 3.3V (a small accessory tool: i.e. this [[one| https://www.sparkfun.com/products/9873]]; that [[one|https://www.adafruit.com/products/284]], or; combined in USB cable [[another one|http://www.amazon.com/GearMo%C2%AE-3-3v-Header-like-TTL-232R-3V3/dp/B004LBXO2A]]);
 - with a short length USB-to-miniUSB cable;
 - with the Nano power switch turned OFF, and;
 - with correct FTDI driver.
@@ -135,3 +134,4 @@ The [[arduino.cc website|http://arduino.cc/]] has well recommended guides and he
 ***
 **p.s. [[http://blog.safecast.org/bgeigie-nano/|http://blog.safecast.org/bgeigie-nano/]] (nano links, catch-all landing page)**
 
+*(draft rev.08.Jan.2014)*
