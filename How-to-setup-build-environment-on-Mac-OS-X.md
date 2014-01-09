@@ -1,20 +1,21 @@
 # How to setup build environment on Mac OS X
-*(and on MS-Win 7)*  ;  *(draft rev.08.Jan.2014)*
+*(draft rev.08.Jan.2014)*
 
->>Load firmware with an FTDI breakout board 3.3V (a small accessory tool: i.e. this [[one| https://www.sparkfun.com/products/9873]]; that [[one|https://www.adafruit.com/products/284]], or; combined inside USB cable [[something like|http://www.amazon.com/GearMo%C2%AE-3-3v-Header-like-TTL-232R-3V3/dp/B004LBXO2A]]); with a short length USB-to-miniUSB cable; with the Nano power switch turned OFF, and; with correct FTDI driver.
->>(Further relevant photos can be found at [[Arduino Fio Sparkfun|https://www.sparkfun.com/products/10116]], at the guide on [[Arduino Fio Programming|http://arduino.cc/en/Main/ArduinoBoardFioProgramming]] or at Setup System programming bGeigie [[README.md|https://github.com/Safecast/SafecastBGeigie]].) 
+- **1a. MAC - Build (from master by) yourself.**
+- **1b. MAC - Use prebuild image.**
+- **1c. MAC - uploader app**
+- **2.  Linux**
+- **3.  MS Windows 7 - Nano firmware installation**
 
->1a) MAC - Build (from master by) yourself.
+Load bGeigie Nano firmware:
+- with an FTDI breakout board 3.3V (a small accessory tool: i.e. this [[one| https://www.sparkfun.com/products/9873]]; that [[one|https://www.adafruit.com/products/284]], or; combined into USB cable [[something like|http://www.amazon.com/GearMo%C2%AE-3-3v-Header-like-TTL-232R-3V3/dp/B004LBXO2A]]);
+- with a short length USB-to-miniUSB cable;
+- with the Nano power switch turned OFF, and;
+- with correct FTDI driver.
 
->1b) MAC - Use prebuild image.
+(See relevant photos at Sparkfun [[Arduino Fio |https://www.sparkfun.com/products/10116]], Arduino [[Fio Programming|http://arduino.cc/en/Main/ArduinoBoardFioProgramming]] or at Setup System programming bGeigie [[README.md|https://github.com/Safecast/SafecastBGeigie]].) 
 
->1c) MAC - uploader app
-
->2) Linux
-
->3) MS Windows 7 - Nano firmware installation
-
-*Note: v.1.3.2 (and higher, GPS fix) After you have applied the new firmware, you will need to reset the GPS unit to factory settings. To do so, remove the SD card and power on the nano. Wait for a minute, and then switch off the nano. The display will show a warning "No SD Card/GPS reset".  Insert the SD card and then switch on the nano and take it outside. The first GPS lock may take some time (a couple of minutes is typical but can be longer) Once locked, the next time you switch on, the lock should be immediate. (Also in the [[Operation Manual|https://github.com/Safecast/bGeigieNanoKit/wiki/Nano-Operation-Manual]], see #4. Logging Mode: GPS Reset general re-initialization.)* 
+Note for v.1.3.2 and higher (GPS fix): After you have applied the new firmware, you will need to reset the GPS unit to factory settings. To do so, remove the SD card and power on the nano. Wait for a minute, and then switch off the nano. The display will show a warning "No SD Card/GPS reset".  Insert the SD card and then switch on the nano and take it outside. The first GPS lock may take some time (a couple of minutes is typical but can be longer) Once locked, the next time you switch on, the lock should be immediate. *(Also in the [[Operation Manual|https://github.com/Safecast/bGeigieNanoKit/wiki/Nano-Operation-Manual]], see #4. Logging Mode: GPS Reset general re-initialization.)* 
 
 ## 1a) Build yourself (Mac OS X)
 *(For learning to compile source code, see http://www.ladyada.net/learn/avr/setup-mac.html.)*
