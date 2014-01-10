@@ -1,4 +1,4 @@
-*draft bGeigie Nano user guide. (User community editing help: [[markdown syntax|http://daringfireball.net/projects/markdown/syntax]], [[github flavored markdown|https://help.github.com/articles/github-flavored-markdown]] and [[markdown cheatsheet|https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet]])*
+*bGeigie Nano user guide, draft. (User community editing. Plain text [[github flavored markdown|https://help.github.com/articles/github-flavored-markdown]], [[syntax|http://daringfireball.net/projects/markdown/syntax]] and [[cheatsheet|https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet]])*
 
 ###Table of Contents###
 
