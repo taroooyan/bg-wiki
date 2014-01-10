@@ -1,10 +1,10 @@
-*(8-Jan-2014 draft -- incomplete specs of fasteners, small pieces. Nano wiki edited by Safecast users in plain text [[markdown syntax|http://daringfireball.net/projects/markdown/syntax]], [[github flavored markdown|https://help.github.com/articles/github-flavored-markdown]] and [[markdown cheatsheet|https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet]].)*
+(Nano wiki edited by Safecast users in plain text. See [[github flavored markdown|https://help.github.com/articles/github-flavored-markdown]], [[syntax|http://daringfireball.net/projects/markdown/syntax]] and [[cheatsheet|https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet]].) 8-Jan-2014, incomplete draft - specs of fasteners? *Caveat: supplier links taken from safecast site, github nano repo, devices group, assembly manual or googled.*
 
-**A) Parts (Nano kit contents)** -- with link to a supplier page when known [draft]
+**A) Parts (Nano kit contents)** -- *See the Kit Assembly [[Nano Manual|https://github.com/Safecast/bGeigieNanoKit/wiki/NANO-MANUAL]] placement guides and photos.*
 
 **B) Accessory Tools, Options, and more** 
 
-*See the kit assembly [[Nano Manual|https://github.com/Safecast/bGeigieNanoKit/wiki/NANO-MANUAL]] for item definition, placement guides and photos. (Part supplier links also copied from safecast blog, devices group and (googled?). (Elsewhere in the github nano repository there may be some technical specifications...)*
+***
 
 ####A. Nano Kit Parts List
 
