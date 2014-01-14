@@ -107,7 +107,7 @@ All Nano parts are available from suppliers. *(My guess: to buy all the parts re
 
 •	other **XBee socket** options? (instead of above wireless BLEBee), i.e. other environmental sensors: meteorology (barometry, humidity, temperature); noise level; air quality (?), ...
 
-•	Opaque color [[Pelican i1010 micro case|http://www.pelican.com/cases_detail_specs.php?Case=i1010]]. See Joe Moross post of 8-Jan-2014 in the devices thread [["Pelican micro i1010 case opaque alternative to 1010?"|https://groups.google.com/forum/?hl=en#!topic/safecast-devices/dQPu49gkS-A]] on combinations of 1010, i1010 and i1015. (Additional cases for custom wiring, ruggedness, stealth, color aesthetics, beta window, etc.) 
+•	Opaque color [[Pelican i1010 micro case|http://www.pelican.com/cases_detail_specs.php?Case=i1010]]. On combinations of 1010, i1010 and i1015, see Joe Moross post of 8-Jan-2014 in the devices thread [["Pelican micro i1010 case opaque alternative to 1010?"|https://groups.google.com/forum/?hl=en#!topic/safecast-devices/dQPu49gkS-A]]. (Search nano resources on nano cases -- waterproof test, ruggedness, beta window, color aesthetics, stealth, custom wiring through the pressure relief automatic purge valve or by drilling and caulking holes, etc.) 
 
 •	Parallel to radiation monitoring, Safecast is developing **air pollution** monitoring devices. See the [[Safecast Air Quality Discussion group|https://groups.google.com/forum/?hl=en#!forum/safecast-air]].
 
