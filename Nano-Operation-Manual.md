@@ -86,7 +86,8 @@ Kalin wrote: “The grid on the pancake sensor is only useful when you take the 
 - The following lists of parameters on the micro sd card is taken from the [[NanoSetup.cpp|https://github.com/Safecast/bGeigieNanoKit/blob/master/NanoSetup.cpp]]. The parameters are further mentioned with Data Log Format [ below in 6 – LED Display Fields, Toggle Modes].)
 
 #####CONFIG.TXT:#####
-Default is: 9600,26,3,2. [9600 Baud rate; 26 Data bits; 3 Mark Parity (3=>bit is always logical 1); 2 stop bits (disables use of MARK parity)]
+The CONFIG.TXT on my nano kit sd card reads: "9600,26,3,2,1,1 baud,escape,esc#,mode,verb,echo". The default [[CONFIG.TXT|https://github.com/Safecast/bGeigieNanoKit/blob/master/SD%20card/CONFIG.TXT]] has: "9600,26,3,2". [9600 Baud rate; 26 Data bits; 3 Mark Parity (3=>bit is always logical 1); 2 stop bits (disables use of MARK parity)].
+
 
 #####SAFECAST.TXT:#####
 >**nm=** User Name API User Name (or your any text) which appears on data log header line (and up to 15 characters appears on the 10 seconds start up LED display)
