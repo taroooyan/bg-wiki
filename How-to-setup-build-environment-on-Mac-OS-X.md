@@ -14,7 +14,7 @@
 
 (See relevant photos at Sparkfun [[Arduino Fio |https://www.sparkfun.com/products/10116]], Arduino [[Fio Programming|http://arduino.cc/en/Main/ArduinoBoardFioProgramming]] or at Setup System programming bGeigie [[README.md|https://github.com/Safecast/SafecastBGeigie]].) 
 
-Note for v.1.3.2 and higher: After you have applied the new firmware, you will need to reset the GPS unit to factory settings. To do so, remove the SD card and power on the nano. Wait for a minute, and then switch off the nano. The display will show a warning "No SD Card/GPS reset".  Insert the SD card and then switch on the nano and take it outside. The first GPS lock may take some time (a couple of minutes is typical but can be longer) Once locked, the next time you switch on, the lock should be immediate. *(Also in the [[Operation Manual|https://github.com/Safecast/bGeigieNanoKit/wiki/Nano-Operation-Manual]], see #4. Logging Mode: GPS Reset general re-initialization.)* 
+AFTERWARDS **general re-initialization** for GPS Reset: Note for v.1.3.2 and higher: After you have applied the new firmware, you will need to reset the GPS unit to factory settings. To do so, remove the SD card and power on the nano. Wait for a minute, and then switch off the nano. The display will show a warning "No SD Card/GPS reset".  Insert the SD card and then switch on the nano and take it outside. The first GPS lock may take some time (a couple of minutes is typical but can be longer) Once locked, the next time you switch on, the lock should be immediate. *(Also in the [[Operation Manual|https://github.com/Safecast/bGeigieNanoKit/wiki/Nano-Operation-Manual]], see #4. Logging Mode: GPS Reset general re-initialization.)* 
 
 ## 1a) Build yourself (Mac OS X)
 *(For learning to compile source code, see http://www.ladyada.net/learn/avr/setup-mac.html.)*
@@ -61,17 +61,26 @@ From a terminal type the following commands,
 
 
 ## 1c) Use uploader app (Mac OS X)
-The Mac bGeigeiNano_V1.#.#_uploader.app.zip is in the [[Nano firmware master repo|https://github.com/Safecast/bGeigieNanoKit/blob/master/]], at the bottom of folder next to the current firmware hex file.  This uploader app will retrieve all the necessary software including the fdti driver. Steps: download; click on downloaded self-opening zip file to unzip it; find the unzipped app file and click on it. (Or in still more verbose newbie instruction, as follows:
+The Mac bGeigeiNano_V1.#.#_uploader.app.zip is in the [[Nano firmware master repo|https://github.com/Safecast/bGeigieNanoKit/blob/master/]], at the bottom of folder next to the current firmware hex file.  This uploader app will retrieve all the necessary software including the fdti driver. Steps: download; click on downloaded self-opening zip file to unzip it; find the unzipped app file and click on it to load the firmware. After build, do the *general re-initialization for GPS Reset* as stated at top.
+
+
+Same instructions again in novice verbose mode, maybe more explicit steps:
   
 1. with the nano power OFF: connect the FTDI breakout board 3.3V to your nano fio pins (as described in tutorials at top); connect a short-length usb cable to the miniUSB on breakout board and to USB on your Mac;
 
 2. to download the uploader app: 
---on Mac browse to the current executable zip file version  [[https://github.com/Safecast/bGeigieNanoKit/blob/master/bGeigeiNano_V1.3.5_uploader.app.zip]].  Click on executable file's [[view RAW btton|https://github.com/Safecast/bGeigieNanoKit/blob/master/bGeigeiNano_V1.3.5_uploader.app.zip?raw=true]] to download the app's executable self-opening zip file.
---(if in the file's parent folder, [[the Nano firmware master repo|https://github.com/Safecast/bGeigieNanoKit/blob/master/]], first need to click once on the *.uploader.app.zip file to open executable file page to see the "view RAW" button.)
+
+--on Mac, browse to the current executable zip file version  [[https://github.com/Safecast/bGeigieNanoKit/blob/master/bGeigeiNano_V1.3.5_uploader.app.zip]].  Click on executable file's [[view RAW btton|https://github.com/Safecast/bGeigieNanoKit/blob/master/bGeigeiNano_V1.3.5_uploader.app.zip?raw=true]] to download the app's executable self-opening zip file.
+
+--or, if browsing in [[the Nano firmware master repo|https://github.com/Safecast/bGeigieNanoKit/blob/master/]], first need to click once on the *.uploader.app.zip file to open executable file page to see the "view RAW" (download) button.
 
 3. to unzip the executable self-opening .app.zip file: find the downloaded app zip file on the mac, and click on it;
 
-4. find and doubleclick on the unzipped "bGeigieNano_V1.#.#_uploader.app", e.g. the current version "bGeigeiNano_V1.3.4_uploader.app".  The nano should soon power up with the new firmware version number displayed in the top line of splash screen "bGeigie Nano 1.#.#". If not, try again. (Report on devices group. Edit this wiki.)
+4. find and click on the unzipped file "bGeigieNano_V1.#.#_uploader.app", e.g. the current version "bGeigeiNano_V1.3.4_uploader.app".  The firmware will be flashed, loaded. The nano should soon power up with the new firmware version number displayed in the top line of splash screen "bGeigie Nano 1.#.#". If not, try again. 
+
+5. **general re-initialization** for GPS Reset
+
+(Report on devices group. Edit this wiki.)
 
 (Stay tuned to devices group for firmware changes, up and down, e.g. 8-Jan-2014, the 1.3.5 app uses 1.3.4 hex version because of version rollback of a data format change.)
 
