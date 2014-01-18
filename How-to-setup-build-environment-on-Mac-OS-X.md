@@ -70,19 +70,17 @@ Same instructions again in novice verbose mode, maybe more explicit steps:
 
 2. to download the uploader app: 
 
---on Mac, browse to the current executable zip file version  [[https://github.com/Safecast/bGeigieNanoKit/blob/master/bGeigeiNano_V1.3.5_uploader.app.zip]].  Click on executable file's [[view RAW btton|https://github.com/Safecast/bGeigieNanoKit/blob/master/bGeigeiNano_V1.3.5_uploader.app.zip?raw=true]] to download the app's executable self-opening zip file.
+--on Mac, browse to the current executable zip file version  [[https://github.com/Safecast/bGeigieNanoKit/blob/master/bGeigeiNano_V1.3.5_uploader.app.zip]].  Click on executable file's [[view RAW button|https://github.com/Safecast/bGeigieNanoKit/blob/master/bGeigeiNano_V1.3.5_uploader.app.zip?raw=true]] to download the app's executable self-opening zip file.
 
 --or, if browsing in [[the Nano firmware master repo|https://github.com/Safecast/bGeigieNanoKit/blob/master/]], first need to click once on the *.uploader.app.zip file to open executable file page to see the "view RAW" (download) button.
 
-3. to unzip the executable self-opening .app.zip file: find the downloaded app zip file on the mac, and click on it;
+3. click on the downloaded *.uploader.app.zip executable self-opening file to unzip the app;
 
-4. find and click on the unzipped file "bGeigieNano_V1.#.#_uploader.app", e.g. the current version "bGeigeiNano_V1.3.4_uploader.app".  The firmware will be flashed, loaded. The nano should soon power up with the new firmware version number displayed in the top line of splash screen "bGeigie Nano 1.#.#". If not, try again. 
+4. find and click on the unzipped file "bGeigieNano_V1.#.#_uploader.app" (e.g. the current version "bGeigeiNano_V1.3.4_uploader.app").  The firmware will be flashed or loaded. The nano should soon power up with the new firmware version number displayed in the top line of splash screen "bGeigie Nano 1.#.#". If not, try again. 
 
-5. **general re-initialization** for GPS Reset
+5. Go to **general re-initialization** for GPS Reset (at top).
 
-(Report on devices group. Edit this wiki.)
-
-(Stay tuned to devices group for firmware changes, up and down, e.g. 8-Jan-2014, the 1.3.5 app uses 1.3.4 hex version because of version rollback of a data format change.)
+(Stay tuned to devices group for firmware changes up and down, e.g. 8-Jan-2014, the 1.3.5 app uses 1.3.4 hex version because of version rollback of a data format change.)
 
 *The uploader app for Mac users was written by Rob Oudendijk and first posted on 3 Jan 2014 in devices thread [["Successful Nano build, need help w/ GPS, Mac connection"|https://groups.google.com/forum/?hl=en#!topic/safecast-devices/QgIqj7bMzQI]].*
 ----
