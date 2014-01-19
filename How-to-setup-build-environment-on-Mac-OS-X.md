@@ -61,18 +61,17 @@ From a terminal type the following commands,
 
 
 ## 1c) Use uploader app (Mac OS X)
-The Mac bGeigeiNano_V1.#.#_uploader.app.zip is in the [[Nano firmware master repo|https://github.com/Safecast/bGeigieNanoKit/blob/master/]], at the bottom of folder next to the current firmware hex file.  This uploader app will retrieve all the necessary software including the fdti driver. Steps: download; click on downloaded self-opening zip file to unzip it; find the unzipped app file and click on it to load the firmware. After build, do the *general re-initialization for GPS Reset* as stated at top.
+The bGeigeiNano_V1.#.#_uploader.app.zip is in the [[Nano firmware master repo|https://github.com/Safecast/bGeigieNanoKit/blob/master/]], at the bottom of folder next to the current firmware hex file.  This uploader app will retrieve all software necessary for the build including the fdti driver. Steps: download (via your current version number 1.#.#, e.g. [["view RAW" button|https://github.com/Safecast/bGeigieNanoKit/blob/master/bGeigeiNano_V1.3.5_uploader.app.zip?raw=true]]); click on downloaded self-opening zip file to unzip it; find the unzipped app file and click on it to load the firmware. After build, do the *general re-initialization for GPS Reset* as stated at top of page.
 
-
-Same instructions again in novice verbose mode, maybe more explicit steps:
+Same instructions again in novice verbose mode, explicit steps:
   
 1. with the nano power OFF: connect the FTDI breakout board 3.3V to your nano fio pins (as described in tutorials at top); connect a short-length usb cable to the miniUSB on breakout board and to USB on your Mac;
 
 2. to download the uploader app: 
 
---on Mac, browse to the current executable zip file version  [[https://github.com/Safecast/bGeigieNanoKit/blob/master/bGeigeiNano_V1.3.5_uploader.app.zip]].  Click on executable file's [[view RAW button|https://github.com/Safecast/bGeigieNanoKit/blob/master/bGeigeiNano_V1.3.5_uploader.app.zip?raw=true]] to download the app's executable self-opening zip file.
+--on Mac, browse to "bGeigeiNano_V1.#.#_uploader.app.zip" executable unzip file, e.g. the current version [[https://github.com/Safecast/bGeigieNanoKit/blob/master/bGeigeiNano_V1.3.5_uploader.app.zip]].  Click on executable file's [[view RAW button|https://github.com/Safecast/bGeigieNanoKit/blob/master/bGeigeiNano_V1.3.5_uploader.app.zip?raw=true]] to download the app's executable self-opening zip file.
 
---or, if browsing in [[the Nano firmware master repo|https://github.com/Safecast/bGeigieNanoKit/blob/master/]], first need to click once on the *.uploader.app.zip file to open executable file page to see the "view RAW" (download) button.
+--or, if browsing in [[the Nano firmware master repo|https://github.com/Safecast/bGeigieNanoKit/blob/master/]], first need to click once on the current *_V1.#.#.uploader.app.zip file to open executable file page to see the "view RAW" (download) button.
 
 3. click on the downloaded *.uploader.app.zip executable self-opening file to unzip the app;
 
@@ -83,6 +82,7 @@ Same instructions again in novice verbose mode, maybe more explicit steps:
 (Stay tuned to devices group for firmware changes up and down, e.g. 8-Jan-2014, the 1.3.5 app uses 1.3.4 hex version because of version rollback of a data format change.)
 
 *The uploader app for Mac users was written by Rob Oudendijk and first posted on 3 Jan 2014 in devices thread [["Successful Nano build, need help w/ GPS, Mac connection"|https://groups.google.com/forum/?hl=en#!topic/safecast-devices/QgIqj7bMzQI]].*
+
 ----
 ## 2) Linux
 *Although Linux users may not need a guide to load nano firmware, ftdichip.com has [[ftdi driver installation guides|http://www.ftdichip.com/Support/Documents/InstallGuides.htm]] including [[Linux|http://www.ftdichip.com/Support/Documents/AppNotes/AN_220_FTDI_Drivers_Installation_Guide_for_Linux%20.pdf]].*
