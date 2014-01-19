@@ -1,5 +1,4 @@
-#####**How to load Nano firmware upgrades & fixes (from filename "How to setup build environment on Mac OS X")**
-
+*"How to load Nano firmware upgrades & fixes" (from filename "How to setup build environment on Mac OS X")*
 - **1a. MAC - Build (from master by) yourself**
 - **1b. MAC - Use prebuild image**
 - **1c. MAC - Use uploader app**
