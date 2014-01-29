@@ -76,9 +76,10 @@
 1. Black Plastic 10mm long, (x.dim?)  HEXAGONAL STANDOFFS (x12)  
 2. Clear plastic SCREWS and NUTS, to fasten black standoffs (x??)
 3. various Stainless STEEL STANDOFFS, SCREWS AND NUTS, (for connecting boards  (x??) *--still to do this line*
+      (e.g. The two nuts used to secure the LED display to the Nano are size M2 nut.)
 4. TAPE, Double-sided Foam Tape (not thick, at least ?? length before division)
 5. PLASTIC SQUARE  (insulation to protect battery)
-6. CUT PANELS (3 cut plates: rear, middle, front)
+6. CUT PANELS (3 cut plates: rear, middle, front) *(link to laser cut specifications?)*
 7. Strap(s) for mounting
 8. Clear NEOPRENE FEET (runners or pads) (x8)
 
