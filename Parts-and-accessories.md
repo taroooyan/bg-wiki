@@ -81,7 +81,7 @@
 5. PLASTIC SQUARE  (insulation to protect battery)
 6. Strap(s) for mounting
 7. Clear NEOPRENE FEET (runners or pads) (x8)
-8. LASER CUT PANELS (3 cut plates: rear, middle, front) (see "Templates of laser cutter for plates" on http://blog.safecast.org/bgeigie-nano/)  -- *829/1/2014, still no link to templates. Meanwhile here's another picture of plates)*  [[http://www.jurgenwesterhoff.com/wp-content/uploads/Nano-feb.jpg]]
+8. LASER CUT PANELS (3 cut plates: rear, middle, front) (see "Templates of laser cutter for plates" on http://blog.safecast.org/bgeigie-nano/)  -- *29/1/2014, still no link to templates. Meanwhile here's another picture of plates)*  [[http://www.jurgenwesterhoff.com/wp-content/uploads/Nano-feb.jpg]]
 
 - - - - - 
 All Nano parts are available from suppliers. *(My guess: to buy all the parts retail would cost at least as much as the price of kit, even with the $75.00 donation to Safecast included in the distributor's [[bGeigie Nano Kit order|https://medcom.com/product/bgeigie-nano-geiger-counter-kit/]].-yw)*
