@@ -18,7 +18,6 @@
 * [[Adafruit Ultimate GPS|https://www.adafruit.com/products/746]]
 * [[Monochrome 128x32 SPI OLED graphic display|https://www.adafruit.com/products/661]]
 * [[2000mAh 3.7V 7.4Wh Lithium Polymer battery (Li-Po)| https://www.sparkfun.com/products/8483]]
-* [[Audio cable with 3.5mm jack (white bidirectional stereo)| http://store.apple.com/us/product/HA829ZM/A/belkin-35mm-retractable-stereo-cable-1-m33-ft?fnode=3a]]
 * [[Pelican 1010 micro-case|http://www.pelican.com/cases_detail.php?Case=1010]]: strong, tight, transparent plastic, crush proof, water resistant.
 
 
@@ -35,20 +34,18 @@
 6. 100   k Ohm , x1 ;  (R6)
 
 
-#####12 Small Parts *on the [[Small Parts Placement Guide|https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/v1.0r2_page1.jpg]]:*
+#####10 Small Parts *on the [[Small Parts Placement Guide|https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/v1.0r2_page1.jpg]]:*
 
 1.  Capacitors, 100nF Ceramic x3  (C1, C2, C3)
 2.  Diode 1N4148 
 3.  Dual-Dipswitch . 
-4.  iRover connector a.k.a. “triple connector”  *(Does this come with the Medcom IMI iRover HV board?)*
-5.  LED Blue  (Count)
-6.  LED Red (Log/alarm)
-7.  microUSB port for power charging  
-8.  Piezo Buzzer (B1)
-9.  Push button (S5)
-10.  Switch on/off  (power)
-11.  Toggle Switch  (mode)
-12.  Transistor 2sc1815 (T1)
+4.  LED Blue  (Count)
+5.  LED Red (Log/alarm)
+6.  Piezo Buzzer (B1)
+7.  Push button (S5)
+8.  Switch on/off  (power)
+9.  Toggle Switch  (mode)
+10.  Transistor 2sc1815 (T1)
 
 #####Additional small part(s)
 13. Audio port connector 3.5 mm 
