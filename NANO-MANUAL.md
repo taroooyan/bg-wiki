@@ -494,8 +494,8 @@ This completes the basic test. The following steps describe additional tests:
 
 ***KIT ORDER FULFILLMENT:*** to request missing/replacement kit part(s) by air mail, contact info@safecast.org, as given in contacts on the safecast.org home page. (If you're in a hurry, search your local and web DIY electronics sources, e.g. [[sparkfun|https://www.sparkfun.com/categories]].) See the [[Parts List|https://github.com/Safecast/bGeigieNanoKit/wiki/Parts-and-accessories]] (wiki page draft).
 
-***DISTRIBUTOR:*** [[Medcom bGeigie Nano Kit|http://medcom.com/radiation-monitors/geiger-counters/bgeigie-kit/]].
-(Alternatively you can acquire parts separately and source your own kit. All parts are available off the shelf. A purple-color [[bGeigie Nano PCB|http://blog.safecast.org/2013/09/bgeigie-nano-pcb-available-now/]] is available at [[OSH PARK|http://oshpark.com/shared_projects/EElEjLq3]]. The [[IMI iRover board and LND 7317 GM tube|http://nanoxpress.com/nano-parts-accessories/]] are available at [[IMI Medcom|http://medcom.com/contact-international-medcom/]]. See [[Parts and accessories|https://github.com/Safecast/bGeigieNanoKit/wiki/Parts-and-accessories]].)
+***DISTRIBUTOR:*** [[Medcom bGeigie Nano Kit|http://medcom.com/radiation-monitors/geiger-counters/bgeigie-kit/]]. As of 7 Mar 2014, the Nano Kit is also available through [[Amazon|http://bit.ly/bgeigie]] from Geiger Counters. 
+Alternatively you can acquire parts separately and source your own kit. All parts are available off the shelf. A purple-color [[bGeigie Nano PCB|http://blog.safecast.org/2013/09/bgeigie-nano-pcb-available-now/]] is available at [[OSH PARK|http://oshpark.com/shared_projects/EElEjLq3]]. The [[IMI iRover board and LND 7317 GM tube|http://nanoxpress.com/nano-parts-accessories/]] are available at [[IMI Medcom|http://medcom.com/contact-international-medcom/]]. See [[Parts and accessories|https://github.com/Safecast/bGeigieNanoKit/wiki/Parts-and-accessories]].
 
 ***CONGRATULATIONS!*** Report your build in the Devices discussion group. Help in Safecast efforts. Make good, safe use of this new tool. Enjoy!
 
