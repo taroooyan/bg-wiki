@@ -84,7 +84,7 @@ For those sourcing their own parts: open [[Templates for laser cutter|https://gi
   
 
 - - - - - 
-All Nano parts are available from suppliers. *(My guess: to buy all the parts retail would cost at least as much as the price of kit, even with the $75.00 donation to Safecast included in the distributor's [[bGeigie Nano Kit order|https://medcom.com/product/bgeigie-nano-geiger-counter-kit/]].-yw)*
+All Nano parts are available from suppliers. *(My guess: to buy all the parts retail would cost at least as much as the price of kit, which includes $75.00 donation to Safecast in the distributor Medcom's [[bGeigie Nano Kit order|https://medcom.com/product/bgeigie-nano-geiger-counter-kit/]]. As of 7 Mar 2014, the Nano Kit is also available through [[Amazon|http://bit.ly/bgeigie]] from Geiger Counters, at $450.00 + $5.49 shipping in USA.)*
 
 ***
 
