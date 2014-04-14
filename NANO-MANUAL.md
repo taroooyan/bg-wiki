@@ -6,7 +6,7 @@
 #### bGeigie Nano kit assembly instructions, v5c (revised Oct 8, 2013)
 To the new users of the bGeigie Nano, congratulations and welcome to the Safecast community. We're happy to be able to deliver this high-performance geiger counter with GPS logging and memory, which has been developed and field-tested by Safecast volunteers. 
 
-The kit format allows for cost savings and for DIY learning. The assembly can take as little as 3-4 hours depending on electronics skill and experience level. This assembly manual is for all users including novices. So we are trying to make these instructions clear, graphic and explicit. For some we're explaining the obvious, for others this still may not be helpful enough. If you're very experienced at assembling electronic devices, feel free to modify the order of the steps. 
+The kit format allows for cost savings and for DIY learning. The assembly can take as little as 3-4 hours depending on electronics skill and experience level, but beginners should probably allot about 8 hours. This assembly manual is for all users including novices, so we are trying to make these instructions clear, graphic and explicit. For some we're explaining the obvious, for others this still may not be helpful enough. If you're very experienced at assembling electronic devices, feel free to modify the order of the steps. 
 
 **For Nano SUPPORT**: catch-all landing page [[http://nano.safecast.org/]]; these community-edited [[nano wiki pages|https://github.com/Safecast/bGeigieNanoKit/wiki/_pages]]; the links on the home page of Safecast website http://blog.safecast.org/;  the [[Safecast Devices Discussions and Support group|https://groups.google.com/forum/?hl=en#!forum/safecast-devices]]. Contact info@safecast.org. 
 
@@ -17,7 +17,7 @@ The kit format allows for cost savings and for DIY learning. The assembly can ta
 
 
 #### BEFORE YOU START: 
-The LND_7317 pancake sensor is very delicate, although it looks robust. It has a thin mylar covering on one face, inside of which there is a partial vacuum. The mylar is easily punctured, rendering the tube useless. Since it's the single most expensive component, it would be a shame to trash it. Please handle it carefully! May we recommend that you leave it in the box until you're ready to attach it? (That would be Step 04.) And as with any work, before you start take time to gather tools, clear space, read the manual and turn off distractions. The assembly is not difficult but there are little details to pay attention to. Take a breath and enjoy the build.
+The LND_7317 pancake sensor is very delicate, although it looks robust. It has a thin mylar covering on one face, inside of which there is a partial vacuum. The mylar is easily punctured, rendering the tube useless. Since it's the single most expensive component, it would be a shame to trash it. Please handle it carefully! We recommend that you leave it in the box until you're ready to attach it. (That would be Step 04.) And as with any work, before you start take time to gather tools, clear space, read the manual and turn off distractions. The assembly is not difficult but there are little details to pay attention to. Take a breath and enjoy the build.
 
 #### WARNINGS: 
 Solder iron temperature should be about 200-350 degrees Celsius (400-650 degrees Fahrenheit). We hate to be a nanny, but smoke from solder is dangerous for your health, so work in a well-ventilated area please. Wear safety glasses when cutting off leads. They become needle-like projectiles that could blind you or your cat. Do not puncture the Li-Po battery. Be gentle with the kit. Some of the components are fragile, e.g. it's possible to break the wire leads from the battery accidentally. 
@@ -39,7 +39,7 @@ ___
 Open the well packed parcel. Identify, count and check the parts (against the three Placement Diagrams, relevant photos in this manual, and [[kit contents wiki page|https://github.com/Safecast/bGeigieNanoKit/wiki/Parts-and-accessories]] [soon]).  If part(s) are missing or damaged (e.g. battery wires, component connectors and pins did not break or get folded), see the Kit Order Fulfillment (at end of manual) and Support addresses (at top of manual). 
 
 ####POLARITY NOTE: 
-What is polarity and why should you care? Basically, several types of electronic components are designed to work with the current ﬂowing in one set direction only, while others can work either way. Putting a component that has polarity in the wrong way will usually only prevent the device from working properly, but in some circumstances it could fry a few things as well. So make sure! 
+What is polarity and why should you care? Basically, several types of electronic components are designed to work with the current ﬂowing in one set direction only, while others can work either way. Putting a component that has polarity in the wrong way will usually only prevent the device from working properly, but in some circumstances it could fry a few things as well. So make sure your components are oriented correctly! 
 
 ---
 ***
@@ -47,9 +47,9 @@ What is polarity and why should you care? Basically, several types of electronic
 (https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/overviewpics/bGeigie Nano manual v5.3big_Page_03_Image_0002.jpg)
 
 ##STEP 01: MAIN BOARD 
-Almost all the components get attached to the main board, so itʼs a good place to start. Weʼve arranged the assembly steps in a logical order as based on our experience. Of course you can change the order of some steps. Most questions can be resolved by referring to the three large diagrams, the Large Parts, Small Parts and Back Parts placement diagrams on pp. 4, 9, and 11. (A paper printout of these diagrams can be handy.)
+Almost all the components get attached to the main board, so itʼs a good place to start. Weʼve arranged the assembly steps in a logical order as based on our experience. Of course you can change the order of some steps. Most questions can be resolved by referring to the three large diagrams, the Large Parts, Small Parts and Back Parts placement diagrams in step 01-1 and 01-2. (A paper printout of these diagrams can be handy.)
 
-While we suggest starting from components that lie close to the board before the higher ones, the order of assembly is partly a matter of preference. Similarly some builders place all the components and then solder them, others place and solder each in turn as they go.
+While we suggest starting from components that lie close to the board before the taller ones, the order of assembly is partly a matter of preference. Similarly, some builders place all the components first and then solder them, others place and solder each in turn as they go.
 
 To begin and to make handling easier, attach 4 black plastic standoffs through the holes in the corners of the main board ﬁrst. At each corner, insert a 10mm standoff from the upper face of the board, then screw corresponding 8mm one to it from the bottom. (Relevant photos: see the standoffs in the 4 corners of the panels in the finished product.)
 
