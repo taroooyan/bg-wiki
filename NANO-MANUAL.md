@@ -91,9 +91,9 @@ All of these will go on the main board. Place and solder them, nipping off the l
 * Black or yellow push button switch: goes in the "Fn" spot. (Formerly this had two long angled leads and two short which were to be mounted in the holes that are set back from the edge of the board. Now shipped with four identical short legs. The leads can be bent so the switch lays ﬂat if desired.)  [Function: user assignable, optional, currently without use. ("Feel free to add code for custom function".)]
 
 **Audio:** there are two items, but only one goes in now: 
-* NOW: Piezo buzzer: Goes in the large circular spot in the upper left quadrant of the main board, and has {MISSING SOME TEXT HERE?}
+* NOW: Piezo buzzer: Goes in the large circular spot in the upper left quadrant of the main board, and has two leads.  It can go in any orientation.
 
-* LATER: Audio jack: This is actually for sending click data to an external device, such as an iPhone. Itʼs best to wait until the next step, *“Headers and Breakouts”* for this. 
+* LATER and OPTIONAL (no longer included): Audio jack: This is actually for sending click data to an external device, such as an iPhone. If you have obtained one yourself, itʼs best to wait until the next step, *“Headers and Breakouts”* for this. 
 
 ***
 ***
