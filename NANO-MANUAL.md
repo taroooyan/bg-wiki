@@ -17,7 +17,7 @@ The kit format allows for cost savings and for DIY learning. The assembly can ta
 
 
 #### BEFORE YOU START: 
-The LND_7317 pancake sensor is very delicate, although it looks robust. It has a thin mylar covering on one face, inside of which there is a partial vacuum. The mylar is easily punctured, rendering the tube useless. Since it's the single most expensive component, it would be a shame to trash it. Please handle it carefully! We recommend that you leave it in the box until you're ready to attach it. (That would be Step 04.) And as with any work, before you start take time to gather tools, clear space, read the manual and turn off distractions. The assembly is not difficult but there are little details to pay attention to. Take a breath and enjoy the build.
+The LND_7317 pancake sensor is very delicate, although it looks robust. It has a thin mica covering on one face, inside of which there is a partial vacuum. The mica is easily punctured, rendering the tube useless. Since it's the single most expensive component, it would be a shame to trash it. We recommend that you leave it in the box until you're ready to attach it (as described in Step 04). And as with any work, before you start take time to gather tools, clear space, read the manual and turn off distractions. The assembly is not difficult but there are little details to pay attention to. Take a breath and enjoy the build.
 
 #### WARNINGS: 
 Solder iron temperature should be about 200-350 degrees Celsius (400-650 degrees Fahrenheit). We hate to be a nanny, but smoke from solder is dangerous for your health, so work in a well-ventilated area please. Wear safety glasses when cutting off leads. They become needle-like projectiles that could blind you or your cat. Do not puncture the Li-Po battery. Be gentle with the kit. Some of the components are fragile, e.g. it's possible to break the wire leads from the battery accidentally. 
@@ -36,7 +36,7 @@ ___
 (https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/assembly.jpg)
 
 ##STEP 00: SORT AND CHECK PARTS 
-Open the well packed parcel. Identify, count and check the parts (against the three Placement Diagrams, relevant photos in this manual, and [[kit contents wiki page|https://github.com/Safecast/bGeigieNanoKit/wiki/Parts-and-accessories]] [soon]).  If part(s) are missing or damaged (e.g. battery wires, component connectors and pins did not break or get folded), see the Kit Order Fulfillment (at end of manual) and Support addresses (at top of manual). 
+Open the well packed parcel. Identify, count and check the parts (against the three Placement Diagrams, relevant photos in this manual, and [[kit contents wiki page|https://github.com/Safecast/bGeigieNanoKit/wiki/Parts-and-accessories]]).  If parts are missing or damaged (e.g. battery wires, component connectors and pins did not break or get folded), see the Kit Order Fulfillment (at end of manual) and Support addresses (at top of manual). 
 
 ####POLARITY NOTE: 
 What is polarity and why should you care? Basically, several types of electronic components are designed to work with the current ﬂowing in one set direction only, while others can work either way. Putting a component that has polarity in the wrong way will usually only prevent the device from working properly, but in some circumstances it could fry a few things as well. So make sure your components are oriented correctly! 
@@ -111,9 +111,9 @@ This is how the main board should look with all the small components installed:
 ![]
 (https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/wiki_small_components_4.jpg)
 
-The "headers" are long black components with pins or legs. They are provided in several types and lengths of rows, several which you cut to size with a pair of wire-cutters. They are used for attaching the breakouts to the board. (The breakouts in the kit include the OLED display, the Arduino Fio, the GPS module, the OpenLog memory unit and the audio connector. Their installation is detailed below, further along in this manual. Breakouts sometimes are called “daughter boards” or “shields”.) Most of the headers go on the front face of the main board, but two go on the backside as discussed below. Refer to the placement guides. 
+The "headers" are long black components with pins or legs. They are provided in several types and lengths of rows, several which need to be cut to the proper size (wire-cutters work well for this). They are used for attaching the breakouts to the board. (The breakouts in the kit include the OLED display, the Arduino Fio, the GPS module, and the OpenLog memory unit (and the audio connector as well if you're installing one). Their installation is detailed below, further along in this manual. Breakouts sometimes are called “daughter boards” or “shields”.) Most of the headers go on the front face of the main board, but two go on the backside as discussed below. Refer to the placement guides. 
 
-Be careful when cutting the long headers to length. Refer to  Fig.# Large Parts Placement Guide guide and to their relevant photos in this Manual. Cutting is done easily with fingernail clippers, but is also possible by scoring with a knife and snapping them off. Some people prefer to cut all of them to length ﬁrst, some like to cut them as needed.
+Be careful when cutting the long headers to length. Refer to  Fig.# Large Parts Placement Guide guide and to their relevant photos in this Manual. As mentioned above, cutting is done easily with wire-cutters, but is also possible by scoring with a knife and snapping them off. Some people prefer to cut them all to length ﬁrst, some prefer to cut them as needed.
 
 For a list of the headers in the kit before their division, see [[Parts and accessories|https://github.com/Safecast/bGeigieNanoKit/wiki/Parts-and-accessories]] wiki page. Of the following 5 header rows, the first 4 long rows are to be divided as follows:
 
