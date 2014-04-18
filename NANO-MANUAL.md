@@ -36,7 +36,7 @@ ___
 (https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/assembly.jpg)
 
 ##STEP 00: SORT AND CHECK PARTS 
-Open the well packed parcel. Identify, count and check the parts against the "kitting parts list" which should be included in the kit package. Also check them against the three placement diagrams in this manual, relevant photos, and the [[kit contents wiki page|https://github.com/Safecast/bGeigieNanoKit/wiki/Parts-and-accessories]].  If parts are missing or damaged, see the Kit Order Fulfillment (at end of manual) and Support addresses (at top of manual). 
+The parts are packed in several smaller bags. Identify, count and check the parts against the "kitting parts list" which should be included in the kit package. Also check them against the three placement diagrams in this manual, relevant photos, and the [[kit contents wiki page|https://github.com/Safecast/bGeigieNanoKit/wiki/Parts-and-accessories]].  If parts are missing or damaged, see the Kit Order Fulfillment (at end of manual) and Support addresses (at top of manual). 
 
 ####POLARITY NOTE: 
 What is polarity and why should you care? Basically, several types of electronic components are designed to work with the current ﬂowing in one set direction only, while others can work either way. Putting a component that has polarity in the wrong way will usually only prevent the device from working properly, but in some circumstances it could fry a few things as well. So make sure your components are oriented correctly! 
@@ -91,12 +91,14 @@ LEDs have polarity and must go in the proper orientation. One lead is longer tha
 
 * Shift switch (S1): goes in spot "S1." It has 3 leads which need to be soldered in place, plus 2 pins on the aluminum case which need to be nipped off. The 3 leads go in the 3 center holes in the board; the two outer holes are unused. (You could try ﬁling the aluminum case pins down enough to ﬁt in these holes, but it's secure enough attached by just the 3 leads.) [Function: "0 power 1"] 
 
-* Push button switch: goes in the "Fn" spot. (Early versions of the kit had two leads; now shipped with four short legs.)  [Function: user assignable, optional, currently without use. ("Feel free to add code for custom function".)]
+* Push button switch: goes in the "Fn" spot. (Early versions of the kit had two leads; now shipped with four short legs.The actual color varies based on what is available.)  [Function: user assignable, optional, currently without use. ("Feel free to add code for custom function".)]
 
 **Audio:** there are two items, but only one goes in now: 
 * NOW: Piezo buzzer: Goes in the large circular spot in the upper left quadrant of the main board, and has two leads.  It can go in any orientation.
 
 * LATER and OPTIONAL (no longer included): Audio jack: This is actually for sending click data to an external device, such as an iPhone. If you have obtained one yourself, itʼs best to wait until the next step, *“Headers and Breakouts”* for this. 
+(This part can be ordered from Sparkfun as part # 11570 : TRRS 3.5mm Jack Breakout)
+https://www.sparkfun.com/products/11570
 
 ***
 ***
@@ -114,23 +116,25 @@ This is how the main board should look with all the small components installed:
 ![]
 (https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/wiki_small_components_4.jpg)
 
-The "headers" are long black components with pins or legs. They are provided in several types and lengths of rows, several which need to be cut to the proper size (wire-cutters work well for this). They are used for attaching the breakouts to the board. (The breakouts in the kit include the OLED display, the Arduino Fio, the GPS module, and the OpenLog memory unit (and the audio connector as well if you're installing one). Their installation is detailed below, further along in this manual. Breakouts sometimes are called “daughter boards” or “shields”.) Most of the headers go on the front face of the main board, but two go on the backside as discussed below. Refer to the placement guides. 
+The "headers" are long black components with pins or legs. They are provided in several types and lengths of rows, several which need to be cut to the proper size (wire-cutters work well for this). They are used for attaching the breakouts to the board. The breakouts in the kit include what's needed for the OLED display, the Arduino Fio, the GPS module (a 9-pin male header for this should be in the same bag), and the OpenLog memory unit (there should be enough for the audio connector as well if you're installing one). Their installation is detailed further below. Breakouts sometimes are called “daughter boards” or “shields”. Most of the headers go on the front face of the main board, but two go on the backside as discussed below. Refer to the placement guides. 
 
-Be careful when cutting the long headers to length. Refer to  Fig.# Large Parts Placement Guide guide and to their relevant photos in this Manual. As mentioned above, cutting is done easily with wire-cutters, but is also possible by scoring with a knife and snapping them off. Some people prefer to cut them all to length ﬁrst, some prefer to cut them as needed.
+Be careful when cutting the long headers to length. Refer to the Large Parts Placement Guide guide and to the relevant photos in this Manual. As mentioned above, cutting is done easily with wire-cutters, but is also possible by scoring with a knife and snapping them off. Some people prefer to cut them all to length ﬁrst, some prefer to cut them as needed.
 
-For a list of the headers in the kit before their division, see [[Parts and accessories|https://github.com/Safecast/bGeigieNanoKit/wiki/Parts-and-accessories]] wiki page. Of the following 5 header rows, the first 4 long rows are to be divided as follows:
+The long headers included in the kit need to be cut to length as follows:
 
-* One 40-pin (or “leg”) length, straight, male header. Cut this row into four pieces to mount the Arduino Fio (14-pin and 8-pin), the GPS (9-pin) and the OpenLog memory unit (6-pin).
+* One 40-pin (or “leg”) length, straight, male header: Cut this into four pieces to mount the Arduino Fio (14-pin and 8-pin), the OpenLog memory unit (6-pin), and the GPS (9-pin) if necessary (i.e., you can't find a 9-pin length in the GPS bag) 
 
-* One 19-pin length, male header. Cut one (1x) 4-pin length for mounting the audio out jack which will be attached on the back side of the main board. Also cut four (x4) 2-pin lengths from this row.
+* One 20-pin length, male header:  Cut four (x4) 2-pin lengths from this row; these are also needed for the Arduino FIO. (OPTIONAL: Cut one (1x) 4-pin length for mounting an audio out jack, which will be attached on the back side of the main board).
 
-* One 10-pin length, angled, male header: Cut this row into a 6-pin length which will be attached to the Arduino Fio for connecting to an external cable for loading ﬁrmware, etc. From the remainder of the row cut a 3-pin length which will be attached to the backside of the board as part of the “triple connector.”
+* One 10-pin length, angled, male header: Cut a 6-pin length, which will be attached to the Arduino Fio for connecting to an external cable for loading ﬁrmware, etc.. From the remainder cut a 3-pin length which will be attached to the backside of the board as part of the “triple connector.”
 
-* One 6-pin length, female header: Cut one 3-pin length to use for connecting the iRover cable to the triple connector (see Step 02)
+* One 8-pin length male header: One should be included in the OLED bag, and an extra with the other parts.  Use as-is for mountimg the OLED.
 
-* One 8-pin length, female header: to be used for mounting the OLED display. (not divided)
+* One 8-pin length, female header: also used for mounting the OLED display. (It should already be the right length, no need to cut it)
 
-The short pins of the headers usually go in the holes in the board and the long ones project above and are soldered to the breakouts. To visualize the fit of the parts, study the relevant photos and diagrams and the parts.  The breakout board as its own placement aid. Also we advise soldering the pins at each end ﬁrst, and then checking to make sure the header is perpendicular and properly aligned before soldering the rest.
+* One 3-pin length, female header: Use as-is for connecting the iRover cable to the triple connector (see Step 02)
+
+The male headers have long pins on one side and short pins on the other. In most cases they can go either way, but we advise orienting the so the short pins will go in the holes on the main board and the long ones project above, to be soldered to the breakouts. To visualize the fit of the parts, study the relevant photos and diagrams and the parts, and do a few dry test fits each way to see. The breakout boards can usually be used as placement aids for the headers. Also we advise soldering the pins at each end ﬁrst, and then checking to make sure the header is perpendicular and properly aligned before soldering the rest.
 
 **NOTE:** It's possible to either solder the headers to the main board ﬁrst, and then to each of the breakouts, or attach them to the breakouts ﬁrst and then to the main board. We've found it easier to attach them to the main board ﬁrst, and these instructions describe that method. Installation order is not critical, but because of the heights and placement of the breakouts, we recommend following the sequence weʼve laid out. 
 
