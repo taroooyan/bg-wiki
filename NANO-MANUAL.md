@@ -97,7 +97,7 @@ LEDs have polarity and must go in the proper orientation. One lead is longer tha
 * NOW: Piezo buzzer: Goes in the large circular spot in the upper left quadrant of the main board, and has two leads.  It can go in any orientation.
 
 * LATER and OPTIONAL (no longer included): Audio jack: This is actually for sending click data to an external device, such as an iPhone. If you have obtained one yourself, itʼs best to wait until the next step, *“Headers and Breakouts”* for this. 
-(This part can be ordered from Sparkfun as part # 11570 : TRRS 3.5mm Jack Breakout)
+(This part can currently be ordered from Sparkfun as part # 11570 : TRRS 3.5mm Jack Breakout)
 https://www.sparkfun.com/products/11570
 
 ***
@@ -116,13 +116,13 @@ This is how the main board should look with all the small components installed:
 ![]
 (https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/wiki_small_components_4.jpg)
 
-The "headers" are long black components with pins or legs. They are provided in several types and lengths of rows, several which need to be cut to the proper size (wire-cutters work well for this). They are used for attaching the breakouts to the board. The breakouts in the kit include what's needed for the OLED display, the Arduino Fio, the GPS module (a 9-pin male header for this should be in the same bag), and the OpenLog memory unit (there should be enough for the audio connector as well if you're installing one). Their installation is detailed further below. Breakouts sometimes are called “daughter boards” or “shields”. Most of the headers go on the front face of the main board, but two go on the backside as discussed below. Refer to the placement guides. 
+The "headers" are long black components with pins or legs. They are provided in several types and lengths of rows, several which need to be cut to the proper size (wire-cutters work well for this). They are used for attaching the breakouts to the board. The breakouts in the kit include what's needed for the OLED display, the Arduino Fio, the GPS module (a 9-pin male header for this should be in the GPS module bag), and the OpenLog memory unit (there should be enough for the audio connector as well if you're installing one). Their installation is detailed further below. Breakouts sometimes are called “daughter boards” or “shields”. Most of the headers go on the front face of the main board, but two go on the backside as discussed below. Refer to the placement guides. 
 
 Be careful when cutting the long headers to length. Refer to the Large Parts Placement Guide guide and to the relevant photos in this Manual. As mentioned above, cutting is done easily with wire-cutters, but is also possible by scoring with a knife and snapping them off. Some people prefer to cut them all to length ﬁrst, some prefer to cut them as needed.
 
 The long headers included in the kit need to be cut to length as follows:
 
-* One 40-pin (or “leg”) length, straight, male header: Cut this into four pieces to mount the Arduino Fio (14-pin and 8-pin), the OpenLog memory unit (6-pin), and the GPS (9-pin) if necessary (i.e., you can't find a 9-pin length in the GPS bag) 
+* One 40-pin (or “leg”) length, straight, male header: Cut this into four pieces to mount the Arduino Fio (14-pin and 8-pin), the OpenLog memory unit (6-pin), and the GPS (9-pin) if necessary (i.e., you can't find a 9-pin length in the GPS module bag) 
 
 * One 20-pin length, male header:  Cut four (x4) 2-pin lengths from this row; these are also needed for the Arduino FIO. (OPTIONAL: Cut one (1x) 4-pin length for mounting an audio out jack, which will be attached on the back side of the main board).
 
@@ -155,9 +155,9 @@ Although most of the headers and breakouts get attached to the front of the main
 ![]
 (https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/overviewpics/bGeigie Nano manual v5.3big_Page_10_Image_0002.jpg)
 
-**Audio Out jack **
+**OPTIONAL: Audio Out jack **
 (This is for connecting an audio cable to an iPhone or other device)
-* Solder a 4-pin male header to the holes marked “audio out.” This means inserting the header from the backside and soldering the pins from the front face. 
+* Solder a 4-pin male header to the holes marked “audio out.” This means inserting the header from the backside and soldering the short pins from the front face. 
 * Attach a thin piece of double-sided foam tape to the black plastic jack housing, and use it to hold the jack in place on the board. Double-check the orientation to make sure itʼs the same as in the photo!
 * Solder the four header pins to the audio jack. 
 * The audio connector might bump against a few of the OLED breakout pins on the rear of the main board; it's probably best to snip those pins off or file them down. 
@@ -168,24 +168,24 @@ Although most of the headers and breakouts get attached to the front of the main
 ##STEP 01-2: HEADERS and BREAKOUTS, contʼd: 
 ####FRONTSIDE 
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/overviewpics/bGeigie Nano manual v5.3big_Page_12_Image_0002.jpg)
-(Place of Fio on PCB)
+(Location of the Fio on PCB)
 
 **Arduino Fio:** The Arduino Fio is a microcontroller board based on the Atmel AVR ATmega328P microcontroller. This is the programmable brain of the Nano. (Fio is the name of this version of Arduino board. FIO also stands for Funnel Input/Output. For background, see the [[Fio home page|http://arduino.cc/en/Main/ArduinoBoardFio]] on the [[arduino.cc website|http://arduino.cc/]]; also see the [[Sparkfun page|https://www.sparkfun.com/products/10116]] and [[wikipedia table of Arduinos|http://en.wikipedia.org/wiki/List_of_Arduino_boards_and_compatible_systems]].) 
  
 NOTE: It has a small switch on the bottom side which should be turned OFF before soldering! 
+* There are four pairs of holes in the main board labeled CHG, BATT, SW, and DTR-CTS. Each gets a 2pin male header. Make sure you install these before you solder the the Fio to the board 
 *  A 14-pin length of male header goes on the left side of the Fio outline on the main board. 
 *  An 8-pin length of male header goes on the upper right side of the Fio outline. 
 *  A 6-pin length of angled male header goes on the Fio itself, in the row of holes beginning with GNDBLK and ending with DTR GRN. It is inserted from the top and soldered on the bottom (see photo). This is used to connect the Fio to a computer for programming. 
-* There are four pairs of holes in the main board labeled CHG, BATT, SW, and DTR-CTS. Each gets a 2pin male header. Make sure you install these before you solder the the Fio to the board 
 * You can go ahead and solder the header pins to the top of the Fio now, or wait until all the headers are in place to solder the breakouts. You can use the Fio itself as an alignment guide to position the headers on the board properly. Soldering the end pins ﬁrst makes it easier to be sure everything is properly aligned. 
 
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/overviewpics/bGeigie Nano manual v5.3big_Page_12_Image_0001.jpg)
 
-caption: Proper location of the angled male header on the Fio. 
+Proper location of the angled male header on the Fio-- note it is inserted from the top!
 
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/fio_placement.jpg)
 
-caption: Using the Fio as an alignment guide for the headers.
+Using the Fio as an alignment guide for the headers.
 
 ***
 ***
@@ -197,7 +197,7 @@ caption:Placement of GPS.
 
 **GPS:** 
 (Global Positioning System receiver, which makes it possible to precisely locate where a reading was taken) 
-* A 9-pin length of male header goes into the holes at the top of the "GPS" spot on the main board.
+* A 9-pin length of male header (included in the GPS module bag) goes into the holes at the top of the "GPS" spot on the main board.
 * It's helpful to attach the GPS board with two 5mm stainless steel standoffs (long hex nuts), using two stainless steel screws and two nuts, to help keep the header properly positioned while soldering it.
 * Leaving the standoffs in place, solder the 9 pins to the top of the GPS breakout. 
 * NOTE:  The GPS unit comes with a metal battery clip. It's not needed, and in fact can cause problems if it's installed, so it's best to ignore it.
@@ -206,7 +206,8 @@ caption:Placement of GPS.
 (This writes the data to a micro-SD card) 
 * A 6-pin length of male header goes into the 6 holes at the top of the "OPEN LOG" spot on the main board; the long pins should be facing up with the OpenLog breakout held flat against the foam tape on the board.
 * Foam tape needs to be put on the main board beneath the OpenLog. This helps secure it, and prevents the microSD card from accidentally being inserted into the space between the logger and the main board. Also very importantly, it will insulate the metal face of the OpenLog from the pins of the 3-pin angled connector attached to the bottom of the mainboard, and prevent it from shorting! 
-* Once the OpenLog is secured with foam tape, solder the 6 pins of the header to the OpenLog from above. (The microSD card is inserted into the microSD slot with the card's gold terminals facing up. Gently push the card in until it clicks into place.)
+* Once the OpenLog is secured with foam tape, solder the 6 pins of the header to the OpenLog from above (the other 4-holes remain unused).
+ (The microSD card is inserted into the microSD slot with the card's gold terminals facing up. Gently push the card in until it clicks into place.)
 
 
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/back_headers_top.jpg)
@@ -226,7 +227,7 @@ caption: Placement of OpenLog, in relation to GPS breakout.
 **OLED display:** 
 (Organic Light-Emitting Diode display) There's more than one way to do this, but this is the method that has worked best for us: 
 * Solder the 8-pin female header to the holes on the main board at the top of the "LCD" spot (the leftmost one is marked DATA). 
-* Insert the long pins of an 8-pin male header into the female header, and attach the OLED board to the main board using two 10mm stainless steel standoffs, screws, and nuts. Screw a nut to each standoff ﬁrst before placing the display on top of them which brings the OLED to its proper height. Care is needed in attaching the remaining two nuts as not many threads of the standoff will protrude above the OLED then. 
+* Insert the long pins of an 8-pin male header (included with the OLED module) into the female header, and attach the OLED board to the main board using two 10mm stainless steel standoffs, screws, and nuts. Screw a nut to each standoff ﬁrst before placing the display on top of them which brings the OLED to its proper height. Care is needed in attaching the remaining two nuts as not many threads of the standoff will protrude above the OLED then. 
 * Solder the 8-pin male header to the OLED board from the top. The display will be easily removable. 
 
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/lcd_header_placement.jpg)
@@ -253,25 +254,25 @@ Now is a good time to do a test powerup. See **“TEST RUN and DIAGNOSTICS”** 
 
 ####TRIPLE CONNECTOR : 
 (This is for connecting 3 wire leads from the iRover to the main board) 
-* Cut 3 wires to about 8 cm length, and strip both ends to leave about 5mm exposed. (The red will be positive, the black negative, and the green or yellow in the middle). Tin the ends with solder to make the next steps easier. A “third hand” will deﬁnitely make these steps easier! 
+* Cut 3 wires to about 8 cm length, and strip both ends to leave about 5mm exposed. Tin the ends with solder to make the next steps easier. A “third hand” will deﬁnitely make these steps easier! 
 
 
 
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/iRover_wiring.jpg)
 
-* Solder all three wires to the gold thin gold posts on the iRover. Make sure theyʼre attached in the conﬁguration shown in the picture. Itʼs easier if you bend the exposed end of the wire into a “U” shape and hook it around the post. 
+* Solder all three wires to the gold thin gold posts on the iRover. The wires may be different colors than shown in the photo; the important thing is to keep track of which one is connected to the positive post, which to the negative, and which to the middle. Make sure theyʼre attached in the conﬁguration shown in the picture. Itʼs easier if you bend the exposed end of the wire into a “U” shape and hook it around the post. 
 
 
 
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/iRover_headers.jpg)
 
-* Cut a 3-pin length of female header (there should be a 6-pin female header available for this at this point). Solder the other ends of the three wires to the header pins. Again, make sure theyʼre in the right order: red on one side, green in the middle, and black on the other side. 
+* Cut a 3-pin length of female header (there should be a 6-pin female header available for this at this point). Solder the other ends of the three wires to the header pins. Make sure the colors match the way you've attached them to the iRover.. 
 
 
 
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/attaching_iRover.jpg)
 
-* The 3-pin female header will be a socket for connecting the wires to the triple-connector attached to the backside of the main board earlier (labeled “JP1”). When you connect it, make sure itʼs oriented so the red wire connects to the positive pin, the black to the negative, and the green or yellow in the middle. Itʼs designed to be easily detachable, so you can connect it now, or wait until the following step. 
+* The 3-pin female header will be a socket for connecting the wires to the triple-connector attached to the backside of the main board earlier (labeled “JP1”). When you connect it, make sure the wire colors are oriented correctly. Itʼs designed to be easily detachable, so you can connect it now, or wait until the following step. 
 
 
 ***
@@ -301,17 +302,21 @@ caption: iRover installed in proper orientation.
 * Now is a good time to attach the front plate (the one with the SAFECAST logo, which covers the front side of the main board). Use plastic screws through the four holes in the corner to attach it to the black plastic standoffs. Use pliers to tighten all the standoffs. 
 ***
 ***
-##STEP 03: BATTERY 
-This battery is a 2000mAh 3.7V Lithium Polymer (Li-Po, Li-Poly). Attention: the battery is encased in a mylar membrane. If punctured, the battery can be hazardous. Handle carefully!  The battery's red and black wires may be reinforced with electrical insulation tape to prevent their falling off or being pulled out. (Some say DIY reattaching a loose wire to the battery is possible, but first see the cautions and potential hazards in datasheet https://www.sparkfun.com/products/8483.)  Charging the new battery full with the first use is recommended. Percentage of battery charge appears in the start-screen and a graphic indicator is displayed in the bottom right during use. (In addition the PCB reportedly has a white 'reflective' pad that shows its charge thus allowing check without having to turn on the unit.) 
+[NEW BATTERY PHOTO GOES HERE]
 
-The 2000mAh battery gives over 40 hours of continuous use and is rated for over 300 recharging cycles. Recharging is via a cable between the miniUSB port on bottom of the Fio to a USB on a computer or a correctly rated miniUSB recharger (such as https://www.sparkfun.com/products/10401).  Caution: NEVER charge the Nano while the unit is ON. The Nano Power switch MUST be turned OFF before charging to avoid permanent damage to the charge circuit. (Do not connect a miniUSB cable from a power-ON USB source without first turning Power OFF on the Nano.) Replace a broken battery with the same rating. If larger batteries are used the Nano charge circuit may overheat. 
+##STEP 03: BATTERY 
+The battery is a Lithium Polymer (Li-Po, Li-Poly). Older kits shipped with a 2000mAh version, newer kits use a smaller 1200mAh one (see photo). Attention: the battery is encased in a mylar membrane. If punctured, the battery can be hazardous. Handle carefully!  The battery's red and black wires may be reinforced with electrical insulation tape to prevent their falling off or being pulled out. (Some say DIY reattaching a loose wire to the battery is possible, but first see the cautions and potential hazards in datasheet https://www.sparkfun.com/products/8483.)  Charging the new battery full with the first use is recommended. Percentage of battery charge appears in the start-screen and a graphic indicator is displayed in the bottom right during use. (In addition the PCB has a white 'reflective' pad that shows its charge thus allowing check without having to turn on the unit.) 
+
+The 2000mAh battery gives over 40 hours of continuous use and is rated for over 300 recharging cycles. Recharging is via a cable between the miniUSB port on bottom of the Fio to a USB on a computer or a correctly rated miniUSB recharger (such as https://www.sparkfun.com/products/10401).  
+
+Caution: NEVER charge the Nano while the unit is ON. The Nano Power switch MUST be turned OFF before charging to avoid permanent damage to the charge circuit. (Do not connect a miniUSB cable from a power-ON USB source without first turning Power OFF on the Nano.) Replace a broken battery with the same rating. If larger batteries are used the Nano charge circuit may overheat. 
 
 This step is a little tricky, so do a dry run ﬁrst before actually attaching the battery with foam tape! 
 
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/battery_location.jpg)
 
-* Place the partly assembled Nano face down, i.e. with the backside of the main board facing up. Orient it as shown so the red audio connector is at the top and the triple connector is at the bottom. 
-* Place a couple of strips of the double-sided foam tape on the battery as shown on photo. Stick one side of tape to the battery, but DO NOT peel the exposed, other (middle plate) side of the tape yet! Lay the battery on the main board with the wires extending to the left. Place the thin square protective plastic sheet between the battery and the circuit board. 
+* Place the partly assembled Nano face down, i.e. with the backside of the main board facing up. Orient it as shown so the triple connector is at the bottom. Cut the thin protective plastic sheet to a appropriate size, and lay it on top of the main board to prevent the battery from accidentally getting punctured.
+* Place a couple of strips of the double-sided foam tape on the battery as shown on photo. Stick one side of tape to the battery, but DO NOT peel the other side of the tape yet! Lay the battery on the main board with the wires extending to the left. 
 
 
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/iRover_placement_over_battery.jpg)
@@ -336,14 +341,14 @@ This step is a little tricky, so do a dry run ﬁrst before actually attaching t
 
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/sensor_box.jpg)
 
-The pancake sensor is very delicate. Take care to protect sensor membrane during the assembly process! 
-Once it's been connected to the battery it also presents an slight electric shock risk (about 500 volts! Yow!), so be very careful about touching it. Especially the iRover connection where the bare wire is soldered. And take care not to let the bare wire touch the silver metal connector. 
+The pancake sensor is very delicate. Keep it in the box until you're ready to install it. Take care to protect sensor membrane during the assembly process! It should be stored face-down on a smooth surface or in the box between steps.
+Once it's been connected to the battery it also presents an slight electric shock risk (about 500 volts! Yow!), so be very careful about touching it, particularly at the iRover connection where the bare wire is soldered. And take care not to let the bare wire touch the silver metal connector. 
 
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/sensor.jpg)
-caption: This is how the sensor should look. 
+This is how the sensor should look. 
 
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/broken_sensor.jpg)
-caption: Wrecked sensor. The parts inside sure looks cool though! (Thatʼs the anode...) 
+Wrecked sensor. The parts inside sure looks cool though! (Thatʼs the anode...) 
 
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/sensor_placement.jpg)
 * The sensor will also be attached to the middle place with double-sided foam tape. The etched outline on the plate itself may be enough to help you position it accurately, but we recommend you do a test ﬁt using the opening in the rear plate as a guide. Attach a couple of pieces of foam tape either to the middle plate or to the bottom of the sensor, and drop the sensor into place. When youʼre sure you can do it accurately, peel the tape and drop it in place for real. Then remove the rear plate for the following steps. 
@@ -351,12 +356,12 @@ caption: Wrecked sensor. The parts inside sure looks cool though! (Thatʼs the a
 It's a good idea to cover the exposed silver metal of the sensor post with shrink tubing, electrical tape, or something else that can act as an insulator, to help guard against electrical shock and shorts. [Photo to be added]
 
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/attaching_sensor_to_iRover.jpg)
-* The sensor gets two connections to the iRover: the anode connection, which is the thick red wire with black connector, and the cathode connection, which is a thin, uninsulated silver wire. 
+* The sensor gets two connections to the iRover: the anode connection, which is the thick red wire with black connector, and the cathode connection, which is a thin, uninsulated silver wire. Unroll this carefully!
 
 
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/soldering_sensor_ground.jpg)
 * Carefully bend the silver wire around the thick post that comes out of the sensor, making sure it doesnʼt touch the bare metal surface. 
-* Depending on the version included, the iRover may have one of three kinds of attachment points for the cathode: a small wire loop, a small hole, or a metal bump. The photo shows the cathode wire soldered to a bump-type connector. 
+* Depending on the version included, the iRover may have one of three kinds of attachment points for the cathode: a small wire loop, a small hole, or a metal bump. The photo shows the cathode wire soldered to a bump-type connector. If your iRover has a hole-type anode connection, it's better to try to insert the wire through it from the bottom.  If it's pushed in from the top it might accidentally puncture the battery.
 * The black connector is simply pushed onto the metal post, and should have a tight friction ﬁt. 
 
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/back_plate_install.jpg)
