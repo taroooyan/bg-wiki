@@ -3,7 +3,7 @@
 
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/bGeigie_Nano_side.jpg)
 
-#### bGeigie Nano kit assembly instructions, v5c (revised Oct 8, 2013)
+#### bGeigie Nano kit assembly instructions, v6 (revised April 18, 2014)
 To the new users of the bGeigie Nano, congratulations and welcome to the Safecast community. We're happy to be able to deliver this high-performance geiger counter with GPS logging and memory, which has been developed and field-tested by Safecast volunteers. 
 
 The kit format allows for cost savings and for DIY learning. The assembly can take as little as 3-4 hours depending on electronics skill and experience level, but beginners should probably allot about 8 hours. This assembly manual is for all users including novices, so we are trying to make these instructions clear, graphic and explicit. For some we're explaining the obvious, for others this still may not be helpful enough. If you're very experienced at assembling electronic devices, feel free to modify the order of the steps. 
@@ -36,7 +36,7 @@ ___
 (https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/assembly.jpg)
 
 ##STEP 00: SORT AND CHECK PARTS 
-Open the well packed parcel. Identify, count and check the parts (against the three Placement Diagrams, relevant photos in this manual, and [[kit contents wiki page|https://github.com/Safecast/bGeigieNanoKit/wiki/Parts-and-accessories]]).  If parts are missing or damaged (e.g. battery wires, component connectors and pins did not break or get folded), see the Kit Order Fulfillment (at end of manual) and Support addresses (at top of manual). 
+Open the well packed parcel. Identify, count and check the parts against the "kitting parts list" which should be included in the kit package. Also check them against the three placement diagrams in this manual, relevant photos, and the [[kit contents wiki page|https://github.com/Safecast/bGeigieNanoKit/wiki/Parts-and-accessories]].  If parts are missing or damaged, see the Kit Order Fulfillment (at end of manual) and Support addresses (at top of manual). 
 
 ####POLARITY NOTE: 
 What is polarity and why should you care? Basically, several types of electronic components are designed to work with the current ﬂowing in one set direction only, while others can work either way. Putting a component that has polarity in the wrong way will usually only prevent the device from working properly, but in some circumstances it could fry a few things as well. So make sure your components are oriented correctly! 
@@ -46,10 +46,12 @@ What is polarity and why should you care? Basically, several types of electronic
 ![]
 (https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/overviewpics/bGeigie Nano manual v5.3big_Page_03_Image_0002.jpg)
 
-##STEP 01: MAIN BOARD 
-Almost all the components get attached to the main board, so itʼs a good place to start. Weʼve arranged the assembly steps in a logical order as based on our experience. Of course you can change the order of some steps. Most questions can be resolved by referring to the three large diagrams, the Large Parts, Small Parts and Back Parts placement diagrams in step 01-1 and 01-2. (A paper printout of these diagrams can be handy.)
+##STEP 01: MAIN BOARD (PCB)
+Almost all the components get attached to the main board (PCB), so itʼs a good place to start. Weʼve arranged the assembly steps in a logical order as based on our experience. Of course you can change the order of some steps. Most questions can be resolved by referring to the three large diagrams, the Large Parts, Small Parts and Back Parts placement diagrams in step 01-1 and 01-2. (A paper printout of these diagrams can be handy.)
 
 While we suggest starting from components that lie close to the board before the taller ones, the order of assembly is partly a matter of preference. Similarly, some builders place all the components first and then solder them, others place and solder each in turn as they go.
+
+Because dirt and oils can inhibit the solder bonds, it's a good idea to first wipe both sides of the PCB with isopropyl alcohol using a lint-free cloth. Handle the PCB by the edges whenever possible and avoid touching the board surfaces with your fingers.
 
 To begin and to make handling easier, attach 4 black plastic standoffs through the holes in the corners of the main board ﬁrst. At each corner, insert a 10mm standoff from the upper face of the board, then screw corresponding 8mm one to it from the bottom. (Relevant photos: see the standoffs in the 4 corners of the panels in the finished product.)
 
@@ -59,7 +61,7 @@ To begin and to make handling easier, attach 4 black plastic standoffs through t
 (https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/v1.0r2_page1.jpg)
 
 ##STEP 01-1: SMALL COMPONENTS: 
-All of these will go on the main board. Place and solder them, nipping off the leads. Refer to the Small Parts Placement Guide! 
+All of these will go on the main board. Place and solder them, nipping off the leads. Refer to the Small Parts Placement Guide! You can secure most components in place before soldering them by bending the leads slightly outward; this will allow you to turn the PCB over to solder without the parts falling out.
 
 **Resistors** (R1-R10, R12): The kit contains  6 types, 11 resistors in all as listed on the Small Parts Placement Guide. (There is no R11.)  Resistors have no polarity so either side can go in either hole. (Be especially careful not to confuse the 4.7k resistor, which has a red stripe, with the 47k one, which has an orange stripe). Pay close attention to the color ID stripes as listed on the placement guide. (Doublecheck correct placement against the diagram before you solder. Soldered components are much easier to install than to remove.) If in doubt, measure them with a ohm meter. (A working multimeter is an inexpensive tool for electronics. One can master a voltmeter's basic functions with a little wiki, youtube or coaching. Search for tutorial, e.g. via http://en.wikipedia.org/wiki/Multimeter#External_links.)  If still in doubt, ask for help. 
 
@@ -67,14 +69,15 @@ All of these will go on the main board. Place and solder them, nipping off the l
 ![]
 (https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/wiki_small_components_1.jpg)
 
-[needs a callout: Black stripe]
+
 * Diode (D1): Take care with the polarity (see polarity note). The little black stripe on one end of the small orangish glass part should align with the small white stripe on the component outline on the board. 
 
-* Capacitors (C1- C3): They're blue with two leads. These have no polarity, and can go in either way. Take care not to split them in two by bending the leads outward too much. Itʼs ok for them to ride a little high off the board. 
+* Capacitors (C1- C3): (The ones in the photo are blue, but the ones in the kit might not be) They have two leads. These have no polarity, and can go in either way. Take care not to split them in two by bending the leads outward too much. Itʼs ok for them to ride a little high off the board. 
 
-* LEDs ("COUNT"; "LOG/ALARM"): One each: Blue and Red. (The red LED has clear, no-color case.) These have polarity and must go in the proper orientation. One lead is longer than the other. This longer lead is the positive (+) lead. It goes in the hole marked "+" on the board. Also, if you look carefully, one side of the plastic case is ﬂattened -- that's the negative (-) side. Take care not to overheat the LEDs when soldering! Wrong polarity is the most common mistake. 
-    *     Blue LED (blue-green case): goes in the "COUNT" spot 
-    *     Red LED (clear no-color case): goes in the "LOG/ALARM" spot 
+* LEDs ("COUNT"; "LOG/ALARM"): One each: Blue and Red. (NOTE: In the photo, the "case" or "package" of the blue LEDs is blue, while the red one is clear. Both may be clear in your kit, though, with the color indicated by marker pen. You can also try powering them up with a 3V battery to check.) 
+LEDs have polarity and must go in the proper orientation. One lead is longer than the other. This longer lead is the positive (+) lead. It goes in the hole marked "+" on the board. Also, if you look carefully, one side of the plastic case is ﬂattened -- that's the negative (-) side. Take care not to overheat the LEDs when soldering! Wrong polarity is the most common mistake. 
+    *     Blue LED: goes in the "COUNT" spot 
+    *     Red LED: goes in the "LOG/ALARM" spot 
 
 * Transistor (T1): Goes in the "T1" spot. It has three leads, which need to be spread a bit to ﬁt. It needs to be mounted matching the shape on the board, with the ﬂat side of the case aligned with the ﬂat side of the diagram. 
  
@@ -88,7 +91,7 @@ All of these will go on the main board. Place and solder them, nipping off the l
 
 * Shift switch (S1): goes in spot "S1." It has 3 leads which need to be soldered in place, plus 2 pins on the aluminum case which need to be nipped off. The 3 leads go in the 3 center holes in the board; the two outer holes are unused. (You could try ﬁling the aluminum case pins down enough to ﬁt in these holes, but it's secure enough attached by just the 3 leads.) [Function: "0 power 1"] 
 
-* Black or yellow push button switch: goes in the "Fn" spot. (Formerly this had two long angled leads and two short which were to be mounted in the holes that are set back from the edge of the board. Now shipped with four identical short legs. The leads can be bent so the switch lays ﬂat if desired.)  [Function: user assignable, optional, currently without use. ("Feel free to add code for custom function".)]
+* Push button switch: goes in the "Fn" spot. (Early versions of the kit had two leads; now shipped with four short legs.)  [Function: user assignable, optional, currently without use. ("Feel free to add code for custom function".)]
 
 **Audio:** there are two items, but only one goes in now: 
 * NOW: Piezo buzzer: Goes in the large circular spot in the upper left quadrant of the main board, and has two leads.  It can go in any orientation.
