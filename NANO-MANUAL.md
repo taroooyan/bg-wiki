@@ -116,13 +116,13 @@ This is how the main board should look with all the small components installed:
 ![]
 (https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/wiki_small_components_4.jpg)
 
-The "headers" are long black components with pins or legs. They are provided in several types and lengths of rows, several which need to be cut to the proper size (wire-cutters work well for this). They are used for attaching the breakouts to the board. The breakouts in the kit include what's needed for the OLED display, the Arduino Fio, the GPS module (a 9-pin male header for this should be in the GPS module bag), and the OpenLog memory unit (there should be enough for the audio connector as well if you're installing one). Their installation is detailed further below. Breakouts sometimes are called “daughter boards” or “shields”. Most of the headers go on the front face of the main board, but two go on the backside as discussed below. Refer to the placement guides. 
+Breakouts sometimes are called “daughter boards” or “shields.”  They include The OLED display, the Arduino Fio, the GPS module, and the OpenLog memory unit. Each should be in its own small bag or package.  The "headers" are long black components with pins or legs. They are provided in several types and lengths, several which need to be cut to the proper size (wire-cutters work well for this). They are used for attaching the breakouts to the board. The headers in the kit include what's needed for all of the breakouts; a 9-pin male header for the GPS module should be in the GPS module bag, and an 8-pin length male header should be included in the OLED bag. (There should be enough headers for the audio out connector as well if you're installing one). Their installation is detailed further below.  Most of the headers go on the front face of the main board, but one or two go on the backside as discussed below. Refer to the placement guides. 
 
 Be careful when cutting the long headers to length. Refer to the Large Parts Placement Guide guide and to the relevant photos in this Manual. As mentioned above, cutting is done easily with wire-cutters, but is also possible by scoring with a knife and snapping them off. Some people prefer to cut them all to length ﬁrst, some prefer to cut them as needed.
 
 The long headers included in the kit need to be cut to length as follows:
 
-* One 40-pin (or “leg”) length, straight, male header: Cut this into four pieces to mount the Arduino Fio (14-pin and 8-pin), the OpenLog memory unit (6-pin), and the GPS (9-pin) if necessary (i.e., you can't find a 9-pin length in the GPS module bag) 
+* One 40-pin (or “leg”) length, straight, male header: Cut this into four pieces to mount the Arduino Fio (14-pin and 8-pin), the OpenLog memory unit (6-pin), and the GPS (9-pin) if necessary (i.e., if you can't find a 9-pin length in the GPS module bag) 
 
 * One 20-pin length, male header:  Cut four (x4) 2-pin lengths from this row; these are also needed for the Arduino FIO. (OPTIONAL: Cut one (1x) 4-pin length for mounting an audio out jack, which will be attached on the back side of the main board).
 
@@ -134,7 +134,7 @@ The long headers included in the kit need to be cut to length as follows:
 
 * One 3-pin length, female header: Use as-is for connecting the iRover cable to the triple connector (see Step 02)
 
-The male headers have long pins on one side and short pins on the other. In most cases they can go either way, but we advise orienting the so the short pins will go in the holes on the main board and the long ones project above, to be soldered to the breakouts. To visualize the fit of the parts, study the relevant photos and diagrams and the parts, and do a few dry test fits each way to see. The breakout boards can usually be used as placement aids for the headers. Also we advise soldering the pins at each end ﬁrst, and then checking to make sure the header is perpendicular and properly aligned before soldering the rest.
+The male headers have long pins on one side and short pins on the other. In most cases they can go either way, but we advise orienting them so the short pins will go in the holes on the main board and the long ones project above, to be soldered to the breakouts. To visualize the fit of the parts, study the relevant photos and diagrams and the parts, and do a few dry test fits each way to see. The breakout boards can usually be used as placement aids for the headers. Also, we advise soldering the pins at each end ﬁrst, and then checking to make sure the header is perpendicular and properly aligned before soldering the rest.
 
 **NOTE:** It's possible to either solder the headers to the main board ﬁrst, and then to each of the breakouts, or attach them to the breakouts ﬁrst and then to the main board. We've found it easier to attach them to the main board ﬁrst, and these instructions describe that method. Installation order is not critical, but because of the heights and placement of the breakouts, we recommend following the sequence weʼve laid out. 
 
@@ -145,12 +145,12 @@ The male headers have long pins on one side and short pins on the other. In most
 ***
 ***
 ###BACKSIDE 
-Although most of the headers and breakouts get attached to the front of the main board, two components need to be attached to the backside. Itʼs easier for several reasons to do these ﬁrst. Trust us.... 
+Although most of the headers and breakouts get attached to the front of the main board, one component needs to be attached to the backside (in addition to the audio out jack if you're using one). Itʼs easier for several reasons to do these ﬁrst. Trust us.... 
 
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/overviewpics/bGeigie Nano manual v5.3big_Page_10_Image_0001.jpg)
 **iRover connector a.k.a. “triple connector”**
 (This connector is for connecting 3 wire leads from the iRover sensor controller and HV (high voltage) supply board to the main board)
-* Solder a 3-pin angled header to the bottom of the board, in the position labeled “JP1.” This means, insert the 3-pin connector from the underside of the main board, in the spot marked "JP1," and solder it from the upper side of the board. Note this iRover connector must be attached before attaching the OpenLog!! 
+* Solder a 3-pin angled header to the bottom of the board, in the position labeled “JP1.” You must insert the 3-pin connector from the underside of the main board, in the spot marked "JP1," and solder it from the upper side of the board. Note this iRover connector must be attached before attaching the OpenLog, which fits right on the other side of the main board!! 
 
 ![]
 (https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/overviewpics/bGeigie Nano manual v5.3big_Page_10_Image_0002.jpg)
@@ -173,15 +173,16 @@ Although most of the headers and breakouts get attached to the front of the main
 **Arduino Fio:** The Arduino Fio is a microcontroller board based on the Atmel AVR ATmega328P microcontroller. This is the programmable brain of the Nano. (Fio is the name of this version of Arduino board. FIO also stands for Funnel Input/Output. For background, see the [[Fio home page|http://arduino.cc/en/Main/ArduinoBoardFio]] on the [[arduino.cc website|http://arduino.cc/]]; also see the [[Sparkfun page|https://www.sparkfun.com/products/10116]] and [[wikipedia table of Arduinos|http://en.wikipedia.org/wiki/List_of_Arduino_boards_and_compatible_systems]].) 
  
 NOTE: It has a small switch on the bottom side which should be turned OFF before soldering! 
-* There are four pairs of holes in the main board labeled CHG, BATT, SW, and DTR-CTS. Each gets a 2pin male header. Make sure you install these before you solder the the Fio to the board 
+* There are four pairs of holes in the main board labeled CHG, BATT, SW, and DTR-CTS. Each gets a 2pin male header. Make sure you install these before you solder the the Fio to the board! (One of the most common problems we've seen is people forgetting to install these.) 
 *  A 14-pin length of male header goes on the left side of the Fio outline on the main board. 
 *  An 8-pin length of male header goes on the upper right side of the Fio outline. 
-*  A 6-pin length of angled male header goes on the Fio itself, in the row of holes beginning with GNDBLK and ending with DTR GRN. It is inserted from the top and soldered on the bottom (see photo). This is used to connect the Fio to a computer for programming. 
-* You can go ahead and solder the header pins to the top of the Fio now, or wait until all the headers are in place to solder the breakouts. You can use the Fio itself as an alignment guide to position the headers on the board properly. Soldering the end pins ﬁrst makes it easier to be sure everything is properly aligned. 
+You can use the Fio itself as an alignment guide to position the headers on the board properly. Soldering the end pins ﬁrst makes it easier to be sure everything is properly aligned. 
+*  A 6-pin length of angled male header goes on the Fio itself, in the row of holes beginning with GNDBLK and ending with DTR GRN. It is inserted from the top and soldered from the bottom (see photo). This is used to connect the Fio to a computer for programming. 
+* You can go ahead and solder the header pins to the top of the Fio now, or wait until all the headers are in place to solder the breakouts. 
 
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/overviewpics/bGeigie Nano manual v5.3big_Page_12_Image_0001.jpg)
 
-Proper location of the angled male header on the Fio-- note it is inserted from the top!
+Proper location of the angled male header on the Fio -- note it is inserted from the top!
 
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/fio_placement.jpg)
 
@@ -193,7 +194,7 @@ Using the Fio as an alignment guide for the headers.
 
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/gps_placement.jpg)
 
-caption:Placement of GPS. 
+Placement of GPS. 
 
 **GPS:** 
 (Global Positioning System receiver, which makes it possible to precisely locate where a reading was taken) 
