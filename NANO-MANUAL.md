@@ -3,7 +3,7 @@
 
 ![](https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/bGeigie_Nano_side.jpg)
 
-#### bGeigie Nano kit assembly instructions, v6 (revised April 18, 2014)
+#### bGeigie Nano kit assembly instructions, v6a (revised May 9, 2014)
 To the new users of the bGeigie Nano, congratulations and welcome to the Safecast community. We're happy to be able to deliver this high-performance geiger counter with GPS logging and memory, which has been developed and field-tested by Safecast volunteers. 
 
 The kit format allows for cost savings and for DIY learning. The assembly can take as little as 3-4 hours depending on electronics skill and experience level, but beginners should probably allot about 8 hours. This assembly manual is for all users including novices, so we are trying to make these instructions clear, graphic and explicit. For some we're explaining the obvious, for others this still may not be helpful enough. If you're very experienced at assembling electronic devices, feel free to modify the order of the steps. 
@@ -91,7 +91,8 @@ LEDs have polarity and must go in the proper orientation. One lead is longer tha
 
 * Shift switch (S1): goes in spot "S1." It has 3 leads which need to be soldered in place, plus 2 pins on the aluminum case which need to be nipped off. The 3 leads go in the 3 center holes in the board; the two outer holes are unused. (You could try ﬁling the aluminum case pins down enough to ﬁt in these holes, but it's secure enough attached by just the 3 leads.) [Function: "0 power 1"] 
 
-* Push button switch: goes in the "Fn" spot. (Early versions of the kit had two leads; now shipped with four short legs.The actual color varies based on what is available.)  [Function: user assignable, optional, currently without use. ("Feel free to add code for custom function".)]
+* Push button switch: goes in the "Fn" spot. (Early versions of the kit had two leads; now shipped with either two leads or four short legs.The actual color varies based on what is available.) The function is user assignable, is optional, and is currently not implemented. Feel free to add code for a custom function.
+NOTE: With switches that have two leads, we found it useful to bend the switch over for clearance, but switches that have 4 legs can fit easily in a vertical orientation (switch facing up).
 
 **Audio:** there are two items, but only one goes in now: 
 * NOW: Piezo buzzer: Goes in the large circular spot in the upper left quadrant of the main board, and has two leads.  It can go in any orientation.
@@ -303,10 +304,12 @@ caption: iRover installed in proper orientation.
 * Now is a good time to attach the front plate (the one with the SAFECAST logo, which covers the front side of the main board). Use plastic screws through the four holes in the corner to attach it to the black plastic standoffs. Use pliers to tighten all the standoffs. 
 ***
 ***
-[NEW BATTERY PHOTO GOES HERE]
+![]
+(https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/battery-compo01.jpg)
+caption: Most kits currently ship with the 1200 mAh battery shown in "A."  Older kits used a larger 2000 mAh battery shown in "B."
 
 ##STEP 03: BATTERY 
-The battery is a Lithium Polymer (Li-Po, Li-Poly). Older kits shipped with a 2000mAh version, newer kits use a smaller 1200mAh one (see photo). Attention: the battery is encased in a mylar membrane. If punctured, the battery can be hazardous. Handle carefully!  The battery's red and black wires may be reinforced with electrical insulation tape to prevent their falling off or being pulled out. (Some say DIY reattaching a loose wire to the battery is possible, but first see the cautions and potential hazards in datasheet https://www.sparkfun.com/products/8483.)  Charging the new battery full with the first use is recommended. Percentage of battery charge appears in the start-screen and a graphic indicator is displayed in the bottom right during use. (In addition the PCB has a white 'reflective' pad that shows its charge thus allowing check without having to turn on the unit.) 
+The battery is a Lithium Polymer (Li-Po, Li-Poly). Older kits shipped with a 2000mAh version (labeled "B" in the photo above), newer kits use a smaller 1200mAh one (labeled "A" in the photo). Attention: the battery is encased in a mylar membrane. If punctured, the battery can be hazardous. Handle carefully!  The battery's red and black wires may be reinforced with electrical insulation tape to prevent their falling off or being pulled out. (Some say DIY reattaching a loose wire to the battery is possible, but first see the cautions and potential hazards in datasheet https://www.sparkfun.com/products/8483.)  Charging the new battery full with the first use is recommended. Percentage of battery charge appears in the start-screen and a graphic indicator is displayed in the bottom right during use. (In addition the PCB has a white 'reflective' pad that shows its charge thus allowing check without having to turn on the unit.) 
 
 The 2000mAh battery gives over 40 hours of continuous use and is rated for over 300 recharging cycles. Recharging is via a cable between the miniUSB port on bottom of the Fio to a USB on a computer or a correctly rated miniUSB recharger (such as https://www.sparkfun.com/products/10401).  
 
