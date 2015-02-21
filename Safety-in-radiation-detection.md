@@ -45,6 +45,8 @@ Safe radiation detection practice can be found in many sources. Below lists some
 
 **RECOMMENDED SAFETY LINKS:** here's example of a link given in the devices group, a recommended *starter*, the "Guide to the safe handling of radioactive materials in research", a manual on radiological safety practices by the Perkin Elmer Co.
 
+[[Respirator Fact Sheet at National Personal Protective Technology Laboratory (CDC/NPPTL)|http://www.cdc.gov/niosh/npptl/topics/respirators/factsheets/respfact.html]]
+
 > Safety notes: How can I find out the relative danger from these readings to put some perspective on to them?   -- 
 
 > Get a degree in nuclear engineering, LoL . Really it is a very difficult question that we avoid to answer directly. For a "starter" and a longish answer see: Google good readable safety orientation: http://shop.perkinelmer.com/content/manuals/gde_safehandlingradioactivematerials.pdf
