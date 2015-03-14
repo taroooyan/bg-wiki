@@ -493,7 +493,7 @@ This completes the basic test. The following steps describe additional tests:
 
 6c. When the unit powers up, a date/time reading should appear at the bottom of the left column (where NO SD CAD was before), but it will not be correct until the GPS has locked. 
 
-7.Test the GPS lock: Put the unit near a window while it is powered up. In a minute or two (maybe longer) the "No GPS " indicator will change to indicate the number of satellites it has locked to (such as "4 [upcaret]"). A height reading should also appear, such as "3m." 
+7.Test the GPS lock: Put the unit near a window while it is powered up. In a minute or two (maybe longer) the "No GPS " indicator will change to indicate the number of satellites it has locked to (such as "4 [upcaret]"). A height reading should also appear, such as "3m." Nano goes into GPS reset procedure without SD card at boot time since firmware 1.3.0, so to test GPS lock, make sure SD card is inserted (see also nano operational manual).
 
 8. Test charging the battery: Attach a mini usb cable to the Fio, then to a computer or USB charger. A yellow charge light should glow visibly underneath the Fio. It will go out when the battery is fully charged. 
 
