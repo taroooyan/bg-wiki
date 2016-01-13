@@ -64,38 +64,57 @@ To begin and to make handling easier, attach 4 black plastic standoffs through t
 All of these will go on the main board. Place and solder them, nipping off the leads. Refer to the Small Parts Placement Guide! You can secure most components in place before soldering them by bending the leads slightly outward; this will allow you to turn the PCB over to solder without the parts falling out.
 
 **Resistors** (R1-R10, R12): The kit contains  6 types, 11 resistors in all as listed on the Small Parts Placement Guide. (There is no R11.)  Resistors have no polarity so either side can go in either hole. (Be especially careful not to confuse the 4.7k resistor, which has a red stripe, with the 47k one, which has an orange stripe). Pay close attention to the color ID stripes as listed on the placement guide. (Doublecheck correct placement against the diagram before you solder. Soldered components are much easier to install than to remove.) If in doubt, measure them with a ohm meter. (A working multimeter is an inexpensive tool for electronics. One can master a voltmeter's basic functions with a little wiki, youtube or coaching. Search for tutorial, e.g. via http://en.wikipedia.org/wiki/Multimeter#External_links.)  If still in doubt, ask for help. 
-
+![]
+(https://raw.github.com/taroooyan/bGeigieNanoKit/master/nano%20manual%20named%20pics/resistors.jpg)
 
 ![]
 (https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/wiki_small_components_1.jpg)
 
 
 * Diode (D1): Take care with the polarity (see polarity note). The little black stripe on one end of the small orangish glass part should align with the small white stripe on the component outline on the board. 
+![]
+(https://raw.github.com/taroooyan/bGeigieNanoKit/master/nano%20manual%20named%20pics/diode.jpg)
 
 * Capacitors (C1- C3): (The ones in the photo are blue, but the ones in the kit might not be) They have two leads. These have no polarity, and can go in either way. Take care not to split them in two by bending the leads outward too much. Itʼs ok for them to ride a little high off the board. 
+![]
+(https://raw.github.com/taroooyan/bGeigieNanoKit/master/nano%20manual%20named%20pics/capacitors.jpg)
 
 * LEDs ("COUNT"; "LOG/ALARM"): One each: Blue and Red. (NOTE: In the photo, the "case" or "package" of the blue LEDs is blue, while the red one is clear. Both may be clear in your kit, though, with the color indicated by marker pen. You can also try powering them up with a 3V battery to check.) 
 LEDs have polarity and must go in the proper orientation. One lead is longer than the other. This longer lead is the positive (+) lead. It goes in the hole marked "+" on the board. Also, if you look carefully, one side of the plastic case is ﬂattened -- that's the negative (-) side. Take care not to overheat the LEDs when soldering! Wrong polarity is the most common mistake. 
     *     Blue LED: goes in the "COUNT" spot 
     *     Red LED: goes in the "LOG/ALARM" spot 
+![]
+(https://raw.github.com/taroooyan/bGeigieNanoKit/master/nano%20manual%20named%20pics/led.jpg)
 
 * Transistor (T1): Goes in the "T1" spot. It has three leads, which need to be spread a bit to ﬁt. It needs to be mounted matching the shape on the board, with the ﬂat side of the case aligned with the ﬂat side of the diagram. 
+![]
+(https://raw.github.com/taroooyan/bGeigieNanoKit/master/nano%20manual%20named%20pics/transistor.jpg)
  
 ![]
 (https://raw.github.com/Safecast/bGeigieNanoKit/master/nano%20manual%20named%20pics/wiki_small_components_2.jpg)
 **Switches:** (There are four switches. Some have labels above them on the top panel, nearby on the PCB board or on the component itself. Once the Nano is built, the labels are more readable when the case is open and the power is off.) 
 
 * Dual DIP switch (SW1) goes in the "SW1" spot. It has 4 pins. It should be positioned with the side labeled "ON" toward the top of board, aligned under the "SW1" label on the board. The correct orientation is necessary for the switch to work. [Function: dims the alarm indicators (#1: Speaker "clicks" and small Blue LED “Count” blinks; #2: small Red LED “Log/Alarm”).] 
+![]
+(https://raw.github.com/taroooyan/bGeigieNanoKit/master/nano%20manual%20named%20pics/dual_dip_switch.jpg)
 
 * Toggle switch: It ﬁts above the rectangular outline between transistor "T1" and the blue "COUNT" LED. It has three leads, and a mounting clip with 2 pins. Solder them all in place. [Function: switches between bGeigie and xGeigie modes. Label on the transparent top panel: "bq/m^2 uS/h", "log cpm". (mode features are mentioned on the Specifications wiki page. See [[Operation Manual|https://github.com/Safecast/bGeigieNanoKit/wiki/Nano-Operation-Manual]].]
+![]
+(https://raw.github.com/taroooyan/bGeigieNanoKit/master/nano%20manual%20named%20pics/toggle_switch.jpg)
 
 * Shift switch (S1): goes in spot "S1." It has 3 leads which need to be soldered in place, plus 2 pins on the aluminum case which need to be nipped off. The 3 leads go in the 3 center holes in the board; the two outer holes are unused. (You could try ﬁling the aluminum case pins down enough to ﬁt in these holes, but it's secure enough attached by just the 3 leads.) [Function: "0 power 1"] 
+![]
+(https://raw.github.com/taroooyan/bGeigieNanoKit/master/nano%20manual%20named%20pics/shift_switch.jpg)
 
 * Push button switch: goes in the "Fn" spot. (Early versions of the kit had two leads; now shipped with either two leads or four short legs.The actual color varies based on what is available.) The function is user assignable, is optional, and is currently not implemented. Feel free to add code for a custom function.
 NOTE: With switches that have two leads, we found it useful to bend the switch over for clearance, but switches that have 4 legs can fit easily in a vertical orientation (switch facing up).
+![]
+(https://raw.github.com/taroooyan/bGeigieNanoKit/master/nano%20manual%20named%20pics/push_button_switch.jpg)
 
 **Audio:** there are two items, but only one goes in now: 
 * NOW: Piezo buzzer: Goes in the large circular spot in the upper left quadrant of the main board, and has two leads.  It can go in any orientation.
+![]
+(https://raw.github.com/taroooyan/bGeigieNanoKit/master/nano%20manual%20named%20pics/piezo_buzzer.jpg)
 
 * LATER and OPTIONAL (no longer included): Audio jack: This is actually for sending click data to an external device, such as an iPhone. If you have obtained one yourself, itʼs best to wait until the next step, *“Headers and Breakouts”* for this. 
 (This part can currently be ordered from Sparkfun as part # 11570 : TRRS 3.5mm Jack Breakout)
