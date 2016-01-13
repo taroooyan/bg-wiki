@@ -109,7 +109,7 @@ LEDs have polarity and must go in the proper orientation. One lead is longer tha
 * Push button switch: goes in the "Fn" spot. (Early versions of the kit had two leads; now shipped with either two leads or four short legs.The actual color varies based on what is available.) The function is user assignable, is optional, and is currently not implemented. Feel free to add code for a custom function.
 NOTE: With switches that have two leads, we found it useful to bend the switch over for clearance, but switches that have 4 legs can fit easily in a vertical orientation (switch facing up).
 
-![](https://raw.github.com/taroooyan/bGeigieNanoKit/feature/wiki/nano%20manual%20named%20pics/push_button_switch.jpg)
+![](https://raw.github.com/taroooyan/bGeigieNanoKit/feature/wiki/nano%20manual%20named%20pics/push_button.jpg)
 
 **Audio:** there are two items, but only one goes in now: 
 * NOW: Piezo buzzer: Goes in the large circular spot in the upper left quadrant of the main board, and has two leads.  It can go in any orientation.
